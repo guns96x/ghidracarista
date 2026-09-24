@@ -43,16 +43,29 @@ Carista XAPK
 
 ---
 
-### 3. Специфікація для власної реалізації
-Повний архітектурний опис із чистими прикладами реалізації на Kotlin знаходиться у файлі:
-📄 **[VAG_OBD_Diagnostic_Specification.md](VAG_OBD_Diagnostic_Specification.md)**
+### 3. Специфікація та База Доказів (Clean-Room Evidence Base)
+Усі константи та структури даних на 100% верифіковані проти бінарного файлу `libCarista.so` та лістингу `libCarista.so.c`:
+- 📦 **[research/INVENTORY.md](research/INVENTORY.md)** — Криптографічний опис усіх 19 артефактів із хешами SHA-256.
+- 📋 **[research/SPEC_AUDIT.md](research/SPEC_AUDIT.md)** — Детальний аудит попередньої специфікації: виправлення критичних помилок адресації (EPB 0x752 vs HVAC 0x746, BCM 0x70E, рутини 0x03A1/0x03A0).
+- 📚 **[research/protocols/](research/protocols/)** — 17 повних технічних специфікацій протоколів (ELM327, STN, CAN, ISO-TP, KWP2000, UDS, адресація VAG, сесії, DTC, Live Data, кодування, адаптації, базові налаштування, сервісні процедури, безпека).
+- 🗄️ **[research/db/](research/db/)** — Машиночитані бази даних: `diagnostic_evidence.json`, `diagnostic_evidence.csv`, `vag_ecus.json` (17 блоків керування).
+- 🔄 **[research/state_machines/](research/state_machines/)** — Стейт-машини життєвого циклу підключення, UDS сесій та сервісних процедур у форматі Mermaid.
+- 🚀 **[handoff/](handoff/)** — Повний пакет передачі для розробки Android додатку на Kotlin (ChatGPT handoff):
+  - `handoff/IMPLEMENTATION_BRIEF.md` — Технічне завдання та інструкція для імплементації.
+  - `handoff/VERIFIED_COMMANDS.json` — Готовий JSON зі 100% верифікованими байтами команд.
+  - `handoff/OPEN_QUESTIONS.md` — Відкриті архітектурні питання та roadmap.
 
 ---
 
 ## 🛠️ Інструменти аналізу в репозиторії
-У папці `tools/` зібрано допоміжні Python-скрипти швидкого вилучення метаданих:
-- `analyze_so.py` — пошук JNI функцій, AT-команд та C++ RTTI типів.
-- `inspect_deep.py` — аналіз OEM-підсистем (VAG, BMW, Toyota, Ford) та мережевих ендпоінтів.
-- `extract_architecture.py` — витяг станів та UDS-сервісів.
-- `extract_routines.py` — пошук рутин RoutineControl, ReadDataByIdentifier та BasicSetting.
-- `extract_epb.py` — детальний зріз класів EPB, DPF та скидання сервісу.
+У папці `tools/` зібрано інструменти вилучення метаданих та генерації документації:
+- `tools/generate_inventory.py` — генерація матриці артефактів із хешами.
+- `tools/export_ghidra_evidence.py` — вилучення 12,667 символів та 477 класів команд із `libCarista.so.c`.
+- `tools/generate_protocol_docs.py` — автогенерація 17 файлів специфікацій протоколів.
+- `tools/generate_databases.py` — компіляція реляційних баз знань (`diagnostic_evidence.json`, `vag_ecus.json`).
+- `tools/generate_state_machines.py` — побудова Mermaid діаграм станів.
+- `tools/generate_spec_audit.py` — компіляція звіту аудиту специфікацій та непідтверджених гіпотез.
+- `tools/generate_handoff.py` — складання підсумкового брифа та верифікованих команд для наступного агента.
+- `tests/verify_protocol.py` — набір автоматизованих тестів симулятора протоколу (8/8 тестів успішно).
+- `ghidra_scripts/ExportEvidence.java` — офіційний Java-скрипт експорту символів та RTTI для Ghidra GUI/Headless.
+

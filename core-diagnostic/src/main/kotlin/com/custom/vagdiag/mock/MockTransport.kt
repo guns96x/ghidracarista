@@ -69,22 +69,39 @@ class MockTransport : TransportInterface {
             // Зчитування версії софту (22 F1 89)
             cleanCmd.startsWith("22 F1 89") -> "62 F1 89 39 39 37 31\r\r>" // "9971"
 
-            // Зчитування помилок DTC (19 02 09)
-            cleanCmd.startsWith("19 02 09") -> {
+            // Зчитування списку встановлених ECU з Gateway (22 04 A1 - 4 байти на запис)
+            cleanCmd.startsWith("22 04 A1") -> {
+                // Відповідь Gateway: список ECU (01-Engine, 02-Trans, 03-ABS, 08-HVAC, 09-BCM, 15-Airbag, 17-Cluster, 19-Gateway, 53-EPB)
+                "62 04 A1 01 01 00 00 02 01 00 00 03 01 00 00 08 01 00 00 09 01 00 00 15 01 00 00 17 01 00 00 19 01 00 00 53 01 00 00\r\r>"
+            }
+
+            // Статус паркувального гальма (DID 0x0102)
+            cleanCmd.startsWith("22 01 02") -> "62 01 02 00 00\r\r>"
+
+            // Зчитування помилок DTC (19 02 8D / 19 02)
+            cleanCmd.startsWith("19 02") -> {
                 if (currentTxId == "7E0") {
                     // Симулюємо помилку двигуна: P0101-22 зі статусом 0x24 (Confirmed + Pending)
-                    "59 02 09 01 01 22 24\r\r>"
+                    // Формат: 59 02 [AvailabilityMask] [DTC 3-byte] [Status 1-byte]
+                    "59 02 8D 01 01 22 24\r\r>"
                 } else {
                     // Інші блоки без помилок
-                    "59 02 09\r\r>"
+                    "59 02 8D\r\r>"
                 }
             }
 
             // Стирання помилок (14 FF FF FF)
             cleanCmd.startsWith("14") -> "54\r\r>"
 
-            // Рутини сервісу EPB (31 01 00 10 / 00 11 / 00 12)
-            cleanCmd.startsWith("31 01") -> "71 01 00 10 00\r\r>"
+            // Рутини сервісу EPB (Start/Stop: 0x03A1 Open, 0x03A0 Close, 0x03A2 Adapt)
+            cleanCmd.startsWith("31 01 03 A1") -> "71 01 03 A1 00\r\r>"
+            cleanCmd.startsWith("31 02 03 A1") -> "71 02 03 A1 00\r\r>"
+            cleanCmd.startsWith("31 01 03 A0") -> "71 01 03 A0 00\r\r>"
+            cleanCmd.startsWith("31 02 03 A0") -> "71 02 03 A0 00\r\r>"
+            cleanCmd.startsWith("31 01 03 A2") -> "71 01 03 A2 00\r\r>"
+            cleanCmd.startsWith("31 02 03 A2") -> "71 02 03 A2 00\r\r>"
+            cleanCmd.startsWith("31 01") -> "71 01 00 00 00\r\r>"
+            cleanCmd.startsWith("31 02") -> "71 02 00 00 00\r\r>"
 
             else -> "NO DATA\r\r>"
         }

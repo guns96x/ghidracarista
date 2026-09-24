@@ -13,11 +13,15 @@ enum class VagEcu(
     ENGINE("01", "Блок керування двигуном (ECU)", "7E0", "7E8"),
     TRANSMISSION("02", "Автоматична трансмісія (DSG / Tiptronic)", "7E1", "7E9"),
     BRAKES_ABS("03", "Гальмівна система (ABS / ESP)", "713", "77D"),
-    CENTRAL_ELECTRICS("09", "Блок бортової мережі / BCM", "709", "773"),
+    HVAC("08", "Кліматична система (HVAC)", "746", "7B0"),
+    CENTRAL_ELECTRICS("09", "Блок бортової мережі / BCM", "70E", "778"),
     AIRBAG("15", "Система пасивної безпеки (Airbag)", "715", "77F"),
     INSTRUMENT_CLUSTER("17", "Панель приладів", "714", "77E"),
     CAN_GATEWAY("19", "Діагностичний інтерфейс (Gateway)", "710", "77A"),
-    PARKING_BRAKE("53", "Електронне стоянкове гальмо (EPB)", "746", "7B0");
+    AWD("22", "Повний привід (AWD / Haldex)", "70F", "779"),
+    STEERING_ASSIST("44", "Електропідсилювач керма (EPS)", "712", "77C"),
+    PARKING_BRAKE("53", "Електронне стоянкове гальмо (EPB)", "752", "7BC"),
+    INFOTAINMENT("5F", "Мультимедійна система (MIB)", "773", "7DD");
 
     companion object {
         fun fromAddress(address: String): VagEcu? =

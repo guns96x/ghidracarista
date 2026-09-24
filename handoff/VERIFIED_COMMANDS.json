@@ -1,0 +1,312 @@
+{
+  "metadata": {
+    "target": "Independent Clean-Room Android VAG Diagnostic Stack",
+    "date": "2026-09-24",
+    "source_binary": "libCarista.so (ELF 64-bit ARMv8, SHA256: fe6708565270f20c...)",
+    "decompiled_source": "libCarista.so.c (1,408,085 lines Ghidra export)",
+    "classes_dex": "classes.dex & classes2.dex"
+  },
+  "transport": {
+    "rfcomm_spp_uuid": "00001101-0000-1000-8000-00805F9B34FB",
+    "client_config_descriptor_uuid": "00002902-0000-1000-8000-00805f9b34fb",
+    "command_delimiter": "\\r",
+    "prompt_char": ">",
+    "elm_init_sequence": [
+      {
+        "cmd": "AT Z",
+        "expect": "ELM327",
+        "notes": "Microcontroller reset"
+      },
+      {
+        "cmd": "AT E0",
+        "expect": "OK",
+        "notes": "Echo off"
+      },
+      {
+        "cmd": "AT L0",
+        "expect": "OK",
+        "notes": "Linefeeds off"
+      },
+      {
+        "cmd": "AT S0",
+        "expect": "OK",
+        "notes": "Spaces off"
+      },
+      {
+        "cmd": "AT H1",
+        "expect": "OK",
+        "notes": "Headers on"
+      },
+      {
+        "cmd": "AT SP 6",
+        "expect": "OK",
+        "notes": "Set ISO 15765-4 11-bit 500k CAN"
+      }
+    ]
+  },
+  "ecu_addressing_rules": {
+    "can_11bit": {
+      "rule": "if (TX >= 0x795) RX = TX + 8 else RX = TX + 0x6A",
+      "evidence": "libCarista.so.c line 584009-584012 (VagUdsEcu constructor)"
+    },
+    "can_29bit": {
+      "rule": "RX = TX + 0x00020000",
+      "evidence": "libCarista.so.c line 583921 (VagUdsEcu 29-bit constructor)"
+    },
+    "tp20_logical": {
+      "rule": "Channel Setup CAN ID = 0x200 + LogicalAddress",
+      "evidence": "libCarista.so.c line 455618 (VagCanEcu::initialize)"
+    }
+  },
+  "verified_ecus": [
+    {
+      "vag_id": "0x01",
+      "name": "ENGINE",
+      "tx": "0x7E0",
+      "rx": "0x7E8",
+      "tx_29bit": "0x17FC0076",
+      "rx_29bit": "0x17FE0076",
+      "tp20_setup": "0x201"
+    },
+    {
+      "vag_id": "0x02",
+      "name": "TRANSMISSION",
+      "tx": "0x7E1",
+      "rx": "0x7E9",
+      "tx_29bit": "0x17FC0077",
+      "rx_29bit": "0x17FE0077",
+      "tp20_setup": "0x202"
+    },
+    {
+      "vag_id": "0x03",
+      "name": "ABS",
+      "tx": "0x713",
+      "rx": "0x77D",
+      "tp20_setup": "0x203"
+    },
+    {
+      "vag_id": "0x08",
+      "name": "HVAC",
+      "tx": "0x746",
+      "rx": "0x7B0",
+      "tp20_setup": "0x208"
+    },
+    {
+      "vag_id": "0x09",
+      "name": "CENTRAL_ELEC",
+      "tx": "0x70E",
+      "rx": "0x778",
+      "tp20_setup": "0x209"
+    },
+    {
+      "vag_id": "0x15",
+      "name": "AIRBAG",
+      "tx": "0x715",
+      "rx": "0x77F",
+      "tp20_setup": "0x215"
+    },
+    {
+      "vag_id": "0x17",
+      "name": "INSTRUMENT_CLUSTER",
+      "tx": "0x714",
+      "rx": "0x77E",
+      "tp20_setup": "0x217"
+    },
+    {
+      "vag_id": "0x19",
+      "name": "CAN_GATEWAY",
+      "tx": "0x710",
+      "rx": "0x77A",
+      "tp20_setup": "0x21F"
+    },
+    {
+      "vag_id": "0x53",
+      "name": "PARKING_BRAKE",
+      "tx": "0x752",
+      "rx": "0x7BC",
+      "tp20_setup": "0x219"
+    },
+    {
+      "vag_id": "0x5F",
+      "name": "INFOTAINMENT",
+      "tx": "0x773",
+      "rx": "0x7DD",
+      "tp20_setup": "0x25F"
+    }
+  ],
+  "discovery_commands": [
+    {
+      "protocol": "UDS",
+      "target_ecu": "CAN_GATEWAY (0x710)",
+      "request_hex": "2204A1",
+      "response_prefix": "6204A1",
+      "record_length": 4,
+      "installed_condition": "record[2] != 0",
+      "active_bit": "bit 2 of record[2]",
+      "evidence": "libCarista.so.c line 107137"
+    },
+    {
+      "protocol": "TP2.0",
+      "target_ecu": "CAN_GATEWAY (0x21F)",
+      "request_hex": "1A9F",
+      "response_prefix": "5A9F",
+      "evidence": "libCarista.so.c line 100945"
+    }
+  ],
+  "dtc_commands": [
+    {
+      "protocol": "UDS",
+      "operation": "read_dtc",
+      "request_hex": "19028D",
+      "response_prefix": "5902",
+      "record_length": 4,
+      "dtc_bytes": 3,
+      "status_byte": 1,
+      "evidence": "libCarista.so.c line 108450"
+    },
+    {
+      "protocol": "TP2.0",
+      "operation": "read_dtc",
+      "request_hex": "1802FF00",
+      "response_prefix": "58",
+      "evidence": "libCarista.so.c line 102841"
+    },
+    {
+      "protocol": "UDS",
+      "operation": "clear_dtc",
+      "request_hex": "14FFFFFF",
+      "response_prefix": "54",
+      "evidence": "ISO 14229 / libCarista.so"
+    }
+  ],
+  "service_routines": [
+    {
+      "operation": "epb_open",
+      "ecu": "PARKING_BRAKE (0x752)",
+      "request_hex": "310103A1",
+      "response_prefix": "710103A1",
+      "evidence": "libCarista.so.c line 111280"
+    },
+    {
+      "operation": "epb_open_stop",
+      "ecu": "PARKING_BRAKE (0x752)",
+      "request_hex": "310203A1",
+      "response_prefix": "710203A1",
+      "evidence": "libCarista.so.c line 111400"
+    },
+    {
+      "operation": "epb_close",
+      "ecu": "PARKING_BRAKE (0x752)",
+      "request_hex": "310103A0",
+      "response_prefix": "710103A0",
+      "evidence": "libCarista.so.c line 111212"
+    },
+    {
+      "operation": "epb_close_stop",
+      "ecu": "PARKING_BRAKE (0x752)",
+      "request_hex": "310203A0",
+      "response_prefix": "710203A0",
+      "evidence": "libCarista.so.c line 111351"
+    },
+    {
+      "operation": "routine_status_query",
+      "request_hex": "220102",
+      "response_prefix": "620102",
+      "status_mapping": {
+        "0x00": "NONE",
+        "0x10": "SUCCEEDED",
+        "0x40": "FAILED_ABORTED_SAFETY",
+        "0x60": "FAILED_CONDITIONS_INCORRECT",
+        "0x80": "TIMEOUT",
+        "0xC0": "IN_PROGRESS"
+      },
+      "evidence": "libCarista.so.c line 110955"
+    },
+    {
+      "operation": "dpf_regen_stationary",
+      "ecu": "ENGINE (0x7E0)",
+      "request_hex": "3101053D040000",
+      "response_prefix": "7101053D",
+      "evidence": "libCarista.so.c line 111143"
+    },
+    {
+      "operation": "dpf_regen_driving",
+      "ecu": "ENGINE (0x7E0)",
+      "request_hex": "31010305040000",
+      "response_prefix": "71010305",
+      "evidence": "libCarista.so.c line 111145"
+    }
+  ],
+  "identification_dids": [
+    {
+      "did": "0xF190",
+      "name": "VIN",
+      "request_hex": "22F190",
+      "response_prefix": "62F190",
+      "type": "ASCII_17"
+    },
+    {
+      "did": "0xF187",
+      "name": "PART_NUMBER",
+      "request_hex": "22F187",
+      "response_prefix": "62F187",
+      "type": "ASCII"
+    },
+    {
+      "did": "0xF189",
+      "name": "SW_VERSION",
+      "request_hex": "22F189",
+      "response_prefix": "62F189",
+      "type": "ASCII_4"
+    },
+    {
+      "did": "0xF191",
+      "name": "HW_VERSION",
+      "request_hex": "22F191",
+      "response_prefix": "62F191",
+      "type": "ASCII"
+    },
+    {
+      "did": "0xF18C",
+      "name": "SERIAL_NUMBER",
+      "request_hex": "22F18C",
+      "response_prefix": "62F18C",
+      "type": "ASCII"
+    },
+    {
+      "did": "0xF19E",
+      "name": "ASAM_ODX_FILE_ID",
+      "request_hex": "22F19E",
+      "response_prefix": "62F19E",
+      "type": "ASCII"
+    },
+    {
+      "did": "0xF1A2",
+      "name": "ASAM_ODX_FILE_VER",
+      "request_hex": "22F1A2",
+      "response_prefix": "62F1A2",
+      "type": "ASCII"
+    },
+    {
+      "did": "0xF197",
+      "name": "SYSTEM_COMPONENT_NAME",
+      "request_hex": "22F197",
+      "response_prefix": "62F197",
+      "type": "ASCII"
+    },
+    {
+      "did": "0xF1A5",
+      "name": "WORKSHOP_CODE",
+      "request_hex": "22F1A5",
+      "response_prefix": "62F1A5",
+      "type": "BYTES"
+    },
+    {
+      "did": "0x0608",
+      "name": "SLAVE_SUBMODULE_IDS",
+      "request_hex": "220608",
+      "response_prefix": "620608",
+      "type": "BYTES"
+    }
+  ]
+}

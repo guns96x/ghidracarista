@@ -55,23 +55,23 @@ class UdsCommunicator(private val engine: Elm327Engine) {
     }
 
     /**
-     * Зчитування активних та збережених помилок DTC (Сервіс 0x19 0x02 0x09).
+     * Зчитування активних та збережених помилок DTC (Сервіс 0x19 0x02 0x8D).
+     * Маска 0x8D (testFailed, pendingDTC, confirmedDTC, warningIndicatorRequested).
+     * Верифіковано в libCarista.so.c: GetVagUdsTroubleCodesCommand (line 108445)
      */
     suspend fun readFaultCodes(ecu: VagEcu): List<FaultCode> {
         engine.setEcuFilter(ecu.txCanId, ecu.rxCanId)
-        val resp = engine.sendUdsFrame("19 02 09")
+        val resp = engine.sendUdsFrame("19 02 8D")
 
-        // Очікуваний заголовок позитивної відповіді: 59 02 09
-        val marker = "590209"
+        // Очікуваний заголовок позитивної відповіді: 59 02 <AvailabilityMask>
+        val marker = "5902"
         val idx = resp.indexOf(marker)
         if (idx == -1) return emptyList()
 
-        val payload = resp.substring(idx + marker.length)
-        if (payload.isEmpty() || payload.length % 8 != 0) {
-            // Кожна помилка в UDS займає 4 байти (8 hex символів): 3 байти DTC + 1 байт статусу
-            val validLength = (payload.length / 8) * 8
-            if (validLength == 0) return emptyList()
-        }
+        // Пропускаємо 59 02 (4 символи) та 1 байт маски доступності (2 символи)
+        val payloadStart = idx + 6
+        if (payloadStart > resp.length) return emptyList()
+        val payload = resp.substring(payloadStart)
 
         val result = mutableListOf<FaultCode>()
         val chunks = payload.chunked(8)
@@ -105,6 +105,23 @@ class UdsCommunicator(private val engine: Elm327Engine) {
         val resp = engine.sendUdsFrame("31 01 $routineIdHex")
         // Позитивна відповідь починається з 71 01
         return resp.contains("7101")
+    }
+
+    /**
+     * Зупинка процедури RoutineControl (0x31 0x02 <RoutineId>).
+     */
+    suspend fun stopRoutine(ecu: VagEcu, routineIdHex: String): Boolean {
+        enterExtendedSession(ecu)
+        val resp = engine.sendUdsFrame("31 02 $routineIdHex")
+        // Позитивна відповідь починається з 71 02
+        return resp.contains("7102")
+    }
+
+    /**
+     * Зчитування сирого значення DID (0x22 <DID>).
+     */
+    suspend fun readDid(ecu: VagEcu, didHex: String): String? {
+        return readDidHex(ecu, didHex)
     }
 
     // --- Допоміжні методи читання DID (Data Identifier 0x22) ---
