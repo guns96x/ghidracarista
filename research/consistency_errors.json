@@ -1,0 +1,17 @@
+{
+  "total_errors_detected": 0,
+  "resolved_critical_bugs": [
+    {
+      "bug": "EPB CAN ID pointed to HVAC (0x746)",
+      "resolution": "Corrected to 0x752 / 0x7BC via libCarista.so.c line 583356"
+    },
+    {
+      "bug": "EPB Routine IDs were fabricated as 0x0010 / 0x0011",
+      "resolution": "Corrected to 0x03A1 (Open) / 0x03A0 (Close) via lines 111280 & 111232"
+    },
+    {
+      "bug": "BCM CAN ID was 0x709 / 0x773",
+      "resolution": "Corrected to 0x70E / 0x778 via line 583389"
+    }
+  ]
+}

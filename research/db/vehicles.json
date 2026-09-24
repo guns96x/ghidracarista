@@ -1,0 +1,98 @@
+{
+  "platforms": [
+    {
+      "platform": "PQ35",
+      "oem": "VAG (Volkswagen AG)",
+      "years": "2003-2015",
+      "models": [
+        "Golf Mk5/Mk6",
+        "Jetta Mk5/Mk6",
+        "Passat B6/B7",
+        "Tiguan Mk1",
+        "Touran Mk1",
+        "Octavia Mk2",
+        "Leon Mk2",
+        "Audi A3 (8P)",
+        "Audi TT (8J)"
+      ],
+      "bus_type": "CAN 11-bit 500k & KWP2000 TP2.0",
+      "gateway_address": "0x19",
+      "bcm_type": "PQ35 Central Electrics (0x09) & Comfort Module (0x46)",
+      "diagnostic_protocols": [
+        "KWP2000 (TP2.0)",
+        "UDS (Late PQ35 Cluster/Engine)"
+      ]
+    },
+    {
+      "platform": "MQB",
+      "oem": "VAG (Volkswagen AG)",
+      "years": "2012-2020",
+      "models": [
+        "Golf Mk7/Mk7.5",
+        "Passat B8",
+        "Tiguan Mk2",
+        "Arteon",
+        "Octavia Mk3",
+        "Superb Mk3",
+        "Kodiaq",
+        "Karoq",
+        "Leon Mk3",
+        "Ateca",
+        "Audi A3 (8V)",
+        "Audi TT (FV)",
+        "Audi Q2",
+        "Audi Q3 (F3)"
+      ],
+      "bus_type": "CAN 11-bit 500k (High-Speed CAN)",
+      "gateway_address": "0x19",
+      "bcm_type": "MQB BCM (0x09: BCM1 BOSCH / Continental 5Q0937084 / 5Q0937086 / 5Q0937087)",
+      "diagnostic_protocols": [
+        "UDS (ISO 14229) on all modules"
+      ]
+    },
+    {
+      "platform": "MQB-Evo (MQB2020)",
+      "oem": "VAG (Volkswagen AG)",
+      "years": "2020-Present",
+      "models": [
+        "Golf Mk8",
+        "Passat B9",
+        "Tiguan Mk3",
+        "Octavia Mk4",
+        "Leon Mk4",
+        "Audi A3 (8Y)",
+        "Cupra Formentor"
+      ],
+      "bus_type": "CAN-FD & Automotive Ethernet (DoIP)",
+      "gateway_address": "0x19",
+      "bcm_type": "MQB-Evo BCM (0x09: 5WA937086)",
+      "security_architecture": "SFD (Schutz Fahrzeug Diagnose) end-to-end token authentication",
+      "diagnostic_protocols": [
+        "UDS (ISO 14229) with SFD"
+      ]
+    },
+    {
+      "platform": "MLB / MLBevo",
+      "oem": "VAG (Audi / Porsche / VW / Bentley)",
+      "years": "2008-Present",
+      "models": [
+        "Audi A4 (B8/B9)",
+        "Audi A5",
+        "Audi A6 (C7/C8)",
+        "Audi A7",
+        "Audi A8 (D4/D5)",
+        "Audi Q5 (8R/FY)",
+        "Audi Q7 (4M)",
+        "Audi Q8",
+        "Porsche Macan",
+        "VW Touareg (7P/CR)"
+      ],
+      "bus_type": "CAN 11-bit 500k & FlexRay & DoIP",
+      "gateway_address": "0x19",
+      "bcm_type": "BCM1 (0x09) & BCM2 (0x46 / 0x09 Master-Slave)",
+      "diagnostic_protocols": [
+        "UDS (ISO 14229) on all modules"
+      ]
+    }
+  ]
+}

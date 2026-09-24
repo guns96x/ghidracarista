@@ -1,0 +1,132 @@
+{
+  "ecu_variants": [
+    {
+      "logical_address": "0x01",
+      "name": "ENGINE",
+      "part_number_patterns": [
+        "03G906*",
+        "03L906*",
+        "04L906*",
+        "06J906*",
+        "06K906*"
+      ],
+      "asam_patterns": [
+        "EV_ECM*"
+      ],
+      "protocols": [
+        "UDS",
+        "KWP2000"
+      ]
+    },
+    {
+      "logical_address": "0x02",
+      "name": "TRANSMISSION",
+      "part_number_patterns": [
+        "02E300*",
+        "0AM300*",
+        "02E927*",
+        "0CW300*"
+      ],
+      "asam_patterns": [
+        "EV_TCM*",
+        "EV_GSG*"
+      ],
+      "protocols": [
+        "UDS",
+        "KWP2000"
+      ]
+    },
+    {
+      "logical_address": "0x03",
+      "name": "BRAKES_ABS",
+      "part_number_patterns": [
+        "1K0614*",
+        "1K0907*",
+        "5Q0614*",
+        "5Q0907*"
+      ],
+      "asam_patterns": [
+        "EV_Brake1UDSConti*",
+        "EV_BOSCH_ESP*"
+      ],
+      "protocols": [
+        "UDS",
+        "KWP2000"
+      ]
+    },
+    {
+      "logical_address": "0x09",
+      "name": "CENTRAL_ELECTRICS",
+      "part_number_patterns": [
+        "1K0937*",
+        "5K0937*",
+        "5Q0937084*",
+        "5Q0937086*",
+        "5Q0937087*",
+        "5WA937*"
+      ],
+      "asam_patterns": [
+        "EV_BodyContrModul1UDSCont*",
+        "EV_BCM1BOSCH*"
+      ],
+      "protocols": [
+        "UDS",
+        "KWP2000"
+      ]
+    },
+    {
+      "logical_address": "0x17",
+      "name": "INSTRUMENT_CLUSTER",
+      "part_number_patterns": [
+        "1K0920*",
+        "5K0920*",
+        "5G0920*",
+        "5G1920*",
+        "3G0920*"
+      ],
+      "asam_patterns": [
+        "EV_DashBoardVDD*",
+        "EV_KombiUDS*"
+      ],
+      "protocols": [
+        "UDS",
+        "KWP2000"
+      ]
+    },
+    {
+      "logical_address": "0x19",
+      "name": "CAN_GATEWAY",
+      "part_number_patterns": [
+        "1K0907530*",
+        "7N0907530*",
+        "5Q0907530*",
+        "3Q0907530*"
+      ],
+      "asam_patterns": [
+        "EV_GatewUDS*",
+        "EV_GatewayMQB*"
+      ],
+      "protocols": [
+        "UDS",
+        "KWP2000"
+      ]
+    },
+    {
+      "logical_address": "0x53",
+      "name": "PARKING_BRAKE",
+      "part_number_patterns": [
+        "3C0907801*",
+        "3C8907801*",
+        "3AA907801*",
+        "5Q0907801*"
+      ],
+      "asam_patterns": [
+        "EV_ParkBrakeUDS*"
+      ],
+      "protocols": [
+        "UDS",
+        "KWP2000"
+      ]
+    }
+  ]
+}

@@ -48,9 +48,18 @@ Carista XAPK
 - 📦 **[research/INVENTORY.md](research/INVENTORY.md)** — Криптографічний опис усіх 19 артефактів із хешами SHA-256.
 - 📋 **[research/SPEC_AUDIT.md](research/SPEC_AUDIT.md)** — Детальний аудит попередньої специфікації: виправлення критичних помилок адресації (EPB 0x752 vs HVAC 0x746, BCM 0x70E, рутини 0x03A1/0x03A0).
 - 📚 **[research/protocols/](research/protocols/)** — 17 повних технічних специфікацій протоколів (ELM327, STN, CAN, ISO-TP, KWP2000, UDS, адресація VAG, сесії, DTC, Live Data, кодування, адаптації, базові налаштування, сервісні процедури, безпека).
-- 🗄️ **[research/db/](research/db/)** — Машиночитані бази даних: `diagnostic_evidence.json`, `diagnostic_evidence.csv`, `vag_ecus.json` (17 блоків керування).
+- 🗄️ **[research/db/](research/db/)** — Машиночитані бази даних: `diagnostic_evidence.json`, `diagnostic_evidence.csv`, `vag_ecus.json` (17 блоків керування), `vehicles.json`, `ecu_variants.json`.
+- ⚙️ **[research/features/](research/features/)** — **Повний каталог функцій (478 функцій)** та механізм застосовності:
+  - `research/features/FEATURE_CATALOG.md` / `.json` / `.csv` — 478 налаштувань та сервісних процедур із прив'язкою до блоків та параметрів.
+  - `research/features/APPLICABILITY_ENGINE.md` — 6 рівнів правил застосовності (VIN, Gateway 0x04A1, ASAM ODX EV_*, Whitelist, Coding bounds).
+  - `research/features/PRODUCT_MAP.md` — Функціональна карта продукту та інтерактивні попередження.
+  - `research/features/flows/` — Покрокові флоу сервісних процедур (EPB, DPF).
+- 🔍 **[research/CONSISTENCY_AUDIT.md](research/CONSISTENCY_AUDIT.md)** — Математичний та логічний аудит несуперечності адрес, формул та рутин (100% тестів пройдено).
 - 🔄 **[research/state_machines/](research/state_machines/)** — Стейт-машини життєвого циклу підключення, UDS сесій та сервісних процедур у форматі Mermaid.
 - 🚀 **[handoff/](handoff/)** — Повний пакет передачі для розробки Android додатку на Kotlin (ChatGPT handoff):
+  - `handoff/FEATURE_IMPLEMENTATION_INDEX.json` — Готовий машинозчитуваний каталог 478 функцій для послідовної імплементації.
+  - `handoff/IMPLEMENTATION_ORDER.md` — Поетапний план реалізації з перевірочними чекпоінтами.
+  - `handoff/FULL_FEATURE_MATRIX.md` — Загальна матриця технічної специфікації.
   - `handoff/IMPLEMENTATION_BRIEF.md` — Технічне завдання та інструкція для імплементації.
   - `handoff/VERIFIED_COMMANDS.json` — Готовий JSON зі 100% верифікованими байтами команд.
   - `handoff/OPEN_QUESTIONS.md` — Відкриті архітектурні питання та roadmap.

@@ -1,0 +1,35 @@
+{
+  "rules": [
+    {
+      "rule_id": "RULE_GW_DISCOVERY",
+      "description": "ECU must be registered in Gateway Installation List",
+      "probe_command": "22 04 A1",
+      "target_ecu": "0x19",
+      "evidence": "libCarista.so.c line 108420"
+    },
+    {
+      "rule_id": "RULE_ASAM_ODX_MATCH",
+      "description": "ASAM identifier must match one of 415 registered EV_* definitions",
+      "probe_command": "22 F1 5B",
+      "evidence": "libCarista.so.c line 598884"
+    },
+    {
+      "rule_id": "RULE_PART_NO_WHITELIST",
+      "description": "ECU VAG part number must match StringWhitelist",
+      "probe_command": "22 F1 87",
+      "evidence": "libCarista.so.c line 1353215"
+    },
+    {
+      "rule_id": "RULE_SW_VERSION_RANGE",
+      "description": "ECU SW revision must fall within RangeWhitelist bounds",
+      "probe_command": "22 F1 89",
+      "evidence": "libCarista.so.c line 1353345"
+    },
+    {
+      "rule_id": "RULE_CODING_LENGTH_BOUNDS",
+      "description": "Target byte offset must be strictly less than ECU coding buffer length",
+      "probe_command": "22 F1 A3",
+      "evidence": "libCarista.so.c line 201100 (Setting::extractValue)"
+    }
+  ]
+}

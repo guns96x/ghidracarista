@@ -1,0 +1,71 @@
+{
+  "flow_id": "FLOW_EPB_SERVICE",
+  "name": "Electronic Parking Brake Service Procedure",
+  "steps": [
+    {
+      "step": 1,
+      "action": "Verify Prerequisites",
+      "check": "Speed == 0, Handbrake == OFF, Voltage >= 12.4V"
+    },
+    {
+      "step": 2,
+      "action": "Connect EPB ECU",
+      "command": "AT SH 752 / AT CRA 7BC"
+    },
+    {
+      "step": 3,
+      "action": "Enter Extended Session",
+      "command": "10 03",
+      "expected": "50 03"
+    },
+    {
+      "step": 4,
+      "action": "Start Retracting Pistons",
+      "command": "31 01 03 A1",
+      "expected": "71 01 03 A1 00"
+    },
+    {
+      "step": 5,
+      "action": "Poll Status & Keepalive",
+      "command": "22 01 02 & 3E 80",
+      "interval_ms": 500,
+      "until": "Status == Idle"
+    },
+    {
+      "step": 6,
+      "action": "Stop Retract Routine",
+      "command": "31 02 03 A1",
+      "expected": "71 02 03 A1 00"
+    },
+    {
+      "step": 7,
+      "action": "Physical Pad Replacement",
+      "user_prompt": "Replace brake pads now. Press Done when finished."
+    },
+    {
+      "step": 8,
+      "action": "Start Closing Pistons",
+      "command": "31 01 03 A0",
+      "expected": "71 01 03 A0 00"
+    },
+    {
+      "step": 9,
+      "action": "Poll Status & Keepalive",
+      "command": "22 01 02 & 3E 80",
+      "interval_ms": 500,
+      "until": "Status == Clamped"
+    },
+    {
+      "step": 10,
+      "action": "Stop Close Routine",
+      "command": "31 02 03 A0",
+      "expected": "71 02 03 A0 00"
+    },
+    {
+      "step": 11,
+      "action": "Perform Calibration",
+      "command": "31 01 03 A2",
+      "expected": "71 01 03 A2 00"
+    }
+  ]
+}
