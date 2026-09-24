@@ -1,0 +1,12 @@
+# Ghidra project locks and binary repository
+*.lock
+*.lock~
+carista.rep/
+
+# Extracted APK files and large decompiled dumps (>50MB)
+extracted/
+libCarista.so.c
+
+# OS / temporary files
+Thumbs.db
+.DS_Store
