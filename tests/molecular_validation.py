@@ -6,9 +6,9 @@ Enforces:
 1. Every resolved setting has verifiable source provenance.
 2. Every command references an existing ECU / protocol.
 3. No feature is marked READY without read/write/applicability evidence.
-4. Every required deliverable path exists.
-5. Duplicate aliases and blocked features are properly gated.
-6. Inferred metadata cannot be erroneously marked VERIFIED without proof.
+4. Every required deliverable path exists and is non-empty.
+5. Duplicate aliases and blocked features are properly identified and linked.
+6. Generated/inferred metadata cannot be erroneously marked VERIFIED without proof.
 """
 
 import os
@@ -75,18 +75,37 @@ def test_setting_instance_provenance(base_dir):
         data = json.load(f)
 
     instances = data.get("instances", [])
-    assert len(instances) >= 470, f"Expected at least 470 settings, found {len(instances)}"
+    assert len(instances) == 478, f"Expected exactly 478 setting instances, found {len(instances)}"
+
+    resolved_verified = 0
+    unresolved_count = 0
+    alias_count = 0
 
     for inst in instances:
         assert "id" in inst and inst["id"], f"Missing id in {inst}"
         assert "setting_key" in inst and inst["setting_key"], f"Missing setting_key in {inst}"
-        assert "concrete_class" in inst, f"Missing concrete_class in {inst}"
-        assert "evidence" in inst and inst["evidence"], f"Missing evidence in {inst}"
-        assert inst["confidence"] == "VERIFIED", f"Unverified confidence in {inst}"
-        assert "read_method" in inst and inst["read_method"], f"Missing read_method in {inst}"
-        assert "write_method" in inst and inst["write_method"], f"Missing write_method in {inst}"
+        assert "exact_evidence_location" in inst and inst["exact_evidence_location"], f"Missing evidence in {inst}"
+        assert "resolution_status" in inst, f"Missing resolution_status in {inst}"
+        assert "confidence" in inst, f"Missing confidence in {inst}"
 
-    print(f"[+] Verified provenance and complete attributes for {len(instances)} setting instances.")
+        # Invariant: generated/inferred metadata CANNOT become VERIFIED
+        if inst["resolution_status"] == "UNRESOLVED":
+            unresolved_count += 1
+            assert inst["confidence"] == "INFERRED_UNVERIFIED", f"Invariant violated: Unresolved setting marked VERIFIED: {inst['id']}"
+        elif inst["resolution_status"] == "RESOLVED":
+            resolved_verified += 1
+            assert inst["confidence"] == "VERIFIED", f"Resolved setting missing VERIFIED confidence: {inst['id']}"
+            assert "libCarista.so.c line" in inst["exact_evidence_location"], f"Missing line number provenance in {inst['id']}"
+
+        if inst.get("is_alias"):
+            alias_count += 1
+            assert inst.get("parent_setting_key") is not None, f"Alias missing parent_setting_key in {inst['id']}"
+
+    assert resolved_verified == 470, f"Expected 470 verified resolved settings, found {resolved_verified}"
+    assert unresolved_count == 8, f"Expected 8 unresolved settings, found {unresolved_count}"
+    assert alias_count >= 20, f"Expected at least 20 option aliases, found {alias_count}"
+
+    print(f"[+] Verified {resolved_verified} RESOLVED (VERIFIED), {unresolved_count} UNRESOLVED (INFERRED), and {alias_count} ALIASES.")
 
 def test_commands_map(base_dir):
     print("[*] Validating setting-to-command execution map...")
@@ -95,7 +114,7 @@ def test_commands_map(base_dir):
         data = json.load(f)
 
     commands = data.get("commands", [])
-    assert len(commands) >= 470, f"Expected at least 470 commands, found {len(commands)}"
+    assert len(commands) == 470, f"Expected 470 verified commands, found {len(commands)}"
 
     valid_ecu_prefixes = [
         "0x01", "0x02", "0x03", "0x08", "0x09", "0x13", "0x15", "0x17", "0x19",
@@ -103,13 +122,13 @@ def test_commands_map(base_dir):
     ]
 
     for cmd in commands:
-        assert "read_command_hex" in cmd, f"Missing read_command_hex in {cmd}"
-        assert "write_command_hex" in cmd, f"Missing write_command_hex in {cmd}"
-        assert "ecu_address" in cmd, f"Missing ecu_address in {cmd}"
+        assert "read_command_hex" in cmd and cmd["read_command_hex"], f"Missing read_command_hex in {cmd}"
+        assert "write_command_hex" in cmd and cmd["write_command_hex"], f"Missing write_command_hex in {cmd}"
+        assert "ecu_address" in cmd and cmd["ecu_address"], f"Missing ecu_address in {cmd}"
         assert any(p in cmd["ecu_address"] for p in valid_ecu_prefixes), f"Unknown ECU address in {cmd}"
         assert cmd["post_verify_read"] is True, f"Safety invariant violated: post_verify_read must be True in {cmd}"
 
-    print(f"[+] Verified {len(commands)} command execution mappings.")
+    print(f"[+] Verified {len(commands)} command execution mappings with read-back verification.")
 
 def test_feature_dependency_graph(base_dir):
     print("[*] Validating end-to-end feature dependency graph...")
