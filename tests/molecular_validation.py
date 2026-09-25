@@ -343,10 +343,160 @@ def test_commands_map_ground_truth(base_dir):
 
     print(f"    [+] Verified 1-to-1 equivalence: {len(commands)} commands match {len(exact_ids)} EXACT_RESOLVED features.")
 
+def test_round3_feat_0086_brake_disc_drying_is_not_exact(base_dir):
+    print("[*] Test 9: Validating Round 3 Defect 1: FEAT_0086_BRAKE_DISC_DRYING must NOT be EXACT_RESOLVED...")
+    inst_path = os.path.join(base_dir, "research", "molecular", "SETTING_INSTANCE_INDEX.json")
+    with open(inst_path, "r", encoding="utf-8") as f:
+        instances = json.load(f).get("instances", [])
+
+    feat_86 = next((i for i in instances if i.get("id") == "FEAT_0086_BRAKE_DISC_DRYING"), None)
+    assert feat_86 is not None, "FAIL: FEAT_0086_BRAKE_DISC_DRYING not found in SETTING_INSTANCE_INDEX!"
+    assert feat_86["resolution_status"] != "EXACT_RESOLVED", (
+        f"FAIL: FEAT_0086_BRAKE_DISC_DRYING is marked EXACT_RESOLVED! "
+        f"It has incomplete constructor arguments (stack args [3596, null]) and must be PARTIAL."
+    )
+    assert feat_86["resolution_status"] == "PARTIAL", (
+        f"FAIL: FEAT_0086_BRAKE_DISC_DRYING status is {feat_86['resolution_status']}, expected PARTIAL."
+    )
+    print("    [+] Verified: FEAT_0086_BRAKE_DISC_DRYING correctly classified as PARTIAL (zero synthetic fallback).")
+
+def test_round3_multi_variants_preserved(base_dir):
+    print("[*] Test 10: Validating Round 3 Defect 2: Multi-variant preservation without collapsing...")
+    variants_path = os.path.join(base_dir, "research", "molecular", "SETTING_VARIANTS_INDEX.json")
+    assert os.path.exists(variants_path), f"FAIL: {variants_path} does not exist!"
+
+    with open(variants_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    meta = data.get("metadata", {})
+    variants_by_key = data.get("variants_by_key", {})
+    assert meta.get("total_binary_variants", 0) >= 1500, (
+        f"FAIL: Expected >= 1500 total binary variants, found {meta.get('total_binary_variants')}"
+    )
+
+    # Specific multi-variant keys highlighted in Round 3 Audit
+    keys_to_check = {
+        "car_setting_single_door_lock_remote": 11,
+        "car_setting_coming_home_duration": 9,
+        "car_setting_seat_belt_warning": 9,
+        "car_setting_remote_with_ignition": 9
+    }
+
+    for key, expected_min_count in keys_to_check.items():
+        variants = variants_by_key.get(key, [])
+        assert len(variants) >= expected_min_count, (
+            f"FAIL: Multi-variant key '{key}' has {len(variants)} variants, expected at least {expected_min_count}!"
+        )
+        # Check that each variant preserves full ground truth
+        for v in variants:
+            assert v.get("concrete_class"), f"FAIL: Variant {v['variant_id']} missing concrete_class"
+            assert v.get("callsite"), f"FAIL: Variant {v['variant_id']} missing callsite"
+            assert "ecu" in v, f"FAIL: Variant {v['variant_id']} missing ecu"
+
+    print(f"    [+] Verified: All binary variants preserved ({meta.get('total_binary_variants')} variants across {len(variants_by_key)} keys). Multi-variant keys verified.")
+
+def test_round3_no_kwp_classes_use_uds_22_2e(base_dir):
+    print("[*] Test 11: Validating Round 3 Defect 4: Class-specific protocol commands (KWP/TP2.0 != 22/2E)...")
+    cmd_path = os.path.join(base_dir, "research", "molecular", "SETTING_TO_COMMAND_MAP.json")
+    with open(cmd_path, "r", encoding="utf-8") as f:
+        commands = json.load(f).get("commands", [])
+
+    for cmd in commands:
+        cls = cmd.get("concrete_class", "")
+        read_cmd = cmd.get("read_command_hex", "")
+        write_cmd = cmd.get("write_command_hex", "")
+
+        if "VagCanLongCodingSetting" in cls or "VagCanCoding" in cls or "VagCanSingleBitCoding" in cls:
+            assert not read_cmd.startswith("22"), (
+                f"FAIL: KWP/TP2.0 class {cls} for feature {cmd['id']} has UDS read command {read_cmd}! Must be 1A9A."
+            )
+            assert not write_cmd.startswith("2E"), (
+                f"FAIL: KWP/TP2.0 class {cls} for feature {cmd['id']} has UDS write command {write_cmd}! Must be 3B9A."
+            )
+            assert read_cmd == "1A9A" and write_cmd == "3B9A", (
+                f"FAIL: LongCoding command is {read_cmd}/{write_cmd}, expected 1A9A/3B9A."
+            )
+        elif "ShortAdaptation" in cls:
+            assert not read_cmd.startswith("22"), (
+                f"FAIL: ShortAdaptation class {cls} for feature {cmd['id']} has UDS read command {read_cmd}!"
+            )
+            assert "KWP_READ_CH_" in read_cmd or "KWP_READ_CHANNEL" in read_cmd, (
+                f"FAIL: ShortAdaptation command is {read_cmd}, expected KWP_READ_CH_<ch>"
+            )
+
+    print("    [+] Verified: 100% of KWP/TP2.0 classes use class-specific 1A9A/3B9A or KWP channel commands.")
+
+def test_round3_no_unproven_adaptation_f1a3_in_exact(base_dir):
+    print("[*] Test 12: Validating Round 3 Defect 5: Zero VagUdsAdaptationSetting with unproven DID 0xF1A3 in EXACT_RESOLVED...")
+    inst_path = os.path.join(base_dir, "research", "molecular", "SETTING_INSTANCE_INDEX.json")
+    with open(inst_path, "r", encoding="utf-8") as f:
+        instances = json.load(f).get("instances", [])
+
+    for inst in instances:
+        if inst.get("resolution_status") == "EXACT_RESOLVED":
+            cls = inst.get("concrete_setting_class", "")
+            did = inst.get("did_or_channel")
+            if "Adaptation" in cls:
+                assert did != "0xF1A3" and did != "F1A3", (
+                    f"FAIL: EXACT_RESOLVED adaptation setting {inst['id']} has unproven DID 0xF1A3 default!"
+                )
+                assert did is not None and len(str(did)) > 0, (
+                    f"FAIL: EXACT_RESOLVED adaptation setting {inst['id']} has missing DID!"
+                )
+
+    print("    [+] Verified: Zero VagUdsAdaptationSetting instances in EXACT_RESOLVED use unproven 0xF1A3.")
+
+def test_round3_no_invalid_masks_or_unknown_classes_in_exact(base_dir):
+    print("[*] Test 13: Validating Round 3 Defect 6: No invalid masks, unknown classes, or missing metadata in EXACT_RESOLVED...")
+    inst_path = os.path.join(base_dir, "research", "molecular", "SETTING_INSTANCE_INDEX.json")
+    with open(inst_path, "r", encoding="utf-8") as f:
+        instances = json.load(f).get("instances", [])
+
+    for inst in instances:
+        if inst.get("resolution_status") == "EXACT_RESOLVED":
+            cls = inst.get("concrete_setting_class", "")
+            mask = inst.get("mask")
+            byte_off = inst.get("byte_offset")
+            whitelist = inst.get("whitelist_or_asam_rules")
+            params = inst.get("constructor_parameters", {})
+            interp = params.get("interpretation")
+
+            assert cls != "UnknownVagSettingClass", (
+                f"FAIL: {inst['id']} has UnknownVagSettingClass in EXACT_RESOLVED!"
+            )
+            assert mask is not None and mask > 0, (
+                f"FAIL: {inst['id']} has invalid mask {mask} in EXACT_RESOLVED! (Must be positive integer)"
+            )
+            assert mask != 65535 or byte_off is None, (
+                f"FAIL: {inst['id']} has impossible mask 65535 on single-byte coding!"
+            )
+            assert whitelist is not None and len(str(whitelist)) > 0, (
+                f"FAIL: {inst['id']} missing whitelist in EXACT_RESOLVED!"
+            )
+            assert interp is not None and len(str(interp)) > 0, (
+                f"FAIL: {inst['id']} missing concrete value interpretation in EXACT_RESOLVED!"
+            )
+
+    print("    [+] Verified: Zero invalid masks, zero UnknownVagSettingClass, zero missing whitelists or interpretations.")
+
+def test_round3_counts_integrity(base_dir):
+    print("[*] Test 14: Validating exact Round 3 ground-truth counts integrity...")
+    inst_path = os.path.join(base_dir, "research", "molecular", "SETTING_INSTANCE_INDEX.json")
+    with open(inst_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    counts = data.get("metadata", {}).get("counts", {})
+    assert counts.get("EXACT_RESOLVED") == 208, f"Expected 208 EXACT_RESOLVED, got {counts.get('EXACT_RESOLVED')}"
+    assert counts.get("PARTIAL") == 106, f"Expected 106 PARTIAL, got {counts.get('PARTIAL')}"
+    assert counts.get("UNRESOLVED") == 158, f"Expected 158 UNRESOLVED, got {counts.get('UNRESOLVED')}"
+    assert counts.get("REJECTED_TEMPLATE") == 6, f"Expected 6 REJECTED_TEMPLATE, got {counts.get('REJECTED_TEMPLATE')}"
+    assert sum(counts.values()) == 478, f"Expected total 478 instances, got {sum(counts.values())}"
+    print(f"    [+] Counts confirmed: {counts}")
+
 def main():
     base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
     print("=" * 70)
-    print("CARISTA MOLECULAR DECOMPOSITION VALIDATION SUITE (STRICT AUDIT ROUND 2)")
+    print("CARISTA MOLECULAR DECOMPOSITION VALIDATION SUITE (STRICT AUDIT ROUND 2 & 3)")
     print("=" * 70)
 
     test_file_existence(base_dir)
@@ -357,10 +507,17 @@ def main():
     test_bad_case_no_ecu_fallback_0x70e(base_dir)
     test_setting_instance_provenance_and_argument_positions(base_dir)
     test_commands_map_ground_truth(base_dir)
+    test_round3_feat_0086_brake_disc_drying_is_not_exact(base_dir)
+    test_round3_multi_variants_preserved(base_dir)
+    test_round3_no_kwp_classes_use_uds_22_2e(base_dir)
+    test_round3_no_unproven_adaptation_f1a3_in_exact(base_dir)
+    test_round3_no_invalid_masks_or_unknown_classes_in_exact(base_dir)
+    test_round3_counts_integrity(base_dir)
 
     print("=" * 70)
-    print("ALL TESTS PASSED: 100% COMPLIANT WITH MOLECULAR_AUDIT_ROUND2.md")
+    print("ALL TESTS PASSED: 100% COMPLIANT WITH MOLECULAR_AUDIT_ROUND2.md & ROUND3.md")
     print("=" * 70)
 
 if __name__ == "__main__":
     main()
+

@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "Carista Exact Verified Ready Features",
-    "total_ready": 314,
+    "title": "Carista Exact Verified Ready Features (Round 3 Ground Truth)",
+    "total_ready": 208,
     "date": "2026-09-25"
   },
   "features": [
@@ -25,8 +25,8 @@
       "ecu_address": "0x56",
       "ecu_name": "RADIO",
       "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "2228",
-      "write_op": "2E28",
+      "read_op": "KWP_READ_CH_40",
+      "write_op": "KWP_WRITE_CH_40",
       "security": "None"
     },
     {
@@ -49,8 +49,8 @@
       "ecu_address": "0x09",
       "ecu_name": "CENTRAL_ELEC",
       "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "2242",
-      "write_op": "2E42",
+      "read_op": "KWP_READ_CH_66",
+      "write_op": "KWP_WRITE_CH_66",
       "security": "None"
     },
     {
@@ -97,8 +97,8 @@
       "ecu_address": "0x09",
       "ecu_name": "CENTRAL_ELEC",
       "protocol": "UDS (ISO 14229)",
-      "read_op": "2250c4",
-      "write_op": "2E50c4",
+      "read_op": "2250C4",
+      "write_op": "2E50C4",
       "security": "None"
     },
     {
@@ -109,8 +109,8 @@
       "ecu_address": "0x09",
       "ecu_name": "CENTRAL_ELEC",
       "protocol": "UDS (ISO 14229)",
-      "read_op": "2250c4",
-      "write_op": "2E50c4",
+      "read_op": "2250C4",
+      "write_op": "2E50C4",
       "security": "None"
     },
     {
@@ -121,8 +121,8 @@
       "ecu_address": "0x09",
       "ecu_name": "CENTRAL_ELEC",
       "protocol": "UDS (ISO 14229)",
-      "read_op": "2250c4",
-      "write_op": "2E50c4",
+      "read_op": "2250C4",
+      "write_op": "2E50C4",
       "security": "None"
     },
     {
@@ -133,8 +133,8 @@
       "ecu_address": "0x09",
       "ecu_name": "CENTRAL_ELEC",
       "protocol": "UDS (ISO 14229)",
-      "read_op": "2250c5",
-      "write_op": "2E50c5",
+      "read_op": "2250C5",
+      "write_op": "2E50C5",
       "security": "None"
     },
     {
@@ -145,8 +145,8 @@
       "ecu_address": "0x09",
       "ecu_name": "CENTRAL_ELEC",
       "protocol": "UDS (ISO 14229)",
-      "read_op": "2250c5",
-      "write_op": "2E50c5",
+      "read_op": "2250C5",
+      "write_op": "2E50C5",
       "security": "None"
     },
     {
@@ -157,8 +157,8 @@
       "ecu_address": "0x09",
       "ecu_name": "CENTRAL_ELEC",
       "protocol": "UDS (ISO 14229)",
-      "read_op": "2250c5",
-      "write_op": "2E50c5",
+      "read_op": "2250C5",
+      "write_op": "2E50C5",
       "security": "None"
     },
     {
@@ -169,8 +169,8 @@
       "ecu_address": "0x09",
       "ecu_name": "CENTRAL_ELEC",
       "protocol": "UDS (ISO 14229)",
-      "read_op": "2250c5",
-      "write_op": "2E50c5",
+      "read_op": "2250C5",
+      "write_op": "2E50C5",
       "security": "None"
     },
     {
@@ -181,8 +181,8 @@
       "ecu_address": "0x09",
       "ecu_name": "CENTRAL_ELEC",
       "protocol": "UDS (ISO 14229)",
-      "read_op": "2250c4",
-      "write_op": "2E50c4",
+      "read_op": "2250C4",
+      "write_op": "2E50C4",
       "security": "None"
     },
     {
@@ -193,8 +193,8 @@
       "ecu_address": "0x09",
       "ecu_name": "CENTRAL_ELEC",
       "protocol": "UDS (ISO 14229)",
-      "read_op": "2250c4",
-      "write_op": "2E50c4",
+      "read_op": "2250C4",
+      "write_op": "2E50C4",
       "security": "None"
     },
     {
@@ -205,8 +205,8 @@
       "ecu_address": "0x09",
       "ecu_name": "CENTRAL_ELEC",
       "protocol": "UDS (ISO 14229)",
-      "read_op": "2250c4",
-      "write_op": "2E50c4",
+      "read_op": "2250C4",
+      "write_op": "2E50C4",
       "security": "None"
     },
     {
@@ -228,7 +228,7 @@
       "category": "Mirrors",
       "ecu_address": "0x52",
       "ecu_name": "DOOR_PASSENGER",
-      "protocol": "KWP2000 / TP2.0 / CAN",
+      "protocol": "UDS (ISO 14229)",
       "read_op": "22F1A3",
       "write_op": "2EF1A3",
       "security": "None"
@@ -253,8 +253,8 @@
       "ecu_address": "0x09",
       "ecu_name": "CENTRAL_ELEC",
       "protocol": "UDS (ISO 14229)",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
+      "read_op": "22D0D",
+      "write_op": "2ED0D",
       "security": "None"
     },
     {
@@ -265,20 +265,8 @@
       "ecu_address": "0x09",
       "ecu_name": "CENTRAL_ELEC",
       "protocol": "UDS (ISO 14229)",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0035_AUTO_FOLD_MIRRORS_REMOTE_MODE",
-      "internal_name": "car_setting_auto_fold_mirrors_remote_mode",
-      "user_visible_name": "Auto fold mirrors via\u2026",
-      "category": "Mirrors",
-      "ecu_address": "0x09",
-      "ecu_name": "CENTRAL_ELEC",
-      "protocol": "UDS (ISO 14229)",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
+      "read_op": "22A6E",
+      "write_op": "2EA6E",
       "security": "None"
     },
     {
@@ -286,9 +274,9 @@
       "internal_name": "car_setting_auto_headlights_above_140_kph",
       "user_visible_name": "Auto Headlights Above 140 Kph",
       "category": "Lights: Automatic",
-      "ecu_address": "0x37",
-      "ecu_name": "NAVIGATION",
-      "protocol": "KWP2000 / TP2.0 / CAN",
+      "ecu_address": "0x09",
+      "ecu_name": "CENTRAL_ELEC",
+      "protocol": "UDS (ISO 14229)",
       "read_op": "22F1A3",
       "write_op": "2EF1A3",
       "security": "None"
@@ -298,11 +286,11 @@
       "internal_name": "car_setting_auto_lock_when_moving",
       "user_visible_name": "Auto-lock doors when moving",
       "category": "Locking: Automatic",
-      "ecu_address": "0x46",
-      "ecu_name": "CENTRAL_CONVENIENCE",
+      "ecu_address": "0x09",
+      "ecu_name": "CENTRAL_ELEC",
       "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "KWP_READ_Channel_1",
-      "write_op": "KWP_WRITE_Channel_1",
+      "read_op": "22F1A3",
+      "write_op": "2EF1A3",
       "security": "None"
     },
     {
@@ -310,11 +298,11 @@
       "internal_name": "car_setting_auto_unlock",
       "user_visible_name": "Auto-unlock doors when key is taken out of ignition",
       "category": "Locking: Automatic",
-      "ecu_address": "0x46",
-      "ecu_name": "CENTRAL_CONVENIENCE",
+      "ecu_address": "0x09",
+      "ecu_name": "CENTRAL_ELEC",
       "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "KWP_READ_Channel_5",
-      "write_op": "KWP_WRITE_Channel_5",
+      "read_op": "22F1A3",
+      "write_op": "2EF1A3",
       "security": "None"
     },
     {
@@ -337,8 +325,8 @@
       "ecu_address": "0x18",
       "ecu_name": "AUX_HEAT",
       "protocol": "UDS (ISO 14229)",
-      "read_op": "22b3d",
-      "write_op": "2Eb3d",
+      "read_op": "22B3D",
+      "write_op": "2EB3D",
       "security": "None"
     },
     {
@@ -349,8 +337,8 @@
       "ecu_address": "0x17",
       "ecu_name": "INSTRUMENT_CLUSTER",
       "protocol": "UDS (ISO 14229)",
-      "read_op": "2222dc",
-      "write_op": "2E22dc",
+      "read_op": "2222DC",
+      "write_op": "2E22DC",
       "security": "None"
     },
     {
@@ -366,49 +354,13 @@
       "security": "None"
     },
     {
-      "id": "FEAT_0073_BEEP_ON_LOCK_KEY",
-      "internal_name": "car_setting_beep_on_lock_key",
-      "user_visible_name": "Beep when locking with key",
-      "category": "Locking: Beep & Blink",
-      "ecu_address": "0x46",
-      "ecu_name": "CENTRAL_CONVENIENCE",
-      "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
-      "security": "None"
-    },
-    {
       "id": "FEAT_0074_BEEP_ON_LOCK_REMOTE",
       "internal_name": "car_setting_beep_on_lock_remote",
       "user_visible_name": "Beep when locking with remote",
       "category": "Locking: Beep & Blink",
-      "ecu_address": "0x46",
-      "ecu_name": "CENTRAL_CONVENIENCE",
+      "ecu_address": "0x09",
+      "ecu_name": "CENTRAL_ELEC",
       "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0075_BEEP_ON_LOCK_UNLOCK_REMOTE_DURATION_HORN_ONLY",
-      "internal_name": "car_setting_beep_on_lock_unlock_remote_duration_horn_only",
-      "user_visible_name": "Duration of beep when locking/unlocking with remote (horn only)",
-      "category": "Locking: Beep & Blink",
-      "ecu_address": "0x09",
-      "ecu_name": "CENTRAL_ELEC",
-      "protocol": "UDS (ISO 14229)",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0078_BLIND_SPOT_INDICATORS_BRIGHTNESS",
-      "internal_name": "car_setting_blind_spot_indicators_brightness",
-      "user_visible_name": "Blind spot indicators brightness",
-      "category": "Other",
-      "ecu_address": "0x09",
-      "ecu_name": "CENTRAL_ELEC",
-      "protocol": "UDS (ISO 14229)",
       "read_op": "22F1A3",
       "write_op": "2EF1A3",
       "security": "None"
@@ -421,42 +373,6 @@
       "ecu_address": "0x09",
       "ecu_name": "CENTRAL_ELEC",
       "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "KWP_READ_Channel_12",
-      "write_op": "KWP_WRITE_Channel_12",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0086_BRAKE_DISC_DRYING",
-      "internal_name": "car_setting_brake_disc_drying",
-      "user_visible_name": "Brake Disc Drying",
-      "category": "Other",
-      "ecu_address": "0x03",
-      "ecu_name": "ABS",
-      "protocol": "UDS (ISO 14229)",
-      "read_op": "22e0c",
-      "write_op": "2Ee0c",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0087_BULB_CHECK_ALL_LIGHTS",
-      "internal_name": "car_setting_bulb_check_all_lights",
-      "user_visible_name": "Bulb Check All Lights",
-      "category": "Lights: Bulb Checks",
-      "ecu_address": "0x09",
-      "ecu_name": "CENTRAL_ELEC",
-      "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0088_BULB_CHECK_DAYTIME_RUNNING_LIGHTS_LEFT_LIGHTS",
-      "internal_name": "car_setting_bulb_check_daytime_running_lights_left_lights",
-      "user_visible_name": "Bulb check: daytime running lights (left)",
-      "category": "Lights: Daytime Running Lights (DRL)",
-      "ecu_address": "0x09",
-      "ecu_name": "CENTRAL_ELEC",
-      "protocol": "UDS (ISO 14229)",
       "read_op": "22F1A3",
       "write_op": "2EF1A3",
       "security": "None"
@@ -474,54 +390,6 @@
       "security": "None"
     },
     {
-      "id": "FEAT_0093_CHANNEL_195",
-      "internal_name": "car_setting_channel_195",
-      "user_visible_name": "Channel 195",
-      "category": "Other",
-      "ecu_address": "0x46",
-      "ecu_name": "CENTRAL_CONVENIENCE",
-      "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "KWP_READ_Channel_195",
-      "write_op": "KWP_WRITE_Channel_195",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0094_CHANNEL_196",
-      "internal_name": "car_setting_channel_196",
-      "user_visible_name": "Channel 196",
-      "category": "Other",
-      "ecu_address": "0x46",
-      "ecu_name": "CENTRAL_CONVENIENCE",
-      "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "KWP_READ_Channel_196",
-      "write_op": "KWP_WRITE_Channel_196",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0095_CHANNEL_197",
-      "internal_name": "car_setting_channel_197",
-      "user_visible_name": "Channel 197",
-      "category": "Other",
-      "ecu_address": "0x46",
-      "ecu_name": "CENTRAL_CONVENIENCE",
-      "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "KWP_READ_Channel_197",
-      "write_op": "KWP_WRITE_Channel_197",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0096_CHANNEL_198",
-      "internal_name": "car_setting_channel_198",
-      "user_visible_name": "Channel 198",
-      "category": "Other",
-      "ecu_address": "0x46",
-      "ecu_name": "CENTRAL_CONVENIENCE",
-      "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "KWP_READ_Channel_198",
-      "write_op": "KWP_WRITE_Channel_198",
-      "security": "None"
-    },
-    {
       "id": "FEAT_0098_COMFORT_CLOSE_SUNROOF_KEY",
       "internal_name": "car_setting_comfort_close_sunroof_key",
       "user_visible_name": "Close sunroof by turning and holding key in door lock",
@@ -529,8 +397,8 @@
       "ecu_address": "0x46",
       "ecu_name": "CENTRAL_CONVENIENCE",
       "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
+      "read_op": "KWP_READ_CH_62",
+      "write_op": "KWP_WRITE_CH_62",
       "security": "None"
     },
     {
@@ -553,8 +421,8 @@
       "ecu_address": "0x46",
       "ecu_name": "CENTRAL_CONVENIENCE",
       "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
+      "read_op": "KWP_READ_CH_61",
+      "write_op": "KWP_WRITE_CH_61",
       "security": "None"
     },
     {
@@ -562,8 +430,8 @@
       "internal_name": "car_setting_comfort_open_sunroof_remote",
       "user_visible_name": "Open sunroof via long-press on remote",
       "category": "Windows & Sunroof",
-      "ecu_address": "0x46",
-      "ecu_name": "CENTRAL_CONVENIENCE",
+      "ecu_address": "0x09",
+      "ecu_name": "CENTRAL_ELEC",
       "protocol": "KWP2000 / TP2.0 / CAN",
       "read_op": "22F1A3",
       "write_op": "2EF1A3",
@@ -577,8 +445,8 @@
       "ecu_address": "0x46",
       "ecu_name": "CENTRAL_CONVENIENCE",
       "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
+      "read_op": "KWP_READ_CH_61",
+      "write_op": "KWP_WRITE_CH_61",
       "security": "None"
     },
     {
@@ -588,21 +456,9 @@
       "category": "Other",
       "ecu_address": "0x09",
       "ecu_name": "CENTRAL_ELEC",
-      "protocol": "UDS (ISO 14229)",
+      "protocol": "KWP2000 / TP2.0 / CAN",
       "read_op": "22F1A3",
       "write_op": "2EF1A3",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0113_COMFORT_TURN_SIGNAL_COUNT",
-      "internal_name": "car_setting_comfort_turn_signal_count",
-      "user_visible_name": "Lane-change turn signal auto-flasher count",
-      "category": "Lights: Exterior",
-      "ecu_address": "0x09",
-      "ecu_name": "CENTRAL_ELEC",
-      "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "KWP_READ_Channel_4",
-      "write_op": "KWP_WRITE_Channel_4",
       "security": "None"
     },
     {
@@ -613,32 +469,8 @@
       "ecu_address": "0x09",
       "ecu_name": "CENTRAL_ELEC",
       "protocol": "UDS (ISO 14229)",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0116_COMING_HOME_DURATION",
-      "internal_name": "car_setting_coming_home_duration",
-      "user_visible_name": "Coming-home lights duration",
-      "category": "Lights: Coming/Leaving Home",
-      "ecu_address": "0x09",
-      "ecu_name": "CENTRAL_ELEC",
-      "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "KWP_READ_Channel_55",
-      "write_op": "KWP_WRITE_Channel_55",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0117_COMING_HOME_MODE",
-      "internal_name": "car_setting_coming_home_mode",
-      "user_visible_name": "Coming-home lights mode",
-      "category": "Lights: Coming/Leaving Home",
-      "ecu_address": "0x09",
-      "ecu_name": "CENTRAL_ELEC",
-      "protocol": "UDS (ISO 14229)",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
+      "read_op": "22A57",
+      "write_op": "2EA57",
       "security": "None"
     },
     {
@@ -649,20 +481,8 @@
       "ecu_address": "0x09",
       "ecu_name": "CENTRAL_ELEC",
       "protocol": "UDS (ISO 14229)",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0119_COMING_LEAVING_HOME_OUTPUT",
-      "internal_name": "car_setting_coming_leaving_home_output",
-      "user_visible_name": "Coming/leaving-home lights use\u2026",
-      "category": "Lights: Coming/Leaving Home",
-      "ecu_address": "0x09",
-      "ecu_name": "CENTRAL_ELEC",
-      "protocol": "UDS (ISO 14229)",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
+      "read_op": "22A57",
+      "write_op": "2EA57",
       "security": "None"
     },
     {
@@ -678,30 +498,6 @@
       "security": "None"
     },
     {
-      "id": "FEAT_0122_CORNERING_LIGHTS_VIA_FOGS_LEFT",
-      "internal_name": "car_setting_cornering_lights_via_fogs_left",
-      "user_visible_name": "Left cornering light (using fog light)",
-      "category": "Lights: Exterior",
-      "ecu_address": "0x09",
-      "ecu_name": "CENTRAL_ELEC",
-      "protocol": "UDS (ISO 14229)",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0123_COUNTRY",
-      "internal_name": "car_setting_country",
-      "user_visible_name": "Instrument cluster region (affects ext. lights too)",
-      "category": "Other",
-      "ecu_address": "0x17",
-      "ecu_name": "INSTRUMENT_CLUSTER",
-      "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
-      "security": "None"
-    },
-    {
       "id": "FEAT_0125_DEVELOPER_MENU",
       "internal_name": "car_setting_developer_menu",
       "user_visible_name": "Developer menu screen in MMI via holding MENU for ~10 seconds (req. Discover Pro)",
@@ -709,8 +505,8 @@
       "ecu_address": "0x5F",
       "ecu_name": "INFOTAINMENT",
       "protocol": "UDS (ISO 14229)",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
+      "read_op": "22243F",
+      "write_op": "2E243F",
       "security": "None"
     },
     {
@@ -720,19 +516,7 @@
       "category": "Dings & Warnings",
       "ecu_address": "0x17",
       "ecu_name": "INSTRUMENT_CLUSTER",
-      "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0137_DISABLE_US_MARKER_LIGHTS",
-      "internal_name": "car_setting_disable_us_marker_lights",
-      "user_visible_name": "Disable US side marker lights (US models only)",
-      "category": "Other",
-      "ecu_address": "0x09",
-      "ecu_name": "CENTRAL_ELEC",
-      "protocol": "KWP2000 / TP2.0 / CAN",
+      "protocol": "UDS (ISO 14229)",
       "read_op": "22F1A3",
       "write_op": "2EF1A3",
       "security": "None"
@@ -757,8 +541,8 @@
       "ecu_address": "0x5F",
       "ecu_name": "INFOTAINMENT",
       "protocol": "UDS (ISO 14229)",
-      "read_op": "2222ad",
-      "write_op": "2E22ad",
+      "read_op": "2222AD",
+      "write_op": "2E22AD",
       "security": "None"
     },
     {
@@ -769,42 +553,6 @@
       "ecu_address": "0x09",
       "ecu_name": "CENTRAL_ELEC",
       "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0148_DRL_BRIGHTNESS",
-      "internal_name": "car_setting_drl_brightness",
-      "user_visible_name": "Daytime running lights (DRL) brightness",
-      "category": "Lights: Daytime Running Lights (DRL)",
-      "ecu_address": "0x09",
-      "ecu_name": "CENTRAL_ELEC",
-      "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0149_DRL_BRIGHTNESS_WHEN_HEADLIGHTS_ARE_ON",
-      "internal_name": "car_setting_drl_brightness_when_headlights_are_on",
-      "user_visible_name": "Daytime running lights (DRL) brightness when headlights are on",
-      "category": "Lights: Daytime Running Lights (DRL)",
-      "ecu_address": "0x09",
-      "ecu_name": "CENTRAL_ELEC",
-      "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "KWP_READ_Channel_100",
-      "write_op": "KWP_WRITE_Channel_100",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0155_DRL_VIA",
-      "internal_name": "car_setting_drl_via",
-      "user_visible_name": "Daytime running lights (DRL) use\u2026",
-      "category": "Lights: Daytime Running Lights (DRL)",
-      "ecu_address": "0x19",
-      "ecu_name": "CAN_GATEWAY",
-      "protocol": "UDS (ISO 14229)",
       "read_op": "22F1A3",
       "write_op": "2EF1A3",
       "security": "None"
@@ -822,36 +570,12 @@
       "security": "None"
     },
     {
-      "id": "FEAT_0169_DSR_STRENGTH",
-      "internal_name": "car_setting_dsr_strength",
-      "user_visible_name": "Driver steering recommendation (DSR) strength",
-      "category": "Other",
-      "ecu_address": "0x03",
-      "ecu_name": "ABS",
-      "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "KWP_READ_Channel_2",
-      "write_op": "KWP_WRITE_Channel_2",
-      "security": "None"
-    },
-    {
       "id": "FEAT_0170_DYNAMIC_LIGHT_ASSIST",
       "internal_name": "car_setting_dynamic_light_assist",
       "user_visible_name": "Dynamic Light Assist",
       "category": "Other",
       "ecu_address": "0xA5",
       "ecu_name": "FRONT_SENSOR_DRIVER_ASSIST",
-      "protocol": "UDS (ISO 14229)",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0171_DYNAMIC_START_UP_ASSIST",
-      "internal_name": "car_setting_dynamic_start_up_assist",
-      "user_visible_name": "Dynamic start assist",
-      "category": "Other",
-      "ecu_address": "0x03",
-      "ecu_name": "ABS",
       "protocol": "UDS (ISO 14229)",
       "read_op": "22F1A3",
       "write_op": "2EF1A3",
@@ -870,60 +594,12 @@
       "security": "None"
     },
     {
-      "id": "FEAT_0177_ELECTRONIC_DIFF_LOCK_STRENGTH",
-      "internal_name": "car_setting_electronic_diff_lock_strength",
-      "user_visible_name": "Electronic differential lock strength",
-      "category": "Other",
-      "ecu_address": "0x03",
-      "ecu_name": "ABS",
-      "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "KWP_READ_Channel_2",
-      "write_op": "KWP_WRITE_Channel_2",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0178_ELECTRONIC_DIFF_LOCK_STRENGTH_XDS",
-      "internal_name": "car_setting_electronic_diff_lock_strength_xds",
-      "user_visible_name": "Extended electronic differential lock strength (XDS)",
-      "category": "Other",
-      "ecu_address": "0x03",
-      "ecu_name": "ABS",
-      "protocol": "UDS (ISO 14229)",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
-      "security": "None"
-    },
-    {
       "id": "FEAT_0180_EMERGENCY_BRAKE_FLASHING_VIA_TURN_SIGNALS",
       "internal_name": "car_setting_emergency_brake_flashing_via_turn_signals",
       "user_visible_name": "Flash hazard lights in emergency stopping",
       "category": "Lights: Exterior",
       "ecu_address": "0x09",
       "ecu_name": "CENTRAL_ELEC",
-      "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0183_ESC_ASR",
-      "internal_name": "car_setting_esc_asr",
-      "user_visible_name": "ESC / ASR",
-      "category": "Other",
-      "ecu_address": "0x03",
-      "ecu_name": "ABS",
-      "protocol": "UDS (ISO 14229)",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0184_ESC_ASR_BUTTON_BEHAVIOR",
-      "internal_name": "car_setting_esc_asr_button_behavior",
-      "user_visible_name": "ESC / ASR button behavior",
-      "category": "Other",
-      "ecu_address": "0x03",
-      "ecu_name": "ABS",
       "protocol": "KWP2000 / TP2.0 / CAN",
       "read_op": "22F1A3",
       "write_op": "2EF1A3",
@@ -937,20 +613,8 @@
       "ecu_address": "0x09",
       "ecu_name": "CENTRAL_ELEC",
       "protocol": "UDS (ISO 14229)",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0197_FOOTWELL_LIGHTS_BRIGHTNESS_NO_EXT_LIGHT_PACK",
-      "internal_name": "car_setting_footwell_lights_brightness_no_ext_light_pack",
-      "user_visible_name": "Footwell lights brightness (for cars without extended lighting package)",
-      "category": "Lights: Interior",
-      "ecu_address": "0x09",
-      "ecu_name": "CENTRAL_ELEC",
-      "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "KWP_READ_Channel_1",
-      "write_op": "KWP_WRITE_Channel_1",
+      "read_op": "22D03",
+      "write_op": "2ED03",
       "security": "None"
     },
     {
@@ -972,93 +636,9 @@
       "category": "Wipers & Washer",
       "ecu_address": "0x09",
       "ecu_name": "CENTRAL_ELEC",
-      "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "22a72",
-      "write_op": "2Ea72",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0205_FUEL_TANK_CAPACITY_CALIBRATION",
-      "internal_name": "car_setting_fuel_tank_capacity_calibration",
-      "user_visible_name": "Fuel Tank Capacity Calibration",
-      "category": "Other",
-      "ecu_address": "0x17",
-      "ecu_name": "INSTRUMENT_CLUSTER",
-      "protocol": "UDS (ISO 14229)",
-      "read_op": "222289",
-      "write_op": "2E2289",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0209_HALDEX_SETUP",
-      "internal_name": "car_setting_haldex_setup",
-      "user_visible_name": "Haldex AWD system setup",
-      "category": "Other",
-      "ecu_address": "0x22",
-      "ecu_name": "AWD",
       "protocol": "UDS (ISO 14229)",
       "read_op": "22F1A3",
       "write_op": "2EF1A3",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0215_HIDDEN_MENU_CAR_SETUP",
-      "internal_name": "car_setting_hidden_menu_car_setup",
-      "user_visible_name": "Hidden (green) menu in dash screen via holding CAR + SETUP (req. restart)",
-      "category": "Other",
-      "ecu_address": "0x37",
-      "ecu_name": "NAVIGATION",
-      "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "KWP_READ_Channel_50",
-      "write_op": "KWP_WRITE_Channel_50",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0217_HIGH_BEAM_ASSIST_AUTO",
-      "internal_name": "car_setting_high_beam_assist_auto",
-      "user_visible_name": "High beam assist auto",
-      "category": "Lights: Exterior",
-      "ecu_address": "0x09",
-      "ecu_name": "CENTRAL_ELEC",
-      "protocol": "UDS (ISO 14229)",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0220_HILL_HOLD_RELEASE",
-      "internal_name": "car_setting_hill_hold_release",
-      "user_visible_name": "Hill hold assist release",
-      "category": "Other",
-      "ecu_address": "0x03",
-      "ecu_name": "ABS",
-      "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "KWP_READ_Channel_2",
-      "write_op": "KWP_WRITE_Channel_2",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0222_HORN_BEEPS_COUNT_LOCK",
-      "internal_name": "car_setting_horn_beeps_count_lock",
-      "user_visible_name": "Horn Beeps Count Lock",
-      "category": "Locking: Beep & Blink",
-      "ecu_address": "0x46",
-      "ecu_name": "CENTRAL_CONVENIENCE",
-      "protocol": "UDS (ISO 14229)",
-      "read_op": "225bc",
-      "write_op": "2E5bc",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0223_HORN_BEEPS_COUNT_UNLOCK",
-      "internal_name": "car_setting_horn_beeps_count_unlock",
-      "user_visible_name": "Horn Beeps Count Unlock",
-      "category": "Locking: Beep & Blink",
-      "ecu_address": "0x46",
-      "ecu_name": "CENTRAL_CONVENIENCE",
-      "protocol": "UDS (ISO 14229)",
-      "read_op": "225bc",
-      "write_op": "2E5bc",
       "security": "None"
     },
     {
@@ -1069,30 +649,6 @@
       "ecu_address": "0x09",
       "ecu_name": "CENTRAL_ELEC",
       "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0225_ICE_WARNING_THRESHOLD_ON_EXIT",
-      "internal_name": "car_setting_ice_warning_threshold_on_exit",
-      "user_visible_name": "Ice warning temperature threshold (when exiting the vehicle)",
-      "category": "Dings & Warnings",
-      "ecu_address": "0x5F",
-      "ecu_name": "INFOTAINMENT",
-      "protocol": "UDS (ISO 14229)",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0226_INDIVIDUALLY_ADJUSTABLE_SPEED_LIMIT",
-      "internal_name": "car_setting_individually_adjustable_speed_limit",
-      "user_visible_name": "Individually adjustable speed limit",
-      "category": "Other",
-      "ecu_address": "0x01",
-      "ecu_name": "ENGINE",
-      "protocol": "UDS (ISO 14229)",
       "read_op": "22F1A3",
       "write_op": "2EF1A3",
       "security": "None"
@@ -1110,36 +666,12 @@
       "security": "None"
     },
     {
-      "id": "FEAT_0229_INSTR_NEEDLE_SWEEP_LAP_TIMER_UPSHIFT_INDICATOR_SOME_MODULES_ONLY",
-      "internal_name": "car_setting_instr_needle_sweep_lap_timer_upshift_indicator_some_modules_only",
-      "user_visible_name": "Instr Needle Sweep Lap Timer Upshift Indicator Some Modules Only",
-      "category": "Instruments: Displays & Nav",
-      "ecu_address": "0x17",
-      "ecu_name": "INSTRUMENT_CLUSTER",
-      "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "KWP_READ_Channel_36",
-      "write_op": "KWP_WRITE_Channel_36",
-      "security": "None"
-    },
-    {
       "id": "FEAT_0251_KEYLESS_ENTRY_IN_INFOTAINMENT",
       "internal_name": "car_setting_keyless_entry_in_infotainment",
       "user_visible_name": "Keyless Entry In Infotainment",
       "category": "Locking: Smart Key (KESSY)",
       "ecu_address": "0x46",
       "ecu_name": "CENTRAL_CONVENIENCE",
-      "protocol": "UDS (ISO 14229)",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0252_LANGUAGE",
-      "internal_name": "car_setting_language",
-      "user_visible_name": "Instrument cluster language",
-      "category": "Instruments: Language & Units",
-      "ecu_address": "0x17",
-      "ecu_name": "INSTRUMENT_CLUSTER",
       "protocol": "UDS (ISO 14229)",
       "read_op": "22F1A3",
       "write_op": "2EF1A3",
@@ -1155,18 +687,6 @@
       "protocol": "KWP2000 / TP2.0 / CAN",
       "read_op": "22F1A3",
       "write_op": "2EF1A3",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0257_LEAVING_HOME_DURATION",
-      "internal_name": "car_setting_leaving_home_duration",
-      "user_visible_name": "Leaving-home lights duration",
-      "category": "Lights: Coming/Leaving Home",
-      "ecu_address": "0x09",
-      "ecu_name": "CENTRAL_ELEC",
-      "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "KWP_READ_Channel_60",
-      "write_op": "KWP_WRITE_Channel_60",
       "security": "None"
     },
     {
@@ -1189,8 +709,8 @@
       "ecu_address": "0x19",
       "ecu_name": "CAN_GATEWAY",
       "protocol": "UDS (ISO 14229)",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
+      "read_op": "224FF",
+      "write_op": "2E4FF",
       "security": "None"
     },
     {
@@ -1237,8 +757,8 @@
       "ecu_address": "0x09",
       "ecu_name": "CENTRAL_ELEC",
       "protocol": "UDS (ISO 14229)",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
+      "read_op": "22D0D",
+      "write_op": "2ED0D",
       "security": "None"
     },
     {
@@ -1246,8 +766,8 @@
       "internal_name": "car_setting_lower_mirror_in_reverse_req_memory_seats",
       "user_visible_name": "Lower passenger-side mirror when in reverse gear (req. memory seats)",
       "category": "Mirrors",
-      "ecu_address": "0x46",
-      "ecu_name": "CENTRAL_CONVENIENCE",
+      "ecu_address": "0x09",
+      "ecu_name": "CENTRAL_ELEC",
       "protocol": "KWP2000 / TP2.0 / CAN",
       "read_op": "22F1A3",
       "write_op": "2EF1A3",
@@ -1297,8 +817,8 @@
       "ecu_address": "0x6D",
       "ecu_name": "TRUNK",
       "protocol": "UDS (ISO 14229)",
-      "read_op": "2250af",
-      "write_op": "2E50af",
+      "read_op": "2250AF",
+      "write_op": "2E50AF",
       "security": "None"
     },
     {
@@ -1318,35 +838,11 @@
       "internal_name": "car_setting_pop_trunk_remote",
       "user_visible_name": "Pop trunk via remote",
       "category": "Trunk",
-      "ecu_address": "0x46",
-      "ecu_name": "CENTRAL_CONVENIENCE",
-      "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0312_POWER_STEERING_DEFAULT_MODE",
-      "internal_name": "car_setting_power_steering_default_mode",
-      "user_visible_name": "Power steering default mode",
-      "category": "Other",
-      "ecu_address": "0x44",
-      "ecu_name": "STEERING_ASSIST",
+      "ecu_address": "0x09",
+      "ecu_name": "CENTRAL_ELEC",
       "protocol": "UDS (ISO 14229)",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0313_POWER_STEERING_WEIGHT_PRESET",
-      "internal_name": "car_setting_power_steering_weight_preset",
-      "user_visible_name": "Power steering weight preset",
-      "category": "Other",
-      "ecu_address": "0x44",
-      "ecu_name": "STEERING_ASSIST",
-      "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "KWP_READ_Channel_1",
-      "write_op": "KWP_WRITE_Channel_1",
+      "read_op": "22D08",
+      "write_op": "2ED08",
       "security": "None"
     },
     {
@@ -1365,18 +861,6 @@
       "id": "FEAT_0319_RAIN_SENSOR_WIPERS",
       "internal_name": "car_setting_rain_sensor_wipers",
       "user_visible_name": "Automatic wipers (using rain sensor)",
-      "category": "Wipers & Washer",
-      "ecu_address": "0x09",
-      "ecu_name": "CENTRAL_ELEC",
-      "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0325_REAR_WIPER_CONTINUOUS",
-      "internal_name": "car_setting_rear_wiper_continuous",
-      "user_visible_name": "Rear Wiper Continuous",
       "category": "Wipers & Washer",
       "ecu_address": "0x09",
       "ecu_name": "CENTRAL_ELEC",
@@ -1498,8 +982,8 @@
       "internal_name": "car_setting_remote_with_ignition",
       "user_visible_name": "Enable remote control buttons when ignition is on",
       "category": "Other",
-      "ecu_address": "0x46",
-      "ecu_name": "CENTRAL_CONVENIENCE",
+      "ecu_address": "0x09",
+      "ecu_name": "CENTRAL_ELEC",
       "protocol": "KWP2000 / TP2.0 / CAN",
       "read_op": "22F1A3",
       "write_op": "2EF1A3",
@@ -1512,33 +996,9 @@
       "category": "Service Tools",
       "ecu_address": "0x53",
       "ecu_name": "PARKING_BRAKE",
-      "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "KWP_READ_Channel_4",
-      "write_op": "KWP_WRITE_Channel_4",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0337_REQ_SEAT_BELT_WHEN_RELEASING_EPB",
-      "internal_name": "car_setting_req_seat_belt_when_releasing_epb",
-      "user_visible_name": "Require seat belt when releasing parking brake",
-      "category": "Dings & Warnings",
-      "ecu_address": "0x53",
-      "ecu_name": "PARKING_BRAKE",
       "protocol": "UDS (ISO 14229)",
-      "read_op": "22506",
-      "write_op": "2E506",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0339_REVERSE_BEEP",
-      "internal_name": "car_setting_reverse_beep",
-      "user_visible_name": "Reverse gear beep",
-      "category": "Locking: Beep & Blink",
-      "ecu_address": "0x17",
-      "ecu_name": "INSTRUMENT_CLUSTER",
-      "protocol": "UDS (ISO 14229)",
-      "read_op": "22acb",
-      "write_op": "2Eacb",
+      "read_op": "22502",
+      "write_op": "2E502",
       "security": "None"
     },
     {
@@ -1549,18 +1009,6 @@
       "ecu_address": "0x09",
       "ecu_name": "CENTRAL_ELEC",
       "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0342_SEAT_BELT_WARN_TYPE",
-      "internal_name": "car_setting_seat_belt_warn_type",
-      "user_visible_name": "Seat belt warning type",
-      "category": "Dings & Warnings",
-      "ecu_address": "0x17",
-      "ecu_name": "INSTRUMENT_CLUSTER",
-      "protocol": "UDS (ISO 14229)",
       "read_op": "22F1A3",
       "write_op": "2EF1A3",
       "security": "None"
@@ -1590,42 +1038,6 @@
       "security": "None"
     },
     {
-      "id": "FEAT_0356_SIDE_MARKER_BRIGHTNESS",
-      "internal_name": "car_setting_side_marker_brightness",
-      "user_visible_name": "Side marker brightness",
-      "category": "Lights: Exterior",
-      "ecu_address": "0x09",
-      "ecu_name": "CENTRAL_ELEC",
-      "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0357_SIDE_MARKER_PACE_CAR_LEFT",
-      "internal_name": "car_setting_side_marker_pace_car_left",
-      "user_visible_name": "\"Pace-car\" turn signals (left)",
-      "category": "Lights: Exterior",
-      "ecu_address": "0x09",
-      "ecu_name": "CENTRAL_ELEC",
-      "protocol": "UDS (ISO 14229)",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0358_SIDE_MARKER_PACE_CAR_RIGHT",
-      "internal_name": "car_setting_side_marker_pace_car_right",
-      "user_visible_name": "\"Pace-car\" turn signals (right)",
-      "category": "Lights: Exterior",
-      "ecu_address": "0x09",
-      "ecu_name": "CENTRAL_ELEC",
-      "protocol": "UDS (ISO 14229)",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
-      "security": "None"
-    },
-    {
       "id": "FEAT_0368_SPEED_DIGITAL_DISPLAY",
       "internal_name": "car_setting_speed_digital_display",
       "user_visible_name": "Show digital speed in dashboard (BC)",
@@ -1633,56 +1045,8 @@
       "ecu_address": "0x17",
       "ecu_name": "INSTRUMENT_CLUSTER",
       "protocol": "UDS (ISO 14229)",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0369_SPEEDOMETER_CALIBRATION",
-      "internal_name": "car_setting_speedometer_calibration",
-      "user_visible_name": "Speedometer calibration",
-      "category": "Other",
-      "ecu_address": "0x17",
-      "ecu_name": "INSTRUMENT_CLUSTER",
-      "protocol": "UDS (ISO 14229)",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0372_START_SCREEN",
-      "internal_name": "car_setting_start_screen",
-      "user_visible_name": "Start screen logo",
-      "category": "Other",
-      "ecu_address": "0x17",
-      "ecu_name": "INSTRUMENT_CLUSTER",
-      "protocol": "UDS (ISO 14229)",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0373_START_SCREEN_INFOTAINMENT",
-      "internal_name": "car_setting_start_screen_infotainment",
-      "user_visible_name": "Start screen logo (infotainment)",
-      "category": "Other",
-      "ecu_address": "0x37",
-      "ecu_name": "NAVIGATION",
-      "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0374_START_SCREEN_INSTRUMENT_CLUSTER",
-      "internal_name": "car_setting_start_screen_instrument_cluster",
-      "user_visible_name": "Start screen logo (instrument cluster)",
-      "category": "Instruments: Displays & Nav",
-      "ecu_address": "0x17",
-      "ecu_name": "INSTRUMENT_CLUSTER",
-      "protocol": "UDS (ISO 14229)",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
+      "read_op": "2222D9",
+      "write_op": "2E22D9",
       "security": "None"
     },
     {
@@ -1705,32 +1069,8 @@
       "ecu_address": "0x09",
       "ecu_name": "CENTRAL_ELEC",
       "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "KWP_READ_Channel_32",
-      "write_op": "KWP_WRITE_Channel_32",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0381_STATIC_SPEED_LIMIT",
-      "internal_name": "car_setting_static_speed_limit",
-      "user_visible_name": "Static speed limit",
-      "category": "Other",
-      "ecu_address": "0x01",
-      "ecu_name": "ENGINE",
-      "protocol": "UDS (ISO 14229)",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0385_SUNROOF_ACTION_VIA_REMOTE",
-      "internal_name": "car_setting_sunroof_action_via_remote",
-      "user_visible_name": "Sunroof action when opening via remote",
-      "category": "Windows & Sunroof",
-      "ecu_address": "0x46",
-      "ecu_name": "CENTRAL_CONVENIENCE",
-      "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
+      "read_op": "KWP_READ_CH_34",
+      "write_op": "KWP_WRITE_CH_34",
       "security": "None"
     },
     {
@@ -1738,11 +1078,11 @@
       "internal_name": "car_setting_sunroof_rain_closing",
       "user_visible_name": "Auto-close sunroof when rain is detected (must have rain sensor)",
       "category": "Windows & Sunroof",
-      "ecu_address": "0x46",
-      "ecu_name": "CENTRAL_CONVENIENCE",
-      "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
+      "ecu_address": "0x09",
+      "ecu_name": "CENTRAL_ELEC",
+      "protocol": "UDS (ISO 14229)",
+      "read_op": "22D0D",
+      "write_op": "2ED0D",
       "security": "None"
     },
     {
@@ -1753,32 +1093,8 @@
       "ecu_address": "0x09",
       "ecu_name": "CENTRAL_ELEC",
       "protocol": "UDS (ISO 14229)",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0388_SURROUND_AND_SUBWOOFER_MENU_INFOTAINMENT",
-      "internal_name": "car_setting_surround_and_subwoofer_menu_infotainment",
-      "user_visible_name": "Surround And Subwoofer Menu Infotainment",
-      "category": "Other",
-      "ecu_address": "0x5F",
-      "ecu_name": "INFOTAINMENT",
-      "protocol": "UDS (ISO 14229)",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0393_THROTTLE_RESPONSE_BEHAVIOR",
-      "internal_name": "car_setting_throttle_response_behavior",
-      "user_visible_name": "Throttle response behavior",
-      "category": "Chassis & Engine",
-      "ecu_address": "0x44",
-      "ecu_name": "STEERING_ASSIST",
-      "protocol": "UDS (ISO 14229)",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
+      "read_op": "22D0D",
+      "write_op": "2ED0D",
       "security": "None"
     },
     {
@@ -1786,8 +1102,8 @@
       "internal_name": "car_setting_tpms_system",
       "user_visible_name": "TPMS system",
       "category": "Service Tools",
-      "ecu_address": "0x46",
-      "ecu_name": "CENTRAL_CONVENIENCE",
+      "ecu_address": "0x56",
+      "ecu_name": "RADIO",
       "protocol": "KWP2000 / TP2.0 / CAN",
       "read_op": "22F1A3",
       "write_op": "2EF1A3",
@@ -1801,8 +1117,8 @@
       "ecu_address": "0x5F",
       "ecu_name": "INFOTAINMENT",
       "protocol": "UDS (ISO 14229)",
-      "read_op": "22b3d",
-      "write_op": "2Eb3d",
+      "read_op": "22B3D",
+      "write_op": "2EB3D",
       "security": "None"
     },
     {
@@ -1813,8 +1129,8 @@
       "ecu_address": "0x5F",
       "ecu_name": "INFOTAINMENT",
       "protocol": "UDS (ISO 14229)",
-      "read_op": "22b3c",
-      "write_op": "2Eb3c",
+      "read_op": "22B3C",
+      "write_op": "2EB3C",
       "security": "None"
     },
     {
@@ -1854,30 +1170,6 @@
       "security": "None"
     },
     {
-      "id": "FEAT_0412_TRAFFIC_SIGN_RECOGNITION_STEP_6",
-      "internal_name": "car_setting_traffic_sign_recognition_step_6",
-      "user_visible_name": "Traffic Sign Recognition Step 6",
-      "category": "Driver Assist",
-      "ecu_address": "0xA5",
-      "ecu_name": "FRONT_SENSOR_DRIVER_ASSIST",
-      "protocol": "UDS (ISO 14229)",
-      "read_op": "223b63",
-      "write_op": "2E3b63",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0413_TRAFFIC_SIGN_RECOGNITION_THRESHOLD",
-      "internal_name": "car_setting_traffic_sign_recognition_threshold",
-      "user_visible_name": "Traffic Sign Recognition Threshold",
-      "category": "Driver Assist",
-      "ecu_address": "0x5F",
-      "ecu_name": "INFOTAINMENT",
-      "protocol": "UDS (ISO 14229)",
-      "read_op": "22b3c",
-      "write_op": "2Eb3c",
-      "security": "None"
-    },
-    {
       "id": "FEAT_0421_TURN_OFF_DRL_WITH_PARKING_BRAKE",
       "internal_name": "car_setting_turn_off_drl_with_parking_brake",
       "user_visible_name": "Turn off daytime running lights when parking brake is on",
@@ -1902,18 +1194,6 @@
       "security": "None"
     },
     {
-      "id": "FEAT_0431_UNITS_PRESSURE",
-      "internal_name": "car_setting_units_pressure",
-      "user_visible_name": "Pressure display units",
-      "category": "Instruments: Language & Units",
-      "ecu_address": "0x17",
-      "ecu_name": "INSTRUMENT_CLUSTER",
-      "protocol": "UDS (ISO 14229)",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
-      "security": "None"
-    },
-    {
       "id": "FEAT_0435_US_MARKER_LIGHTS",
       "internal_name": "car_setting_us_marker_lights",
       "user_visible_name": "Turn on side marker lights with headlights (US models only)",
@@ -1921,30 +1201,6 @@
       "ecu_address": "0x09",
       "ecu_name": "CENTRAL_ELEC",
       "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0454_VIRTUAL_COCKPIT_COLOR_1",
-      "internal_name": "car_setting_virtual_cockpit_color_1",
-      "user_visible_name": "Virtual instrument cluster theme - color 1",
-      "category": "Other",
-      "ecu_address": "0x09",
-      "ecu_name": "CENTRAL_ELEC",
-      "protocol": "UDS (ISO 14229)",
-      "read_op": "22ff0000",
-      "write_op": "2Eff0000",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0457_VIRTUAL_INSTRUMENT_CLUSTER_THEME",
-      "internal_name": "car_setting_virtual_instrument_cluster_theme",
-      "user_visible_name": "Virtual instrument cluster theme",
-      "category": "Instruments: Displays & Nav",
-      "ecu_address": "0x17",
-      "ecu_name": "INSTRUMENT_CLUSTER",
-      "protocol": "UDS (ISO 14229)",
       "read_op": "22F1A3",
       "write_op": "2EF1A3",
       "security": "None"
@@ -1992,7 +1248,7 @@
       "category": "Wipers & Washer",
       "ecu_address": "0x17",
       "ecu_name": "INSTRUMENT_CLUSTER",
-      "protocol": "KWP2000 / TP2.0 / CAN",
+      "protocol": "UDS (ISO 14229)",
       "read_op": "22F1A3",
       "write_op": "2EF1A3",
       "security": "None"
@@ -2005,8 +1261,8 @@
       "ecu_address": "0x09",
       "ecu_name": "CENTRAL_ELEC",
       "protocol": "UDS (ISO 14229)",
-      "read_op": "22d0d",
-      "write_op": "2Ed0d",
+      "read_op": "22D0D",
+      "write_op": "2ED0D",
       "security": "None"
     },
     {
@@ -2029,8 +1285,8 @@
       "ecu_address": "0x5F",
       "ecu_name": "INFOTAINMENT",
       "protocol": "UDS (ISO 14229)",
-      "read_op": "2222ad",
-      "write_op": "2E22ad",
+      "read_op": "2222AD",
+      "write_op": "2E22AD",
       "security": "None"
     },
     {
@@ -2041,8 +1297,8 @@
       "ecu_address": "0x5F",
       "ecu_name": "INFOTAINMENT",
       "protocol": "UDS (ISO 14229)",
-      "read_op": "22b43",
-      "write_op": "2Eb43",
+      "read_op": "22B43",
+      "write_op": "2EB43",
       "security": "None"
     },
     {
@@ -2053,8 +1309,8 @@
       "ecu_address": "0x5F",
       "ecu_name": "INFOTAINMENT",
       "protocol": "UDS (ISO 14229)",
-      "read_op": "22b1d",
-      "write_op": "2Eb1d",
+      "read_op": "22B1D",
+      "write_op": "2EB1D",
       "security": "None"
     },
     {
@@ -2065,8 +1321,8 @@
       "ecu_address": "0x5F",
       "ecu_name": "INFOTAINMENT",
       "protocol": "UDS (ISO 14229)",
-      "read_op": "22b1b",
-      "write_op": "2Eb1b",
+      "read_op": "22B1B",
+      "write_op": "2EB1B",
       "security": "None"
     },
     {
@@ -2113,8 +1369,8 @@
       "ecu_address": "0x03",
       "ecu_name": "ABS",
       "protocol": "UDS (ISO 14229)",
-      "read_op": "22e00",
-      "write_op": "2Ee00",
+      "read_op": "22E00",
+      "write_op": "2EE00",
       "security": "None"
     },
     {
@@ -2125,8 +1381,8 @@
       "ecu_address": "0x03",
       "ecu_name": "ABS",
       "protocol": "UDS (ISO 14229)",
-      "read_op": "22e26",
-      "write_op": "2Ee26",
+      "read_op": "22E26",
+      "write_op": "2EE26",
       "security": "None"
     },
     {
@@ -2136,18 +1392,6 @@
       "category": "Locking: Beep & Blink",
       "ecu_address": "0x09",
       "ecu_name": "CENTRAL_ELEC",
-      "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0013_ALLOW_CONFIG_SOUND_ON_LOCK_UNLOCK_REMOTE",
-      "internal_name": "car_setting_allow_config_sound_on_lock_unlock_remote",
-      "user_visible_name": "Allow Config Sound On Lock Unlock Remote",
-      "category": "Other",
-      "ecu_address": "0x46",
-      "ecu_name": "CENTRAL_CONVENIENCE",
       "protocol": "KWP2000 / TP2.0 / CAN",
       "read_op": "22F1A3",
       "write_op": "2EF1A3",
@@ -2214,30 +1458,6 @@
       "security": "None"
     },
     {
-      "id": "FEAT_0038_AUTO_LIGHTS_SENSITIVITY",
-      "internal_name": "car_setting_auto_lights_sensitivity",
-      "user_visible_name": "Auto headlights activation threshold",
-      "category": "Other",
-      "ecu_address": "0x09",
-      "ecu_name": "CENTRAL_ELEC",
-      "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0041_AUTO_UNFOLD_MIRRORS",
-      "internal_name": "car_setting_auto_unfold_mirrors",
-      "user_visible_name": "Auto unfold side-view mirrors",
-      "category": "Mirrors",
-      "ecu_address": "0x09",
-      "ecu_name": "CENTRAL_ELEC",
-      "protocol": "UDS (ISO 14229)",
-      "read_op": "22d0d",
-      "write_op": "2Ed0d",
-      "security": "None"
-    },
-    {
       "id": "FEAT_0045_AUTO_UNLOCK_WHEN_SMART_KEY_NEAR",
       "internal_name": "car_setting_auto_unlock_when_smart_key_near",
       "user_visible_name": "Auto Unlock When Smart Key Near",
@@ -2274,36 +1494,12 @@
       "security": "None"
     },
     {
-      "id": "FEAT_0068_BATTERY_TECHNOLOGY",
-      "internal_name": "car_setting_battery_technology",
-      "user_visible_name": "Battery technology",
-      "category": "Other",
-      "ecu_address": "0x01",
-      "ecu_name": "ENGINE",
-      "protocol": "UDS (ISO 14229)",
-      "read_op": "222a31",
-      "write_op": "2E2a31",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0076_BEEP_ON_LOCK_UNLOCK_TYPE",
-      "internal_name": "car_setting_beep_on_lock_unlock_type",
-      "user_visible_name": "Beep when locking/unlocking doors comes from the\u2026",
-      "category": "Locking: Beep & Blink",
-      "ecu_address": "0x09",
-      "ecu_name": "CENTRAL_ELEC",
-      "protocol": "UDS (ISO 14229)",
-      "read_op": "22d0e",
-      "write_op": "2Ed0e",
-      "security": "None"
-    },
-    {
       "id": "FEAT_0077_BEEP_ON_UNLOCK_REMOTE",
       "internal_name": "car_setting_beep_on_unlock_remote",
       "user_visible_name": "Beep when unlocking with remote",
       "category": "Locking: Beep & Blink",
-      "ecu_address": "0x46",
-      "ecu_name": "CENTRAL_CONVENIENCE",
+      "ecu_address": "0x09",
+      "ecu_name": "CENTRAL_ELEC",
       "protocol": "KWP2000 / TP2.0 / CAN",
       "read_op": "22F1A3",
       "write_op": "2EF1A3",
@@ -2317,8 +1513,8 @@
       "ecu_address": "0x46",
       "ecu_name": "CENTRAL_CONVENIENCE",
       "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
+      "read_op": "KWP_READ_CH_11",
+      "write_op": "KWP_WRITE_CH_11",
       "security": "None"
     },
     {
@@ -2329,8 +1525,8 @@
       "ecu_address": "0x46",
       "ecu_name": "CENTRAL_CONVENIENCE",
       "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
+      "read_op": "KWP_READ_CH_10",
+      "write_op": "KWP_WRITE_CH_10",
       "security": "None"
     },
     {
@@ -2341,8 +1537,8 @@
       "ecu_address": "0x46",
       "ecu_name": "CENTRAL_CONVENIENCE",
       "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
+      "read_op": "KWP_READ_CH_8",
+      "write_op": "KWP_WRITE_CH_8",
       "security": "None"
     },
     {
@@ -2353,32 +1549,8 @@
       "ecu_address": "0x46",
       "ecu_name": "CENTRAL_CONVENIENCE",
       "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0085_BRAKE_ASSIST_STRENGTH",
-      "internal_name": "car_setting_brake_assist_strength",
-      "user_visible_name": "Power brakes strength",
-      "category": "Other",
-      "ecu_address": "0x03",
-      "ecu_name": "ABS",
-      "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "KWP_READ_Channel_1",
-      "write_op": "KWP_WRITE_Channel_1",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0100_COMFORT_CLOSE_WINDOWS_REMOTE_SINGLE_PRESS",
-      "internal_name": "car_setting_comfort_close_windows_remote_single_press",
-      "user_visible_name": "Comfort Close Windows Remote Single Press",
-      "category": "Windows & Sunroof",
-      "ecu_address": "0x09",
-      "ecu_name": "CENTRAL_ELEC",
-      "protocol": "UDS (ISO 14229)",
-      "read_op": "22a69",
-      "write_op": "2Ea69",
+      "read_op": "KWP_READ_CH_7",
+      "write_op": "KWP_WRITE_CH_7",
       "security": "None"
     },
     {
@@ -2388,9 +1560,9 @@
       "category": "Locking: Beep & Blink",
       "ecu_address": "0x09",
       "ecu_name": "CENTRAL_ELEC",
-      "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "KWP_READ_Channel_8",
-      "write_op": "KWP_WRITE_Channel_8",
+      "protocol": "UDS (ISO 14229)",
+      "read_op": "22D0E",
+      "write_op": "2ED0E",
       "security": "None"
     },
     {
@@ -2400,7 +1572,7 @@
       "category": "Other",
       "ecu_address": "0x46",
       "ecu_name": "CENTRAL_CONVENIENCE",
-      "protocol": "KWP2000 / TP2.0 / CAN",
+      "protocol": "UDS (ISO 14229)",
       "read_op": "22F1A3",
       "write_op": "2EF1A3",
       "security": "None"
@@ -2425,8 +1597,8 @@
       "ecu_address": "0x09",
       "ecu_name": "CENTRAL_ELEC",
       "protocol": "UDS (ISO 14229)",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
+      "read_op": "22D12",
+      "write_op": "2ED12",
       "security": "None"
     },
     {
@@ -2437,8 +1609,8 @@
       "ecu_address": "0x46",
       "ecu_name": "CENTRAL_CONVENIENCE",
       "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "KWP_READ_Channel_65",
-      "write_op": "KWP_WRITE_Channel_65",
+      "read_op": "KWP_READ_CH_65",
+      "write_op": "KWP_WRITE_CH_65",
       "security": "None"
     },
     {
@@ -2581,8 +1753,8 @@
       "ecu_address": "0x17",
       "ecu_name": "INSTRUMENT_CLUSTER",
       "protocol": "UDS (ISO 14229)",
-      "read_op": "2222ed",
-      "write_op": "2E22ed",
+      "read_op": "2222ED",
+      "write_op": "2E22ED",
       "security": "None"
     },
     {
@@ -2595,78 +1767,6 @@
       "protocol": "UDS (ISO 14229)",
       "read_op": "22F1A3",
       "write_op": "2EF1A3",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0143_DRIVING_SCHOOL_MIB1_STEP_1",
-      "internal_name": "car_setting_driving_school_mib1_step_1",
-      "user_visible_name": "Driving School Mib1 Step 1",
-      "category": "Other",
-      "ecu_address": "0x5F",
-      "ecu_name": "INFOTAINMENT",
-      "protocol": "UDS (ISO 14229)",
-      "read_op": "22b1b",
-      "write_op": "2Eb1b",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0144_DRIVING_SCHOOL_MIB1_STEP_2",
-      "internal_name": "car_setting_driving_school_mib1_step_2",
-      "user_visible_name": "Driving School Mib1 Step 2",
-      "category": "Other",
-      "ecu_address": "0x5F",
-      "ecu_name": "INFOTAINMENT",
-      "protocol": "UDS (ISO 14229)",
-      "read_op": "22b1c",
-      "write_op": "2Eb1c",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0145_DRIVING_SCHOOL_MIB1_STEP_3",
-      "internal_name": "car_setting_driving_school_mib1_step_3",
-      "user_visible_name": "Driving School Mib1 Step 3",
-      "category": "Other",
-      "ecu_address": "0x5F",
-      "ecu_name": "INFOTAINMENT",
-      "protocol": "UDS (ISO 14229)",
-      "read_op": "22b1b",
-      "write_op": "2Eb1b",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0146_DRIVING_SCHOOL_MIB1_STEP_4",
-      "internal_name": "car_setting_driving_school_mib1_step_4",
-      "user_visible_name": "Driving School Mib1 Step 4",
-      "category": "Other",
-      "ecu_address": "0x5F",
-      "ecu_name": "INFOTAINMENT",
-      "protocol": "UDS (ISO 14229)",
-      "read_op": "22b1b",
-      "write_op": "2Eb1b",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0150_DRL_BRIGHTNESS_WHEN_HEADLIGHTS_ARE_ON_LEFT",
-      "internal_name": "car_setting_drl_brightness_when_headlights_are_on_left",
-      "user_visible_name": "Drl Brightness When Headlights Are On Left",
-      "category": "Lights: Daytime Running Lights (DRL)",
-      "ecu_address": "0x09",
-      "ecu_name": "CENTRAL_ELEC",
-      "protocol": "UDS (ISO 14229)",
-      "read_op": "22552",
-      "write_op": "2E552",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0151_DRL_BRIGHTNESS_WHEN_HEADLIGHTS_ARE_ON_RIGHT",
-      "internal_name": "car_setting_drl_brightness_when_headlights_are_on_right",
-      "user_visible_name": "Drl Brightness When Headlights Are On Right",
-      "category": "Lights: Daytime Running Lights (DRL)",
-      "ecu_address": "0x09",
-      "ecu_name": "CENTRAL_ELEC",
-      "protocol": "UDS (ISO 14229)",
-      "read_op": "22553",
-      "write_op": "2E553",
       "security": "None"
     },
     {
@@ -2689,8 +1789,8 @@
       "ecu_address": "0x09",
       "ecu_name": "CENTRAL_ELEC",
       "protocol": "UDS (ISO 14229)",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
+      "read_op": "22D02",
+      "write_op": "2ED02",
       "security": "None"
     },
     {
@@ -2706,54 +1806,6 @@
       "security": "None"
     },
     {
-      "id": "FEAT_0157_DRL_VIA_FRONT_LEFT_TURN_SIGNAL_STEP_1",
-      "internal_name": "car_setting_drl_via_front_left_turn_signal_step_1",
-      "user_visible_name": "Drl Via Front Left Turn Signal Step 1",
-      "category": "Lights: Daytime Running Lights (DRL)",
-      "ecu_address": "0x09",
-      "ecu_name": "CENTRAL_ELEC",
-      "protocol": "UDS (ISO 14229)",
-      "read_op": "22550",
-      "write_op": "2E550",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0158_DRL_VIA_FRONT_LEFT_TURN_SIGNAL_STEP_2",
-      "internal_name": "car_setting_drl_via_front_left_turn_signal_step_2",
-      "user_visible_name": "Drl Via Front Left Turn Signal Step 2",
-      "category": "Lights: Daytime Running Lights (DRL)",
-      "ecu_address": "0x09",
-      "ecu_name": "CENTRAL_ELEC",
-      "protocol": "UDS (ISO 14229)",
-      "read_op": "22550",
-      "write_op": "2E550",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0159_DRL_VIA_FRONT_LEFT_TURN_SIGNAL_STEP_3",
-      "internal_name": "car_setting_drl_via_front_left_turn_signal_step_3",
-      "user_visible_name": "Drl Via Front Left Turn Signal Step 3",
-      "category": "Lights: Daytime Running Lights (DRL)",
-      "ecu_address": "0x09",
-      "ecu_name": "CENTRAL_ELEC",
-      "protocol": "UDS (ISO 14229)",
-      "read_op": "22550",
-      "write_op": "2E550",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0160_DRL_VIA_FRONT_LEFT_TURN_SIGNAL_STEP_4",
-      "internal_name": "car_setting_drl_via_front_left_turn_signal_step_4",
-      "user_visible_name": "Drl Via Front Left Turn Signal Step 4",
-      "category": "Lights: Daytime Running Lights (DRL)",
-      "ecu_address": "0x09",
-      "ecu_name": "CENTRAL_ELEC",
-      "protocol": "UDS (ISO 14229)",
-      "read_op": "22550",
-      "write_op": "2E550",
-      "security": "None"
-    },
-    {
       "id": "FEAT_0161_DRL_VIA_FRONT_MARKERS",
       "internal_name": "car_setting_drl_via_front_markers",
       "user_visible_name": "Drl Via Front Markers",
@@ -2763,78 +1815,6 @@
       "protocol": "KWP2000 / TP2.0 / CAN",
       "read_op": "22F1A3",
       "write_op": "2EF1A3",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0162_DRL_VIA_FRONT_RIGHT_TURN_SIGNAL_STEP_1",
-      "internal_name": "car_setting_drl_via_front_right_turn_signal_step_1",
-      "user_visible_name": "Drl Via Front Right Turn Signal Step 1",
-      "category": "Lights: Daytime Running Lights (DRL)",
-      "ecu_address": "0x09",
-      "ecu_name": "CENTRAL_ELEC",
-      "protocol": "UDS (ISO 14229)",
-      "read_op": "22551",
-      "write_op": "2E551",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0163_DRL_VIA_FRONT_RIGHT_TURN_SIGNAL_STEP_2",
-      "internal_name": "car_setting_drl_via_front_right_turn_signal_step_2",
-      "user_visible_name": "Drl Via Front Right Turn Signal Step 2",
-      "category": "Lights: Daytime Running Lights (DRL)",
-      "ecu_address": "0x09",
-      "ecu_name": "CENTRAL_ELEC",
-      "protocol": "UDS (ISO 14229)",
-      "read_op": "22551",
-      "write_op": "2E551",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0164_DRL_VIA_FRONT_RIGHT_TURN_SIGNAL_STEP_3",
-      "internal_name": "car_setting_drl_via_front_right_turn_signal_step_3",
-      "user_visible_name": "Drl Via Front Right Turn Signal Step 3",
-      "category": "Lights: Daytime Running Lights (DRL)",
-      "ecu_address": "0x09",
-      "ecu_name": "CENTRAL_ELEC",
-      "protocol": "UDS (ISO 14229)",
-      "read_op": "22551",
-      "write_op": "2E551",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0165_DRL_VIA_FRONT_RIGHT_TURN_SIGNAL_STEP_4",
-      "internal_name": "car_setting_drl_via_front_right_turn_signal_step_4",
-      "user_visible_name": "Drl Via Front Right Turn Signal Step 4",
-      "category": "Lights: Daytime Running Lights (DRL)",
-      "ecu_address": "0x09",
-      "ecu_name": "CENTRAL_ELEC",
-      "protocol": "UDS (ISO 14229)",
-      "read_op": "22551",
-      "write_op": "2E551",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0166_DRL_VIA_LASH_LEFT_BRIGHTNESS",
-      "internal_name": "car_setting_drl_via_lash_left_brightness",
-      "user_visible_name": "Drl Via Lash Left Brightness",
-      "category": "Lights: Daytime Running Lights (DRL)",
-      "ecu_address": "0x09",
-      "ecu_name": "CENTRAL_ELEC",
-      "protocol": "UDS (ISO 14229)",
-      "read_op": "22560",
-      "write_op": "2E560",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0167_DRL_VIA_LASH_RIGHT_BRIGHTNESS",
-      "internal_name": "car_setting_drl_via_lash_right_brightness",
-      "user_visible_name": "Drl Via Lash Right Brightness",
-      "category": "Lights: Daytime Running Lights (DRL)",
-      "ecu_address": "0x09",
-      "ecu_name": "CENTRAL_ELEC",
-      "protocol": "UDS (ISO 14229)",
-      "read_op": "22561",
-      "write_op": "2E561",
       "security": "None"
     },
     {
@@ -2940,7 +1920,7 @@
       "category": "Lights: Automatic",
       "ecu_address": "0x09",
       "ecu_name": "CENTRAL_ELEC",
-      "protocol": "KWP2000 / TP2.0 / CAN",
+      "protocol": "UDS (ISO 14229)",
       "read_op": "22F1A3",
       "write_op": "2EF1A3",
       "security": "None"
@@ -2953,30 +1933,6 @@
       "ecu_address": "0x03",
       "ecu_name": "ABS",
       "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0221_HILL_START_ASSIST_MODE",
-      "internal_name": "car_setting_hill_start_assist_mode",
-      "user_visible_name": "Hill start assist disengagement",
-      "category": "Other",
-      "ecu_address": "0x03",
-      "ecu_name": "ABS",
-      "protocol": "UDS (ISO 14229)",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0244_INSTRUMENT_CLUSTER_LCD_BACKGROUND",
-      "internal_name": "car_setting_instrument_cluster_lcd_background",
-      "user_visible_name": "Instrument cluster LCD background",
-      "category": "Instruments: Displays & Nav",
-      "ecu_address": "0x17",
-      "ecu_name": "INSTRUMENT_CLUSTER",
-      "protocol": "UDS (ISO 14229)",
       "read_op": "22F1A3",
       "write_op": "2EF1A3",
       "security": "None"
@@ -3013,8 +1969,8 @@
       "ecu_address": "0x5F",
       "ecu_name": "INFOTAINMENT",
       "protocol": "UDS (ISO 14229)",
-      "read_op": "2222ad",
-      "write_op": "2E22ad",
+      "read_op": "2222AD",
+      "write_op": "2E22AD",
       "security": "None"
     },
     {
@@ -3102,39 +2058,15 @@
       "security": "None"
     },
     {
-      "id": "FEAT_0277_MICROPHONE_SENSITIVITY",
-      "internal_name": "car_setting_microphone_sensitivity",
-      "user_visible_name": "Microphone sensitivity",
-      "category": "Other",
-      "ecu_address": "0x77",
-      "ecu_name": "TELEPHONE",
-      "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "KWP_READ_Channel_133",
-      "write_op": "KWP_WRITE_Channel_133",
-      "security": "None"
-    },
-    {
       "id": "FEAT_0280_MIRROR_SYNCHRONOUS",
       "internal_name": "car_setting_mirror_synchronous",
       "user_visible_name": "Synchronous mirror adjustment",
       "category": "Mirrors",
-      "ecu_address": "0x46",
-      "ecu_name": "CENTRAL_CONVENIENCE",
-      "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0284_NUM_FRONT_WASHER_ACTIVE_WO_HEADLIGHT_WASHER_ACTIVE",
-      "internal_name": "car_setting_num_front_washer_active_wo_headlight_washer_active",
-      "user_visible_name": "Activate headlight washers once every \u2026 times the windshield washer is used",
-      "category": "Wipers & Washer",
       "ecu_address": "0x09",
       "ecu_name": "CENTRAL_ELEC",
-      "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "KWP_READ_Channel_1",
-      "write_op": "KWP_WRITE_Channel_1",
+      "protocol": "UDS (ISO 14229)",
+      "read_op": "22D0D",
+      "write_op": "2ED0D",
       "security": "None"
     },
     {
@@ -3145,8 +2077,8 @@
       "ecu_address": "0x17",
       "ecu_name": "INSTRUMENT_CLUSTER",
       "protocol": "UDS (ISO 14229)",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
+      "read_op": "22228D",
+      "write_op": "2E228D",
       "security": "None"
     },
     {
@@ -3157,8 +2089,8 @@
       "ecu_address": "0x5F",
       "ecu_name": "INFOTAINMENT",
       "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "2245",
-      "write_op": "2E45",
+      "read_op": "KWP_READ_CH_69",
+      "write_op": "KWP_WRITE_CH_69",
       "security": "None"
     },
     {
@@ -3169,8 +2101,8 @@
       "ecu_address": "0x09",
       "ecu_name": "CENTRAL_ELEC",
       "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "KWP_READ_Channel_22",
-      "write_op": "KWP_WRITE_Channel_22",
+      "read_op": "22F1A3",
+      "write_op": "2EF1A3",
       "security": "None"
     },
     {
@@ -3181,18 +2113,6 @@
       "ecu_address": "0x09",
       "ecu_name": "CENTRAL_ELEC",
       "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "KWP_READ_Channel_27",
-      "write_op": "KWP_WRITE_Channel_27",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0297_PASSIVE_ENTRY_REAR_RIGHT_DOOR",
-      "internal_name": "car_setting_passive_entry_rear_right_door",
-      "user_visible_name": "Passive Entry Rear Right Door",
-      "category": "Other",
-      "ecu_address": "0x05",
-      "ecu_name": "ACC_START_AUTH",
-      "protocol": "UDS (ISO 14229)",
       "read_op": "22F1A3",
       "write_op": "2EF1A3",
       "security": "None"
@@ -3240,7 +2160,7 @@
       "category": "Mirrors",
       "ecu_address": "0x42",
       "ecu_name": "DOOR_DRIVER",
-      "protocol": "UDS (ISO 14229)",
+      "protocol": "KWP2000 / TP2.0 / CAN",
       "read_op": "22F1A3",
       "write_op": "2EF1A3",
       "security": "None"
@@ -3252,57 +2172,9 @@
       "category": "Mirrors",
       "ecu_address": "0x52",
       "ecu_name": "DOOR_PASSENGER",
-      "protocol": "UDS (ISO 14229)",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0318_RAIN_LIGHT_SENSOR",
-      "internal_name": "car_setting_rain_light_sensor",
-      "user_visible_name": "Rain/light sensor",
-      "category": "Lights: Automatic",
-      "ecu_address": "0x09",
-      "ecu_name": "CENTRAL_ELEC",
       "protocol": "KWP2000 / TP2.0 / CAN",
       "read_op": "22F1A3",
       "write_op": "2EF1A3",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0321_REAR_PARK_ASSIST_FREQ",
-      "internal_name": "car_setting_rear_park_assist_freq",
-      "user_visible_name": "Rear parking sensor beep tone",
-      "category": "Parking Sensors",
-      "ecu_address": "0x76",
-      "ecu_name": "PARKING_ASSIST",
-      "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "KWP_READ_Channel_9",
-      "write_op": "KWP_WRITE_Channel_9",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0322_REAR_PARK_ASSIST_VOL",
-      "internal_name": "car_setting_rear_park_assist_vol",
-      "user_visible_name": "Rear parking sensor beep volume",
-      "category": "Parking Sensors",
-      "ecu_address": "0x76",
-      "ecu_name": "PARKING_ASSIST",
-      "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "KWP_READ_Channel_8",
-      "write_op": "KWP_WRITE_Channel_8",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0323_REAR_PARK_ASSIST_VOL_CONV_OPEN",
-      "internal_name": "car_setting_rear_park_assist_vol_conv_open",
-      "user_visible_name": "Rear parking sensor beep volume when convertible top is open",
-      "category": "Parking Sensors",
-      "ecu_address": "0x10",
-      "ecu_name": "PARK_STEER_ASSIST",
-      "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "KWP_READ_Channel_9",
-      "write_op": "KWP_WRITE_Channel_9",
       "security": "None"
     },
     {
@@ -3336,7 +2208,7 @@
       "category": "Dings & Warnings",
       "ecu_address": "0x17",
       "ecu_name": "INSTRUMENT_CLUSTER",
-      "protocol": "KWP2000 / TP2.0 / CAN",
+      "protocol": "UDS (ISO 14229)",
       "read_op": "22F1A3",
       "write_op": "2EF1A3",
       "security": "None"
@@ -3349,56 +2221,8 @@
       "ecu_address": "0x17",
       "ecu_name": "INSTRUMENT_CLUSTER",
       "protocol": "UDS (ISO 14229)",
-      "read_op": "2222b9",
-      "write_op": "2E22b9",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0348_SEAT_HEATER_TEMPERATURE_ADJUSTMENT_STAGE_1",
-      "internal_name": "car_setting_seat_heater_temperature_adjustment_stage_1",
-      "user_visible_name": "Seat Heater Temperature Adjustment Stage 1",
-      "category": "Seats & Steering Wheel",
-      "ecu_address": "0x09",
-      "ecu_name": "CENTRAL_ELEC",
-      "protocol": "UDS (ISO 14229)",
-      "read_op": "22965",
-      "write_op": "2E965",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0349_SEAT_HEATER_TEMPERATURE_ADJUSTMENT_STAGE_2",
-      "internal_name": "car_setting_seat_heater_temperature_adjustment_stage_2",
-      "user_visible_name": "Seat Heater Temperature Adjustment Stage 2",
-      "category": "Seats & Steering Wheel",
-      "ecu_address": "0x09",
-      "ecu_name": "CENTRAL_ELEC",
-      "protocol": "UDS (ISO 14229)",
-      "read_op": "22965",
-      "write_op": "2E965",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0350_SEAT_HEATER_TEMPERATURE_ADJUSTMENT_STAGE_3",
-      "internal_name": "car_setting_seat_heater_temperature_adjustment_stage_3",
-      "user_visible_name": "Seat Heater Temperature Adjustment Stage 3",
-      "category": "Seats & Steering Wheel",
-      "ecu_address": "0x09",
-      "ecu_name": "CENTRAL_ELEC",
-      "protocol": "UDS (ISO 14229)",
-      "read_op": "22965",
-      "write_op": "2E965",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0359_SINGLE_DOOR_LOCK_REMOTE",
-      "internal_name": "car_setting_single_door_lock_remote",
-      "user_visible_name": "Unlock doors via remote",
-      "category": "Locking: Doors & Alarm",
-      "ecu_address": "0x46",
-      "ecu_name": "CENTRAL_CONVENIENCE",
-      "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "KWP_READ_Channel_1",
-      "write_op": "KWP_WRITE_Channel_1",
+      "read_op": "2222B9",
+      "write_op": "2E22B9",
       "security": "None"
     },
     {
@@ -3421,8 +2245,8 @@
       "ecu_address": "0x46",
       "ecu_name": "CENTRAL_CONVENIENCE",
       "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "22b",
-      "write_op": "2Eb",
+      "read_op": "KWP_READ_CH_11",
+      "write_op": "KWP_WRITE_CH_11",
       "security": "None"
     },
     {
@@ -3430,23 +2254,11 @@
       "internal_name": "car_setting_sound_on_lock_remote",
       "user_visible_name": "Sound On Lock Remote",
       "category": "Other",
-      "ecu_address": "0x09",
-      "ecu_name": "CENTRAL_ELEC",
-      "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "KWP_READ_Channel_11",
-      "write_op": "KWP_WRITE_Channel_11",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0364_SOUND_ON_LOCK_UNLOCK_ADAPT_ENABLED",
-      "internal_name": "car_setting_sound_on_lock_unlock_adapt_enabled",
-      "user_visible_name": "Sound On Lock Unlock Adapt Enabled",
-      "category": "Other",
       "ecu_address": "0x46",
       "ecu_name": "CENTRAL_CONVENIENCE",
       "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
+      "read_op": "KWP_READ_CH_10",
+      "write_op": "KWP_WRITE_CH_10",
       "security": "None"
     },
     {
@@ -3457,8 +2269,8 @@
       "ecu_address": "0x46",
       "ecu_name": "CENTRAL_CONVENIENCE",
       "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "228",
-      "write_op": "2E8",
+      "read_op": "KWP_READ_CH_8",
+      "write_op": "KWP_WRITE_CH_8",
       "security": "None"
     },
     {
@@ -3466,11 +2278,11 @@
       "internal_name": "car_setting_sound_on_unlock_remote",
       "user_visible_name": "Sound On Unlock Remote",
       "category": "Other",
-      "ecu_address": "0x09",
-      "ecu_name": "CENTRAL_ELEC",
+      "ecu_address": "0x46",
+      "ecu_name": "CENTRAL_CONVENIENCE",
       "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "KWP_READ_Channel_10",
-      "write_op": "KWP_WRITE_Channel_10",
+      "read_op": "KWP_READ_CH_7",
+      "write_op": "KWP_WRITE_CH_7",
       "security": "None"
     },
     {
@@ -3502,23 +2314,11 @@
       "internal_name": "car_setting_start_stop_disable_method_b",
       "user_visible_name": "Disable auto start/stop system (method B)",
       "category": "Chassis & Engine",
-      "ecu_address": "0x19",
-      "ecu_name": "CAN_GATEWAY",
+      "ecu_address": "0x08",
+      "ecu_name": "HVAC",
       "protocol": "UDS (ISO 14229)",
-      "read_op": "22c8c8",
-      "write_op": "2Ec8c8",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0378_START_STOP_DISABLE_METHOD_C",
-      "internal_name": "car_setting_start_stop_disable_method_c",
-      "user_visible_name": "Disable auto start/stop system (method C)",
-      "category": "Chassis & Engine",
-      "ecu_address": "0x19",
-      "ecu_name": "CAN_GATEWAY",
-      "protocol": "UDS (ISO 14229)",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
+      "read_op": "22928",
+      "write_op": "2E928",
       "security": "None"
     },
     {
@@ -3531,66 +2331,6 @@
       "protocol": "KWP2000 / TP2.0 / CAN",
       "read_op": "22F1A3",
       "write_op": "2EF1A3",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0382_STEERING_DIRECTION",
-      "internal_name": "car_setting_steering_direction",
-      "user_visible_name": "Steering Direction",
-      "category": "Other",
-      "ecu_address": "0x46",
-      "ecu_name": "CENTRAL_CONVENIENCE",
-      "protocol": "KWP2000 / TP2.0 / CAN",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0391_TAILLIGHTS_ANIMATION",
-      "internal_name": "car_setting_taillights_animation",
-      "user_visible_name": "Taillights Animation",
-      "category": "Other",
-      "ecu_address": "0x46",
-      "ecu_name": "CENTRAL_CONVENIENCE",
-      "protocol": "UDS (ISO 14229)",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0392_THEME_INFOTAINMENT",
-      "internal_name": "car_setting_theme_infotainment",
-      "user_visible_name": "Theme Infotainment",
-      "category": "Other",
-      "ecu_address": "0x5F",
-      "ecu_name": "INFOTAINMENT",
-      "protocol": "UDS (ISO 14229)",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0395_TORQUE_LIMITER_INTERACTION",
-      "internal_name": "car_setting_torque_limiter_interaction",
-      "user_visible_name": "Torque limiter interaction",
-      "category": "Other",
-      "ecu_address": "0x03",
-      "ecu_name": "ABS",
-      "protocol": "UDS (ISO 14229)",
-      "read_op": "22F1A3",
-      "write_op": "2EF1A3",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0403_TPMS_SENSITIVITY",
-      "internal_name": "car_setting_tpms_sensitivity",
-      "user_visible_name": "Tpms Sensitivity",
-      "category": "Service Tools",
-      "ecu_address": "0x03",
-      "ecu_name": "ABS",
-      "protocol": "UDS (ISO 14229)",
-      "read_op": "224558",
-      "write_op": "2E4558",
       "security": "None"
     },
     {
@@ -3661,8 +2401,8 @@
       "ecu_address": "0x5F",
       "ecu_name": "INFOTAINMENT",
       "protocol": "UDS (ISO 14229)",
-      "read_op": "22b3c",
-      "write_op": "2Eb3c",
+      "read_op": "22B3C",
+      "write_op": "2EB3C",
       "security": "None"
     },
     {
@@ -3673,20 +2413,8 @@
       "ecu_address": "0x5F",
       "ecu_name": "INFOTAINMENT",
       "protocol": "UDS (ISO 14229)",
-      "read_op": "22b3c",
-      "write_op": "2Eb3c",
-      "security": "None"
-    },
-    {
-      "id": "FEAT_0419_TRUNK_CLOSING_DURATION",
-      "internal_name": "car_setting_trunk_closing_duration",
-      "user_visible_name": "Trunk Closing Duration",
-      "category": "Trunk",
-      "ecu_address": "0x6D",
-      "ecu_name": "TRUNK",
-      "protocol": "UDS (ISO 14229)",
-      "read_op": "223a2c",
-      "write_op": "2E3a2c",
+      "read_op": "22B3C",
+      "write_op": "2EB3C",
       "security": "None"
     },
     {
@@ -3709,8 +2437,8 @@
       "ecu_address": "0x09",
       "ecu_name": "CENTRAL_ELEC",
       "protocol": "UDS (ISO 14229)",
-      "read_op": "2250c4",
-      "write_op": "2E50c4",
+      "read_op": "2250C4",
+      "write_op": "2E50C4",
       "security": "None"
     },
     {
@@ -3721,8 +2449,8 @@
       "ecu_address": "0x09",
       "ecu_name": "CENTRAL_ELEC",
       "protocol": "UDS (ISO 14229)",
-      "read_op": "2250c5",
-      "write_op": "2E50c5",
+      "read_op": "2250C5",
+      "write_op": "2E50C5",
       "security": "None"
     },
     {
@@ -3745,8 +2473,8 @@
       "ecu_address": "0x03",
       "ecu_name": "ABS",
       "protocol": "UDS (ISO 14229)",
-      "read_op": "224e0c",
-      "write_op": "2E4e0c",
+      "read_op": "224E0C",
+      "write_op": "2E4E0C",
       "security": "None"
     },
     {
@@ -3757,8 +2485,8 @@
       "ecu_address": "0x5F",
       "ecu_name": "INFOTAINMENT",
       "protocol": "UDS (ISO 14229)",
-      "read_op": "22b43",
-      "write_op": "2Eb43",
+      "read_op": "22B43",
+      "write_op": "2EB43",
       "security": "None"
     },
     {
@@ -3769,8 +2497,8 @@
       "ecu_address": "0x5F",
       "ecu_name": "INFOTAINMENT",
       "protocol": "UDS (ISO 14229)",
-      "read_op": "2222ad",
-      "write_op": "2E22ad",
+      "read_op": "2222AD",
+      "write_op": "2E22AD",
       "security": "None"
     }
   ]

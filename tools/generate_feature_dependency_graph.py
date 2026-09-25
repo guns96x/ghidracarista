@@ -141,6 +141,7 @@ def main():
                 tx_id = None
                 rx_id = None
 
+        concrete_cls = cmd_info.get("concrete_class", "VagUdsCodingSetting" if "UDS" in proto else "VagCanCodingSetting")
         entry = {
             "feature_id": fid,
             "feature_name": name,
@@ -149,7 +150,7 @@ def main():
             "ui_screen": screen,
             "operation": operation,
             "setting_object": {
-                "concrete_class": "VagUdsCodingSetting" if "UDS" in proto else "VagCanCodingSetting",
+                "concrete_class": concrete_cls,
                 "internal_key": feat.get("internal_name", ""),
                 "interpretation": "MultipleChoiceInterpretation::YES_NO" if feat.get("value_type") == "MultipleChoice" else "NumericalInterpretation"
             },

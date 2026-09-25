@@ -1,10 +1,858 @@
 {
   "metadata": {
-    "title": "Carista Blocked & Unresolved Features",
-    "total_blocked": 164,
+    "title": "Carista Blocked, Partial & Unresolved Features (Round 3 Ground Truth)",
+    "total_blocked": 270,
     "date": "2026-09-25"
   },
   "features": [
+    {
+      "id": "FEAT_0035_AUTO_FOLD_MIRRORS_REMOTE_MODE",
+      "internal_name": "car_setting_auto_fold_mirrors_remote_mode",
+      "user_visible_name": "Auto fold mirrors via\u2026",
+      "category": "Mirrors",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation, missing_did_or_channel",
+      "remediation": "Callsite at libCarista.so asm 0x143dbb4 (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0073_BEEP_ON_LOCK_KEY",
+      "internal_name": "car_setting_beep_on_lock_key",
+      "user_visible_name": "Beep when locking with key",
+      "category": "Locking: Beep & Blink",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_did_or_channel",
+      "remediation": "Callsite at libCarista.so asm 0x143928c (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0075_BEEP_ON_LOCK_UNLOCK_REMOTE_DURATION_HORN_ONLY",
+      "internal_name": "car_setting_beep_on_lock_unlock_remote_duration_horn_only",
+      "user_visible_name": "Duration of beep when locking/unlocking with remote (horn only)",
+      "category": "Locking: Beep & Blink",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation, missing_did_or_channel",
+      "remediation": "Callsite at libCarista.so asm 0x1439b6c (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0078_BLIND_SPOT_INDICATORS_BRIGHTNESS",
+      "internal_name": "car_setting_blind_spot_indicators_brightness",
+      "user_visible_name": "Blind spot indicators brightness",
+      "category": "Other",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation, missing_did_or_channel",
+      "remediation": "Callsite at libCarista.so asm 0x142bd8c (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0086_BRAKE_DISC_DRYING",
+      "internal_name": "car_setting_brake_disc_drying",
+      "user_visible_name": "Brake Disc Drying",
+      "category": "Other",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation, missing_did_or_channel",
+      "remediation": "Callsite at libCarista.so asm 0x14d0dc0 (VagCanSettingsBanned::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0087_BULB_CHECK_ALL_LIGHTS",
+      "internal_name": "car_setting_bulb_check_all_lights",
+      "user_visible_name": "Bulb Check All Lights",
+      "category": "Lights: Bulb Checks",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_did_or_channel",
+      "remediation": "Callsite at libCarista.so asm 0x14d2d3c (VagCanSettingsBanned::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0088_BULB_CHECK_DAYTIME_RUNNING_LIGHTS_LEFT_LIGHTS",
+      "internal_name": "car_setting_bulb_check_daytime_running_lights_left_lights",
+      "user_visible_name": "Bulb check: daytime running lights (left)",
+      "category": "Lights: Daytime Running Lights (DRL)",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation, missing_did_or_channel",
+      "remediation": "Callsite at libCarista.so asm 0x141fef8 (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0093_CHANNEL_195",
+      "internal_name": "car_setting_channel_195",
+      "user_visible_name": "Channel 195",
+      "category": "Other",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation, missing_or_invalid_bit_mask",
+      "remediation": "Callsite at libCarista.so asm 0x14d0564 (VagCanSettingsBanned::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0094_CHANNEL_196",
+      "internal_name": "car_setting_channel_196",
+      "user_visible_name": "Channel 196",
+      "category": "Other",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation, missing_or_invalid_bit_mask",
+      "remediation": "Callsite at libCarista.so asm 0x14d060c (VagCanSettingsBanned::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0095_CHANNEL_197",
+      "internal_name": "car_setting_channel_197",
+      "user_visible_name": "Channel 197",
+      "category": "Other",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation, missing_or_invalid_bit_mask",
+      "remediation": "Callsite at libCarista.so asm 0x14d06b4 (VagCanSettingsBanned::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0096_CHANNEL_198",
+      "internal_name": "car_setting_channel_198",
+      "user_visible_name": "Channel 198",
+      "category": "Other",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation, missing_or_invalid_bit_mask",
+      "remediation": "Callsite at libCarista.so asm 0x14d075c (VagCanSettingsBanned::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0113_COMFORT_TURN_SIGNAL_COUNT",
+      "internal_name": "car_setting_comfort_turn_signal_count",
+      "user_visible_name": "Lane-change turn signal auto-flasher count",
+      "category": "Lights: Exterior",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation, missing_did_or_channel",
+      "remediation": "Callsite at libCarista.so asm 0x142b690 (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0116_COMING_HOME_DURATION",
+      "internal_name": "car_setting_coming_home_duration",
+      "user_visible_name": "Coming-home lights duration",
+      "category": "Lights: Coming/Leaving Home",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation, missing_did_or_channel",
+      "remediation": "Callsite at libCarista.so asm 0x1424af4 (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0117_COMING_HOME_MODE",
+      "internal_name": "car_setting_coming_home_mode",
+      "user_visible_name": "Coming-home lights mode",
+      "category": "Lights: Coming/Leaving Home",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation, missing_or_invalid_byte_offset, missing_did_or_channel",
+      "remediation": "Callsite at libCarista.so asm 0x1422e70 (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0119_COMING_LEAVING_HOME_OUTPUT",
+      "internal_name": "car_setting_coming_leaving_home_output",
+      "user_visible_name": "Coming/leaving-home lights use\u2026",
+      "category": "Lights: Coming/Leaving Home",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation, missing_or_invalid_bit_mask, missing_did_or_channel",
+      "remediation": "Callsite at libCarista.so asm 0x1423d10 (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0122_CORNERING_LIGHTS_VIA_FOGS_LEFT",
+      "internal_name": "car_setting_cornering_lights_via_fogs_left",
+      "user_visible_name": "Left cornering light (using fog light)",
+      "category": "Lights: Exterior",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_whitelist, missing_interpretation, missing_or_invalid_bit_mask, missing_did_or_channel",
+      "remediation": "Callsite at libCarista.so asm 0x1433848 (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0123_COUNTRY",
+      "internal_name": "car_setting_country",
+      "user_visible_name": "Instrument cluster region (affects ext. lights too)",
+      "category": "Other",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation, missing_or_invalid_byte_offset, missing_did_or_channel",
+      "remediation": "Callsite at libCarista.so asm 0x141c07c (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0137_DISABLE_US_MARKER_LIGHTS",
+      "internal_name": "car_setting_disable_us_marker_lights",
+      "user_visible_name": "Disable US side marker lights (US models only)",
+      "category": "Other",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_did_or_channel",
+      "remediation": "Callsite at libCarista.so asm 0x143076c (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0148_DRL_BRIGHTNESS",
+      "internal_name": "car_setting_drl_brightness",
+      "user_visible_name": "Daytime running lights (DRL) brightness",
+      "category": "Lights: Daytime Running Lights (DRL)",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_whitelist, missing_interpretation, missing_did_or_channel",
+      "remediation": "Callsite at libCarista.so asm 0x142740c (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0149_DRL_BRIGHTNESS_WHEN_HEADLIGHTS_ARE_ON",
+      "internal_name": "car_setting_drl_brightness_when_headlights_are_on",
+      "user_visible_name": "Daytime running lights (DRL) brightness when headlights are on",
+      "category": "Lights: Daytime Running Lights (DRL)",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation, missing_or_invalid_bit_mask",
+      "remediation": "Callsite at libCarista.so asm 0x14298d0 (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0155_DRL_VIA",
+      "internal_name": "car_setting_drl_via",
+      "user_visible_name": "Daytime running lights (DRL) use\u2026",
+      "category": "Lights: Daytime Running Lights (DRL)",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation, missing_or_invalid_bit_mask, missing_did_or_channel",
+      "remediation": "Callsite at libCarista.so asm 0x1426b44 (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0169_DSR_STRENGTH",
+      "internal_name": "car_setting_dsr_strength",
+      "user_visible_name": "Driver steering recommendation (DSR) strength",
+      "category": "Other",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation, missing_or_invalid_bit_mask",
+      "remediation": "Callsite at libCarista.so asm 0x1409fd4 (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0171_DYNAMIC_START_UP_ASSIST",
+      "internal_name": "car_setting_dynamic_start_up_assist",
+      "user_visible_name": "Dynamic start assist",
+      "category": "Other",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation, missing_or_invalid_bit_mask",
+      "remediation": "Callsite at libCarista.so asm 0x140ae80 (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0177_ELECTRONIC_DIFF_LOCK_STRENGTH",
+      "internal_name": "car_setting_electronic_diff_lock_strength",
+      "user_visible_name": "Electronic differential lock strength",
+      "category": "Other",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation, missing_or_invalid_bit_mask, missing_did_or_channel",
+      "remediation": "Callsite at libCarista.so asm 0x1406198 (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0178_ELECTRONIC_DIFF_LOCK_STRENGTH_XDS",
+      "internal_name": "car_setting_electronic_diff_lock_strength_xds",
+      "user_visible_name": "Extended electronic differential lock strength (XDS)",
+      "category": "Other",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation, missing_or_invalid_byte_offset, missing_did_or_channel",
+      "remediation": "Callsite at libCarista.so asm 0x140629c (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0183_ESC_ASR",
+      "internal_name": "car_setting_esc_asr",
+      "user_visible_name": "ESC / ASR",
+      "category": "Other",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation, missing_or_invalid_bit_mask",
+      "remediation": "Callsite at libCarista.so asm 0x1405ce8 (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0184_ESC_ASR_BUTTON_BEHAVIOR",
+      "internal_name": "car_setting_esc_asr_button_behavior",
+      "user_visible_name": "ESC / ASR button behavior",
+      "category": "Other",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation, missing_or_invalid_bit_mask",
+      "remediation": "Callsite at libCarista.so asm 0x1405b90 (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0197_FOOTWELL_LIGHTS_BRIGHTNESS_NO_EXT_LIGHT_PACK",
+      "internal_name": "car_setting_footwell_lights_brightness_no_ext_light_pack",
+      "user_visible_name": "Footwell lights brightness (for cars without extended lighting package)",
+      "category": "Lights: Interior",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation, missing_or_invalid_bit_mask, missing_did_or_channel",
+      "remediation": "Callsite at libCarista.so asm 0x1434f70 (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0205_FUEL_TANK_CAPACITY_CALIBRATION",
+      "internal_name": "car_setting_fuel_tank_capacity_calibration",
+      "user_visible_name": "Fuel Tank Capacity Calibration",
+      "category": "Other",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation, missing_or_invalid_byte_offset, missing_or_invalid_bit_mask, missing_did_or_channel",
+      "remediation": "Callsite at libCarista.so asm 0x14d04ac (VagCanSettingsBanned::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0209_HALDEX_SETUP",
+      "internal_name": "car_setting_haldex_setup",
+      "user_visible_name": "Haldex AWD system setup",
+      "category": "Other",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation, missing_did_or_channel",
+      "remediation": "Callsite at libCarista.so asm 0x1405ef4 (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0215_HIDDEN_MENU_CAR_SETUP",
+      "internal_name": "car_setting_hidden_menu_car_setup",
+      "user_visible_name": "Hidden (green) menu in dash screen via holding CAR + SETUP (req. restart)",
+      "category": "Other",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_or_invalid_bit_mask",
+      "remediation": "Callsite at libCarista.so asm 0x140f0fc (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0217_HIGH_BEAM_ASSIST_AUTO",
+      "internal_name": "car_setting_high_beam_assist_auto",
+      "user_visible_name": "High beam assist auto",
+      "category": "Lights: Exterior",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation",
+      "remediation": "Callsite at libCarista.so asm 0x142c674 (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0220_HILL_HOLD_RELEASE",
+      "internal_name": "car_setting_hill_hold_release",
+      "user_visible_name": "Hill hold assist release",
+      "category": "Other",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation, missing_or_invalid_bit_mask",
+      "remediation": "Callsite at libCarista.so asm 0x140b0ac (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0222_HORN_BEEPS_COUNT_LOCK",
+      "internal_name": "car_setting_horn_beeps_count_lock",
+      "user_visible_name": "Horn Beeps Count Lock",
+      "category": "Locking: Beep & Blink",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation",
+      "remediation": "Callsite at libCarista.so asm 0x14d2010 (VagCanSettingsBanned::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0223_HORN_BEEPS_COUNT_UNLOCK",
+      "internal_name": "car_setting_horn_beeps_count_unlock",
+      "user_visible_name": "Horn Beeps Count Unlock",
+      "category": "Locking: Beep & Blink",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation",
+      "remediation": "Callsite at libCarista.so asm 0x14d20e8 (VagCanSettingsBanned::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0225_ICE_WARNING_THRESHOLD_ON_EXIT",
+      "internal_name": "car_setting_ice_warning_threshold_on_exit",
+      "user_visible_name": "Ice warning temperature threshold (when exiting the vehicle)",
+      "category": "Dings & Warnings",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_whitelist, missing_interpretation",
+      "remediation": "Callsite at libCarista.so asm 0x14096e0 (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0226_INDIVIDUALLY_ADJUSTABLE_SPEED_LIMIT",
+      "internal_name": "car_setting_individually_adjustable_speed_limit",
+      "user_visible_name": "Individually adjustable speed limit",
+      "category": "Other",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation, missing_did_or_channel",
+      "remediation": "Callsite at libCarista.so asm 0x1404d18 (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0229_INSTR_NEEDLE_SWEEP_LAP_TIMER_UPSHIFT_INDICATOR_SOME_MODULES_ONLY",
+      "internal_name": "car_setting_instr_needle_sweep_lap_timer_upshift_indicator_some_modules_only",
+      "user_visible_name": "Instr Needle Sweep Lap Timer Upshift Indicator Some Modules Only",
+      "category": "Instruments: Displays & Nav",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation, missing_did_or_channel",
+      "remediation": "Callsite at libCarista.so asm 0x14d2e68 (VagCanSettingsBanned::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0252_LANGUAGE",
+      "internal_name": "car_setting_language",
+      "user_visible_name": "Instrument cluster language",
+      "category": "Instruments: Language & Units",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation, missing_did_or_channel",
+      "remediation": "Callsite at libCarista.so asm 0x141c6b4 (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0257_LEAVING_HOME_DURATION",
+      "internal_name": "car_setting_leaving_home_duration",
+      "user_visible_name": "Leaving-home lights duration",
+      "category": "Lights: Coming/Leaving Home",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation, missing_or_invalid_bit_mask, missing_did_or_channel",
+      "remediation": "Callsite at libCarista.so asm 0x1425a60 (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0312_POWER_STEERING_DEFAULT_MODE",
+      "internal_name": "car_setting_power_steering_default_mode",
+      "user_visible_name": "Power steering default mode",
+      "category": "Other",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation, missing_or_invalid_bit_mask, missing_did_or_channel",
+      "remediation": "Callsite at libCarista.so asm 0x140509c (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0313_POWER_STEERING_WEIGHT_PRESET",
+      "internal_name": "car_setting_power_steering_weight_preset",
+      "user_visible_name": "Power steering weight preset",
+      "category": "Other",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation",
+      "remediation": "Callsite at libCarista.so asm 0x1405278 (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0325_REAR_WIPER_CONTINUOUS",
+      "internal_name": "car_setting_rear_wiper_continuous",
+      "user_visible_name": "Rear Wiper Continuous",
+      "category": "Wipers & Washer",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation",
+      "remediation": "Callsite at libCarista.so asm 0x14d0f04 (VagCanSettingsBanned::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0337_REQ_SEAT_BELT_WHEN_RELEASING_EPB",
+      "internal_name": "car_setting_req_seat_belt_when_releasing_epb",
+      "user_visible_name": "Require seat belt when releasing parking brake",
+      "category": "Dings & Warnings",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_or_invalid_bit_mask",
+      "remediation": "Callsite at libCarista.so asm 0x14067e8 (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0339_REVERSE_BEEP",
+      "internal_name": "car_setting_reverse_beep",
+      "user_visible_name": "Reverse gear beep",
+      "category": "Locking: Beep & Blink",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_or_invalid_bit_mask",
+      "remediation": "Callsite at libCarista.so asm 0x143a9ec (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0342_SEAT_BELT_WARN_TYPE",
+      "internal_name": "car_setting_seat_belt_warn_type",
+      "user_visible_name": "Seat belt warning type",
+      "category": "Dings & Warnings",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation",
+      "remediation": "Callsite at libCarista.so asm 0x1408614 (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0356_SIDE_MARKER_BRIGHTNESS",
+      "internal_name": "car_setting_side_marker_brightness",
+      "user_visible_name": "Side marker brightness",
+      "category": "Lights: Exterior",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation, missing_did_or_channel",
+      "remediation": "Callsite at libCarista.so asm 0x1431488 (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0357_SIDE_MARKER_PACE_CAR_LEFT",
+      "internal_name": "car_setting_side_marker_pace_car_left",
+      "user_visible_name": "\"Pace-car\" turn signals (left)",
+      "category": "Lights: Exterior",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation, missing_or_invalid_bit_mask, missing_did_or_channel",
+      "remediation": "Callsite at libCarista.so asm 0x1431224 (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0358_SIDE_MARKER_PACE_CAR_RIGHT",
+      "internal_name": "car_setting_side_marker_pace_car_right",
+      "user_visible_name": "\"Pace-car\" turn signals (right)",
+      "category": "Lights: Exterior",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation, missing_did_or_channel",
+      "remediation": "Callsite at libCarista.so asm 0x1431384 (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0369_SPEEDOMETER_CALIBRATION",
+      "internal_name": "car_setting_speedometer_calibration",
+      "user_visible_name": "Speedometer calibration",
+      "category": "Other",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation, missing_or_invalid_bit_mask, missing_did_or_channel",
+      "remediation": "Callsite at libCarista.so asm 0x141f0cc (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0372_START_SCREEN",
+      "internal_name": "car_setting_start_screen",
+      "user_visible_name": "Start screen logo",
+      "category": "Other",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation, missing_or_invalid_byte_offset",
+      "remediation": "Callsite at libCarista.so asm 0x141060c (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0373_START_SCREEN_INFOTAINMENT",
+      "internal_name": "car_setting_start_screen_infotainment",
+      "user_visible_name": "Start screen logo (infotainment)",
+      "category": "Other",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation, missing_or_invalid_bit_mask, missing_did_or_channel",
+      "remediation": "Callsite at libCarista.so asm 0x140f580 (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0374_START_SCREEN_INSTRUMENT_CLUSTER",
+      "internal_name": "car_setting_start_screen_instrument_cluster",
+      "user_visible_name": "Start screen logo (instrument cluster)",
+      "category": "Instruments: Displays & Nav",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_whitelist, missing_interpretation, missing_or_invalid_bit_mask",
+      "remediation": "Callsite at libCarista.so asm 0x14104bc (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0381_STATIC_SPEED_LIMIT",
+      "internal_name": "car_setting_static_speed_limit",
+      "user_visible_name": "Static speed limit",
+      "category": "Other",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation, missing_did_or_channel",
+      "remediation": "Callsite at libCarista.so asm 0x1404bf8 (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0385_SUNROOF_ACTION_VIA_REMOTE",
+      "internal_name": "car_setting_sunroof_action_via_remote",
+      "user_visible_name": "Sunroof action when opening via remote",
+      "category": "Windows & Sunroof",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation, missing_did_or_channel",
+      "remediation": "Callsite at libCarista.so asm 0x1449dc8 (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0388_SURROUND_AND_SUBWOOFER_MENU_INFOTAINMENT",
+      "internal_name": "car_setting_surround_and_subwoofer_menu_infotainment",
+      "user_visible_name": "Surround And Subwoofer Menu Infotainment",
+      "category": "Other",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation",
+      "remediation": "Callsite at libCarista.so asm 0x14d24d4 (VagCanSettingsBanned::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0393_THROTTLE_RESPONSE_BEHAVIOR",
+      "internal_name": "car_setting_throttle_response_behavior",
+      "user_visible_name": "Throttle response behavior",
+      "category": "Chassis & Engine",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation, missing_or_invalid_bit_mask, missing_did_or_channel",
+      "remediation": "Callsite at libCarista.so asm 0x140541c (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0412_TRAFFIC_SIGN_RECOGNITION_STEP_6",
+      "internal_name": "car_setting_traffic_sign_recognition_step_6",
+      "user_visible_name": "Traffic Sign Recognition Step 6",
+      "category": "Driver Assist",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation",
+      "remediation": "Callsite at libCarista.so asm 0x14d1b40 (VagCanSettingsBanned::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0413_TRAFFIC_SIGN_RECOGNITION_THRESHOLD",
+      "internal_name": "car_setting_traffic_sign_recognition_threshold",
+      "user_visible_name": "Traffic Sign Recognition Threshold",
+      "category": "Driver Assist",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation",
+      "remediation": "Callsite at libCarista.so asm 0x14d1ec0 (VagCanSettingsBanned::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0431_UNITS_PRESSURE",
+      "internal_name": "car_setting_units_pressure",
+      "user_visible_name": "Pressure display units",
+      "category": "Instruments: Language & Units",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation, missing_or_invalid_bit_mask, missing_did_or_channel",
+      "remediation": "Callsite at libCarista.so asm 0x141e9a4 (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0454_VIRTUAL_COCKPIT_COLOR_1",
+      "internal_name": "car_setting_virtual_cockpit_color_1",
+      "user_visible_name": "Virtual instrument cluster theme - color 1",
+      "category": "Other",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_whitelist, missing_interpretation, missing_or_invalid_bit_mask, missing_did_or_channel",
+      "remediation": "Callsite at libCarista.so asm 0x14122d0 (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0457_VIRTUAL_INSTRUMENT_CLUSTER_THEME",
+      "internal_name": "car_setting_virtual_instrument_cluster_theme",
+      "user_visible_name": "Virtual instrument cluster theme",
+      "category": "Instruments: Displays & Nav",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation, missing_or_invalid_bit_mask, missing_did_or_channel",
+      "remediation": "Callsite at libCarista.so asm 0x141204c (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0013_ALLOW_CONFIG_SOUND_ON_LOCK_UNLOCK_REMOTE",
+      "internal_name": "car_setting_allow_config_sound_on_lock_unlock_remote",
+      "user_visible_name": "Allow Config Sound On Lock Unlock Remote",
+      "category": "Other",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_did_or_channel",
+      "remediation": "Callsite at libCarista.so asm 0x14d3ccc (VagCanSettingsBanned::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0038_AUTO_LIGHTS_SENSITIVITY",
+      "internal_name": "car_setting_auto_lights_sensitivity",
+      "user_visible_name": "Auto headlights activation threshold",
+      "category": "Other",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation, missing_or_invalid_bit_mask",
+      "remediation": "Callsite at libCarista.so asm 0x142df70 (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0041_AUTO_UNFOLD_MIRRORS",
+      "internal_name": "car_setting_auto_unfold_mirrors",
+      "user_visible_name": "Auto unfold side-view mirrors",
+      "category": "Mirrors",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation",
+      "remediation": "Callsite at libCarista.so asm 0x14d74cc (VagCanSettingsBanned::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0068_BATTERY_TECHNOLOGY",
+      "internal_name": "car_setting_battery_technology",
+      "user_visible_name": "Battery technology",
+      "category": "Other",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_whitelist, missing_interpretation, missing_or_invalid_bit_mask, missing_did_or_channel",
+      "remediation": "Callsite at libCarista.so asm 0x14e6d04 (VagCanSettingsBanned::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0076_BEEP_ON_LOCK_UNLOCK_TYPE",
+      "internal_name": "car_setting_beep_on_lock_unlock_type",
+      "user_visible_name": "Beep when locking/unlocking doors comes from the\u2026",
+      "category": "Locking: Beep & Blink",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation, missing_did_or_channel",
+      "remediation": "Callsite at libCarista.so asm 0x143971c (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0085_BRAKE_ASSIST_STRENGTH",
+      "internal_name": "car_setting_brake_assist_strength",
+      "user_visible_name": "Power brakes strength",
+      "category": "Other",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation, missing_did_or_channel",
+      "remediation": "Callsite at libCarista.so asm 0x14055f4 (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0100_COMFORT_CLOSE_WINDOWS_REMOTE_SINGLE_PRESS",
+      "internal_name": "car_setting_comfort_close_windows_remote_single_press",
+      "user_visible_name": "Comfort Close Windows Remote Single Press",
+      "category": "Windows & Sunroof",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation",
+      "remediation": "Callsite at libCarista.so asm 0x14d7c28 (VagCanSettingsBanned::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0143_DRIVING_SCHOOL_MIB1_STEP_1",
+      "internal_name": "car_setting_driving_school_mib1_step_1",
+      "user_visible_name": "Driving School Mib1 Step 1",
+      "category": "Other",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_whitelist",
+      "remediation": "Callsite at libCarista.so asm 0x14d6bd0 (VagCanSettingsBanned::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0144_DRIVING_SCHOOL_MIB1_STEP_2",
+      "internal_name": "car_setting_driving_school_mib1_step_2",
+      "user_visible_name": "Driving School Mib1 Step 2",
+      "category": "Other",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_whitelist",
+      "remediation": "Callsite at libCarista.so asm 0x14d6c88 (VagCanSettingsBanned::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0145_DRIVING_SCHOOL_MIB1_STEP_3",
+      "internal_name": "car_setting_driving_school_mib1_step_3",
+      "user_visible_name": "Driving School Mib1 Step 3",
+      "category": "Other",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_whitelist",
+      "remediation": "Callsite at libCarista.so asm 0x14d6d14 (VagCanSettingsBanned::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0146_DRIVING_SCHOOL_MIB1_STEP_4",
+      "internal_name": "car_setting_driving_school_mib1_step_4",
+      "user_visible_name": "Driving School Mib1 Step 4",
+      "category": "Other",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_whitelist",
+      "remediation": "Callsite at libCarista.so asm 0x14d6da0 (VagCanSettingsBanned::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0150_DRL_BRIGHTNESS_WHEN_HEADLIGHTS_ARE_ON_LEFT",
+      "internal_name": "car_setting_drl_brightness_when_headlights_are_on_left",
+      "user_visible_name": "Drl Brightness When Headlights Are On Left",
+      "category": "Lights: Daytime Running Lights (DRL)",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation",
+      "remediation": "Callsite at libCarista.so asm 0x14d6e84 (VagCanSettingsBanned::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0151_DRL_BRIGHTNESS_WHEN_HEADLIGHTS_ARE_ON_RIGHT",
+      "internal_name": "car_setting_drl_brightness_when_headlights_are_on_right",
+      "user_visible_name": "Drl Brightness When Headlights Are On Right",
+      "category": "Lights: Daytime Running Lights (DRL)",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation",
+      "remediation": "Callsite at libCarista.so asm 0x14d6f3c (VagCanSettingsBanned::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0157_DRL_VIA_FRONT_LEFT_TURN_SIGNAL_STEP_1",
+      "internal_name": "car_setting_drl_via_front_left_turn_signal_step_1",
+      "user_visible_name": "Drl Via Front Left Turn Signal Step 1",
+      "category": "Lights: Daytime Running Lights (DRL)",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation",
+      "remediation": "Callsite at libCarista.so asm 0x14d5120 (VagCanSettingsBanned::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0158_DRL_VIA_FRONT_LEFT_TURN_SIGNAL_STEP_2",
+      "internal_name": "car_setting_drl_via_front_left_turn_signal_step_2",
+      "user_visible_name": "Drl Via Front Left Turn Signal Step 2",
+      "category": "Lights: Daytime Running Lights (DRL)",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation",
+      "remediation": "Callsite at libCarista.so asm 0x14d51f8 (VagCanSettingsBanned::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0159_DRL_VIA_FRONT_LEFT_TURN_SIGNAL_STEP_3",
+      "internal_name": "car_setting_drl_via_front_left_turn_signal_step_3",
+      "user_visible_name": "Drl Via Front Left Turn Signal Step 3",
+      "category": "Lights: Daytime Running Lights (DRL)",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation",
+      "remediation": "Callsite at libCarista.so asm 0x14d52c0 (VagCanSettingsBanned::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0160_DRL_VIA_FRONT_LEFT_TURN_SIGNAL_STEP_4",
+      "internal_name": "car_setting_drl_via_front_left_turn_signal_step_4",
+      "user_visible_name": "Drl Via Front Left Turn Signal Step 4",
+      "category": "Lights: Daytime Running Lights (DRL)",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation",
+      "remediation": "Callsite at libCarista.so asm 0x14d5378 (VagCanSettingsBanned::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0162_DRL_VIA_FRONT_RIGHT_TURN_SIGNAL_STEP_1",
+      "internal_name": "car_setting_drl_via_front_right_turn_signal_step_1",
+      "user_visible_name": "Drl Via Front Right Turn Signal Step 1",
+      "category": "Lights: Daytime Running Lights (DRL)",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation",
+      "remediation": "Callsite at libCarista.so asm 0x14d5430 (VagCanSettingsBanned::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0163_DRL_VIA_FRONT_RIGHT_TURN_SIGNAL_STEP_2",
+      "internal_name": "car_setting_drl_via_front_right_turn_signal_step_2",
+      "user_visible_name": "Drl Via Front Right Turn Signal Step 2",
+      "category": "Lights: Daytime Running Lights (DRL)",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation",
+      "remediation": "Callsite at libCarista.so asm 0x14d54e8 (VagCanSettingsBanned::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0164_DRL_VIA_FRONT_RIGHT_TURN_SIGNAL_STEP_3",
+      "internal_name": "car_setting_drl_via_front_right_turn_signal_step_3",
+      "user_visible_name": "Drl Via Front Right Turn Signal Step 3",
+      "category": "Lights: Daytime Running Lights (DRL)",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation",
+      "remediation": "Callsite at libCarista.so asm 0x14d55a0 (VagCanSettingsBanned::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0165_DRL_VIA_FRONT_RIGHT_TURN_SIGNAL_STEP_4",
+      "internal_name": "car_setting_drl_via_front_right_turn_signal_step_4",
+      "user_visible_name": "Drl Via Front Right Turn Signal Step 4",
+      "category": "Lights: Daytime Running Lights (DRL)",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation",
+      "remediation": "Callsite at libCarista.so asm 0x14d5658 (VagCanSettingsBanned::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0166_DRL_VIA_LASH_LEFT_BRIGHTNESS",
+      "internal_name": "car_setting_drl_via_lash_left_brightness",
+      "user_visible_name": "Drl Via Lash Left Brightness",
+      "category": "Lights: Daytime Running Lights (DRL)",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation, missing_did_or_channel",
+      "remediation": "Callsite at libCarista.so asm 0x14d39d4 (VagCanSettingsBanned::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0167_DRL_VIA_LASH_RIGHT_BRIGHTNESS",
+      "internal_name": "car_setting_drl_via_lash_right_brightness",
+      "user_visible_name": "Drl Via Lash Right Brightness",
+      "category": "Lights: Daytime Running Lights (DRL)",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation, missing_did_or_channel",
+      "remediation": "Callsite at libCarista.so asm 0x14d3ab8 (VagCanSettingsBanned::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0221_HILL_START_ASSIST_MODE",
+      "internal_name": "car_setting_hill_start_assist_mode",
+      "user_visible_name": "Hill start assist disengagement",
+      "category": "Other",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation, missing_or_invalid_bit_mask, missing_did_or_channel",
+      "remediation": "Callsite at libCarista.so asm 0x140b17c (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0244_INSTRUMENT_CLUSTER_LCD_BACKGROUND",
+      "internal_name": "car_setting_instrument_cluster_lcd_background",
+      "user_visible_name": "Instrument cluster LCD background",
+      "category": "Instruments: Displays & Nav",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation, missing_did_or_channel",
+      "remediation": "Callsite at libCarista.so asm 0x14110cc (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0277_MICROPHONE_SENSITIVITY",
+      "internal_name": "car_setting_microphone_sensitivity",
+      "user_visible_name": "Microphone sensitivity",
+      "category": "Other",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation, missing_did_or_channel",
+      "remediation": "Callsite at libCarista.so asm 0x1414b44 (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0284_NUM_FRONT_WASHER_ACTIVE_WO_HEADLIGHT_WASHER_ACTIVE",
+      "internal_name": "car_setting_num_front_washer_active_wo_headlight_washer_active",
+      "user_visible_name": "Activate headlight washers once every \u2026 times the windshield washer is used",
+      "category": "Wipers & Washer",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation, missing_or_invalid_bit_mask",
+      "remediation": "Callsite at libCarista.so asm 0x144dd24 (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0297_PASSIVE_ENTRY_REAR_RIGHT_DOOR",
+      "internal_name": "car_setting_passive_entry_rear_right_door",
+      "user_visible_name": "Passive Entry Rear Right Door",
+      "category": "Other",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: unresolved_ecu_transport, missing_whitelist, missing_interpretation, missing_or_invalid_byte_offset, missing_or_invalid_bit_mask",
+      "remediation": "Callsite at libCarista.so asm 0x14d3034 (VagCanSettingsBanned::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0318_RAIN_LIGHT_SENSOR",
+      "internal_name": "car_setting_rain_light_sensor",
+      "user_visible_name": "Rain/light sensor",
+      "category": "Lights: Automatic",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_or_invalid_bit_mask",
+      "remediation": "Callsite at libCarista.so asm 0x144d1b0 (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0321_REAR_PARK_ASSIST_FREQ",
+      "internal_name": "car_setting_rear_park_assist_freq",
+      "user_visible_name": "Rear parking sensor beep tone",
+      "category": "Parking Sensors",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation, missing_did_or_channel",
+      "remediation": "Callsite at libCarista.so asm 0x14403fc (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0322_REAR_PARK_ASSIST_VOL",
+      "internal_name": "car_setting_rear_park_assist_vol",
+      "user_visible_name": "Rear parking sensor beep volume",
+      "category": "Parking Sensors",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation, missing_or_invalid_bit_mask, missing_did_or_channel",
+      "remediation": "Callsite at libCarista.so asm 0x143fc28 (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0323_REAR_PARK_ASSIST_VOL_CONV_OPEN",
+      "internal_name": "car_setting_rear_park_assist_vol_conv_open",
+      "user_visible_name": "Rear parking sensor beep volume when convertible top is open",
+      "category": "Parking Sensors",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation, missing_did_or_channel",
+      "remediation": "Callsite at libCarista.so asm 0x14402a8 (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0348_SEAT_HEATER_TEMPERATURE_ADJUSTMENT_STAGE_1",
+      "internal_name": "car_setting_seat_heater_temperature_adjustment_stage_1",
+      "user_visible_name": "Seat Heater Temperature Adjustment Stage 1",
+      "category": "Seats & Steering Wheel",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation",
+      "remediation": "Callsite at libCarista.so asm 0x14d7934 (VagCanSettingsBanned::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0349_SEAT_HEATER_TEMPERATURE_ADJUSTMENT_STAGE_2",
+      "internal_name": "car_setting_seat_heater_temperature_adjustment_stage_2",
+      "user_visible_name": "Seat Heater Temperature Adjustment Stage 2",
+      "category": "Seats & Steering Wheel",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation",
+      "remediation": "Callsite at libCarista.so asm 0x14d79e8 (VagCanSettingsBanned::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0350_SEAT_HEATER_TEMPERATURE_ADJUSTMENT_STAGE_3",
+      "internal_name": "car_setting_seat_heater_temperature_adjustment_stage_3",
+      "user_visible_name": "Seat Heater Temperature Adjustment Stage 3",
+      "category": "Seats & Steering Wheel",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation",
+      "remediation": "Callsite at libCarista.so asm 0x14d7aa0 (VagCanSettingsBanned::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0359_SINGLE_DOOR_LOCK_REMOTE",
+      "internal_name": "car_setting_single_door_lock_remote",
+      "user_visible_name": "Unlock doors via remote",
+      "category": "Locking: Doors & Alarm",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation, missing_or_invalid_bit_mask, missing_did_or_channel",
+      "remediation": "Callsite at libCarista.so asm 0x143ab14 (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0364_SOUND_ON_LOCK_UNLOCK_ADAPT_ENABLED",
+      "internal_name": "car_setting_sound_on_lock_unlock_adapt_enabled",
+      "user_visible_name": "Sound On Lock Unlock Adapt Enabled",
+      "category": "Other",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_did_or_channel",
+      "remediation": "Callsite at libCarista.so asm 0x14d3c58 (VagCanSettingsBanned::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0378_START_STOP_DISABLE_METHOD_C",
+      "internal_name": "car_setting_start_stop_disable_method_c",
+      "user_visible_name": "Disable auto start/stop system (method C)",
+      "category": "Chassis & Engine",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation, missing_did_or_channel",
+      "remediation": "Callsite at libCarista.so asm 0x1404680 (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0382_STEERING_DIRECTION",
+      "internal_name": "car_setting_steering_direction",
+      "user_visible_name": "Steering Direction",
+      "category": "Other",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation, missing_did_or_channel",
+      "remediation": "Callsite at libCarista.so asm 0x14d4cd8 (VagCanSettingsBanned::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0391_TAILLIGHTS_ANIMATION",
+      "internal_name": "car_setting_taillights_animation",
+      "user_visible_name": "Taillights Animation",
+      "category": "Other",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation",
+      "remediation": "Callsite at libCarista.so asm 0x14d7168 (VagCanSettingsBanned::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0392_THEME_INFOTAINMENT",
+      "internal_name": "car_setting_theme_infotainment",
+      "user_visible_name": "Theme Infotainment",
+      "category": "Other",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation",
+      "remediation": "Callsite at libCarista.so asm 0x14d62bc (VagCanSettingsBanned::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0395_TORQUE_LIMITER_INTERACTION",
+      "internal_name": "car_setting_torque_limiter_interaction",
+      "user_visible_name": "Torque limiter interaction",
+      "category": "Other",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation, missing_did_or_channel",
+      "remediation": "Callsite at libCarista.so asm 0x1405dd8 (VagCanSettings::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0403_TPMS_SENSITIVITY",
+      "internal_name": "car_setting_tpms_sensitivity",
+      "user_visible_name": "Tpms Sensitivity",
+      "category": "Service Tools",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation",
+      "remediation": "Callsite at libCarista.so asm 0x14d5048 (VagCanSettingsBanned::getSettings) requires runtime frame evaluation"
+    },
+    {
+      "id": "FEAT_0419_TRUNK_CLOSING_DURATION",
+      "internal_name": "car_setting_trunk_closing_duration",
+      "user_visible_name": "Trunk Closing Duration",
+      "category": "Trunk",
+      "blocking_reason": "PARTIAL_GROUND_TRUTH: missing_interpretation, missing_or_invalid_bit_mask",
+      "remediation": "Callsite at libCarista.so asm 0x14d7b74 (VagCanSettingsBanned::getSettings) requires runtime frame evaluation"
+    },
     {
       "id": "DIAG_AUTOSCAN",
       "internal_name": "autoscan_full_gateway_discovery",
@@ -58,7 +906,7 @@
       "internal_name": "car_setting_ac_refrigerant_shortage_check",
       "user_visible_name": "Ac Refrigerant Shortage Check",
       "category": "Heater & A/C",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -66,7 +914,7 @@
       "internal_name": "car_setting_agm_70_ah_600_cca_h6",
       "user_visible_name": "AGM 70Ah 600CCA H6",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -74,7 +922,7 @@
       "internal_name": "car_setting_agm_80_ah_700_cca_h7",
       "user_visible_name": "AGM 80Ah 700CCA H7",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -82,7 +930,7 @@
       "internal_name": "car_setting_agm_80_ah_700_cca_t7",
       "user_visible_name": "AGM 80Ah 700CCA T7",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -90,7 +938,7 @@
       "internal_name": "car_setting_anti_key_lock_function",
       "user_visible_name": "Reminder if key is still in the vehicle",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -98,7 +946,7 @@
       "internal_name": "car_setting_auto_relock_time",
       "user_visible_name": "Re-lock doors automatically if you unlock, but don't open a door within\u2026",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -106,7 +954,7 @@
       "internal_name": "car_setting_auto_unlock_doors_after_crash",
       "user_visible_name": "Auto Unlock Doors After Crash",
       "category": "Locking: Automatic",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -114,7 +962,7 @@
       "internal_name": "car_setting_battery_105ah_agm",
       "user_visible_name": "105 Ah AGM",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -122,7 +970,7 @@
       "internal_name": "car_setting_battery_110ah",
       "user_visible_name": "110 Ah",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -130,7 +978,7 @@
       "internal_name": "car_setting_battery_20ah",
       "user_visible_name": "20 Ah",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -138,7 +986,7 @@
       "internal_name": "car_setting_battery_40ah",
       "user_visible_name": "40 Ah",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -146,7 +994,7 @@
       "internal_name": "car_setting_battery_40ah_agm",
       "user_visible_name": "40 Ah AGM",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -154,7 +1002,7 @@
       "internal_name": "car_setting_battery_46ah",
       "user_visible_name": "46 Ah",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -162,7 +1010,7 @@
       "internal_name": "car_setting_battery_55ah",
       "user_visible_name": "55 Ah",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -170,7 +1018,7 @@
       "internal_name": "car_setting_battery_55ah_agm",
       "user_visible_name": "55 Ah AGM",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -178,7 +1026,7 @@
       "internal_name": "car_setting_battery_60ah_agm",
       "user_visible_name": "60 Ah AGM",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -186,7 +1034,7 @@
       "internal_name": "car_setting_battery_70ah",
       "user_visible_name": "70 Ah",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -194,7 +1042,7 @@
       "internal_name": "car_setting_battery_70ah_agm",
       "user_visible_name": "70 Ah AGM",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -202,7 +1050,7 @@
       "internal_name": "car_setting_battery_70ah_efb",
       "user_visible_name": "70 Ah EFB",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -210,7 +1058,7 @@
       "internal_name": "car_setting_battery_80ah",
       "user_visible_name": "80 Ah",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -218,7 +1066,7 @@
       "internal_name": "car_setting_battery_80ah_agm",
       "user_visible_name": "80 Ah AGM",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -226,7 +1074,7 @@
       "internal_name": "car_setting_battery_80ah_efb",
       "user_visible_name": "80 Ah EFB",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -234,7 +1082,7 @@
       "internal_name": "car_setting_battery_90ah",
       "user_visible_name": "90 Ah",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -242,7 +1090,7 @@
       "internal_name": "car_setting_battery_90ah_agm",
       "user_visible_name": "90 Ah AGM",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -250,7 +1098,7 @@
       "internal_name": "car_setting_battery_reg",
       "user_visible_name": "Battery registration",
       "category": "Service Tools",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -258,7 +1106,7 @@
       "internal_name": "car_setting_battery_technology_agm",
       "user_visible_name": "AGM",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -266,7 +1114,7 @@
       "internal_name": "car_setting_battery_technology_wet",
       "user_visible_name": "Wet (lead-acid)",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -274,7 +1122,7 @@
       "internal_name": "car_setting_beep_on_alarm_armed_engine_running",
       "user_visible_name": "Beep On Alarm Armed Engine Running",
       "category": "Locking: Beep & Blink",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -282,7 +1130,7 @@
       "internal_name": "car_setting_blindspot_volume",
       "user_visible_name": "Blind Spot Monitoring (BSM) volume",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -290,7 +1138,7 @@
       "internal_name": "car_setting_category_",
       "user_visible_name": "Category ",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -298,7 +1146,7 @@
       "internal_name": "car_setting_category_other",
       "user_visible_name": "Other",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -306,7 +1154,7 @@
       "internal_name": "car_setting_central_locking_button",
       "user_visible_name": "Central Locking Button",
       "category": "Locking: Doors & Alarm",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -314,7 +1162,7 @@
       "internal_name": "car_setting_comfort_close_key",
       "user_visible_name": "Close windows and sunroof by turning and holding key in door lock",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -322,7 +1170,7 @@
       "internal_name": "car_setting_comfort_open_key",
       "user_visible_name": "Open windows and sunroof by turning and holding key in door lock",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -330,7 +1178,7 @@
       "internal_name": "car_setting_comfort_open_remote",
       "user_visible_name": "Open windows and sunroof via long-press on remote",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -338,7 +1186,7 @@
       "internal_name": "car_setting_continuous",
       "user_visible_name": "Continuous",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -346,7 +1194,7 @@
       "internal_name": "car_setting_crash_lights_double_impulse",
       "user_visible_name": "Crash Lights Double Impulse",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -354,7 +1202,7 @@
       "internal_name": "car_setting_disable_mp3_legal_disclaimer",
       "user_visible_name": "Disable Mp3 Legal Disclaimer",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -362,7 +1210,7 @@
       "internal_name": "car_setting_driver_aids",
       "user_visible_name": "Driver-aids",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -370,7 +1218,7 @@
       "internal_name": "car_setting_enabled_v1",
       "user_visible_name": "Enabled (Version 1)",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -378,7 +1226,7 @@
       "internal_name": "car_setting_enabled_v2",
       "user_visible_name": "Enabled (Version 2)",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -386,7 +1234,7 @@
       "internal_name": "car_setting_ese",
       "user_visible_name": "Engine Sound Enhancement (ESE)",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -394,7 +1242,7 @@
       "internal_name": "car_setting_exide_43_ah_390_cca_t4",
       "user_visible_name": "Exide 43Ah 390CCA T4",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -402,7 +1250,7 @@
       "internal_name": "car_setting_exide_52_ah_500_cca_t5",
       "user_visible_name": "Exide 52Ah 500CCA T5",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -410,7 +1258,7 @@
       "internal_name": "car_setting_exide_60_ah_520_cca_h5",
       "user_visible_name": "Exide 60Ah 520CCA H5",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -418,7 +1266,7 @@
       "internal_name": "car_setting_exide_60_ah_590_cca_t6",
       "user_visible_name": "Exide 60Ah 590CCA T6",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -426,7 +1274,7 @@
       "internal_name": "car_setting_exide_70_ah_600_cca_h6",
       "user_visible_name": "Exide 70Ah 600CCA H6",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -434,7 +1282,7 @@
       "internal_name": "car_setting_exide_80_ah_700_cca_h7",
       "user_visible_name": "Exide 80Ah 700CCA H7",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -442,7 +1290,7 @@
       "internal_name": "car_setting_exide_80_ah_70_cca_t7",
       "user_visible_name": "Exide 80Ah 70CCA T7",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -450,7 +1298,7 @@
       "internal_name": "car_setting_exide_90_ah_800_cca_h8",
       "user_visible_name": "Exide 90Ah 800CCA H8",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -458,7 +1306,7 @@
       "internal_name": "car_setting_exide_90_ah_800_cca_t8",
       "user_visible_name": "Exide 90Ah 800CCA T8",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -466,7 +1314,7 @@
       "internal_name": "car_setting_exide_90_ah_950_cca_h8",
       "user_visible_name": "Exide 90Ah 950CCA H8",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -474,7 +1322,7 @@
       "internal_name": "car_setting_fuel_consumption_position_0",
       "user_visible_name": "Fuel consumption (position 0)",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -482,7 +1330,7 @@
       "internal_name": "car_setting_fuel_consumption_position_1",
       "user_visible_name": "Fuel consumption (position 1)",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -490,7 +1338,7 @@
       "internal_name": "car_setting_fuel_consumption_position_2",
       "user_visible_name": "Fuel consumption (position 2)",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -498,7 +1346,7 @@
       "internal_name": "car_setting_fuel_consumption_position_3",
       "user_visible_name": "Fuel consumption (position 3)",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -506,7 +1354,7 @@
       "internal_name": "car_setting_fuel_consumption_position_4",
       "user_visible_name": "Fuel consumption (position 4)",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -514,7 +1362,7 @@
       "internal_name": "car_setting_gauge_arrow_offset",
       "user_visible_name": "Gauge arrow offset",
       "category": "Instruments: Displays & Nav",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -522,7 +1370,7 @@
       "internal_name": "car_setting_gauge_arrow_sensitivity",
       "user_visible_name": "Gauge arrow response sensitivity",
       "category": "Instruments: Displays & Nav",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -530,7 +1378,7 @@
       "internal_name": "car_setting_general_led_up_to_6W",
       "user_visible_name": "General Led Up To 6W",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -538,7 +1386,7 @@
       "internal_name": "car_setting_hazard_lights_after_crash",
       "user_visible_name": "Hazard Lights After Crash",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -546,7 +1394,7 @@
       "internal_name": "car_setting_headlight_cleaning",
       "user_visible_name": "Headlight cleaning",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -554,7 +1402,7 @@
       "internal_name": "car_setting_heated_windshield_jets_and_mirrors",
       "user_visible_name": "Heated Windshield Jets And Mirrors",
       "category": "Mirrors",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -562,7 +1410,7 @@
       "internal_name": "car_setting_high",
       "user_visible_name": "High",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -570,7 +1418,7 @@
       "internal_name": "car_setting_instr_needle_sweep_lap_counter_upshift_indicator",
       "user_visible_name": "Instr Needle Sweep Lap Counter Upshift Indicator",
       "category": "Instruments: Displays & Nav",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -578,39 +1426,39 @@
       "internal_name": "car_setting_instruction_automatic_driveaway_after_short_stop",
       "user_visible_name": "Instruction Automatic Driveaway After Short Stop",
       "category": "Other",
-      "blocking_reason": "PARTIAL_INSTRUCTION_TOOLTIP: Informative UI notice attached to parent setting",
-      "remediation": "Callsite verified at libCarista.so asm 0x14d8144 (VagCanSettingsBanned::getSettings); requires dynamic frame evaluation"
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
+      "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
       "id": "FEAT_0231_INSTRUCTION_BATTERY_CHARGE_DISPLAY_MK7",
       "internal_name": "car_setting_instruction_battery_charge_display_mk7",
       "user_visible_name": "Instruction Battery Charge Display Mk7",
       "category": "Other",
-      "blocking_reason": "PARTIAL_INSTRUCTION_TOOLTIP: Informative UI notice attached to parent setting",
-      "remediation": "Callsite verified at libCarista.so asm 0x14d2ca8 (VagCanSettingsBanned::getSettings); requires dynamic frame evaluation"
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
+      "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
       "id": "FEAT_0232_INSTRUCTION_DRIVING_SCHOOL_MIB1",
       "internal_name": "car_setting_instruction_driving_school_mib1",
       "user_visible_name": "Instruction Driving School Mib1",
       "category": "Other",
-      "blocking_reason": "PARTIAL_INSTRUCTION_TOOLTIP: Informative UI notice attached to parent setting",
-      "remediation": "Callsite verified at libCarista.so asm 0x14d6be4 (VagCanSettingsBanned::getSettings); requires dynamic frame evaluation"
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
+      "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
       "id": "FEAT_0233_INSTRUCTION_EASY_ENTRY_EXIT_B9",
       "internal_name": "car_setting_instruction_easy_entry_exit_b9",
       "user_visible_name": "Instruction Easy Entry Exit B9",
       "category": "Locking: Smart Key (KESSY)",
-      "blocking_reason": "PARTIAL_INSTRUCTION_TOOLTIP: Informative UI notice attached to parent setting",
-      "remediation": "Callsite verified at libCarista.so asm 0x14d7868 (VagCanSettingsBanned::getSettings); requires dynamic frame evaluation"
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
+      "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
       "id": "FEAT_0234_INSTRUCTION_GAUGE_ARROW_OFFSET",
       "internal_name": "car_setting_instruction_gauge_arrow_offset",
       "user_visible_name": "Larger values move the arrow offset to the left, smaller values move it to the right.",
       "category": "Instruments: Displays & Nav",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -618,23 +1466,23 @@
       "internal_name": "car_setting_instruction_highway_lights",
       "user_visible_name": "The effect of this customization depends on the front lights installed:\nXenon plus: high beams tilt up above 140 km/h (90 mph).\nOthers: low beams turn on automatically above 140 km/h (90 mph).",
       "category": "Lights: Automatic",
-      "blocking_reason": "PARTIAL_INSTRUCTION_TOOLTIP: Informative UI notice attached to parent setting",
-      "remediation": "Callsite verified at libCarista.so asm 0x14d3438 (VagCanSettingsBanned::getSettings); requires dynamic frame evaluation"
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
+      "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
       "id": "FEAT_0236_INSTRUCTION_LOWER_MIRROR_WITH_SWITCH_PASS",
       "internal_name": "car_setting_instruction_lower_mirror_with_switch_pass",
       "user_visible_name": "Note that this works only if your power mirror switch is set to control the passenger-side mirror.",
       "category": "Mirrors",
-      "blocking_reason": "PARTIAL_INSTRUCTION_TOOLTIP: Informative UI notice attached to parent setting",
-      "remediation": "Callsite verified at libCarista.so asm 0x14d7618 (VagCanSettingsBanned::getSettings); requires dynamic frame evaluation"
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
+      "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
       "id": "FEAT_0237_INSTRUCTION_MAY_NOT_WORK",
       "internal_name": "car_setting_instruction_may_not_work",
       "user_visible_name": "This customization may fail to save on some cars. If it does, that means your car doesn't support it.",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -642,47 +1490,47 @@
       "internal_name": "car_setting_instruction_may_not_work_try_a_few_times",
       "user_visible_name": "This setting is still experimental and it may fail to save. Feel free to try a few times, and if it still doesn't work, rest assured that we know about it and are working on it.",
       "category": "Other",
-      "blocking_reason": "PARTIAL_INSTRUCTION_TOOLTIP: Informative UI notice attached to parent setting",
-      "remediation": "Callsite verified at libCarista.so asm 0x14d3390 (VagCanSettingsBanned::getSettings); requires dynamic frame evaluation"
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
+      "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
       "id": "FEAT_0239_INSTRUCTION_REQ_INFOTAINMENT_REBOOT",
       "internal_name": "car_setting_instruction_req_infotainment_reboot",
       "user_visible_name": "Please note that this customization requires infotainment reboot.",
       "category": "Other",
-      "blocking_reason": "PARTIAL_INSTRUCTION_TOOLTIP: Informative UI notice attached to parent setting",
-      "remediation": "Callsite verified at libCarista.so asm 0x14d6db4 (VagCanSettingsBanned::getSettings); requires dynamic frame evaluation"
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
+      "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
       "id": "FEAT_0240_INSTRUCTION_REQUIRES_HIGHLINE_TAIL_LIGHTS",
       "internal_name": "car_setting_instruction_requires_highline_tail_lights",
       "user_visible_name": "Instruction Requires Highline Tail Lights",
       "category": "Lights: Exterior",
-      "blocking_reason": "PARTIAL_INSTRUCTION_TOOLTIP: Informative UI notice attached to parent setting",
-      "remediation": "Callsite verified at libCarista.so asm 0x14d717c (VagCanSettingsBanned::getSettings); requires dynamic frame evaluation"
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
+      "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
       "id": "FEAT_0241_INSTRUCTION_REQUIRES_SENSORS",
       "internal_name": "car_setting_instruction_requires_sensors",
       "user_visible_name": "Note that this setting only works if the car has the required sensors (most S and RS cars do).",
       "category": "Other",
-      "blocking_reason": "PARTIAL_INSTRUCTION_TOOLTIP: Informative UI notice attached to parent setting",
-      "remediation": "Callsite verified at libCarista.so asm 0x14d69d8 (VagCanSettingsBanned::getSettings); requires dynamic frame evaluation"
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
+      "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
       "id": "FEAT_0242_INSTRUCTION_SETTINGS_WITH_STEPS",
       "internal_name": "car_setting_instruction_settings_with_steps",
       "user_visible_name": "Note that you need to enable all steps for this to work.",
       "category": "Other",
-      "blocking_reason": "PARTIAL_INSTRUCTION_TOOLTIP: Informative UI notice attached to parent setting",
-      "remediation": "Callsite verified at libCarista.so asm 0x14d81d8 (VagCanSettingsBanned::getSettings); requires dynamic frame evaluation"
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
+      "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
       "id": "FEAT_0243_INSTRUCTION_TRANSMISSION_FLUILD_TEMP",
       "internal_name": "car_setting_instruction_transmission_fluild_temp",
       "user_visible_name": "Typical transmission fluid temperature is around 82 - 94 \u00b0C (180 - 200 \u00b0F).",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -690,7 +1538,7 @@
       "internal_name": "car_setting_instrument_lights_after_crash",
       "user_visible_name": "Instrument Lights After Crash",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -698,7 +1546,7 @@
       "internal_name": "car_setting_interval",
       "user_visible_name": "Interval",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -706,7 +1554,7 @@
       "internal_name": "car_setting_intro_cluster_gauge_config",
       "user_visible_name": "Allows you to configure the small gauge on the right side of the instrument cluster. Please note that this tool may not be supported on diesel vehicles.",
       "category": "Instruments: Displays & Nav",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -714,7 +1562,7 @@
       "internal_name": "car_setting_jets",
       "user_visible_name": "Jets",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -722,7 +1570,7 @@
       "internal_name": "car_setting_jets_and_mirrors",
       "user_visible_name": "Jets And Mirrors",
       "category": "Mirrors",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -730,7 +1578,7 @@
       "internal_name": "car_setting_lap_counter",
       "user_visible_name": "Lap Counter",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -738,7 +1586,7 @@
       "internal_name": "car_setting_lap_counter_needle_sweep",
       "user_visible_name": "Lap Counter Needle Sweep",
       "category": "Instruments: Displays & Nav",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -746,7 +1594,7 @@
       "internal_name": "car_setting_led_daytime_running_lights",
       "user_visible_name": "LED lights",
       "category": "Lights: Daytime Running Lights (DRL)",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -754,7 +1602,7 @@
       "internal_name": "car_setting_led_low_power",
       "user_visible_name": "LED low power",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -762,7 +1610,7 @@
       "internal_name": "car_setting_low",
       "user_visible_name": "Low",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -770,7 +1618,7 @@
       "internal_name": "car_setting_medium",
       "user_visible_name": "Medium",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -778,7 +1626,7 @@
       "internal_name": "car_setting_noise_vibration_reduction",
       "user_visible_name": "Noise Vibration Reduction",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -786,7 +1634,7 @@
       "internal_name": "car_setting_not_defined",
       "user_visible_name": "Not defined",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -794,7 +1642,7 @@
       "internal_name": "car_setting_oil_temp_position_0",
       "user_visible_name": "Oil temperature (position 0)",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -802,7 +1650,7 @@
       "internal_name": "car_setting_oil_temp_position_1",
       "user_visible_name": "Oil temperature (position 1)",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -810,7 +1658,7 @@
       "internal_name": "car_setting_oil_temp_position_2",
       "user_visible_name": "Oil temperature (position 2)",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -818,7 +1666,7 @@
       "internal_name": "car_setting_oil_temp_position_3",
       "user_visible_name": "Oil temperature (position 3)",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -826,7 +1674,7 @@
       "internal_name": "car_setting_oil_temp_position_4",
       "user_visible_name": "Oil temperature (position 4)",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -834,7 +1682,7 @@
       "internal_name": "car_setting_partially",
       "user_visible_name": "Partially",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -842,7 +1690,7 @@
       "internal_name": "car_setting_pcs",
       "user_visible_name": "Pcs",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -850,7 +1698,7 @@
       "internal_name": "car_setting_pcs_alarm_last_state",
       "user_visible_name": "Default distance for Pre-Collision System (PCS) alarm when the PCS switch is turned off and back on",
       "category": "Locking: Doors & Alarm",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -858,7 +1706,7 @@
       "internal_name": "car_setting_pcs_alarm_off_when_ignition_on",
       "user_visible_name": "Default distance for Pre-Collision System (PCS) alarm when the ignition is turned on with the PCS switch off",
       "category": "Locking: Doors & Alarm",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -866,7 +1714,7 @@
       "internal_name": "car_setting_pcs_alarm_on_when_ignition_on",
       "user_visible_name": "Default distance for Pre-Collision System (PCS) alarm when the ignition is turned on with the PCS switch on",
       "category": "Locking: Doors & Alarm",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -874,7 +1722,7 @@
       "internal_name": "car_setting_pcs_beep",
       "user_visible_name": "Pcs Beep",
       "category": "Locking: Beep & Blink",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -882,7 +1730,7 @@
       "internal_name": "car_setting_pcs_driver_aids_last_state",
       "user_visible_name": "Pre-Collision System (PCS) driver aids: remember last state",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -890,7 +1738,7 @@
       "internal_name": "car_setting_pcs_operation_last_state",
       "user_visible_name": "Pre-Collision System (PCS) sensitivity: remember last state",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -898,7 +1746,7 @@
       "internal_name": "car_setting_pcs_reaction_time",
       "user_visible_name": "Pre-Collision System (PCS) reacts\u2026",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -906,7 +1754,7 @@
       "internal_name": "car_setting_pcs_rear_vehicle_detection",
       "user_visible_name": "Pre-Collision System (PCS) brake when vehicle is detected from behind",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -914,7 +1762,7 @@
       "internal_name": "car_setting_pcs_sensitivity",
       "user_visible_name": "Pre-Collision System (PCS) sensitivity",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -922,7 +1770,7 @@
       "internal_name": "car_setting_power_sliding_doors",
       "user_visible_name": "Power sliding doors",
       "category": "Dings & Warnings",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -930,7 +1778,7 @@
       "internal_name": "car_setting_rear_hatch_auto_up_cover",
       "user_visible_name": "Rear Hatch Auto Up Cover",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -938,7 +1786,7 @@
       "internal_name": "car_setting_restrict_video_speed",
       "user_visible_name": "Video in motion restriction speed",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -946,7 +1794,7 @@
       "internal_name": "car_setting_seat_belt_warning_ding_driver",
       "user_visible_name": "Seat belt warning ding (driver)",
       "category": "Dings & Warnings",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -954,7 +1802,7 @@
       "internal_name": "car_setting_seat_belt_warning_ding_front_passenger",
       "user_visible_name": "Seat belt warning ding (front passenger)",
       "category": "Dings & Warnings",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -962,7 +1810,7 @@
       "internal_name": "car_setting_seat_belt_warning_ding_rear_passengers",
       "user_visible_name": "Seat belt warning ding (rear passengers)",
       "category": "Dings & Warnings",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -970,7 +1818,7 @@
       "internal_name": "car_setting_seatbelt_warning_ding_rear_center",
       "user_visible_name": "Seat belt warning ding (rear center passenger)",
       "category": "Dings & Warnings",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -978,7 +1826,7 @@
       "internal_name": "car_setting_seatbelt_warning_ding_rear_left",
       "user_visible_name": "Seat belt warning ding (rear left passenger)",
       "category": "Dings & Warnings",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -986,7 +1834,7 @@
       "internal_name": "car_setting_seatbelt_warning_ding_rear_right",
       "user_visible_name": "Seat belt warning ding (rear right passenger)",
       "category": "Dings & Warnings",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -994,7 +1842,7 @@
       "internal_name": "car_setting_slide",
       "user_visible_name": "Slide",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -1002,7 +1850,7 @@
       "internal_name": "car_setting_speaker_volume",
       "user_visible_name": "Speaker volume",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -1010,7 +1858,7 @@
       "internal_name": "car_setting_start_dpf",
       "user_visible_name": "Start Dpf",
       "category": "Service Tools",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -1018,7 +1866,7 @@
       "internal_name": "car_setting_strong",
       "user_visible_name": "Strong",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -1026,7 +1874,7 @@
       "internal_name": "car_setting_sunroof_action_via_key",
       "user_visible_name": "Sunroof action when opening via holding down the driver side key for 1.5 seconds",
       "category": "Windows & Sunroof",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -1034,7 +1882,7 @@
       "internal_name": "car_setting_taillight_pattern_eu",
       "user_visible_name": "Taillight Pattern Eu",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -1042,7 +1890,7 @@
       "internal_name": "car_setting_taillight_pattern_us",
       "user_visible_name": "Taillight Pattern Us",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -1050,7 +1898,7 @@
       "internal_name": "car_setting_tilt",
       "user_visible_name": "Tilt",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -1058,7 +1906,7 @@
       "internal_name": "car_setting_trunk_lid_remote",
       "user_visible_name": "Open trunk lid with remote",
       "category": "Trunk",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -1066,7 +1914,7 @@
       "internal_name": "car_setting_turn_signal_click_volume",
       "user_visible_name": "Turn signal click volume",
       "category": "Lights: Exterior",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -1074,7 +1922,7 @@
       "internal_name": "car_setting_type1",
       "user_visible_name": "Type 1",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -1082,7 +1930,7 @@
       "internal_name": "car_setting_type2",
       "user_visible_name": "Type 2",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -1090,7 +1938,7 @@
       "internal_name": "car_setting_units_gallons_uk",
       "user_visible_name": "Gallons (UK)",
       "category": "Instruments: Language & Units",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -1098,7 +1946,7 @@
       "internal_name": "car_setting_units_gallons_us",
       "user_visible_name": "Gallons (US)",
       "category": "Instruments: Language & Units",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -1106,7 +1954,7 @@
       "internal_name": "car_setting_units_l_100_km",
       "user_visible_name": "l/100km",
       "category": "Instruments: Language & Units",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -1114,7 +1962,7 @@
       "internal_name": "car_setting_units_l_hour",
       "user_visible_name": "l/h",
       "category": "Instruments: Language & Units",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -1122,7 +1970,7 @@
       "internal_name": "car_setting_upshift_indicator",
       "user_visible_name": "Upshift Indicator",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -1130,7 +1978,7 @@
       "internal_name": "car_setting_upshift_indicator_lap_counter",
       "user_visible_name": "Upshift Indicator Lap Counter",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -1138,7 +1986,7 @@
       "internal_name": "car_setting_upshift_indicator_needle_sweep",
       "user_visible_name": "Upshift Indicator Needle Sweep",
       "category": "Instruments: Displays & Nav",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -1146,7 +1994,7 @@
       "internal_name": "car_setting_value_0",
       "user_visible_name": "Value 0",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -1154,7 +2002,7 @@
       "internal_name": "car_setting_value_1",
       "user_visible_name": "Value 1",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -1162,7 +2010,7 @@
       "internal_name": "car_setting_value_2",
       "user_visible_name": "Value 2",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -1170,7 +2018,7 @@
       "internal_name": "car_setting_value_3",
       "user_visible_name": "Value 3",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -1178,7 +2026,7 @@
       "internal_name": "car_setting_value_4",
       "user_visible_name": "Value 4",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -1186,7 +2034,7 @@
       "internal_name": "car_setting_value_5",
       "user_visible_name": "Value 5",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -1194,7 +2042,7 @@
       "internal_name": "car_setting_value_6",
       "user_visible_name": "Value 6",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -1202,7 +2050,7 @@
       "internal_name": "car_setting_value_7",
       "user_visible_name": "Value 7",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -1210,7 +2058,7 @@
       "internal_name": "car_setting_varta_43_ah_390_cca_t4",
       "user_visible_name": "Varta 43Ah 390CCA T4",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -1218,7 +2066,7 @@
       "internal_name": "car_setting_varta_52_ah_500_cca_t5",
       "user_visible_name": "Varta 52Ah 500CCA T5",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -1226,7 +2074,7 @@
       "internal_name": "car_setting_varta_60_ah_520_cca_h5",
       "user_visible_name": "Varta 60Ah 520CCA H5",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -1234,7 +2082,7 @@
       "internal_name": "car_setting_varta_60_ah_590_cca_t6",
       "user_visible_name": "Varta 60Ah 590CCA T6",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -1242,7 +2090,7 @@
       "internal_name": "car_setting_varta_70_ah_600_cca_h6",
       "user_visible_name": "Varta 70Ah 600CCA H6",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -1250,7 +2098,7 @@
       "internal_name": "car_setting_varta_80_ah_700_cca_h7",
       "user_visible_name": "Varta 80Ah 700CCA H7",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -1258,7 +2106,7 @@
       "internal_name": "car_setting_varta_80_ah_70_cca_t7",
       "user_visible_name": "Varta 80Ah 70CCA T7",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -1266,7 +2114,7 @@
       "internal_name": "car_setting_varta_90_ah_800_cca_h8",
       "user_visible_name": "Varta 90Ah 800CCA H8",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -1274,7 +2122,7 @@
       "internal_name": "car_setting_varta_90_ah_800_cca_t8",
       "user_visible_name": "Varta 90Ah 800CCA T8",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -1282,7 +2130,7 @@
       "internal_name": "car_setting_varta_90_ah_950_cca_h8",
       "user_visible_name": "Varta 90Ah 950CCA H8",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -1290,7 +2138,7 @@
       "internal_name": "car_setting_weak",
       "user_visible_name": "Weak",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -1298,7 +2146,7 @@
       "internal_name": "car_setting_yes_immediately",
       "user_visible_name": "Yes, turn on immediately",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -1306,7 +2154,7 @@
       "internal_name": "car_setting_yes_softly",
       "user_visible_name": "Yes, turn on gradually",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     },
     {
@@ -1314,7 +2162,7 @@
       "internal_name": "car_setting_TODO",
       "user_visible_name": "Todo",
       "category": "Other",
-      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in VAG binary",
+      "blocking_reason": "UNRESOLVED_IN_BINARY: No constructor callsite in native binary",
       "remediation": "Present only as ARSC string resource; not compiled into this native build."
     }
   ]

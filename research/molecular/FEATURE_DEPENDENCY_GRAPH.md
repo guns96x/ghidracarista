@@ -1,6 +1,6 @@
 # Molecular Feature Dependency Graph
 
-Total Features Traced End-to-End: **478** (Ready: **314**, Blocked: **164**)  
+Total Features Traced End-to-End: **478** (Ready: **208**, Blocked: **270**)  
 
 ## 1. End-to-End Trace Architecture
 
@@ -26,7 +26,7 @@ flowchart LR
 - **Setting / Tool Object**: `VagUdsCodingSetting` (`car_setting_instr_needle_sweep`)
 - **Target ECU**: `INSTRUMENT_CLUSTER (0x17)` | Tx: `0x714`, Rx: `0x77E`
 - **Protocol**: `UDS (ISO 14229)`
-- **Commands**: Read `22F1A3`, Write `2EF1A3` (Byte: `1`, Mask: `0x10`)
+- **Commands**: Read `22F1A3`, Write `2EF1A3` (Byte: `1`, Mask: `0x01`)
 - **Applicability Gating**: Platforms: `PQ35, MQB, MLB`, Gate: `0x17 present in Gateway 0x19 list`
 - **Persistence Dependency**: `ChangedSettingEvent pre-write snapshot in Realm/Room SQLite`
 - **Network Dependency**: `None (100% Offline Capable)`
