@@ -1,0 +1,268 @@
+[
+  {
+    "asset_file": "1TrbQPfd7xYPDryL",
+    "size_bytes": 207591,
+    "magic_hex": "00494150",
+    "magic_ascii": ".IAP....",
+    "format_type": "PAIRIP_ENCRYPTED_DEX"
+  },
+  {
+    "asset_file": "5bgvDyZWg6hkxFFq",
+    "size_bytes": 153739,
+    "magic_hex": "00494150",
+    "magic_ascii": ".IAP....",
+    "format_type": "PAIRIP_ENCRYPTED_DEX"
+  },
+  {
+    "asset_file": "6MenowszWNfnvb6a",
+    "size_bytes": 354786,
+    "magic_hex": "00494150",
+    "magic_ascii": ".IAP....",
+    "format_type": "PAIRIP_ENCRYPTED_DEX"
+  },
+  {
+    "asset_file": "7C5MBOBd0PhPaa4D",
+    "size_bytes": 159983,
+    "magic_hex": "00494150",
+    "magic_ascii": ".IAP....",
+    "format_type": "PAIRIP_ENCRYPTED_DEX"
+  },
+  {
+    "asset_file": "7yOwujq4i9HdNipM",
+    "size_bytes": 248557,
+    "magic_hex": "00494150",
+    "magic_ascii": ".IAP....",
+    "format_type": "PAIRIP_ENCRYPTED_DEX"
+  },
+  {
+    "asset_file": "A9tABTPD9aKkvZUc",
+    "size_bytes": 150732,
+    "magic_hex": "00494150",
+    "magic_ascii": ".IAP....",
+    "format_type": "PAIRIP_ENCRYPTED_DEX"
+  },
+  {
+    "asset_file": "Dak4BY3C0ljDnDw1",
+    "size_bytes": 283938,
+    "magic_hex": "00494150",
+    "magic_ascii": ".IAP....",
+    "format_type": "PAIRIP_ENCRYPTED_DEX"
+  },
+  {
+    "asset_file": "DEUgkyVSTcYbP5d2",
+    "size_bytes": 268658,
+    "magic_hex": "00494150",
+    "magic_ascii": ".IAP....",
+    "format_type": "PAIRIP_ENCRYPTED_DEX"
+  },
+  {
+    "asset_file": "dptro4s2eyMgAsiP",
+    "size_bytes": 155384,
+    "magic_hex": "00494150",
+    "magic_ascii": ".IAP....",
+    "format_type": "PAIRIP_ENCRYPTED_DEX"
+  },
+  {
+    "asset_file": "EmeHpsFHkxc9qDcL",
+    "size_bytes": 157368,
+    "magic_hex": "00494150",
+    "magic_ascii": ".IAP....",
+    "format_type": "PAIRIP_ENCRYPTED_DEX"
+  },
+  {
+    "asset_file": "FHb79TQgYf5zo9PS",
+    "size_bytes": 155965,
+    "magic_hex": "00494150",
+    "magic_ascii": ".IAP....",
+    "format_type": "PAIRIP_ENCRYPTED_DEX"
+  },
+  {
+    "asset_file": "FHCuFw3ZIlnP7MtG",
+    "size_bytes": 156406,
+    "magic_hex": "00494150",
+    "magic_ascii": ".IAP....",
+    "format_type": "PAIRIP_ENCRYPTED_DEX"
+  },
+  {
+    "asset_file": "G6bUqOQdHdi2OyfG",
+    "size_bytes": 155311,
+    "magic_hex": "00494150",
+    "magic_ascii": ".IAP....",
+    "format_type": "PAIRIP_ENCRYPTED_DEX"
+  },
+  {
+    "asset_file": "gI1sG9Ko06stVEex",
+    "size_bytes": 118660,
+    "magic_hex": "00494150",
+    "magic_ascii": ".IAP....",
+    "format_type": "PAIRIP_ENCRYPTED_DEX"
+  },
+  {
+    "asset_file": "hDZhZmbyheBPU91Q",
+    "size_bytes": 155964,
+    "magic_hex": "00494150",
+    "magic_ascii": ".IAP....",
+    "format_type": "PAIRIP_ENCRYPTED_DEX"
+  },
+  {
+    "asset_file": "help_center_article_style.css",
+    "size_bytes": 8231,
+    "magic_hex": "2f2a3d3d",
+    "magic_ascii": "/*======",
+    "format_type": "UNKNOWN_BINARY"
+  },
+  {
+    "asset_file": "hLPxNj2a6qOa1NFo",
+    "size_bytes": 210374,
+    "magic_hex": "00494150",
+    "magic_ascii": ".IAP....",
+    "format_type": "PAIRIP_ENCRYPTED_DEX"
+  },
+  {
+    "asset_file": "hTzJdMXedZUctgKE",
+    "size_bytes": 151225,
+    "magic_hex": "00494150",
+    "magic_ascii": ".IAP....",
+    "format_type": "PAIRIP_ENCRYPTED_DEX"
+  },
+  {
+    "asset_file": "HYDEdcgpZXLjIITW",
+    "size_bytes": 250100,
+    "magic_hex": "00494150",
+    "magic_ascii": ".IAP....",
+    "format_type": "PAIRIP_ENCRYPTED_DEX"
+  },
+  {
+    "asset_file": "I4p6E3VR3Ut8QetQ",
+    "size_bytes": 285585,
+    "magic_hex": "00494150",
+    "magic_ascii": ".IAP....",
+    "format_type": "PAIRIP_ENCRYPTED_DEX"
+  },
+  {
+    "asset_file": "JOKKzfWuormYc7TI",
+    "size_bytes": 245660,
+    "magic_hex": "00494150",
+    "magic_ascii": ".IAP....",
+    "format_type": "PAIRIP_ENCRYPTED_DEX"
+  },
+  {
+    "asset_file": "nFmnqUWBzBvV64Xj",
+    "size_bytes": 152663,
+    "magic_hex": "00494150",
+    "magic_ascii": ".IAP....",
+    "format_type": "PAIRIP_ENCRYPTED_DEX"
+  },
+  {
+    "asset_file": "PHf7Rqd0EFLJ5qX4",
+    "size_bytes": 270457,
+    "magic_hex": "00494150",
+    "magic_ascii": ".IAP....",
+    "format_type": "PAIRIP_ENCRYPTED_DEX"
+  },
+  {
+    "asset_file": "PL1DZGYLln2s8YF0",
+    "size_bytes": 159187,
+    "magic_hex": "00494150",
+    "magic_ascii": ".IAP....",
+    "format_type": "PAIRIP_ENCRYPTED_DEX"
+  },
+  {
+    "asset_file": "PublicSuffixDatabase.list",
+    "size_bytes": 132737,
+    "magic_hex": "00020602",
+    "magic_ascii": "....*.00",
+    "format_type": "UNKNOWN_BINARY"
+  },
+  {
+    "asset_file": "pXiD9OWHt3eOOKNT",
+    "size_bytes": 166765,
+    "magic_hex": "00494150",
+    "magic_ascii": ".IAP....",
+    "format_type": "PAIRIP_ENCRYPTED_DEX"
+  },
+  {
+    "asset_file": "pxIjn61XWbdlZKv2",
+    "size_bytes": 160976,
+    "magic_hex": "00494150",
+    "magic_ascii": ".IAP....",
+    "format_type": "PAIRIP_ENCRYPTED_DEX"
+  },
+  {
+    "asset_file": "QvztvemRypB816KB",
+    "size_bytes": 150963,
+    "magic_hex": "00494150",
+    "magic_ascii": ".IAP....",
+    "format_type": "PAIRIP_ENCRYPTED_DEX"
+  },
+  {
+    "asset_file": "qxn7jsJPp9cOBjWV",
+    "size_bytes": 210475,
+    "magic_hex": "00494150",
+    "magic_ascii": ".IAP....",
+    "format_type": "PAIRIP_ENCRYPTED_DEX"
+  },
+  {
+    "asset_file": "R4O6xDwPW9bkRlV4",
+    "size_bytes": 159239,
+    "magic_hex": "00494150",
+    "magic_ascii": ".IAP....",
+    "format_type": "PAIRIP_ENCRYPTED_DEX"
+  },
+  {
+    "asset_file": "RcKwOiWVw1bR4q9R",
+    "size_bytes": 152669,
+    "magic_hex": "00494150",
+    "magic_ascii": ".IAP....",
+    "format_type": "PAIRIP_ENCRYPTED_DEX"
+  },
+  {
+    "asset_file": "sHhqwtQy8HAeYjEi",
+    "size_bytes": 245580,
+    "magic_hex": "00494150",
+    "magic_ascii": ".IAP....",
+    "format_type": "PAIRIP_ENCRYPTED_DEX"
+  },
+  {
+    "asset_file": "V9kmXpjp2jz4Wrwz",
+    "size_bytes": 158359,
+    "magic_hex": "00494150",
+    "magic_ascii": ".IAP....",
+    "format_type": "PAIRIP_ENCRYPTED_DEX"
+  },
+  {
+    "asset_file": "WyoMVpic6IDmgnES",
+    "size_bytes": 161832,
+    "magic_hex": "00494150",
+    "magic_ascii": ".IAP....",
+    "format_type": "PAIRIP_ENCRYPTED_DEX"
+  },
+  {
+    "asset_file": "yyFHTYb7krl2HQJd",
+    "size_bytes": 208391,
+    "magic_hex": "00494150",
+    "magic_ascii": ".IAP....",
+    "format_type": "PAIRIP_ENCRYPTED_DEX"
+  },
+  {
+    "asset_file": "z50XDfY4JF8r9Dmv",
+    "size_bytes": 148686,
+    "magic_hex": "00494150",
+    "magic_ascii": ".IAP....",
+    "format_type": "PAIRIP_ENCRYPTED_DEX"
+  },
+  {
+    "asset_file": "dexopt/baseline.prof",
+    "size_bytes": 17644,
+    "magic_hex": "70726f00",
+    "magic_ascii": "pro.010.",
+    "format_type": "UNKNOWN_BINARY"
+  },
+  {
+    "asset_file": "dexopt/baseline.profm",
+    "size_bytes": 2180,
+    "magic_hex": "70726d00",
+    "magic_ascii": "prm.002.",
+    "format_type": "UNKNOWN_BINARY"
+  }
+]

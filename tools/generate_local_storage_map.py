@@ -1,0 +1,131 @@
+#!/usr/bin/env python3
+"""
+tools/generate_local_storage_map.py
+Produces:
+- research/molecular/LOCAL_STORAGE_MAP.json
+"""
+
+import os
+import json
+
+STORAGE_MAP = {
+    "metadata": {
+        "title": "Carista Molecular Local Storage & State Architecture Map",
+        "date": "2026-09-25",
+        "evidence_source": "classes2.dex (io.realm.*, com.prizmos.carista.persistence.*)"
+    },
+    "storage_engines": [
+        {
+            "engine": "Realm Database (Core)",
+            "file_path": "/data/data/com.prizmos.carista/files/default.realm",
+            "entities": [
+                {
+                    "entity_name": "VehicleEntity",
+                    "package": "com.prizmos.carista.persistence.general.realm.entity",
+                    "purpose": "Persistent vehicle profile registry",
+                    "fields": [
+                        {"name": "id", "type": "String", "primary_key": True},
+                        {"name": "vin", "type": "String", "indexed": True},
+                        {"name": "make", "type": "String"},
+                        {"name": "model", "type": "String"},
+                        {"name": "year", "type": "Int"},
+                        {"name": "platform", "type": "String", "notes": "PQ35 / MQB / MLB"},
+                        {"name": "nickname", "type": "String"},
+                        {"name": "lastConnectedTimestamp", "type": "Long"}
+                    ]
+                },
+                {
+                    "entity_name": "CheckCodesEvent",
+                    "package": "com.prizmos.carista.library.util.storage",
+                    "purpose": "Archived AutoScan and DTC diagnostic scan reports",
+                    "fields": [
+                        {"name": "id", "type": "String", "primary_key": True},
+                        {"name": "vin", "type": "String"},
+                        {"name": "timestamp", "type": "Long"},
+                        {"name": "odometerKm", "type": "Int"},
+                        {"name": "totalFaultsCount", "type": "Int"},
+                        {"name": "faultCodesListJson", "type": "String", "notes": "Array of {ecu, dtc, description, statusByte}"},
+                        {"name": "freezeFramesJson", "type": "String"}
+                    ]
+                },
+                {
+                    "entity_name": "ChangedSettingEvent",
+                    "package": "com.prizmos.carista.library.util.storage",
+                    "purpose": "Mandatory Pre-Write Configuration Snapshots for 1-Click Rollback",
+                    "fields": [
+                        {"name": "id", "type": "String", "primary_key": True},
+                        {"name": "vin", "type": "String"},
+                        {"name": "timestamp", "type": "Long"},
+                        {"name": "settingKey", "type": "String"},
+                        {"name": "ecuAddress", "type": "String"},
+                        {"name": "previousRawHex", "type": "String"},
+                        {"name": "newRawHex", "type": "String"},
+                        {"name": "byteOffset", "type": "Int"},
+                        {"name": "bitMask", "type": "Int"},
+                        {"name": "isRestored", "type": "Boolean"}
+                    ]
+                },
+                {
+                    "entity_name": "ServiceToolEvent",
+                    "package": "com.prizmos.carista.library.util.storage",
+                    "purpose": "Audit trail of executed service procedures",
+                    "fields": [
+                        {"name": "id", "type": "String", "primary_key": True},
+                        {"name": "vin", "type": "String"},
+                        {"name": "timestamp", "type": "Long"},
+                        {"name": "toolId", "type": "String", "notes": "EPB_OPEN, DPF_REGEN, BATTERY_REG"},
+                        {"name": "ecuAddress", "type": "String"},
+                        {"name": "statusResult", "type": "String", "notes": "SUCCEEDED, FAILED, ABORTED"},
+                        {"name": "parametersJson", "type": "String"}
+                    ]
+                },
+                {
+                    "entity_name": "LiveDataEvent",
+                    "package": "com.prizmos.carista.library.util.storage",
+                    "purpose": "Recorded live telemetry log streams",
+                    "fields": [
+                        {"name": "id", "type": "String", "primary_key": True},
+                        {"name": "vin", "type": "String"},
+                        {"name": "timestamp", "type": "Long"},
+                        {"name": "parametersListJson", "type": "String"},
+                        {"name": "dataPointsCsvPath", "type": "String"}
+                    ]
+                }
+            ]
+        },
+        {
+            "engine": "SharedPreferences",
+            "file_path": "/data/data/com.prizmos.carista/shared_prefs/com.prizmos.carista_preferences.xml",
+            "keys": [
+                {"key": "selected_adapter_mac", "type": "String", "desc": "Hardware address of preferred OBD adapter"},
+                {"key": "selected_adapter_type", "type": "String", "desc": "BLUETOOTH_CLASSIC / BLE / WIFI / MOCK"},
+                {"key": "last_connected_vin", "type": "String", "desc": "17-character VIN string"},
+                {"key": "ui_theme", "type": "String", "desc": "LIGHT / DARK / SYSTEM"},
+                {"key": "unit_system", "type": "String", "desc": "METRIC / IMPERIAL"},
+                {"key": "auto_connect", "type": "Boolean", "desc": "Automatically reconnect on app launch"},
+                {"key": "protocol_trace_logging", "type": "Boolean", "desc": "Enable TX/RX capture buffer"}
+            ]
+        },
+        {
+            "engine": "Disk File Cache",
+            "file_path": "/data/data/com.prizmos.carista/cache/",
+            "subdirectories": [
+                {"dir": "trace_logs/", "purpose": "Circular buffer of raw ELM/CAN protocol frames for debug upload"},
+                {"dir": "reports/", "purpose": "Generated PDF/HTML diagnostic summary export files"},
+                {"dir": "backups/", "purpose": "Standalone JSON backup exports of vehicle coding"}
+            ]
+        }
+    ]
+}
+
+def main():
+    base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+    out_json = os.path.join(base_dir, "research", "molecular", "LOCAL_STORAGE_MAP.json")
+
+    with open(out_json, "w", encoding="utf-8") as f:
+        json.dump(STORAGE_MAP, f, indent=2)
+
+    print(f"[+] Wrote {out_json}")
+
+if __name__ == "__main__":
+    main()

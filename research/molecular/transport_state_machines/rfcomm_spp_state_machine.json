@@ -1,0 +1,20 @@
+{
+  "protocol": "Bluetooth Classic RFCOMM (SPP)",
+  "spp_uuid": "00001101-0000-1000-8000-00805F9B34FB",
+  "states": [
+    "DISCONNECTED",
+    "DISCOVERY",
+    "CONNECTING_SOCKET",
+    "STREAM_OPEN",
+    "READY",
+    "SOCKET_CLOSED",
+    "RECONNECTING"
+  ],
+  "buffer_size": 2048,
+  "timings": {
+    "socket_connect_timeout_ms": 8000,
+    "read_timeout_ms": 3000,
+    "keepalive_interval_ms": 5000
+  },
+  "error_recovery": "IOException on stream triggers socket.close(), reflection fallback (createRfcommSocketToServiceRecord vs createInsecureRfcommSocket), sleep 1000ms."
+}

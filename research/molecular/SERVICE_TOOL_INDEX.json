@@ -1,0 +1,183 @@
+{
+  "metadata": {
+    "title": "Carista Molecular Service Tools Index",
+    "total_tools": 5,
+    "date": "2026-09-25"
+  },
+  "service_tools": [
+    {
+      "tool_id": "TOOL_EPB",
+      "name": "Electronic Parking Brake (EPB) Service Mode",
+      "description": "Retracts rear brake caliper pistons into service position for brake pad replacement, closes them after replacement, and performs automatic pad wear calibration.",
+      "target_ecu": "PARKING_BRAKE (0x53)",
+      "tx_can_id": "0x752",
+      "rx_can_id": "0x7BC",
+      "protocol": "UDS (ISO 14229)",
+      "prerequisites": [
+        "Ignition ON, Engine OFF",
+        "Vehicle on level ground with wheel chocks placed",
+        "Parking brake manual switch disengaged (OFF)",
+        "Battery voltage > 12.2V (external charger recommended)"
+      ],
+      "session": "Extended Diagnostic Session (0x10 0x03)",
+      "security": "None required on PQ35/MQB pre-2020; SFD on MQB2020",
+      "routines": {
+        "open_calipers": {
+          "start_command": "310103A1",
+          "stop_command": "310203A1",
+          "positive_response": "710103A1"
+        },
+        "close_calipers": {
+          "start_command": "310103A0",
+          "stop_command": "310203A0",
+          "positive_response": "710103A0"
+        },
+        "calibrate": {
+          "start_command": "310103A2",
+          "positive_response": "710103A2"
+        }
+      },
+      "status_polling": {
+        "request": "220102",
+        "response_prefix": "620102",
+        "status_codes": {
+          "0x00": "IDLE / NONE",
+          "0x10": "SUCCEEDED",
+          "0xC0": "IN_PROGRESS",
+          "0x40": "FAILED_ABORTED_SAFETY",
+          "0x60": "FAILED_CONDITIONS_INCORRECT",
+          "0x80": "TIMEOUT"
+        },
+        "poll_interval_ms": 500,
+        "max_timeout_ms": 30000
+      },
+      "cleanup": "DiagnosticSessionControl Default (0x10 0x01)",
+      "evidence_source": "libCarista.so.c line 111280 (VagEpbController)"
+    },
+    {
+      "tool_id": "TOOL_DPF",
+      "name": "Diesel Particulate Filter (DPF) Regeneration",
+      "description": "Initiates forced soot burn-off procedure for diesel vehicles (stationary service regeneration or emergency driving regeneration).",
+      "target_ecu": "ENGINE (0x01)",
+      "tx_can_id": "0x7E0",
+      "rx_can_id": "0x7E8",
+      "protocol": "UDS (ISO 14229)",
+      "prerequisites": [
+        "Engine running at idle speed (~800 RPM)",
+        "Coolant temperature >= 70 \u00b0C",
+        "Fuel tank level >= 25% (quarter tank)",
+        "Transmission in Neutral (manual) or Park (automatic)",
+        "Hood closed, parking brake firmly engaged",
+        "Measured soot mass < 45g (safety limit)"
+      ],
+      "session": "Extended Diagnostic Session (0x10 0x03)",
+      "security": "SecurityAccess (0x27 0x01) with Login 27971 or 12233",
+      "routines": {
+        "stationary_regen": {
+          "start_command": "3101053D040000",
+          "stop_command": "3102053D",
+          "positive_response": "7101053D"
+        },
+        "driving_regen": {
+          "start_command": "31010305040000",
+          "stop_command": "31020305",
+          "positive_response": "71010305"
+        }
+      },
+      "status_polling": {
+        "request_soot": "222201",
+        "request_exhaust_temp": "222260",
+        "poll_interval_ms": 1000,
+        "success_condition": "Soot mass < 5.0 grams"
+      },
+      "cleanup": "DiagnosticSessionControl Default (0x10 0x01)",
+      "evidence_source": "libCarista.so.c line 111143 (VagDpfController)"
+    },
+    {
+      "tool_id": "TOOL_BATTERY_REG",
+      "name": "12V Battery Registration & Replacement Coding",
+      "description": "Updates Battery Energy Management (BEM) unit with new battery capacity, chemistry, manufacturer, and serial number to reset charging algorithms.",
+      "target_ecu": "CAN_GATEWAY (0x19)",
+      "tx_can_id": "0x710",
+      "rx_can_id": "0x77A",
+      "protocol": "UDS (ISO 14229)",
+      "prerequisites": [
+        "Ignition ON, Engine OFF",
+        "Battery connected and stable voltage > 12.0V"
+      ],
+      "session": "Extended Diagnostic Session (0x10 0x03)",
+      "security": "Login 20103 if required for adaptation",
+      "dids": {
+        "capacity_ah": "0x2260",
+        "technology": "0x2261 (AGM, EFB, GEL, Wet)",
+        "manufacturer": "0x2262 (e.g. JCI, VAO, MLA)",
+        "serial_number": "0x2263 (10-character string)"
+      },
+      "write_method": "WriteDataByIdentifier (0x2E)",
+      "verification": "Read-back DIDs 0x2260-0x2263 immediately after write",
+      "cleanup": "DiagnosticSessionControl Default (0x10 0x01)",
+      "evidence_source": "libCarista.so.c line 108420"
+    },
+    {
+      "tool_id": "TOOL_SERVICE_RESET",
+      "name": "Service Indicator Reset (Oil & Inspection)",
+      "description": "Resets oil service interval and time/distance based inspection warnings in instrument cluster.",
+      "target_ecu": "INSTRUMENT_CLUSTER (0x17)",
+      "tx_can_id": "0x714",
+      "rx_can_id": "0x77E",
+      "protocol": "UDS / KWP2000",
+      "prerequisites": [
+        "Ignition ON, Engine OFF"
+      ],
+      "session": "Extended Diagnostic Session (0x10 0x03)",
+      "security": "None required",
+      "methods": {
+        "uds_reset": {
+          "distance_did": "0x2260 (Distance since service = 0)",
+          "days_did": "0x2261 (Time since service = 0)",
+          "command": "2E 22 60 00 00"
+        },
+        "kwp_reset": {
+          "channel": "0x02",
+          "value": "0x00",
+          "command": "3B 02 00"
+        }
+      },
+      "verification": "Read-back returns 0 km / 0 days elapsed",
+      "cleanup": "DiagnosticSessionControl Default (0x10 0x01)",
+      "evidence_source": "libCarista.so.c line 108460"
+    },
+    {
+      "tool_id": "TOOL_TPMS",
+      "name": "Tire Pressure Monitoring System (TPMS) Relearn & Calibration",
+      "description": "Calibrates wheel speed sensor rolling radius (Indirect TPMS) or registers RF sensor IDs (Direct TPMS).",
+      "target_ecu": "TIRE_PRESSURE_MONITOR (0x65) / ABS (0x03)",
+      "protocol": "UDS (ISO 14229)",
+      "prerequisites": [
+        "Tires inflated to recommended cold placard pressure",
+        "Vehicle stationary with ignition ON"
+      ],
+      "session": "Extended Diagnostic Session (0x10 0x03)",
+      "security": "None",
+      "methods": {
+        "indirect_calibration": {
+          "ecu": "ABS (0x03)",
+          "routine": "0x0400",
+          "command": "31010400"
+        },
+        "direct_id_write": {
+          "ecu": "TPMS (0x65)",
+          "dids": [
+            "0x2240",
+            "0x2241",
+            "0x2242",
+            "0x2243"
+          ]
+        }
+      },
+      "verification": "TPMS warning light extinguishes on dash",
+      "cleanup": "DiagnosticSessionControl Default (0x10 0x01)",
+      "evidence_source": "libCarista.so.c lines 102840-102900"
+    }
+  ]
+}

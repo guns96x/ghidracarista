@@ -1,0 +1,23 @@
+{
+  "protocol": "Volkswagen TP2.0 (Transport Protocol 2.0)",
+  "channel_setup": {
+    "formula": "CAN ID = 0x200 + LogicalAddress",
+    "setup_request": "01 C0 00 10 00 03 01",
+    "evidence": "libCarista.so.c line 455618 (VagCanEcu::initialize)"
+  },
+  "data_framing": {
+    "control_bytes": {
+      "0x10": "Data packet without ACK request",
+      "0x20": "Data packet with ACK request",
+      "0xB0": "ACK response packet",
+      "0xA0": "Keepalive request",
+      "0xA1": "Keepalive response",
+      "0xD8": "Channel teardown / disconnect"
+    }
+  },
+  "timings": {
+    "channel_setup_timeout_ms": 2000,
+    "ack_timeout_ms": 500,
+    "keepalive_interval_ms": 1000
+  }
+}

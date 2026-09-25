@@ -1,0 +1,1199 @@
+{
+  "metadata": {
+    "title": "Carista JNI Bridge Method Map",
+    "total_jni_functions": 170,
+    "date": "2026-09-25"
+  },
+  "bridges": [
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_ServiceIndicatorOperation_00024RichState_make",
+      "java_class": "com.prizmos.carista.library.operation.ServiceIndicatorOperation$RichState",
+      "java_method": "make",
+      "address": "0xe346b4",
+      "category": "Service Tools"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_Operation_getStateInternal",
+      "java_class": "com.prizmos.carista.library.operation.Operation",
+      "java_method": "getStateInternal",
+      "address": "0xe1e084",
+      "category": "Operation Core Engine"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_ReadValuesOperation_getAvailableItems",
+      "java_class": "com.prizmos.carista.library.operation.ReadValuesOperation",
+      "java_method": "getAvailableItems",
+      "address": "0xe30324",
+      "category": "Transport & Hardware"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_RestoreOperation_initNative",
+      "java_class": "com.prizmos.carista.library.operation.RestoreOperation",
+      "java_method": "initNative",
+      "address": "0xe23bf4",
+      "category": "Operation Core Engine"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_Operation_execute",
+      "java_class": "com.prizmos.carista.library.operation.Operation",
+      "java_method": "execute",
+      "address": "0xe1d4ac",
+      "category": "AutoScan & ECU Discovery"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_resources_OneSignalCredentials_getAppId",
+      "java_class": "com.prizmos.carista.library.resources.OneSignalCredentials",
+      "java_method": "getAppId",
+      "address": "0xe3ed14",
+      "category": "Native Utilities"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_GenericToolOperation_onButtonClickedInternal",
+      "java_class": "com.prizmos.carista.library.operation.GenericToolOperation",
+      "java_method": "onButtonClickedInternal",
+      "address": "0xe3ca48",
+      "category": "Service Tools"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_resources_PlacesApi_getApiKey",
+      "java_class": "com.prizmos.carista.library.resources.PlacesApi",
+      "java_method": "getApiKey",
+      "address": "0xe3e234",
+      "category": "Backend API Client"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_Operation_getManufacturerSpecificProtocol",
+      "java_class": "com.prizmos.carista.library.operation.Operation",
+      "java_method": "getManufacturerSpecificProtocol",
+      "address": "0xe1e650",
+      "category": "Operation Core Engine"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_Operation_unregisterStatusListener",
+      "java_class": "com.prizmos.carista.library.operation.Operation",
+      "java_method": "unregisterStatusListener",
+      "address": "0xe1d0f8",
+      "category": "Operation Core Engine"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_EmissionTestsOperation_initNative",
+      "java_class": "com.prizmos.carista.library.operation.EmissionTestsOperation",
+      "java_method": "initNative",
+      "address": "0xe2889c",
+      "category": "Operation Core Engine"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_model_Vin_getObfuscatedVinInternal",
+      "java_class": "com.prizmos.carista.library.model.Vin",
+      "java_method": "getObfuscatedVinInternal",
+      "address": "0xe36980",
+      "category": "Native Utilities"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_CheckLiveDataOperation_getContentControl",
+      "java_class": "com.prizmos.carista.library.operation.CheckLiveDataOperation",
+      "java_method": "getContentControl",
+      "address": "0xe23850",
+      "category": "Live Data"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_FullScanOperation_00024RichState_make",
+      "java_class": "com.prizmos.carista.library.operation.FullScanOperation$RichState",
+      "java_method": "make",
+      "address": "0xe29cc8",
+      "category": "AutoScan & ECU Discovery"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_GenericToolOperation_00024RichState_make",
+      "java_class": "com.prizmos.carista.library.operation.GenericToolOperation$RichState",
+      "java_method": "make",
+      "address": "0xe3c350",
+      "category": "Service Tools"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_ReadTpmsInfoOperation_initNative",
+      "java_class": "com.prizmos.carista.library.operation.ReadTpmsInfoOperation",
+      "java_method": "initNative",
+      "address": "0xe2ed20",
+      "category": "Service Tools"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_connection_DeviceLatestInfo_isDefectiveNative",
+      "java_class": "com.prizmos.carista.library.connection.DeviceLatestInfo",
+      "java_method": "isDefectiveNative",
+      "address": "0xe1a960",
+      "category": "Transport & Hardware"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_PlaygroundOperation_00024RichState_make",
+      "java_class": "com.prizmos.carista.library.operation.PlaygroundOperation$RichState",
+      "java_method": "make",
+      "address": "0xe208f0",
+      "category": "Operation Core Engine"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_networking_ApiService_00024URL_baseUrl",
+      "java_class": "com.prizmos.carista.networking.ApiService$URL",
+      "java_method": "baseUrl",
+      "address": "0xe177a0",
+      "category": "Service Tools"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_Operation_00024RichState_NONE",
+      "java_class": "com.prizmos.carista.library.operation.Operation$RichState",
+      "java_method": "NONE",
+      "address": "0xe1c338",
+      "category": "Operation Core Engine"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_Operation_00024OnStateUpdateListener_initNative",
+      "java_class": "com.prizmos.carista.library.operation.Operation$OnStateUpdateListener",
+      "java_method": "initNative",
+      "address": "0xe1bd84",
+      "category": "Operation Core Engine"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_App_initNative",
+      "java_class": "com.prizmos.carista.App",
+      "java_method": "initNative",
+      "address": "0xe16fc4",
+      "category": "Native Utilities"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_CheckSettingsOperation_initNative",
+      "java_class": "com.prizmos.carista.library.operation.CheckSettingsOperation",
+      "java_method": "initNative",
+      "address": "0xe269f4",
+      "category": "Settings / Customizations"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_connection_State_00024OnStateUpdateListener_onStateUpdate",
+      "java_class": "com.prizmos.carista.library.connection.State$OnStateUpdateListener",
+      "java_method": "onStateUpdate",
+      "address": "0xe1859c",
+      "category": "Native Utilities"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_GetEcuInfoOperation_getCodingRawAddress",
+      "java_class": "com.prizmos.carista.library.operation.GetEcuInfoOperation",
+      "java_method": "getCodingRawAddress",
+      "address": "0xe2ab64",
+      "category": "Settings / Customizations"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_CheckCodesOperation_initNativeWithEcus",
+      "java_class": "com.prizmos.carista.library.operation.CheckCodesOperation",
+      "java_method": "initNativeWithEcus",
+      "address": "0xe25684",
+      "category": "AutoScan & ECU Discovery"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_ReadValuesOperation_isExperimental",
+      "java_class": "com.prizmos.carista.library.operation.ReadValuesOperation",
+      "java_method": "isExperimental",
+      "address": "0xe319ac",
+      "category": "Operation Core Engine"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_model_Ecu_isObd2Native",
+      "java_class": "com.prizmos.carista.library.model.Ecu",
+      "java_method": "isObd2Native",
+      "address": "0xe3732c",
+      "category": "AutoScan & ECU Discovery"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_Operation_destroyNative",
+      "java_class": "com.prizmos.carista.library.operation.Operation",
+      "java_method": "destroyNative",
+      "address": "0xe1ca2c",
+      "category": "Operation Core Engine"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_Operation_reportsProgress",
+      "java_class": "com.prizmos.carista.library.operation.Operation",
+      "java_method": "reportsProgress",
+      "address": "0xe1dae0",
+      "category": "Operation Core Engine"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_CheckSettingsOperation_getItemContentControl",
+      "java_class": "com.prizmos.carista.library.operation.CheckSettingsOperation",
+      "java_method": "getItemContentControl",
+      "address": "0xe27180",
+      "category": "Settings / Customizations"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_connection_SimulatorDevice_getName",
+      "java_class": "com.prizmos.carista.library.connection.SimulatorDevice",
+      "java_method": "getName",
+      "address": "0xe1b70c",
+      "category": "Transport & Hardware"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_ReadRawValuesOperation_getRawValue",
+      "java_class": "com.prizmos.carista.library.operation.ReadRawValuesOperation",
+      "java_method": "getRawValue",
+      "address": "0xe33040",
+      "category": "Operation Core Engine"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_Operation_registerStatusListener",
+      "java_class": "com.prizmos.carista.library.operation.Operation",
+      "java_method": "registerStatusListener",
+      "address": "0xe1cca4",
+      "category": "Operation Core Engine"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_ReadValuesOperation_hasSettingValue",
+      "java_class": "com.prizmos.carista.library.operation.ReadValuesOperation",
+      "java_method": "hasSettingValue",
+      "address": "0xe30d40",
+      "category": "Settings / Customizations"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_EmissionTestsOperation_00024RichState_make",
+      "java_class": "com.prizmos.carista.library.operation.EmissionTestsOperation$RichState",
+      "java_method": "make",
+      "address": "0xe2863c",
+      "category": "Operation Core Engine"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_resources_ZendeskCredentials_getAppId",
+      "java_class": "com.prizmos.carista.library.resources.ZendeskCredentials",
+      "java_method": "getAppId",
+      "address": "0xe3e7a4",
+      "category": "Native Utilities"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_CheckCodesOperation_generateRichState",
+      "java_class": "com.prizmos.carista.library.operation.CheckCodesOperation",
+      "java_method": "generateRichState",
+      "address": "0xe25dc8",
+      "category": "Operation Core Engine"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_ReadLiveDataOperation_00024RichState_make",
+      "java_class": "com.prizmos.carista.library.operation.ReadLiveDataOperation$RichState",
+      "java_method": "make",
+      "address": "0xe2db24",
+      "category": "Live Data"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_connection_AndroidDevice_NAME_1OBDLINK_1CX",
+      "java_class": "com.prizmos.carista.library.connection.AndroidDevice.NAME.1OBDLINK",
+      "java_method": "1CX",
+      "address": "0xe1b454",
+      "category": "Transport & Hardware"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_PlaygroundOperation_initNative",
+      "java_class": "com.prizmos.carista.library.operation.PlaygroundOperation",
+      "java_method": "initNative",
+      "address": "0xe20b50",
+      "category": "Operation Core Engine"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_connection_DeviceLatestInfo_isCaristaNative",
+      "java_class": "com.prizmos.carista.library.connection.DeviceLatestInfo",
+      "java_method": "isCaristaNative",
+      "address": "0xe19970",
+      "category": "Transport & Hardware"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_model_Ecu_getNameResId",
+      "java_class": "com.prizmos.carista.library.model.Ecu",
+      "java_method": "getNameResId",
+      "address": "0xe37004",
+      "category": "AutoScan & ECU Discovery"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_Operation_onIgnitionCycled",
+      "java_class": "com.prizmos.carista.library.operation.Operation",
+      "java_method": "onIgnitionCycled",
+      "address": "0xe1f74c",
+      "category": "Operation Core Engine"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_util_Log_d",
+      "java_class": "com.prizmos.carista.util.Log",
+      "java_method": "d",
+      "address": "0xe44b28",
+      "category": "Native Utilities"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_util_Log_e",
+      "java_class": "com.prizmos.carista.util.Log",
+      "java_method": "e",
+      "address": "0xe45080",
+      "category": "Native Utilities"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_CheckCodesOperation_00024RichState_NONE",
+      "java_class": "com.prizmos.carista.library.operation.CheckCodesOperation$RichState",
+      "java_method": "NONE",
+      "address": "0xe24038",
+      "category": "Operation Core Engine"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_util_Log_w",
+      "java_class": "com.prizmos.carista.util.Log",
+      "java_method": "w",
+      "address": "0xe44dd4",
+      "category": "Native Utilities"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_connection_SimulatorDevice_getAddress",
+      "java_class": "com.prizmos.carista.library.connection.SimulatorDevice",
+      "java_method": "getAddress",
+      "address": "0xe1ba48",
+      "category": "Transport & Hardware"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_model_SettingDto_getFromServiceToolInternal",
+      "java_class": "com.prizmos.carista.library.model.SettingDto",
+      "java_method": "getFromServiceToolInternal",
+      "address": "0xe3a194",
+      "category": "Settings / Customizations"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_CheckLiveDataOperation_initNative",
+      "java_class": "com.prizmos.carista.library.operation.CheckLiveDataOperation",
+      "java_method": "initNative",
+      "address": "0xe22394",
+      "category": "Live Data"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_Operation_cancel",
+      "java_class": "com.prizmos.carista.library.operation.Operation",
+      "java_method": "cancel",
+      "address": "0xe1e938",
+      "category": "Operation Core Engine"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_GetEcuInfoOperation_getAdaptationRawAddress",
+      "java_class": "com.prizmos.carista.library.operation.GetEcuInfoOperation",
+      "java_method": "getAdaptationRawAddress",
+      "address": "0xe2a884",
+      "category": "Settings / Customizations"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_CheckCodesOperation_getContentControl",
+      "java_class": "com.prizmos.carista.library.operation.CheckCodesOperation",
+      "java_method": "getContentControl",
+      "address": "0xe26640",
+      "category": "Operation Core Engine"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_CheckAvailableToolsOperation_initNative",
+      "java_class": "com.prizmos.carista.library.operation.CheckAvailableToolsOperation",
+      "java_method": "initNative",
+      "address": "0xe21414",
+      "category": "Service Tools"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_resources_ZendeskCredentials_getClientId",
+      "java_class": "com.prizmos.carista.library.resources.ZendeskCredentials",
+      "java_method": "getClientId",
+      "address": "0xe3ea5c",
+      "category": "Backend API Client"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_GetEcuInfoOperation_supportsDiagnostics",
+      "java_class": "com.prizmos.carista.library.operation.GetEcuInfoOperation",
+      "java_method": "supportsDiagnostics",
+      "address": "0xe2b4ac",
+      "category": "AutoScan & ECU Discovery"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_ReadTpmsInfoOperation_00024RichState_NONE",
+      "java_class": "com.prizmos.carista.library.operation.ReadTpmsInfoOperation$RichState",
+      "java_method": "NONE",
+      "address": "0xe2dd84",
+      "category": "Service Tools"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_Operation_getDevices",
+      "java_class": "com.prizmos.carista.library.operation.Operation",
+      "java_method": "getDevices",
+      "address": "0xe1fa38",
+      "category": "Transport & Hardware"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_ServiceIndicatorOperation_resetIndicator",
+      "java_class": "com.prizmos.carista.library.operation.ServiceIndicatorOperation",
+      "java_method": "resetIndicator",
+      "address": "0xe34dd8",
+      "category": "Service Tools"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_model_SettingRef_isLegalDisclaimerRequired",
+      "java_class": "com.prizmos.carista.library.model.SettingRef",
+      "java_method": "isLegalDisclaimerRequired",
+      "address": "0xe39144",
+      "category": "Settings / Customizations"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_Operation_onDeviceTypeSelected",
+      "java_class": "com.prizmos.carista.library.operation.Operation",
+      "java_method": "onDeviceTypeSelected",
+      "address": "0xe1eef8",
+      "category": "Transport & Hardware"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_ReadRawValuesOperation_initNative",
+      "java_class": "com.prizmos.carista.library.operation.ReadRawValuesOperation",
+      "java_method": "initNative",
+      "address": "0xe324c0",
+      "category": "Operation Core Engine"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_Operation_onDeviceSelected",
+      "java_class": "com.prizmos.carista.library.operation.Operation",
+      "java_method": "onDeviceSelected",
+      "address": "0xe1f1e4",
+      "category": "Transport & Hardware"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_ChangeSettingOperation_initNative",
+      "java_class": "com.prizmos.carista.library.operation.ChangeSettingOperation",
+      "java_method": "initNative",
+      "address": "0xe20e78",
+      "category": "Settings / Customizations"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_App_getDebugMode",
+      "java_class": "com.prizmos.carista.App",
+      "java_method": "getDebugMode",
+      "address": "0xe16aa8",
+      "category": "Native Utilities"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_FullScanOperation_initNative",
+      "java_class": "com.prizmos.carista.library.operation.FullScanOperation",
+      "java_method": "initNative",
+      "address": "0xe29f28",
+      "category": "AutoScan & ECU Discovery"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_GetEcuListOperation_initNative",
+      "java_class": "com.prizmos.carista.library.operation.GetEcuListOperation",
+      "java_method": "initNative",
+      "address": "0xe2c1dc",
+      "category": "AutoScan & ECU Discovery"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_ReadVoltageOperation_initNative",
+      "java_class": "com.prizmos.carista.library.operation.ReadVoltageOperation",
+      "java_method": "initNative",
+      "address": "0xe2529c",
+      "category": "Live Data"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_CheckAvailableToolsOperation_getContentControl",
+      "java_class": "com.prizmos.carista.library.operation.CheckAvailableToolsOperation",
+      "java_method": "getContentControl",
+      "address": "0xe2184c",
+      "category": "Service Tools"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_CollectDebugInfoOperation_00024RichState_NONE",
+      "java_class": "com.prizmos.carista.library.operation.CollectDebugInfoOperation$RichState",
+      "java_method": "NONE",
+      "address": "0xe275d0",
+      "category": "Operation Core Engine"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_model_SettingRef_getInstruction",
+      "java_class": "com.prizmos.carista.library.model.SettingRef",
+      "java_method": "getInstruction",
+      "address": "0xe39418",
+      "category": "Settings / Customizations"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_App_getBetaMode",
+      "java_class": "com.prizmos.carista.App",
+      "java_method": "getBetaMode",
+      "address": "0xe16aa0",
+      "category": "Native Utilities"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_ServiceIndicatorOperation_initNative",
+      "java_class": "com.prizmos.carista.library.operation.ServiceIndicatorOperation",
+      "java_method": "initNative",
+      "address": "0xe34914",
+      "category": "Service Tools"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_Operation_00024RichState_make",
+      "java_class": "com.prizmos.carista.library.operation.Operation$RichState",
+      "java_method": "make",
+      "address": "0xe1c7cc",
+      "category": "Operation Core Engine"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_EvHybridBatteryHealthOperation_00024RichState_NONE",
+      "java_class": "com.prizmos.carista.library.operation.EvHybridBatteryHealthOperation$RichState",
+      "java_method": "NONE",
+      "address": "0xe2f98c",
+      "category": "Operation Core Engine"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_model_SettingDto_getFromInternal",
+      "java_class": "com.prizmos.carista.library.model.SettingDto",
+      "java_method": "getFromInternal",
+      "address": "0xe39e24",
+      "category": "Settings / Customizations"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_model_SettingCategory_getIconResIdInternal",
+      "java_class": "com.prizmos.carista.library.model.SettingCategory",
+      "java_method": "getIconResIdInternal",
+      "address": "0xe37cf0",
+      "category": "Settings / Customizations"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_resources_MixpanelCredentials_getToken",
+      "java_class": "com.prizmos.carista.library.resources.MixpanelCredentials",
+      "java_method": "getToken",
+      "address": "0xe3efcc",
+      "category": "Native Utilities"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_connection_State_isErrorInternal",
+      "java_class": "com.prizmos.carista.library.connection.State",
+      "java_method": "isErrorInternal",
+      "address": "0xe18be0",
+      "category": "Native Utilities"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_RelearnTpmsIdsOperation_initNative",
+      "java_class": "com.prizmos.carista.library.operation.RelearnTpmsIdsOperation",
+      "java_method": "initNative",
+      "address": "0xe333e4",
+      "category": "Service Tools"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_EvHybridBatteryHealthOperation_initNative",
+      "java_class": "com.prizmos.carista.library.operation.EvHybridBatteryHealthOperation",
+      "java_method": "initNative",
+      "address": "0xe2fcac",
+      "category": "Operation Core Engine"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_connection_DeviceLatestInfo_isKiwi3Native",
+      "java_class": "com.prizmos.carista.library.connection.DeviceLatestInfo",
+      "java_method": "isKiwi3Native",
+      "address": "0xe19fd0",
+      "category": "Transport & Hardware"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_model_GetNumTroubleCodesModel_getAvailableTests",
+      "java_class": "com.prizmos.carista.library.model.GetNumTroubleCodesModel",
+      "java_method": "getAvailableTests",
+      "address": "0xe38040",
+      "category": "DTC Diagnostics"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_connection_DeviceLatestInfo_isVLinkerNative",
+      "java_class": "com.prizmos.carista.library.connection.DeviceLatestInfo",
+      "java_method": "isVLinkerNative",
+      "address": "0xe1a630",
+      "category": "Transport & Hardware"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_CollectDebugInfoOperation_initNative",
+      "java_class": "com.prizmos.carista.library.operation.CollectDebugInfoOperation",
+      "java_method": "initNative",
+      "address": "0xe27d4c",
+      "category": "Operation Core Engine"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_simulator_src_Simulators_setAdapterType",
+      "java_class": "com.prizmos.carista.library.simulator.src.Simulators",
+      "java_method": "setAdapterType",
+      "address": "0xe3fbe4",
+      "category": "Native Utilities"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_util_StringUtils_getBytes",
+      "java_class": "com.prizmos.carista.util.StringUtils",
+      "java_method": "getBytes",
+      "address": "0xe3df58",
+      "category": "Native Utilities"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_model_SettingRef_getEcu",
+      "java_class": "com.prizmos.carista.library.model.SettingRef",
+      "java_method": "getEcu",
+      "address": "0xe38b64",
+      "category": "Settings / Customizations"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_WriteRawValuesOperation_initNative",
+      "java_class": "com.prizmos.carista.library.operation.WriteRawValuesOperation",
+      "java_method": "initNative",
+      "address": "0xe351ac",
+      "category": "Operation Core Engine"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_resources_ZendeskCredentials_getUrl",
+      "java_class": "com.prizmos.carista.library.resources.ZendeskCredentials",
+      "java_method": "getUrl",
+      "address": "0xe3e4ec",
+      "category": "Native Utilities"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_WriteTpmsIdsOperation_initNative",
+      "java_class": "com.prizmos.carista.library.operation.WriteTpmsIdsOperation",
+      "java_method": "initNative",
+      "address": "0xe359ac",
+      "category": "Service Tools"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_GenericToolOperation_isExperimentalInternal",
+      "java_class": "com.prizmos.carista.library.operation.GenericToolOperation",
+      "java_method": "isExperimentalInternal",
+      "address": "0xe3d204",
+      "category": "Service Tools"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_CarHealthCheckAvailabilityOperation_initNative",
+      "java_class": "com.prizmos.carista.library.operation.CarHealthCheckAvailabilityOperation",
+      "java_method": "initNative",
+      "address": "0xe2277c",
+      "category": "Operation Core Engine"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_CarHealthCheckOperation_00024RichState_NONE",
+      "java_class": "com.prizmos.carista.library.operation.CarHealthCheckOperation$RichState",
+      "java_method": "NONE",
+      "address": "0xe22bb4",
+      "category": "Operation Core Engine"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_ReadVehIdOperation_initNative",
+      "java_class": "com.prizmos.carista.library.operation.ReadVehIdOperation",
+      "java_method": "initNative",
+      "address": "0xe2f1e4",
+      "category": "Operation Core Engine"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_network_AndroidHttpClient_00024ResponseHandler_run",
+      "java_class": "com.prizmos.carista.library.network.AndroidHttpClient$ResponseHandler",
+      "java_method": "run",
+      "address": "0xe0417c",
+      "category": "Backend API Client"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_Operation_didGetAnyResponseFromVehicle",
+      "java_class": "com.prizmos.carista.library.operation.Operation",
+      "java_method": "didGetAnyResponseFromVehicle",
+      "address": "0xe1fdac",
+      "category": "Operation Core Engine"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_GenericToolOperation_onSettingUpdate",
+      "java_class": "com.prizmos.carista.library.operation.GenericToolOperation",
+      "java_method": "onSettingUpdate",
+      "address": "0xe3d4e4",
+      "category": "Settings / Customizations"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_GetEcuInfoOperation_supportsAdaptation",
+      "java_class": "com.prizmos.carista.library.operation.GetEcuInfoOperation",
+      "java_method": "supportsAdaptation",
+      "address": "0xe2bea4",
+      "category": "Settings / Customizations"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_resources_AdjustCredentials_getAppToken",
+      "java_class": "com.prizmos.carista.library.resources.AdjustCredentials",
+      "java_method": "getAppToken",
+      "address": "0xe3f5a4",
+      "category": "Native Utilities"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_connection_DeviceLatestInfo_getLastKnownNameForTrackingNative",
+      "java_class": "com.prizmos.carista.library.connection.DeviceLatestInfo",
+      "java_method": "getLastKnownNameForTrackingNative",
+      "address": "0xe19638",
+      "category": "Transport & Hardware"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_model_SettingRef_getNameResIdNative",
+      "java_class": "com.prizmos.carista.library.model.SettingRef",
+      "java_method": "getNameResIdNative",
+      "address": "0xe38e54",
+      "category": "Settings / Customizations"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_ServiceIndicatorOperation_00024RichState_NONE",
+      "java_class": "com.prizmos.carista.library.operation.ServiceIndicatorOperation$RichState",
+      "java_method": "NONE",
+      "address": "0xe338a8",
+      "category": "Service Tools"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_GetEcuInfoOperation_getEcu",
+      "java_class": "com.prizmos.carista.library.operation.GetEcuInfoOperation",
+      "java_method": "getEcu",
+      "address": "0xe2b128",
+      "category": "AutoScan & ECU Discovery"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_Operation_getAvailableBackupId",
+      "java_class": "com.prizmos.carista.library.operation.Operation",
+      "java_method": "getAvailableBackupId",
+      "address": "0xe20080",
+      "category": "Transport & Hardware"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_CheckCodesOperation_00024RichState_make",
+      "java_class": "com.prizmos.carista.library.operation.CheckCodesOperation$RichState",
+      "java_method": "make",
+      "address": "0xe24c4c",
+      "category": "Operation Core Engine"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_GetEcuInfoOperation_isValueInterpretedAsDecimal",
+      "java_class": "com.prizmos.carista.library.operation.GetEcuInfoOperation",
+      "java_method": "isValueInterpretedAsDecimal",
+      "address": "0xe2ae44",
+      "category": "AutoScan & ECU Discovery"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_service_Session_setConnectorNative",
+      "java_class": "com.prizmos.carista.service.Session",
+      "java_method": "setConnectorNative",
+      "address": "0xe17f7c",
+      "category": "Service Tools"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_connection_DeviceLatestInfo_isCaristaEvoNative",
+      "java_class": "com.prizmos.carista.library.connection.DeviceLatestInfo",
+      "java_method": "isCaristaEvoNative",
+      "address": "0xe19ca0",
+      "category": "Transport & Hardware"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_GetEcuInfoOperation_initNative",
+      "java_class": "com.prizmos.carista.library.operation.GetEcuInfoOperation",
+      "java_method": "initNative",
+      "address": "0xe2a40c",
+      "category": "AutoScan & ECU Discovery"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_model_SettingRef_getInterpretation",
+      "java_class": "com.prizmos.carista.library.model.SettingRef",
+      "java_method": "getInterpretation",
+      "address": "0xe39a80",
+      "category": "Settings / Customizations"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_resources_AdaptyCredentials_getApiKey",
+      "java_class": "com.prizmos.carista.library.resources.AdaptyCredentials",
+      "java_method": "getApiKey",
+      "address": "0xe3f2ec",
+      "category": "Backend API Client"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_CheckAvailableToolsOperation_getItemContentControl",
+      "java_class": "com.prizmos.carista.library.operation.CheckAvailableToolsOperation",
+      "java_method": "getItemContentControl",
+      "address": "0xe21c88",
+      "category": "Service Tools"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_model_Vin_getPlaceholderVin",
+      "java_class": "com.prizmos.carista.library.model.Vin",
+      "java_method": "getPlaceholderVin",
+      "address": "0xe366b0",
+      "category": "Native Utilities"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_CheckSettingsOperation_getContentControl",
+      "java_class": "com.prizmos.carista.library.operation.CheckSettingsOperation",
+      "java_method": "getContentControl",
+      "address": "0xe26ddc",
+      "category": "Settings / Customizations"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_connection_State_00024Set_getObd2NegativeResponseStates",
+      "java_class": "com.prizmos.carista.library.connection.State$Set",
+      "java_method": "getObd2NegativeResponseStates",
+      "address": "0xe1889c",
+      "category": "Native Utilities"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_ReadTpmsInfoOperation_00024RichState_make",
+      "java_class": "com.prizmos.carista.library.operation.ReadTpmsInfoOperation$RichState",
+      "java_method": "make",
+      "address": "0xe2eac0",
+      "category": "Service Tools"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_WriteTpmsIdsOperation_isValidId",
+      "java_class": "com.prizmos.carista.library.operation.WriteTpmsIdsOperation",
+      "java_method": "isValidId",
+      "address": "0xe36178",
+      "category": "Service Tools"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_FullScanOperation_00024RichState_NONE",
+      "java_class": "com.prizmos.carista.library.operation.FullScanOperation$RichState",
+      "java_method": "NONE",
+      "address": "0xe28d74",
+      "category": "AutoScan & ECU Discovery"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_GenericToolOperation_00024RichState_NONE",
+      "java_class": "com.prizmos.carista.library.operation.GenericToolOperation$RichState",
+      "java_method": "NONE",
+      "address": "0xe3a884",
+      "category": "Service Tools"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_model_Vin_isPlaceholderVin",
+      "java_class": "com.prizmos.carista.library.model.Vin",
+      "java_method": "isPlaceholderVin",
+      "address": "0xe36414",
+      "category": "Native Utilities"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_PlaygroundOperation_00024RichState_NONE",
+      "java_class": "com.prizmos.carista.library.operation.PlaygroundOperation$RichState",
+      "java_method": "NONE",
+      "address": "0xe203d4",
+      "category": "Operation Core Engine"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_model_SettingCategory_getNameResIdInternal",
+      "java_class": "com.prizmos.carista.library.model.SettingCategory",
+      "java_method": "getNameResIdInternal",
+      "address": "0xe379a0",
+      "category": "Settings / Customizations"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_util_LogServerUrlProvider_00024URL_baseUrl",
+      "java_class": "com.prizmos.carista.util.LogServerUrlProvider$URL",
+      "java_method": "baseUrl",
+      "address": "0xe17a44",
+      "category": "Native Utilities"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_App_getDeviceLatestInfo",
+      "java_class": "com.prizmos.carista.App",
+      "java_method": "getDeviceLatestInfo",
+      "address": "0xe16ab0",
+      "category": "Transport & Hardware"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_GenericToolOperation_initNative",
+      "java_class": "com.prizmos.carista.library.operation.GenericToolOperation",
+      "java_method": "initNative",
+      "address": "0xe3c5b0",
+      "category": "Service Tools"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_ReadValuesOperation_getSettingValue",
+      "java_class": "com.prizmos.carista.library.operation.ReadValuesOperation",
+      "java_method": "getSettingValue",
+      "address": "0xe31128",
+      "category": "Settings / Customizations"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_Operation_getProgress",
+      "java_class": "com.prizmos.carista.library.operation.Operation",
+      "java_method": "getProgress",
+      "address": "0xe1ddb4",
+      "category": "Operation Core Engine"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_model_TestResult_isReadyNative",
+      "java_class": "com.prizmos.carista.library.model.TestResult",
+      "java_method": "isReadyNative",
+      "address": "0xe3889c",
+      "category": "Native Utilities"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_App_getSeed",
+      "java_class": "com.prizmos.carista.App",
+      "java_method": "getSeed",
+      "address": "0xe16d24",
+      "category": "Native Utilities"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_connection_State_isFinishedInternal",
+      "java_class": "com.prizmos.carista.library.connection.State",
+      "java_method": "isFinishedInternal",
+      "address": "0xe190a0",
+      "category": "Native Utilities"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_connection_AndroidDevice_NAME_1CARISTA",
+      "java_class": "com.prizmos.carista.library.connection.AndroidDevice.NAME",
+      "java_method": "1CARISTA",
+      "address": "0xe1ac2c",
+      "category": "Transport & Hardware"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_GenericToolOperation_isSettingValueValid",
+      "java_class": "com.prizmos.carista.library.operation.GenericToolOperation",
+      "java_method": "isSettingValueValid",
+      "address": "0xe3d91c",
+      "category": "Settings / Customizations"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_service_Session_stopConnectionManagerNative",
+      "java_class": "com.prizmos.carista.service.Session",
+      "java_method": "stopConnectionManagerNative",
+      "address": "0xe17cf0",
+      "category": "Service Tools"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_resources_RefinerCredentials_getProjectId",
+      "java_class": "com.prizmos.carista.library.resources.RefinerCredentials",
+      "java_method": "getProjectId",
+      "address": "0xe3f8c4",
+      "category": "Native Utilities"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_CollectDebugInfoOperation_00024RichState_make",
+      "java_class": "com.prizmos.carista.library.operation.CollectDebugInfoOperation$RichState",
+      "java_method": "make",
+      "address": "0xe27aec",
+      "category": "Operation Core Engine"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_model_TextInterpretation_getUserDisplayableValueStatic",
+      "java_class": "com.prizmos.carista.library.model.TextInterpretation",
+      "java_method": "getUserDisplayableValueStatic",
+      "address": "0xe3dc74",
+      "category": "Transport & Hardware"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_connection_DeviceLatestInfo_isObdLinkNative",
+      "java_class": "com.prizmos.carista.library.connection.DeviceLatestInfo",
+      "java_method": "isObdLinkNative",
+      "address": "0xe1a300",
+      "category": "Transport & Hardware"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_CheckCodesOperation_resetCodesNative",
+      "java_class": "com.prizmos.carista.library.operation.CheckCodesOperation",
+      "java_method": "resetCodesNative",
+      "address": "0xe261d4",
+      "category": "Operation Core Engine"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_connection_AndroidDevice_NAME_1KIWI_13",
+      "java_class": "com.prizmos.carista.library.connection.AndroidDevice.NAME.1KIWI",
+      "java_method": "13",
+      "address": "0xe1aee4",
+      "category": "Transport & Hardware"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_Operation_onSfdConfirmationNative",
+      "java_class": "com.prizmos.carista.library.operation.Operation",
+      "java_method": "onSfdConfirmationNative",
+      "address": "0xe1e354",
+      "category": "SFD / Security Auth"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_model_SettingRef_toEventStringNative",
+      "java_class": "com.prizmos.carista.library.model.SettingRef",
+      "java_method": "toEventStringNative",
+      "address": "0xe39758",
+      "category": "Settings / Customizations"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_Operation_getId",
+      "java_class": "com.prizmos.carista.library.operation.Operation",
+      "java_method": "getId",
+      "address": "0xe1d7b8",
+      "category": "Operation Core Engine"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_EvHybridBatteryHealthOperation_00024RichState_make",
+      "java_class": "com.prizmos.carista.library.operation.EvHybridBatteryHealthOperation$RichState",
+      "java_method": "make",
+      "address": "0xe2f4bc",
+      "category": "Operation Core Engine"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_model_TestResult_getDescriptionResourceIdNative",
+      "java_class": "com.prizmos.carista.library.model.TestResult",
+      "java_method": "getDescriptionResourceIdNative",
+      "address": "0xe385b8",
+      "category": "Native Utilities"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_GetEcuInfoOperation_supportsMultiCoding",
+      "java_class": "com.prizmos.carista.library.operation.GetEcuInfoOperation",
+      "java_method": "supportsMultiCoding",
+      "address": "0xe2bb6c",
+      "category": "Settings / Customizations"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_GenericToolOperation_onCheckBoxUpdateInternal",
+      "java_class": "com.prizmos.carista.library.operation.GenericToolOperation",
+      "java_method": "onCheckBoxUpdateInternal",
+      "address": "0xe3ce1c",
+      "category": "Service Tools"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_EmissionTestsOperation_00024RichState_NONE",
+      "java_class": "com.prizmos.carista.library.operation.EmissionTestsOperation$RichState",
+      "java_method": "NONE",
+      "address": "0xe28134",
+      "category": "Operation Core Engine"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_ReadRawValuesOperation_getRawAddresses",
+      "java_class": "com.prizmos.carista.library.operation.ReadRawValuesOperation",
+      "java_method": "getRawAddresses",
+      "address": "0xe32b58",
+      "category": "Operation Core Engine"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_GetEcuInfoOperation_supportsSingleCoding",
+      "java_class": "com.prizmos.carista.library.operation.GetEcuInfoOperation",
+      "java_method": "supportsSingleCoding",
+      "address": "0xe2b834",
+      "category": "Settings / Customizations"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_ReadLiveDataOperation_initNative",
+      "java_class": "com.prizmos.carista.library.operation.ReadLiveDataOperation",
+      "java_method": "initNative",
+      "address": "0xe2c970",
+      "category": "Live Data"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_connection_AndroidDevice_NAME_1OBDLINK_1MX_1PLUS",
+      "java_class": "com.prizmos.carista.library.connection.AndroidDevice.NAME.1OBDLINK.1MX",
+      "java_method": "1PLUS",
+      "address": "0xe1b19c",
+      "category": "Transport & Hardware"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_util_Log_getLogStringNative",
+      "java_class": "com.prizmos.carista.util.Log",
+      "java_method": "getLogStringNative",
+      "address": "0xe4532c",
+      "category": "Native Utilities"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_connection_State_isFatalError",
+      "java_class": "com.prizmos.carista.library.connection.State",
+      "java_method": "isFatalError",
+      "address": "0xe18e40",
+      "category": "Native Utilities"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_ReadLiveDataOperation_00024RichState_NONE",
+      "java_class": "com.prizmos.carista.library.operation.ReadLiveDataOperation$RichState",
+      "java_method": "NONE",
+      "address": "0xe2d21c",
+      "category": "Live Data"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_ReadValuesOperation_getConnectedChassisId",
+      "java_class": "com.prizmos.carista.library.operation.ReadValuesOperation",
+      "java_method": "getConnectedChassisId",
+      "address": "0xe31d94",
+      "category": "Operation Core Engine"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_connection_DeviceLatestInfo_getNameForTrackingNative",
+      "java_class": "com.prizmos.carista.library.connection.DeviceLatestInfo",
+      "java_method": "getNameForTrackingNative",
+      "address": "0xe19300",
+      "category": "Transport & Hardware"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_model_Ecu_getObd2Instance",
+      "java_class": "com.prizmos.carista.library.model.Ecu",
+      "java_method": "getObd2Instance",
+      "address": "0xe36d1c",
+      "category": "AutoScan & ECU Discovery"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_EvoFirmwareUpdateOperation_initNative",
+      "java_class": "com.prizmos.carista.library.operation.EvoFirmwareUpdateOperation",
+      "java_method": "initNative",
+      "address": "0xe3004c",
+      "category": "Operation Core Engine"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_CheckCodesOperation_initNative",
+      "java_class": "com.prizmos.carista.library.operation.CheckCodesOperation",
+      "java_method": "initNative",
+      "address": "0xe24eac",
+      "category": "Operation Core Engine"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_GetEcuListOperation_getEcuList",
+      "java_class": "com.prizmos.carista.library.operation.GetEcuListOperation",
+      "java_method": "getEcuList",
+      "address": "0xe2c4b4",
+      "category": "AutoScan & ECU Discovery"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_Operation_onConnectionHardwareTurnedOn",
+      "java_class": "com.prizmos.carista.library.operation.Operation",
+      "java_method": "onConnectionHardwareTurnedOn",
+      "address": "0xe1ec0c",
+      "category": "Operation Core Engine"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_CarHealthCheckOperation_00024RichState_make",
+      "java_class": "com.prizmos.carista.library.operation.CarHealthCheckOperation$RichState",
+      "java_method": "make",
+      "address": "0xe231b8",
+      "category": "Operation Core Engine"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_CarHealthCheckOperation_initNative",
+      "java_class": "com.prizmos.carista.library.operation.CarHealthCheckOperation",
+      "java_method": "initNative",
+      "address": "0xe23418",
+      "category": "Operation Core Engine"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_ReadValuesOperation_getConnectedEcuTag",
+      "java_class": "com.prizmos.carista.library.operation.ReadValuesOperation",
+      "java_method": "getConnectedEcuTag",
+      "address": "0xe31550",
+      "category": "AutoScan & ECU Discovery"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_model_NumericalInterpretation_getUserDisplayableValueInternal",
+      "java_class": "com.prizmos.carista.library.model.NumericalInterpretation",
+      "java_method": "getUserDisplayableValueInternal",
+      "address": "0xe3a504",
+      "category": "Transport & Hardware"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_ReadValuesOperation_isSfd1Protected",
+      "java_class": "com.prizmos.carista.library.operation.ReadValuesOperation",
+      "java_method": "isSfd1Protected",
+      "address": "0xe320e0",
+      "category": "SFD / Security Auth"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_model_SettingCategory_valuesNative",
+      "java_class": "com.prizmos.carista.library.model.SettingCategory",
+      "java_method": "valuesNative",
+      "address": "0xe37608",
+      "category": "Settings / Customizations"
+    },
+    {
+      "symbol": "Java_com_prizmos_carista_library_operation_Operation_00024OnStateUpdateListener_destroyNative",
+      "java_class": "com.prizmos.carista.library.operation.Operation$OnStateUpdateListener",
+      "java_method": "destroyNative",
+      "address": "0xe1c05c",
+      "category": "Operation Core Engine"
+    }
+  ]
+}

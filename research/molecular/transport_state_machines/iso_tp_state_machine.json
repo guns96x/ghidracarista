@@ -1,0 +1,21 @@
+{
+  "protocol": "ISO 15765-2 Transport Layer",
+  "frame_types": {
+    "0x0": "Single Frame (SF): Data length 1-7 bytes [0x0L data...]",
+    "0x1": "First Frame (FF): Total length 8-4095 bytes [0x1L LL data...]",
+    "0x2": "Consecutive Frame (CF): Sequence number 0-F [0x2S data...]",
+    "0x3": "Flow Control (FC): FlowStatus [0x30 BS STmin]"
+  },
+  "flow_control_parameters": {
+    "block_size_bs": 0,
+    "st_min_ms": 0,
+    "fc_wait_count_max": 10
+  },
+  "timings": {
+    "n_ar_max_ms": 1000,
+    "n_as_max_ms": 1000,
+    "n_cr_max_ms": 1000,
+    "n_bs_max_ms": 1000
+  },
+  "reassembly_rules": "On FF received, immediately transmit FC frame (30 00 00), allocate payload buffer, expect sequential CFs until expected bytes received."
+}

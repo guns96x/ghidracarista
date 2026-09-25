@@ -1,0 +1,67 @@
+{
+  "protocol": "ELM327 / STN / vLinker AT Interpreter",
+  "prompt_char": ">",
+  "command_delimiter": "\\r",
+  "init_sequence": [
+    {
+      "cmd": "AT Z",
+      "expect": "ELM327",
+      "desc": "Reset microcontroller"
+    },
+    {
+      "cmd": "AT E0",
+      "expect": "OK",
+      "desc": "Echo off"
+    },
+    {
+      "cmd": "AT L0",
+      "expect": "OK",
+      "desc": "Linefeeds off"
+    },
+    {
+      "cmd": "AT S0",
+      "expect": "OK",
+      "desc": "Spaces off"
+    },
+    {
+      "cmd": "AT H1",
+      "expect": "OK",
+      "desc": "Headers on (preserve CAN IDs)"
+    },
+    {
+      "cmd": "AT AT 1",
+      "expect": "OK",
+      "desc": "Adaptive timing auto"
+    },
+    {
+      "cmd": "AT ST 32",
+      "expect": "OK",
+      "desc": "Set timeout to 200ms (32 * 4ms)"
+    },
+    {
+      "cmd": "AT SP 6",
+      "expect": "OK",
+      "desc": "Select ISO 15765-4 11-bit 500k CAN"
+    }
+  ],
+  "stn_extensions": [
+    {
+      "cmd": "STP 33",
+      "desc": "STN protocol selection for TP2.0"
+    },
+    {
+      "cmd": "STPX",
+      "desc": "STN ISO-TP multi-frame transmit"
+    }
+  ],
+  "error_responses": [
+    "NO DATA",
+    "CAN ERROR",
+    "BUS BUSY",
+    "FB ERROR",
+    "BUFFER FULL",
+    "ERR12",
+    "?"
+  ],
+  "error_handling": "Buffer clear by sending empty \\r, re-send AT Z if 3 consecutive unrecognized responses occur."
+}

@@ -1,0 +1,14 @@
+{
+  "protocol": "ISO 14230 / KWP2000 over TP2.0 and K-Line",
+  "header_format": "[Fmt] [Tgt] [Src] [Len] [SID] [Data...]",
+  "services": {
+    "0x10": "StartDiagnosticSession",
+    "0x14": "ClearDiagnosticInformation",
+    "0x18": "ReadDiagnosticTroubleCodesByStatus (18 02 FF 00)",
+    "0x1A": "ReadEcuIdentification (1A 9F - Gateway list)",
+    "0x21": "ReadDataByLocalIdentifier / Adaptation Channel Read",
+    "0x27": "SecurityAccess",
+    "0x30": "StartRoutineByLocalIdentifier",
+    "0x3B": "WriteDataByLocalIdentifier / Adaptation Channel Write"
+  }
+}

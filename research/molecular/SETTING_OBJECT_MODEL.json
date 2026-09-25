@@ -1,0 +1,107 @@
+{
+  "metadata": {
+    "title": "Carista Molecular Setting Object Model",
+    "date": "2026-09-25",
+    "evidence_source": "libCarista.so.c lines 521300-522000, 1376000-1378650"
+  },
+  "hierarchy": {
+    "base_class": {
+      "name": "Setting",
+      "vtable_methods": [
+        {
+          "name": "extractValue",
+          "signature": "SettingValue extractValue(const ResponsePayload&)"
+        },
+        {
+          "name": "setValue",
+          "signature": "RequestPayload setValue(const SettingValue&, const CurrentPayload&)"
+        },
+        {
+          "name": "isAvailable",
+          "signature": "bool isAvailable(const VehicleContext&)"
+        },
+        {
+          "name": "getKey",
+          "signature": "const char* getKey() const"
+        },
+        {
+          "name": "toEventString",
+          "signature": "string toEventString() const"
+        }
+      ]
+    },
+    "concrete_classes": [
+      {
+        "class_name": "VagUdsCodingSetting",
+        "protocol": "UDS (ISO 14229)",
+        "target_mechanism": "Long Coding (DID 0xF1A3)",
+        "constructor_signature": "VagUdsCodingSetting(VagUdsEcu* ecu, shared_ptr<StringWhitelist> whitelist, int byte_index, int bit_mask, const char* key, shared_ptr<Interpretation> interp)",
+        "read_service": "0x22 0xF1 0xA3",
+        "write_service": "0x2E 0xF1 0xA3 [Payload]",
+        "mask_operation": "new_byte = (current_byte & ~mask) | (value_bits & mask)"
+      },
+      {
+        "class_name": "VagUdsAdaptationSetting",
+        "protocol": "UDS (ISO 14229)",
+        "target_mechanism": "Adaptation Channel (Composite / Direct 2-byte DID)",
+        "constructor_signature": "VagUdsAdaptationSetting(VagUdsEcu* ecu, shared_ptr<StringWhitelist> whitelist, int did, int byte_index, int bit_mask, const char* key, shared_ptr<Interpretation> interp)",
+        "read_service": "0x22 [DID_HI] [DID_LO]",
+        "write_service": "0x2E [DID_HI] [DID_LO] [Payload]"
+      },
+      {
+        "class_name": "VagCanCodingSetting",
+        "protocol": "KWP2000 over TP2.0",
+        "target_mechanism": "TP2.0 Long Coding",
+        "constructor_signature": "VagCanCodingSetting(VagCanEcu* ecu, shared_ptr<StringWhitelist> whitelist, int byte_index, int bit_mask, const char* key, shared_ptr<Interpretation> interp)",
+        "read_service": "0x1A 0x9B (ReadLongCoding)",
+        "write_service": "0x3B 0x9B [Payload] (WriteLongCoding)"
+      },
+      {
+        "class_name": "VagCanShortCodingSetting",
+        "protocol": "KWP2000 over TP2.0 / K-Line",
+        "target_mechanism": "Short Decimal Coding (5-digit or 7-digit)",
+        "constructor_signature": "VagCanShortCodingSetting(VagCanEcu* ecu, shared_ptr<StringWhitelist> whitelist, const char* key, shared_ptr<Interpretation> interp)",
+        "read_service": "0x1A (ReadEcuIdentification)",
+        "write_service": "0x3B (WriteShortCoding)"
+      },
+      {
+        "class_name": "VagCanAdaptationSetting",
+        "protocol": "KWP2000 over TP2.0",
+        "target_mechanism": "KWP Channel Adaptation (1-byte channel 0x00-0xFF)",
+        "constructor_signature": "VagCanAdaptationSetting(VagCanEcu* ecu, shared_ptr<StringWhitelist> whitelist, int channel, int bit_mask, const char* key, shared_ptr<Interpretation> interp)",
+        "read_service": "0x21 [Channel]",
+        "write_service": "0x3B [Channel] [Value]"
+      }
+    ],
+    "interpretations": [
+      {
+        "type": "MultipleChoiceInterpretation",
+        "variants": [
+          "YES_NO",
+          "YES_NO_INVERTED",
+          "ENABLED_DISABLED",
+          "ON_OFF",
+          "CUSTOM_ENUM"
+        ]
+      },
+      {
+        "type": "NumericalInterpretation",
+        "fields": [
+          "min",
+          "max",
+          "step",
+          "scale",
+          "offset",
+          "unit"
+        ]
+      },
+      {
+        "type": "TextInterpretation",
+        "fields": [
+          "max_length",
+          "charset"
+        ]
+      }
+    ]
+  }
+}

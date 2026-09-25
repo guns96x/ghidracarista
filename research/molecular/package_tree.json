@@ -1,0 +1,1717 @@
+{
+  "metadata": {
+    "source_package": "com.prizmos.carista",
+    "version_name": "10.0",
+    "version_code": "1000099",
+    "min_sdk": "32",
+    "target_sdk": "36",
+    "total_activities": 97,
+    "total_services": 17,
+    "total_receivers": 20,
+    "total_providers": 10,
+    "total_permissions": 45,
+    "total_assets": 38,
+    "total_native_libs": 6
+  },
+  "splits": [
+    {
+      "split_name": "base",
+      "file": "com.prizmos.carista.apk",
+      "size_bytes": 40338343,
+      "role": "Application core, bytecode (classes.dex, classes2.dex), resources, assets, AndroidManifest.xml"
+    },
+    {
+      "split_name": "config.arm64_v8a",
+      "file": "config.arm64_v8a.apk",
+      "size_bytes": 41013872,
+      "role": "Native binaries for 64-bit ARM architecture (libCarista.so, librealm-jni.so)"
+    },
+    {
+      "split_name": "config.xxhdpi",
+      "file": "config.xxhdpi.apk",
+      "size_bytes": 142277,
+      "role": "Device screen density resources (xxhdpi 480dpi drawables and raster assets)"
+    }
+  ],
+  "permissions": [
+    {
+      "name": "android.permission.INTERNET",
+      "protection_level": "normal"
+    },
+    {
+      "name": "android.permission.ACCESS_NETWORK_STATE",
+      "protection_level": "normal"
+    },
+    {
+      "name": "android.permission.BLUETOOTH",
+      "protection_level": "normal"
+    },
+    {
+      "name": "android.permission.BLUETOOTH_ADMIN",
+      "protection_level": "normal"
+    },
+    {
+      "name": "android.permission.FOREGROUND_SERVICE",
+      "protection_level": "normal"
+    },
+    {
+      "name": "android.permission.VIBRATE",
+      "protection_level": "normal"
+    },
+    {
+      "name": "com.android.vending.BILLING",
+      "protection_level": "normal"
+    },
+    {
+      "name": "android.permission.ACCESS_COARSE_LOCATION",
+      "protection_level": "normal"
+    },
+    {
+      "name": "android.permission.ACCESS_FINE_LOCATION",
+      "protection_level": "normal"
+    },
+    {
+      "name": "android.permission.BLUETOOTH_SCAN",
+      "protection_level": "normal"
+    },
+    {
+      "name": "android.permission.BLUETOOTH_CONNECT",
+      "protection_level": "normal"
+    },
+    {
+      "name": "android.permission.POST_NOTIFICATIONS",
+      "protection_level": "normal"
+    },
+    {
+      "name": "android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE",
+      "protection_level": "normal"
+    },
+    {
+      "name": "android.permission.CAMERA",
+      "protection_level": "normal"
+    },
+    {
+      "name": "com.prizmos.carista.permission.C2D_MESSAGE",
+      "protection_level": "normal"
+    },
+    {
+      "name": "android.permission.WAKE_LOCK",
+      "protection_level": "normal"
+    },
+    {
+      "name": "com.google.android.c2dm.permission.RECEIVE",
+      "protection_level": "normal"
+    },
+    {
+      "name": "android.permission.RECEIVE_BOOT_COMPLETED",
+      "protection_level": "normal"
+    },
+    {
+      "name": "com.sec.android.provider.badge.permission.READ",
+      "protection_level": "normal"
+    },
+    {
+      "name": "com.sec.android.provider.badge.permission.WRITE",
+      "protection_level": "normal"
+    },
+    {
+      "name": "com.htc.launcher.permission.READ_SETTINGS",
+      "protection_level": "normal"
+    },
+    {
+      "name": "com.htc.launcher.permission.UPDATE_SHORTCUT",
+      "protection_level": "normal"
+    },
+    {
+      "name": "com.sonyericsson.home.permission.BROADCAST_BADGE",
+      "protection_level": "normal"
+    },
+    {
+      "name": "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+      "protection_level": "normal"
+    },
+    {
+      "name": "com.anddoes.launcher.permission.UPDATE_COUNT",
+      "protection_level": "normal"
+    },
+    {
+      "name": "com.majeur.launcher.permission.UPDATE_BADGE",
+      "protection_level": "normal"
+    },
+    {
+      "name": "com.huawei.android.launcher.permission.CHANGE_BADGE",
+      "protection_level": "normal"
+    },
+    {
+      "name": "com.huawei.android.launcher.permission.READ_SETTINGS",
+      "protection_level": "normal"
+    },
+    {
+      "name": "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+      "protection_level": "normal"
+    },
+    {
+      "name": "android.permission.READ_APP_BADGE",
+      "protection_level": "normal"
+    },
+    {
+      "name": "com.oppo.launcher.permission.READ_SETTINGS",
+      "protection_level": "normal"
+    },
+    {
+      "name": "com.oppo.launcher.permission.WRITE_SETTINGS",
+      "protection_level": "normal"
+    },
+    {
+      "name": "me.everything.badger.permission.BADGE_COUNT_READ",
+      "protection_level": "normal"
+    },
+    {
+      "name": "me.everything.badger.permission.BADGE_COUNT_WRITE",
+      "protection_level": "normal"
+    },
+    {
+      "name": "com.google.android.gms.permission.AD_ID",
+      "protection_level": "normal"
+    },
+    {
+      "name": "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+      "protection_level": "normal"
+    },
+    {
+      "name": "android.permission.ACCESS_ADSERVICES_AD_ID",
+      "protection_level": "normal"
+    },
+    {
+      "name": "android.permission.ACCESS_WIFI_STATE",
+      "protection_level": "normal"
+    },
+    {
+      "name": "android.permission.USE_BIOMETRIC",
+      "protection_level": "normal"
+    },
+    {
+      "name": "android.permission.USE_FINGERPRINT",
+      "protection_level": "normal"
+    },
+    {
+      "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+      "protection_level": "normal"
+    },
+    {
+      "name": "android.permission.ACCESS_ADSERVICES_CUSTOM_AUDIENCE",
+      "protection_level": "normal"
+    },
+    {
+      "name": "android.permission.ACCESS_ADSERVICES_TOPICS",
+      "protection_level": "normal"
+    },
+    {
+      "name": "com.prizmos.carista.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+      "protection_level": "normal"
+    },
+    {
+      "name": "com.android.vending.CHECK_LICENSE",
+      "protection_level": "normal"
+    }
+  ],
+  "activities": [
+    {
+      "name": "com.prizmos.carista.ConnectActivity",
+      "exported": "true",
+      "intent_filters": [
+        {
+          "actions": [
+            "android.intent.action.VIEW"
+          ],
+          "categories": [
+            "android.intent.category.DEFAULT",
+            "android.intent.category.BROWSABLE"
+          ],
+          "data": [
+            {
+              "scheme": "pushscheme",
+              "host": "com.prizmos.carista",
+              "path": "/ConnectActivity"
+            }
+          ]
+        }
+      ],
+      "deep_links": [
+        "pushscheme://com.prizmos.carista/ConnectActivity"
+      ],
+      "feature_area": "Connection / Transport"
+    },
+    {
+      "name": "com.prizmos.carista.LogInActivity",
+      "exported": "true",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Account & Authentication"
+    },
+    {
+      "name": "com.prizmos.carista.AuthorizeActivity",
+      "exported": "true",
+      "intent_filters": [
+        {
+          "actions": [
+            "android.intent.action.MAIN"
+          ],
+          "categories": [
+            "android.intent.category.LAUNCHER"
+          ]
+        }
+      ],
+      "deep_links": [],
+      "feature_area": "Account & Authentication"
+    },
+    {
+      "name": "com.prizmos.carista.RegisterActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "com.prizmos.carista.ForgottenPasswordActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "com.prizmos.carista.FeatureDetailsActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "com.prizmos.carista.screens.operation.main.MainActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "com.prizmos.carista.GenericToolActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Service Tools"
+    },
+    {
+      "name": "com.prizmos.carista.screens.operation.checkcodes.CheckCodesActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "DTC Diagnostics"
+    },
+    {
+      "name": "com.prizmos.carista.screens.operation.restore.RestoreActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "com.prizmos.carista.screens.operation.evofirmwareupdate.EvoFirmwareUpdateActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "com.prizmos.carista.SettingReportActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Customizations / Coding"
+    },
+    {
+      "name": "com.prizmos.carista.screens.operation.showsettingcategories.ShowSettingCategoriesActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Customizations / Coding"
+    },
+    {
+      "name": "com.prizmos.carista.screens.operation.showsettings.ShowSettingsActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Customizations / Coding"
+    },
+    {
+      "name": "com.prizmos.carista.screens.operation.changesetting.ChangeSettingActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Customizations / Coding"
+    },
+    {
+      "name": "com.prizmos.carista.PricingActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "com.prizmos.carista.screens.operation.collectdebuginfo.CollectDebugInfoActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "com.prizmos.carista.screens.operation.fullscan.FullScanActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "AutoScan / Discovery"
+    },
+    {
+      "name": "com.prizmos.carista.UploadLogActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "com.prizmos.carista.BetaEligibilityActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "com.prizmos.carista.TextEditActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "com.prizmos.carista.screens.operation.showavailabletools.ShowAvailableToolsActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Service Tools"
+    },
+    {
+      "name": "com.prizmos.carista.screens.operation.showlivedata.ShowLiveDataActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Live Data"
+    },
+    {
+      "name": "com.prizmos.carista.screens.operation.tpms.TpmsActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Service Tools"
+    },
+    {
+      "name": "com.prizmos.carista.screens.operation.livedata.LiveDataActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Live Data"
+    },
+    {
+      "name": "com.prizmos.carista.PlaygroundActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "com.prizmos.carista.ShowEcuListActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "com.prizmos.carista.ShowEcuActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "com.prizmos.carista.InputDataIdActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "com.prizmos.carista.ChangeBitwiseRawValueActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "com.prizmos.carista.ChangeDecimalRawValueActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "com.prizmos.carista.screens.operation.serviceindicator.ServiceIndicatorActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Service Tools"
+    },
+    {
+      "name": "com.prizmos.carista.NotificationRationaleActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "com.prizmos.carista.screens.operation.freezeframe.FreezeFrameDataActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "com.prizmos.carista.GarageActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Garage & Vehicle Management"
+    },
+    {
+      "name": "com.prizmos.carista.screens.garage.history.GarageHistoryActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Garage & Vehicle Management"
+    },
+    {
+      "name": "com.prizmos.carista.screens.garage.history.diagnose.DiagnosticsHistoryActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Garage & Vehicle Management"
+    },
+    {
+      "name": "com.prizmos.carista.screens.garage.fuelconsumption.FuelConsumptionActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Garage & Vehicle Management"
+    },
+    {
+      "name": "com.prizmos.carista.screens.garage.history.service.ServiceToolsHistoryActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Service Tools"
+    },
+    {
+      "name": "com.prizmos.carista.CustomizationsHistoryActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Customizations / Coding"
+    },
+    {
+      "name": "com.prizmos.carista.screens.garage.fuelconsumption.input.FuelConsumptionInputActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Garage & Vehicle Management"
+    },
+    {
+      "name": "com.prizmos.carista.NameVehicleActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Garage & Vehicle Management"
+    },
+    {
+      "name": "com.prizmos.carista.SelectVehicleActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Garage & Vehicle Management"
+    },
+    {
+      "name": "com.prizmos.carista.ConfirmVehicleActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Garage & Vehicle Management"
+    },
+    {
+      "name": "com.prizmos.carista.MoreActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "com.prizmos.carista.OtpVerificationActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "com.prizmos.carista.screens.intro.IntroScreenActivity",
+      "exported": "true",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "com.facebook.FacebookActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "com.prizmos.carista.CreateNewPasswordActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "com.prizmos.carista.WebViewActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "com.prizmos.carista.screens.moremenu.appsettings.AppSettingsActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Customizations / Coding"
+    },
+    {
+      "name": "com.prizmos.carista.screens.moremenu.appsettings.theme.ThemeSettingsActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Customizations / Coding"
+    },
+    {
+      "name": "com.prizmos.carista.screens.moremenu.appsettings.language.LanguageSettingsActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Customizations / Coding"
+    },
+    {
+      "name": "com.prizmos.carista.AccountActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Account & Authentication"
+    },
+    {
+      "name": "com.prizmos.carista.connect.ConnectToVehicleActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Connection / Transport"
+    },
+    {
+      "name": "com.facebook.CustomTabActivity",
+      "exported": "true",
+      "intent_filters": [
+        {
+          "actions": [
+            "android.intent.action.VIEW"
+          ],
+          "categories": [
+            "android.intent.category.DEFAULT",
+            "android.intent.category.BROWSABLE"
+          ],
+          "data": [
+            {
+              "scheme": "@7F1419CE",
+              "host": "",
+              "path": ""
+            }
+          ]
+        },
+        {
+          "actions": [
+            "android.intent.action.VIEW"
+          ],
+          "categories": [
+            "android.intent.category.DEFAULT",
+            "android.intent.category.BROWSABLE"
+          ],
+          "data": [
+            {
+              "scheme": "fbconnect",
+              "host": "cct.com.prizmos.carista",
+              "path": ""
+            }
+          ]
+        }
+      ],
+      "deep_links": [
+        "@7F1419CE://",
+        "fbconnect://cct.com.prizmos.carista"
+      ],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "com.prizmos.carista.UnlockSettingActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Customizations / Coding"
+    },
+    {
+      "name": "com.prizmos.carista.Enable2faActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "com.prizmos.carista.Validate2faActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "com.prizmos.carista.screens.aidiagnostics.AiDiagnosticsActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "com.prizmos.carista.screens.connectinstructions.ConnectInstructionsActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Connection / Transport"
+    },
+    {
+      "name": "com.prizmos.carista.AdditionalAccountInfoActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Account & Authentication"
+    },
+    {
+      "name": "com.prizmos.carista.BetaIntroductionActivity",
+      "exported": "true",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "com.prizmos.carista.ContentControlActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "com.prizmos.carista.screens.moremenu.appsettings.unitsystem.UnitSystemActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Customizations / Coding"
+    },
+    {
+      "name": "com.prizmos.carista.screens.operation.emissiontests.EmissionTestsActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "com.prizmos.carista.screens.devicedefective.DeviceDefectiveActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Connection / Transport"
+    },
+    {
+      "name": "com.prizmos.carista.screens.moremenu.privacyandterms.PrivacyAndTermsActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "com.prizmos.carista.screens.caristalink.CaristaLinkActivity",
+      "exported": "true",
+      "intent_filters": [
+        {
+          "actions": [
+            "android.intent.action.VIEW"
+          ],
+          "categories": [
+            "android.intent.category.DEFAULT",
+            "android.intent.category.BROWSABLE"
+          ],
+          "data": [
+            {
+              "scheme": "http",
+              "host": "",
+              "path": ""
+            },
+            {
+              "scheme": "https",
+              "host": "",
+              "path": ""
+            },
+            {
+              "scheme": "",
+              "host": "app.carista.com",
+              "path": ""
+            }
+          ]
+        }
+      ],
+      "deep_links": [
+        "http://",
+        "https://"
+      ],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "com.prizmos.carista.screens.operation.carhealthcheck.CarHealthCheckActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "com.prizmos.carista.screens.operation.batteryhealth.BatteryHealthSummaryActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Service Tools"
+    },
+    {
+      "name": "com.prizmos.carista.screens.operation.batteryhealth.viewdata.BatteryHealthDataActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Service Tools"
+    },
+    {
+      "name": "com.prizmos.carista.ScreenshotActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "zendesk.support.request.RequestActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "zendesk.support.requestlist.RequestListActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "zendesk.support.guide.ViewArticleActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "zendesk.support.guide.HelpCenterActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "zendesk.classic.messaging.MessagingActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "com.android.billingclient.api.ProxyBillingActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Billing & Subscriptions"
+    },
+    {
+      "name": "com.android.billingclient.api.ProxyBillingActivityV2",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Billing & Subscriptions"
+    },
+    {
+      "name": "com.onesignal.NotificationOpenedActivityHMS",
+      "exported": "true",
+      "intent_filters": [
+        {
+          "actions": [
+            "android.intent.action.VIEW"
+          ],
+          "categories": []
+        }
+      ],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "com.onesignal.notifications.activities.NotificationOpenedActivity",
+      "exported": "true",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "com.onesignal.notifications.activities.NotificationOpenedActivityAndroid22AndOlder",
+      "exported": "true",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "io.refiner.ui.RefinerSurveyActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "com.google.android.libraries.places.widget.AutocompleteActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "com.google.android.libraries.places.widget.BasicPlaceAutocompleteActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "com.google.android.libraries.places.widget.PlaceAutocompleteActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "com.google.android.libraries.places.widget.internal.photoviewer.PlacesLightboxActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "com.onesignal.core.activities.PermissionsActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "androidx.credentials.playservices.HiddenActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Service Tools"
+    },
+    {
+      "name": "androidx.credentials.playservices.IdentityCredentialApiHiddenActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Service Tools"
+    },
+    {
+      "name": "com.facebook.CustomTabMainActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "com.google.android.gms.auth.api.signin.internal.SignInHubActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Account & Authentication"
+    },
+    {
+      "name": "com.google.android.gms.common.api.GoogleApiActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "androidx.car.app.CarAppPermissionActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "com.google.android.play.core.common.PlayCoreDialogWrapperActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "com.pairip.licensecheck.LicenseActivity",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    }
+  ],
+  "services": [
+    {
+      "name": "com.prizmos.carista.service.communication.CommunicationService",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Service Tools"
+    },
+    {
+      "name": "com.prizmos.carista.util.CaristaFirebaseMessagingService",
+      "exported": "false",
+      "intent_filters": [
+        {
+          "actions": [
+            "com.google.firebase.MESSAGING_EVENT"
+          ],
+          "categories": []
+        }
+      ],
+      "deep_links": [],
+      "feature_area": "Service Tools"
+    },
+    {
+      "name": "androidx.appcompat.app.AppLocalesMetadataHolderService",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Service Tools"
+    },
+    {
+      "name": "com.onesignal.notifications.services.HmsMessageServiceOneSignal",
+      "exported": "false",
+      "intent_filters": [
+        {
+          "actions": [
+            "com.huawei.push.action.MESSAGING_EVENT"
+          ],
+          "categories": []
+        }
+      ],
+      "deep_links": [],
+      "feature_area": "Service Tools"
+    },
+    {
+      "name": "com.google.firebase.messaging.FirebaseMessagingService",
+      "exported": "false",
+      "intent_filters": [
+        {
+          "actions": [
+            "com.google.firebase.MESSAGING_EVENT"
+          ],
+          "categories": []
+        }
+      ],
+      "deep_links": [],
+      "feature_area": "Service Tools"
+    },
+    {
+      "name": "com.google.firebase.components.ComponentDiscoveryService",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Service Tools"
+    },
+    {
+      "name": "com.onesignal.core.services.SyncJobService",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Service Tools"
+    },
+    {
+      "name": "androidx.credentials.playservices.CredentialProviderMetadataHolder",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Service Tools"
+    },
+    {
+      "name": "com.google.android.gms.measurement.AppMeasurementService",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Service Tools"
+    },
+    {
+      "name": "com.google.android.gms.measurement.AppMeasurementJobService",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Service Tools"
+    },
+    {
+      "name": "com.google.android.gms.auth.api.signin.RevocationBoundService",
+      "exported": "true",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Service Tools"
+    },
+    {
+      "name": "androidx.work.impl.background.systemalarm.SystemAlarmService",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Service Tools"
+    },
+    {
+      "name": "androidx.work.impl.background.systemjob.SystemJobService",
+      "exported": "true",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Service Tools"
+    },
+    {
+      "name": "androidx.work.impl.foreground.SystemForegroundService",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Service Tools"
+    },
+    {
+      "name": "androidx.room.MultiInstanceInvalidationService",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Service Tools"
+    },
+    {
+      "name": "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Service Tools"
+    }
+  ],
+  "receivers": [
+    {
+      "name": "zendesk.support.DeepLinkingBroadcastReceiver",
+      "exported": "false",
+      "intent_filters": [
+        {
+          "actions": [
+            "zendesk.support"
+          ],
+          "categories": []
+        }
+      ],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "com.onesignal.notifications.receivers.FCMBroadcastReceiver",
+      "exported": "true",
+      "intent_filters": [
+        {
+          "actions": [
+            "com.google.android.c2dm.intent.RECEIVE"
+          ],
+          "categories": [
+            "com.prizmos.carista"
+          ]
+        }
+      ],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "com.onesignal.notifications.receivers.NotificationDismissReceiver",
+      "exported": "true",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "com.onesignal.notifications.receivers.BootUpReceiver",
+      "exported": "true",
+      "intent_filters": [
+        {
+          "actions": [
+            "android.intent.action.BOOT_COMPLETED",
+            "android.intent.action.QUICKBOOT_POWERON"
+          ],
+          "categories": []
+        }
+      ],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "com.onesignal.notifications.receivers.UpgradeReceiver",
+      "exported": "true",
+      "intent_filters": [
+        {
+          "actions": [
+            "android.intent.action.MY_PACKAGE_REPLACED"
+          ],
+          "categories": []
+        }
+      ],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "com.google.firebase.iid.FirebaseInstanceIdReceiver",
+      "exported": "true",
+      "intent_filters": [
+        {
+          "actions": [
+            "com.google.android.c2dm.intent.RECEIVE"
+          ],
+          "categories": []
+        }
+      ],
+      "deep_links": [],
+      "feature_area": "Telemetry & Analytics"
+    },
+    {
+      "name": "com.google.android.gms.measurement.AppMeasurementReceiver",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy",
+      "exported": "false",
+      "intent_filters": [
+        {
+          "actions": [
+            "android.intent.action.ACTION_POWER_CONNECTED",
+            "android.intent.action.ACTION_POWER_DISCONNECTED"
+          ],
+          "categories": []
+        }
+      ],
+      "deep_links": [],
+      "feature_area": "Service Tools"
+    },
+    {
+      "name": "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy",
+      "exported": "false",
+      "intent_filters": [
+        {
+          "actions": [
+            "android.intent.action.BATTERY_OKAY",
+            "android.intent.action.BATTERY_LOW"
+          ],
+          "categories": []
+        }
+      ],
+      "deep_links": [],
+      "feature_area": "Service Tools"
+    },
+    {
+      "name": "androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy",
+      "exported": "false",
+      "intent_filters": [
+        {
+          "actions": [
+            "android.intent.action.DEVICE_STORAGE_LOW",
+            "android.intent.action.DEVICE_STORAGE_OK"
+          ],
+          "categories": []
+        }
+      ],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy",
+      "exported": "false",
+      "intent_filters": [
+        {
+          "actions": [
+            "android.net.conn.CONNECTIVITY_CHANGE"
+          ],
+          "categories": []
+        }
+      ],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "androidx.work.impl.background.systemalarm.RescheduleReceiver",
+      "exported": "false",
+      "intent_filters": [
+        {
+          "actions": [
+            "android.intent.action.BOOT_COMPLETED",
+            "android.intent.action.TIME_SET",
+            "android.intent.action.TIMEZONE_CHANGED"
+          ],
+          "categories": []
+        }
+      ],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver",
+      "exported": "false",
+      "intent_filters": [
+        {
+          "actions": [
+            "androidx.work.impl.background.systemalarm.UpdateProxies"
+          ],
+          "categories": []
+        }
+      ],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "androidx.work.impl.diagnostics.DiagnosticsReceiver",
+      "exported": "true",
+      "intent_filters": [
+        {
+          "actions": [
+            "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+          ],
+          "categories": []
+        }
+      ],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "androidx.car.app.notification.CarAppNotificationBroadcastReceiver",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "com.facebook.CurrentAccessTokenExpirationBroadcastReceiver",
+      "exported": "false",
+      "intent_filters": [
+        {
+          "actions": [
+            "com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED"
+          ],
+          "categories": []
+        }
+      ],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    },
+    {
+      "name": "com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver",
+      "exported": "false",
+      "intent_filters": [
+        {
+          "actions": [
+            "com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED"
+          ],
+          "categories": []
+        }
+      ],
+      "deep_links": [],
+      "feature_area": "Account & Authentication"
+    },
+    {
+      "name": "androidx.profileinstaller.ProfileInstallReceiver",
+      "exported": "true",
+      "intent_filters": [
+        {
+          "actions": [
+            "androidx.profileinstaller.action.INSTALL_PROFILE"
+          ],
+          "categories": []
+        },
+        {
+          "actions": [
+            "androidx.profileinstaller.action.SKIP_FILE"
+          ],
+          "categories": []
+        },
+        {
+          "actions": [
+            "androidx.profileinstaller.action.SAVE_PROFILE"
+          ],
+          "categories": []
+        },
+        {
+          "actions": [
+            "androidx.profileinstaller.action.BENCHMARK_OPERATION"
+          ],
+          "categories": []
+        }
+      ],
+      "deep_links": [],
+      "feature_area": "Account & Authentication"
+    },
+    {
+      "name": "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "feature_area": "Core / General UI"
+    }
+  ],
+  "providers": [
+    {
+      "name": "androidx.car.app.connection.provider",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "authorities": "androidx.car.app.connection"
+    },
+    {
+      "name": "com.facebook.FacebookContentProvider",
+      "exported": "true",
+      "intent_filters": [],
+      "deep_links": [],
+      "authorities": "com.facebook.app.FacebookContentProvider1711751169044272"
+    },
+    {
+      "name": "zendesk.support.SupportSdkStartupProvider",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "authorities": "com.prizmos.carista.zendesk.support.SupportSdkStartupProvider"
+    },
+    {
+      "name": "zendesk.support.guide.GuideSdkStartupProvider",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "authorities": "com.prizmos.carista.zendesk.support.GuideSdkStartupProvider"
+    },
+    {
+      "name": "zendesk.core.MediaFileProvider",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "authorities": "com.prizmos.carista.zendesk.sdk.user.attachments"
+    },
+    {
+      "name": "com.squareup.picasso.PicassoProvider",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "authorities": "com.prizmos.carista.com.squareup.picasso"
+    },
+    {
+      "name": "com.google.firebase.provider.FirebaseInitProvider",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "authorities": "com.prizmos.carista.firebaseinitprovider"
+    },
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "authorities": "com.prizmos.carista.androidx-startup"
+    },
+    {
+      "name": "com.facebook.internal.FacebookInitProvider",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "authorities": "com.prizmos.carista.FacebookInitProvider"
+    },
+    {
+      "name": "com.adjust.sdk.SystemLifecycleContentProvider",
+      "exported": "false",
+      "intent_filters": [],
+      "deep_links": [],
+      "authorities": "com.prizmos.carista.adjust-lifecycle-provider"
+    }
+  ],
+  "native_libraries": [
+    {
+      "abi": "arm64-v8a",
+      "filename": "AndroidManifest.xml",
+      "path": "AndroidManifest.xml",
+      "size_bytes": 1176
+    },
+    {
+      "abi": "arm64-v8a",
+      "filename": "stamp-cert-sha256",
+      "path": "stamp-cert-sha256",
+      "size_bytes": 32
+    },
+    {
+      "abi": "arm64-v8a",
+      "filename": "libandroidx.graphics.path.so",
+      "path": "lib/arm64-v8a/libandroidx.graphics.path.so",
+      "size_bytes": 10096
+    },
+    {
+      "abi": "arm64-v8a",
+      "filename": "libCarista.so",
+      "path": "lib/arm64-v8a/libCarista.so",
+      "size_bytes": 29984992
+    },
+    {
+      "abi": "arm64-v8a",
+      "filename": "libdatastore_shared_counter.so",
+      "path": "lib/arm64-v8a/libdatastore_shared_counter.so",
+      "size_bytes": 7112
+    },
+    {
+      "abi": "arm64-v8a",
+      "filename": "librealm-jni.so",
+      "path": "lib/arm64-v8a/librealm-jni.so",
+      "size_bytes": 8915088
+    }
+  ],
+  "assets": [
+    {
+      "path": "1TrbQPfd7xYPDryL",
+      "size_bytes": 207591,
+      "header_hex": "0049415002000000"
+    },
+    {
+      "path": "5bgvDyZWg6hkxFFq",
+      "size_bytes": 153739,
+      "header_hex": "0049415002000000"
+    },
+    {
+      "path": "6MenowszWNfnvb6a",
+      "size_bytes": 354786,
+      "header_hex": "0049415002000000"
+    },
+    {
+      "path": "7C5MBOBd0PhPaa4D",
+      "size_bytes": 159983,
+      "header_hex": "0049415002000000"
+    },
+    {
+      "path": "7yOwujq4i9HdNipM",
+      "size_bytes": 248557,
+      "header_hex": "0049415002000000"
+    },
+    {
+      "path": "A9tABTPD9aKkvZUc",
+      "size_bytes": 150732,
+      "header_hex": "0049415002000000"
+    },
+    {
+      "path": "Dak4BY3C0ljDnDw1",
+      "size_bytes": 283938,
+      "header_hex": "0049415002000000"
+    },
+    {
+      "path": "DEUgkyVSTcYbP5d2",
+      "size_bytes": 268658,
+      "header_hex": "0049415002000000"
+    },
+    {
+      "path": "dptro4s2eyMgAsiP",
+      "size_bytes": 155384,
+      "header_hex": "0049415002000000"
+    },
+    {
+      "path": "EmeHpsFHkxc9qDcL",
+      "size_bytes": 157368,
+      "header_hex": "0049415002000000"
+    },
+    {
+      "path": "FHb79TQgYf5zo9PS",
+      "size_bytes": 155965,
+      "header_hex": "0049415002000000"
+    },
+    {
+      "path": "FHCuFw3ZIlnP7MtG",
+      "size_bytes": 156406,
+      "header_hex": "0049415002000000"
+    },
+    {
+      "path": "G6bUqOQdHdi2OyfG",
+      "size_bytes": 155311,
+      "header_hex": "0049415002000000"
+    },
+    {
+      "path": "gI1sG9Ko06stVEex",
+      "size_bytes": 118660,
+      "header_hex": "0049415002000000"
+    },
+    {
+      "path": "hDZhZmbyheBPU91Q",
+      "size_bytes": 155964,
+      "header_hex": "0049415002000000"
+    },
+    {
+      "path": "help_center_article_style.css",
+      "size_bytes": 8231,
+      "header_hex": "2f2a3d3d3d3d3d3d"
+    },
+    {
+      "path": "hLPxNj2a6qOa1NFo",
+      "size_bytes": 210374,
+      "header_hex": "0049415002000000"
+    },
+    {
+      "path": "hTzJdMXedZUctgKE",
+      "size_bytes": 151225,
+      "header_hex": "0049415002000000"
+    },
+    {
+      "path": "HYDEdcgpZXLjIITW",
+      "size_bytes": 250100,
+      "header_hex": "0049415002000000"
+    },
+    {
+      "path": "I4p6E3VR3Ut8QetQ",
+      "size_bytes": 285585,
+      "header_hex": "0049415002000000"
+    },
+    {
+      "path": "JOKKzfWuormYc7TI",
+      "size_bytes": 245660,
+      "header_hex": "0049415002000000"
+    },
+    {
+      "path": "nFmnqUWBzBvV64Xj",
+      "size_bytes": 152663,
+      "header_hex": "0049415002000000"
+    },
+    {
+      "path": "PHf7Rqd0EFLJ5qX4",
+      "size_bytes": 270457,
+      "header_hex": "0049415002000000"
+    },
+    {
+      "path": "PL1DZGYLln2s8YF0",
+      "size_bytes": 159187,
+      "header_hex": "0049415002000000"
+    },
+    {
+      "path": "PublicSuffixDatabase.list",
+      "size_bytes": 132737,
+      "header_hex": "000206022a2e3030"
+    },
+    {
+      "path": "pXiD9OWHt3eOOKNT",
+      "size_bytes": 166765,
+      "header_hex": "0049415002000000"
+    },
+    {
+      "path": "pxIjn61XWbdlZKv2",
+      "size_bytes": 160976,
+      "header_hex": "0049415002000000"
+    },
+    {
+      "path": "QvztvemRypB816KB",
+      "size_bytes": 150963,
+      "header_hex": "0049415002000000"
+    },
+    {
+      "path": "qxn7jsJPp9cOBjWV",
+      "size_bytes": 210475,
+      "header_hex": "0049415002000000"
+    },
+    {
+      "path": "R4O6xDwPW9bkRlV4",
+      "size_bytes": 159239,
+      "header_hex": "0049415002000000"
+    },
+    {
+      "path": "RcKwOiWVw1bR4q9R",
+      "size_bytes": 152669,
+      "header_hex": "0049415002000000"
+    },
+    {
+      "path": "sHhqwtQy8HAeYjEi",
+      "size_bytes": 245580,
+      "header_hex": "0049415002000000"
+    },
+    {
+      "path": "V9kmXpjp2jz4Wrwz",
+      "size_bytes": 158359,
+      "header_hex": "0049415002000000"
+    },
+    {
+      "path": "WyoMVpic6IDmgnES",
+      "size_bytes": 161832,
+      "header_hex": "0049415002000000"
+    },
+    {
+      "path": "yyFHTYb7krl2HQJd",
+      "size_bytes": 208391,
+      "header_hex": "0049415002000000"
+    },
+    {
+      "path": "z50XDfY4JF8r9Dmv",
+      "size_bytes": 148686,
+      "header_hex": "0049415002000000"
+    },
+    {
+      "path": "dexopt/baseline.prof",
+      "size_bytes": 17644,
+      "header_hex": "70726f0030313000"
+    },
+    {
+      "path": "dexopt/baseline.profm",
+      "size_bytes": 2180,
+      "header_hex": "70726d0030303200"
+    }
+  ]
+}

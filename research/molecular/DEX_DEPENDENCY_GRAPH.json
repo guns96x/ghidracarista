@@ -1,0 +1,3715 @@
+{
+  "metadata": {
+    "title": "Carista DEX Class Dependency Graph",
+    "total_nodes": 341,
+    "total_edges": 468
+  },
+  "nodes": [
+    {
+      "id": "com.prizmos.carista.ScreenshotActivity",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.VehicleProtocol",
+      "category": "protocol"
+    },
+    {
+      "id": "com.prizmos.carista.library.simulator.src.zn.eqNaaG",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.screens.garage.history.Mk.aAEuBiLpPfyMk",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.screens.operation.emissiontests.OWop.tYNLxqPZpZ",
+      "category": "service tools"
+    },
+    {
+      "id": "com.prizmos.carista.ui.OTPEditText",
+      "category": "UI"
+    },
+    {
+      "id": "io.realm.com_prizmos_carista_persistence_general_realm_entity_VehicleEntityRealmProxyInterface",
+      "category": "vehicle detection"
+    },
+    {
+      "id": "com.prizmos.carista.AccountActivity",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.AdditionalAccountInfoActivity",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.App",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.AuthorizeActivity",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.BetaEligibilityActivity",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.BetaIntroductionActivity",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.CarInfoCell",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.ChangeBitwiseRawValueActivity",
+      "category": "coding"
+    },
+    {
+      "id": "com.prizmos.carista.ChangeDecimalRawValueActivity",
+      "category": "coding"
+    },
+    {
+      "id": "com.prizmos.carista.ConfirmVehicleActivity",
+      "category": "vehicle detection"
+    },
+    {
+      "id": "com.prizmos.carista.ConnectActivity",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.ContentControlActivity",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.CreateNewPasswordActivity",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.CustomizationsHistoryActivity",
+      "category": "settings/customizations"
+    },
+    {
+      "id": "com.prizmos.carista.DataBinderMapperImpl",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.Enable2faActivity",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.FeatureDetailsActivity",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.ForgottenPasswordActivity",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.GarageActivity",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.GenericToolActivity",
+      "category": "service tools"
+    },
+    {
+      "id": "com.prizmos.carista.InputDataIdActivity",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.LogInActivity",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.MoreActivity",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.NameVehicleActivity",
+      "category": "vehicle detection"
+    },
+    {
+      "id": "com.prizmos.carista.NotificationRationaleActivity",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.OtpVerificationActivity",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.PlaygroundActivity",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.PricingActivity",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.RegisterActivity",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.SelectDeviceTypeView",
+      "category": "transport"
+    },
+    {
+      "id": "com.prizmos.carista.SelectDeviceView",
+      "category": "transport"
+    },
+    {
+      "id": "com.prizmos.carista.SelectVehicleActivity",
+      "category": "vehicle detection"
+    },
+    {
+      "id": "com.prizmos.carista.SettingReportActivity",
+      "category": "settings/customizations"
+    },
+    {
+      "id": "com.prizmos.carista.ShowEcuActivity",
+      "category": "ECU discovery"
+    },
+    {
+      "id": "com.prizmos.carista.ShowEcuListActivity",
+      "category": "ECU discovery"
+    },
+    {
+      "id": "com.prizmos.carista.TextEditActivity",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.UnlockSettingActivity",
+      "category": "settings/customizations"
+    },
+    {
+      "id": "com.prizmos.carista.UploadLogActivity",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.Validate2faActivity",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.WebViewActivity",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.connect.ConnectToVehicleActivity",
+      "category": "vehicle detection"
+    },
+    {
+      "id": "com.prizmos.carista.library.analytics.AnalyticsBridge",
+      "category": "telemetry/logging"
+    },
+    {
+      "id": "com.prizmos.carista.library.analytics.LibraryEvent$Parameter",
+      "category": "telemetry/logging"
+    },
+    {
+      "id": "com.prizmos.carista.library.analytics.LibraryEvent$Parameter$Double",
+      "category": "telemetry/logging"
+    },
+    {
+      "id": "com.prizmos.carista.library.analytics.LibraryEvent$Parameter$Long",
+      "category": "telemetry/logging"
+    },
+    {
+      "id": "com.prizmos.carista.library.analytics.LibraryEvent$Parameter$String",
+      "category": "telemetry/logging"
+    },
+    {
+      "id": "com.prizmos.carista.library.analytics.LibraryEvent",
+      "category": "telemetry/logging"
+    },
+    {
+      "id": "com.prizmos.carista.library.connection.AndroidConnection",
+      "category": "transport"
+    },
+    {
+      "id": "com.prizmos.carista.library.connection.AndroidBluetooth2Connection",
+      "category": "transport"
+    },
+    {
+      "id": "com.prizmos.carista.library.connection.Connector",
+      "category": "transport"
+    },
+    {
+      "id": "com.prizmos.carista.library.connection.AndroidConnector",
+      "category": "transport"
+    },
+    {
+      "id": "com.prizmos.carista.library.connection.AndroidBluetoothConnector",
+      "category": "transport"
+    },
+    {
+      "id": "com.prizmos.carista.library.connection.AndroidBluetooth2Connector",
+      "category": "transport"
+    },
+    {
+      "id": "com.prizmos.carista.library.connection.AndroidBluetooth4Connection",
+      "category": "transport"
+    },
+    {
+      "id": "com.prizmos.carista.library.connection.AndroidBluetooth4Connector$BluetoothDeviceComparator",
+      "category": "transport"
+    },
+    {
+      "id": "com.prizmos.carista.library.connection.AndroidBluetooth4Connector",
+      "category": "transport"
+    },
+    {
+      "id": "com.prizmos.carista.library.connection.Device",
+      "category": "transport"
+    },
+    {
+      "id": "com.prizmos.carista.library.connection.AndroidDevice",
+      "category": "transport"
+    },
+    {
+      "id": "com.prizmos.carista.library.connection.AndroidBluetoothDevice",
+      "category": "transport"
+    },
+    {
+      "id": "com.prizmos.carista.library.connection.AndroidBluetooth4Device",
+      "category": "transport"
+    },
+    {
+      "id": "com.prizmos.carista.library.connection.AndroidConnector$1",
+      "category": "transport"
+    },
+    {
+      "id": "com.prizmos.carista.library.connection.Bluetooth2Scanner$Callback",
+      "category": "transport"
+    },
+    {
+      "id": "com.prizmos.carista.library.connection.Bluetooth2Scanner$Receiver",
+      "category": "transport"
+    },
+    {
+      "id": "com.prizmos.carista.library.connection.Bluetooth2Scanner$ReceiverState",
+      "category": "transport"
+    },
+    {
+      "id": "com.prizmos.carista.library.connection.Bluetooth2Scanner",
+      "category": "transport"
+    },
+    {
+      "id": "com.prizmos.carista.library.connection.Bluetooth4Gatt$1",
+      "category": "transport"
+    },
+    {
+      "id": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Callback",
+      "category": "transport"
+    },
+    {
+      "id": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd",
+      "category": "transport"
+    },
+    {
+      "id": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd$CharacteristicCmd",
+      "category": "transport"
+    },
+    {
+      "id": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd$Connect",
+      "category": "transport"
+    },
+    {
+      "id": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd$Discover",
+      "category": "transport"
+    },
+    {
+      "id": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd$ReadSubscribed$1",
+      "category": "transport"
+    },
+    {
+      "id": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd$ReadSubscribed",
+      "category": "transport"
+    },
+    {
+      "id": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd$Reconnect",
+      "category": "transport"
+    },
+    {
+      "id": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd$RequestMaxMtu",
+      "category": "transport"
+    },
+    {
+      "id": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd$WriteDescriptor",
+      "category": "transport"
+    },
+    {
+      "id": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd$Subscribe",
+      "category": "transport"
+    },
+    {
+      "id": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd$Write",
+      "category": "transport"
+    },
+    {
+      "id": "com.prizmos.carista.library.connection.Bluetooth4Gatt",
+      "category": "transport"
+    },
+    {
+      "id": "com.prizmos.carista.library.connection.Bluetooth4Profile",
+      "category": "transport"
+    },
+    {
+      "id": "com.prizmos.carista.library.connection.Bluetooth4Profile$Generic",
+      "category": "transport"
+    },
+    {
+      "id": "com.prizmos.carista.library.connection.Bluetooth4Profile$Kiwi3",
+      "category": "transport"
+    },
+    {
+      "id": "com.prizmos.carista.library.connection.Bluetooth4Profile$ObdLinkCx",
+      "category": "transport"
+    },
+    {
+      "id": "com.prizmos.carista.library.connection.Bluetooth4Scanner$1",
+      "category": "transport"
+    },
+    {
+      "id": "com.prizmos.carista.library.connection.Bluetooth4Scanner$Callback",
+      "category": "transport"
+    },
+    {
+      "id": "com.prizmos.carista.library.connection.Bluetooth4Scanner",
+      "category": "transport"
+    },
+    {
+      "id": "com.prizmos.carista.library.connection.Connector$Type",
+      "category": "transport"
+    },
+    {
+      "id": "com.prizmos.carista.library.connection.DeviceConnectResult",
+      "category": "transport"
+    },
+    {
+      "id": "com.prizmos.carista.library.connection.DeviceLatestInfo",
+      "category": "transport"
+    },
+    {
+      "id": "com.prizmos.carista.library.connection.DeviceStorage$Entry",
+      "category": "transport"
+    },
+    {
+      "id": "com.prizmos.carista.library.connection.DeviceStorage",
+      "category": "transport"
+    },
+    {
+      "id": "com.prizmos.carista.library.connection.Elm$AdapterType",
+      "category": "transport"
+    },
+    {
+      "id": "com.prizmos.carista.library.connection.Elm",
+      "category": "transport"
+    },
+    {
+      "id": "com.prizmos.carista.library.connection.SimulatorConnector",
+      "category": "transport"
+    },
+    {
+      "id": "com.prizmos.carista.library.connection.SimulatorDevice",
+      "category": "transport"
+    },
+    {
+      "id": "com.prizmos.carista.library.connection.State$OnStateUpdateListener",
+      "category": "transport"
+    },
+    {
+      "id": "com.prizmos.carista.library.connection.State$Set",
+      "category": "transport"
+    },
+    {
+      "id": "com.prizmos.carista.library.connection.State",
+      "category": "transport"
+    },
+    {
+      "id": "com.prizmos.carista.library.connection.TimeoutInputStream",
+      "category": "transport"
+    },
+    {
+      "id": "com.prizmos.carista.library.connection.TimeoutOutputStream",
+      "category": "transport"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.Availability$Creator",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.Availability",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.CheckCodesEcuEntry",
+      "category": "DTC"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.ContentControl$Creator",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.ContentControl",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.DateInterpretation$Creator",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.DateInterpretation$Precision",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.Interpretation",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.DateInterpretation",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.util.NativeParcelable$Creator",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.Ecu$1",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.Ecu",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.EcuInfo",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.EpbAction",
+      "category": "service tools"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.FreezeFrameElement$1",
+      "category": "DTC"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.FreezeFrameElement",
+      "category": "DTC"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.FreezeFrameModel$1",
+      "category": "DTC"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.FreezeFrameModel",
+      "category": "DTC"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.GetNumTroubleCodesModel",
+      "category": "DTC"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.InfoEntry$Creator",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.InfoEntry",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.InfoScreen$Creator",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.InfoScreen",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.MultipleChoiceInterpretation$Creator",
+      "category": "settings/customizations"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.MultipleChoiceInterpretation$PossibleValue$Creator",
+      "category": "settings/customizations"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.MultipleChoiceInterpretation$PossibleValue",
+      "category": "settings/customizations"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.MultipleChoiceInterpretation",
+      "category": "settings/customizations"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.NumericalInterpretation$Companion",
+      "category": "settings/customizations"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.NumericalInterpretation$Creator",
+      "category": "settings/customizations"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.NumericalInterpretation",
+      "category": "settings/customizations"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.SecurityType",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.SecurityTypeKt$WhenMappings",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.SecurityTypeKt",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.ServiceIndicator",
+      "category": "service tools"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.Setting",
+      "category": "settings/customizations"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.SettingCategory",
+      "category": "settings/customizations"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.SettingCopy$1",
+      "category": "settings/customizations"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.SettingCopy",
+      "category": "settings/customizations"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.SettingDto",
+      "category": "settings/customizations"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.SettingRef$1",
+      "category": "settings/customizations"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.SettingRef",
+      "category": "settings/customizations"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.TestResult",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.TextInterpretation$Companion",
+      "category": "settings/customizations"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.TextInterpretation$Creator",
+      "category": "settings/customizations"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.TextInterpretation",
+      "category": "settings/customizations"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.TpmsInfo",
+      "category": "service tools"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.TpmsSensorInfo$Position",
+      "category": "live data"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.TpmsSensorInfo$Pressure",
+      "category": "live data"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.TpmsSensorInfo$Temperature",
+      "category": "live data"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.TpmsSensorInfo",
+      "category": "live data"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.TroubleCode$1",
+      "category": "DTC"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.TroubleCode",
+      "category": "DTC"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.UnitSystem$Companion",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.UnitSystem",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.Vin",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.ui.UiComponent",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.ui.ButtonUiComponent",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.ui.CheckBoxUiComponent",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.ui.DiagnoseButtonUiComponent",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.ui.LiveDataUiComponent",
+      "category": "live data"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.ui.SettingUiComponent",
+      "category": "settings/customizations"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.ui.TextUiComponent$Style",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.ui.TextUiComponent",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.model.ui.UiComponent$Type",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.network.AndroidHttpClient$Request",
+      "category": "account/network"
+    },
+    {
+      "id": "com.prizmos.carista.library.network.AndroidHttpClient$RequestType",
+      "category": "account/network"
+    },
+    {
+      "id": "com.prizmos.carista.library.network.AndroidHttpClient$Response",
+      "category": "account/network"
+    },
+    {
+      "id": "com.prizmos.carista.library.network.AndroidHttpClient$ResponseHandler",
+      "category": "account/network"
+    },
+    {
+      "id": "com.prizmos.carista.library.network.AndroidHttpClient",
+      "category": "account/network"
+    },
+    {
+      "id": "com.prizmos.carista.library.operation.Operation",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.operation.ReadValuesOperation",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.operation.CarHealthCheckAvailabilityOperation",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.operation.CarHealthCheckOperation$DiagCell",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.operation.CarHealthCheckOperation$LiveDataEntry",
+      "category": "live data"
+    },
+    {
+      "id": "com.prizmos.carista.library.operation.CarHealthCheckOperation$RichState$Companion",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.operation.Operation$RichState",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.operation.CarHealthCheckOperation$RichState",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.operation.CarHealthCheckOperation",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.operation.SimpleOperation",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.operation.ChangeSettingOperation",
+      "category": "settings/customizations"
+    },
+    {
+      "id": "com.prizmos.carista.library.operation.CheckAvailableToolsOperation",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.operation.CheckCodesOperation$RichState",
+      "category": "DTC"
+    },
+    {
+      "id": "com.prizmos.carista.library.operation.CheckCodesOperation",
+      "category": "DTC"
+    },
+    {
+      "id": "com.prizmos.carista.library.operation.CheckLiveDataOperation",
+      "category": "live data"
+    },
+    {
+      "id": "com.prizmos.carista.library.operation.CheckSettingsOperation",
+      "category": "settings/customizations"
+    },
+    {
+      "id": "com.prizmos.carista.library.operation.CollectDebugInfoOperation$RichState",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.operation.CollectDebugInfoOperation",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.operation.EmissionTestsOperation$RichState",
+      "category": "service tools"
+    },
+    {
+      "id": "com.prizmos.carista.library.operation.EmissionTestsOperation",
+      "category": "service tools"
+    },
+    {
+      "id": "com.prizmos.carista.library.operation.EvHybridBatteryHealthOperation$RichState$Companion",
+      "category": "service tools"
+    },
+    {
+      "id": "com.prizmos.carista.library.operation.EvHybridBatteryHealthOperation$RichState",
+      "category": "service tools"
+    },
+    {
+      "id": "com.prizmos.carista.library.operation.EvHybridBatteryHealthOperation$SummaryCard",
+      "category": "service tools"
+    },
+    {
+      "id": "com.prizmos.carista.library.operation.EvHybridBatteryHealthOperation",
+      "category": "service tools"
+    },
+    {
+      "id": "com.prizmos.carista.library.operation.EvoFirmwareUpdateOperation",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.operation.FullScanOperation$Entry",
+      "category": "ECU discovery"
+    },
+    {
+      "id": "com.prizmos.carista.library.operation.FullScanOperation$RichState",
+      "category": "ECU discovery"
+    },
+    {
+      "id": "com.prizmos.carista.library.operation.FullScanOperation",
+      "category": "ECU discovery"
+    },
+    {
+      "id": "com.prizmos.carista.library.operation.GenericToolOperation$RichState",
+      "category": "service tools"
+    },
+    {
+      "id": "com.prizmos.carista.library.operation.GenericToolOperation",
+      "category": "service tools"
+    },
+    {
+      "id": "com.prizmos.carista.library.operation.GetEcuInfoOperation",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.operation.GetEcuListOperation",
+      "category": "ECU discovery"
+    },
+    {
+      "id": "com.prizmos.carista.library.operation.Operation$OnStateUpdateListener",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.operation.Operation$1",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.operation.Operation$RichState$General",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.operation.PlaygroundOperation$RichState",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.operation.PlaygroundOperation",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.operation.ReadLiveDataOperation$RichState",
+      "category": "live data"
+    },
+    {
+      "id": "com.prizmos.carista.library.operation.ReadLiveDataOperation",
+      "category": "live data"
+    },
+    {
+      "id": "com.prizmos.carista.library.operation.ReadRawValuesOperation",
+      "category": "coding"
+    },
+    {
+      "id": "com.prizmos.carista.library.operation.ReadTpmsInfoOperation$RichState",
+      "category": "service tools"
+    },
+    {
+      "id": "com.prizmos.carista.library.operation.ReadTpmsInfoOperation",
+      "category": "service tools"
+    },
+    {
+      "id": "com.prizmos.carista.library.operation.ReadVehIdOperation",
+      "category": "vehicle detection"
+    },
+    {
+      "id": "com.prizmos.carista.library.operation.ReadVoltageOperation",
+      "category": "live data"
+    },
+    {
+      "id": "com.prizmos.carista.library.operation.RelearnTpmsIdsOperation",
+      "category": "service tools"
+    },
+    {
+      "id": "com.prizmos.carista.library.operation.RestoreOperation",
+      "category": "storage/cache"
+    },
+    {
+      "id": "com.prizmos.carista.library.operation.ServiceIndicatorOperation$RichState",
+      "category": "service tools"
+    },
+    {
+      "id": "com.prizmos.carista.library.operation.ServiceIndicatorOperation",
+      "category": "service tools"
+    },
+    {
+      "id": "com.prizmos.carista.library.operation.WriteRawValuesOperation",
+      "category": "coding"
+    },
+    {
+      "id": "com.prizmos.carista.library.operation.WriteTpmsIdsOperation",
+      "category": "service tools"
+    },
+    {
+      "id": "com.prizmos.carista.library.resources.AdaptyCredentials",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.resources.AdjustCredentials",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.resources.MixpanelCredentials",
+      "category": "telemetry/logging"
+    },
+    {
+      "id": "com.prizmos.carista.library.resources.OneSignalCredentials",
+      "category": "telemetry/logging"
+    },
+    {
+      "id": "com.prizmos.carista.library.resources.PlacesApi",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.resources.RefinerCredentials",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.resources.ZendeskCredentials",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.simulator.src.Simulators$Companion",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.simulator.src.Simulators",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.util.LibraryHelper",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.util.LibraryLocaleManagerBridge",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.util.NativeParcelable",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.library.util.storage.ChangedSettingEvent",
+      "category": "settings/customizations"
+    },
+    {
+      "id": "com.prizmos.carista.library.util.storage.CheckCodesEvent$Creator",
+      "category": "DTC"
+    },
+    {
+      "id": "com.prizmos.carista.library.util.storage.CheckCodesEvent",
+      "category": "DTC"
+    },
+    {
+      "id": "com.prizmos.carista.library.util.storage.LiveDataEvent",
+      "category": "live data"
+    },
+    {
+      "id": "com.prizmos.carista.library.util.storage.ServiceToolEvent",
+      "category": "storage/cache"
+    },
+    {
+      "id": "com.prizmos.carista.library.util.storage.Storage",
+      "category": "storage/cache"
+    },
+    {
+      "id": "com.prizmos.carista.networking.ApiService$URL",
+      "category": "account/network"
+    },
+    {
+      "id": "com.prizmos.carista.networking.ApiService",
+      "category": "account/network"
+    },
+    {
+      "id": "com.prizmos.carista.persistence.general.realm.Module",
+      "category": "storage/cache"
+    },
+    {
+      "id": "com.prizmos.carista.persistence.room.CaristaRoomDatabase",
+      "category": "storage/cache"
+    },
+    {
+      "id": "com.prizmos.carista.persistence.room.CaristaRoomDatabase_Impl",
+      "category": "storage/cache"
+    },
+    {
+      "id": "com.prizmos.carista.screens.aidiagnostics.AiDiagnosticsActivity",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.screens.caristalink.CaristaLinkActivity",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.screens.connectinstructions.ConnectInstructionsActivity",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.screens.devicedefective.DeviceDefectiveActivity",
+      "category": "transport"
+    },
+    {
+      "id": "com.prizmos.carista.screens.garage.fuelconsumption.FuelConsumptionActivity",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.screens.garage.fuelconsumption.input.FuelConsumptionInputActivity",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.screens.garage.history.GarageHistoryActivity",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.screens.garage.history.diagnose.DiagnosticsHistoryActivity",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.screens.garage.history.service.ServiceToolsHistoryActivity",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.screens.intro.IntroScreenActivity",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.screens.moremenu.appsettings.AppSettingsActivity",
+      "category": "settings/customizations"
+    },
+    {
+      "id": "com.prizmos.carista.screens.moremenu.appsettings.language.LanguageSettingsActivity",
+      "category": "settings/customizations"
+    },
+    {
+      "id": "com.prizmos.carista.screens.moremenu.appsettings.theme.ThemeSettingsActivity",
+      "category": "settings/customizations"
+    },
+    {
+      "id": "com.prizmos.carista.screens.moremenu.appsettings.unitsystem.UnitSystemActivity",
+      "category": "settings/customizations"
+    },
+    {
+      "id": "com.prizmos.carista.screens.moremenu.privacyandterms.PrivacyAndTermsActivity",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.screens.operation.batteryhealth.BatteryHealthSummaryActivity",
+      "category": "service tools"
+    },
+    {
+      "id": "com.prizmos.carista.screens.operation.batteryhealth.viewdata.BatteryHealthDataActivity",
+      "category": "service tools"
+    },
+    {
+      "id": "com.prizmos.carista.screens.operation.carhealthcheck.CarHealthCheckActivity",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.screens.operation.changesetting.ChangeSettingActivity",
+      "category": "settings/customizations"
+    },
+    {
+      "id": "com.prizmos.carista.screens.operation.checkcodes.CheckCodesActivity",
+      "category": "DTC"
+    },
+    {
+      "id": "com.prizmos.carista.screens.operation.collectdebuginfo.CollectDebugInfoActivity",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.screens.operation.emissiontests.EmissionTestsActivity",
+      "category": "service tools"
+    },
+    {
+      "id": "com.prizmos.carista.screens.operation.evofirmwareupdate.EvoFirmwareUpdateActivity",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.screens.operation.freezeframe.FreezeFrameDataActivity",
+      "category": "DTC"
+    },
+    {
+      "id": "com.prizmos.carista.screens.operation.fullscan.FullScanActivity",
+      "category": "ECU discovery"
+    },
+    {
+      "id": "com.prizmos.carista.screens.operation.livedata.LiveDataActivity",
+      "category": "live data"
+    },
+    {
+      "id": "com.prizmos.carista.screens.operation.main.MainActivity",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.screens.operation.restore.RestoreActivity",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.screens.operation.serviceindicator.ServiceIndicatorActivity",
+      "category": "service tools"
+    },
+    {
+      "id": "com.prizmos.carista.screens.operation.showavailabletools.ShowAvailableToolsActivity",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.screens.operation.showlivedata.ShowLiveDataActivity",
+      "category": "live data"
+    },
+    {
+      "id": "com.prizmos.carista.screens.operation.showsettingcategories.ShowSettingCategoriesActivity",
+      "category": "settings/customizations"
+    },
+    {
+      "id": "com.prizmos.carista.screens.operation.showsettings.ShowSettingsActivity",
+      "category": "settings/customizations"
+    },
+    {
+      "id": "com.prizmos.carista.screens.operation.tpms.TpmsActivity",
+      "category": "service tools"
+    },
+    {
+      "id": "com.prizmos.carista.service.Session",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.service.communication.CommunicationService",
+      "category": "transport"
+    },
+    {
+      "id": "com.prizmos.carista.ui.AdCardsCarouselView",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.ui.AddressTextComponent",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.ui.AvatarView",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.ui.CarVerticalBottomSheetView",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.ui.CarVerticalCardView",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.ui.CaristaEcuLoaderView",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.ui.CaristaGradientView",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.ui.CaristaSubtitleView",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.ui.CaristaTitleView",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.ui.CaristaToggleButtonGroup",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.ui.CheckableImageButton",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.ui.ConnectButton",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.ui.DetailedCarInfoCell",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.ui.DetailedLink",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.ui.EvoAdView",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.ui.GarageIntroView",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.ui.LinkButton",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.ui.MoreScreenMenuItem",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.ui.OTPTextInput",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.ui.PhoneNumberComponent",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.ui.PromoTextView",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.ui.SettingView",
+      "category": "settings/customizations"
+    },
+    {
+      "id": "com.prizmos.carista.ui.StickyContainer",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.ui.input.TextInputView",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.ui.input.SecretInputView",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.ui.input.SuggestionInputView",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.ui.input.SuggestionTextInputView",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.ui.input.VehicleInputView",
+      "category": "vehicle detection"
+    },
+    {
+      "id": "com.prizmos.carista.util.CaristaFirebaseMessagingService",
+      "category": "telemetry/logging"
+    },
+    {
+      "id": "com.prizmos.carista.util.Log",
+      "category": "telemetry/logging"
+    },
+    {
+      "id": "com.prizmos.carista.util.LogServerUrlProvider$URL",
+      "category": "telemetry/logging"
+    },
+    {
+      "id": "com.prizmos.carista.util.StringUtils",
+      "category": "UI"
+    },
+    {
+      "id": "com.prizmos.carista.util.onesignal.OneSignalManager$iPushSubscriptionObserver$1",
+      "category": "telemetry/logging"
+    },
+    {
+      "id": "io.realm.com_prizmos_carista_persistence_general_realm_entity_ContactDetailsEntityRealmProxyInterface",
+      "category": "storage/cache"
+    },
+    {
+      "id": "io.realm.com_prizmos_carista_persistence_general_realm_entity_ChangedSettingEntityRealmProxyInterface",
+      "category": "settings/customizations"
+    },
+    {
+      "id": "io.realm.com_prizmos_carista_persistence_general_realm_entity_UserEntityRealmProxyInterface",
+      "category": "storage/cache"
+    },
+    {
+      "id": "io.realm.com_prizmos_carista_persistence_general_realm_entity_ChangedSettingEntityRealmProxy$ChangedSettingEntityColumnInfo",
+      "category": "settings/customizations"
+    },
+    {
+      "id": "io.realm.com_prizmos_carista_persistence_general_realm_entity_ChangedSettingEntityRealmProxy$ClassNameHelper",
+      "category": "settings/customizations"
+    },
+    {
+      "id": "io.realm.com_prizmos_carista_persistence_general_realm_entity_ChangedSettingEntityRealmProxy",
+      "category": "settings/customizations"
+    },
+    {
+      "id": "io.realm.com_prizmos_carista_persistence_general_realm_entity_ContactDetailsEntityRealmProxy$ClassNameHelper",
+      "category": "storage/cache"
+    },
+    {
+      "id": "io.realm.com_prizmos_carista_persistence_general_realm_entity_ContactDetailsEntityRealmProxy$ContactDetailsEntityColumnInfo",
+      "category": "storage/cache"
+    },
+    {
+      "id": "io.realm.com_prizmos_carista_persistence_general_realm_entity_ContactDetailsEntityRealmProxy",
+      "category": "storage/cache"
+    },
+    {
+      "id": "io.realm.com_prizmos_carista_persistence_general_realm_entity_SentReportEntityRealmProxy$ClassNameHelper",
+      "category": "storage/cache"
+    },
+    {
+      "id": "io.realm.com_prizmos_carista_persistence_general_realm_entity_SentReportEntityRealmProxy$SentReportEntityColumnInfo",
+      "category": "storage/cache"
+    },
+    {
+      "id": "io.realm.com_prizmos_carista_persistence_general_realm_entity_SentReportEntityRealmProxyInterface",
+      "category": "storage/cache"
+    },
+    {
+      "id": "io.realm.com_prizmos_carista_persistence_general_realm_entity_SentReportEntityRealmProxy",
+      "category": "storage/cache"
+    },
+    {
+      "id": "io.realm.com_prizmos_carista_persistence_general_realm_entity_UserEntityRealmProxy$ClassNameHelper",
+      "category": "storage/cache"
+    },
+    {
+      "id": "io.realm.com_prizmos_carista_persistence_general_realm_entity_UserEntityRealmProxy$UserEntityColumnInfo",
+      "category": "storage/cache"
+    },
+    {
+      "id": "io.realm.com_prizmos_carista_persistence_general_realm_entity_UserEntityRealmProxy",
+      "category": "storage/cache"
+    },
+    {
+      "id": "io.realm.com_prizmos_carista_persistence_general_realm_entity_VehicleDataEntityRealmProxy$ClassNameHelper",
+      "category": "vehicle detection"
+    },
+    {
+      "id": "io.realm.com_prizmos_carista_persistence_general_realm_entity_VehicleDataEntityRealmProxy$VehicleDataEntityColumnInfo",
+      "category": "vehicle detection"
+    },
+    {
+      "id": "io.realm.com_prizmos_carista_persistence_general_realm_entity_VehicleDataEntityRealmProxyInterface",
+      "category": "vehicle detection"
+    },
+    {
+      "id": "io.realm.com_prizmos_carista_persistence_general_realm_entity_VehicleDataEntityRealmProxy",
+      "category": "vehicle detection"
+    },
+    {
+      "id": "io.realm.com_prizmos_carista_persistence_general_realm_entity_VehicleEntityRealmProxy$ClassNameHelper",
+      "category": "vehicle detection"
+    },
+    {
+      "id": "io.realm.com_prizmos_carista_persistence_general_realm_entity_VehicleEntityRealmProxy$VehicleEntityColumnInfo",
+      "category": "vehicle detection"
+    },
+    {
+      "id": "io.realm.com_prizmos_carista_persistence_general_realm_entity_VehicleEntityRealmProxy",
+      "category": "vehicle detection"
+    }
+  ],
+  "edges": [
+    {
+      "source": "com.prizmos.carista.AccountActivity",
+      "target": "com.prizmos.carista.ui.AvatarView",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.AccountActivity",
+      "target": "com.prizmos.carista.ui.StickyContainer",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.AccountActivity",
+      "target": "com.prizmos.carista.ui.input.TextInputView",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.AccountActivity",
+      "target": "com.prizmos.carista.ui.PhoneNumberComponent",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.AccountActivity",
+      "target": "com.prizmos.carista.ui.AddressTextComponent",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.AdditionalAccountInfoActivity",
+      "target": "com.prizmos.carista.ui.PhoneNumberComponent",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.AdditionalAccountInfoActivity",
+      "target": "com.prizmos.carista.ui.AddressTextComponent",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.AdditionalAccountInfoActivity",
+      "target": "com.prizmos.carista.ui.StickyContainer",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.App",
+      "target": "com.prizmos.carista.library.connection.DeviceLatestInfo",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.App",
+      "target": "com.prizmos.carista.library.util.LibraryHelper",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.App",
+      "target": "com.prizmos.carista.library.util.LibraryLocaleManagerBridge",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.App",
+      "target": "com.prizmos.carista.library.util.storage.Storage",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.App",
+      "target": "com.prizmos.carista.library.analytics.AnalyticsBridge",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.App",
+      "target": "com.prizmos.carista.util.Log",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.App",
+      "target": "com.prizmos.carista.library.resources.PlacesApi",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.App",
+      "target": "com.prizmos.carista.library.network.AndroidHttpClient",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.App",
+      "target": "com.prizmos.carista.library.connection.DeviceStorage",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.AuthorizeActivity",
+      "target": "com.prizmos.carista.ui.EvoAdView",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.BetaIntroductionActivity",
+      "target": "com.prizmos.carista.ui.CaristaSubtitleView",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.CarInfoCell",
+      "target": "com.prizmos.carista.ui.CaristaGradientView",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.ChangeBitwiseRawValueActivity",
+      "target": "com.prizmos.carista.service.Session",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.ChangeBitwiseRawValueActivity",
+      "target": "com.prizmos.carista.library.operation.Operation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.ChangeBitwiseRawValueActivity",
+      "target": "com.prizmos.carista.library.operation.ReadRawValuesOperation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.ChangeBitwiseRawValueActivity",
+      "target": "com.prizmos.carista.util.Log",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.ChangeDecimalRawValueActivity",
+      "target": "com.prizmos.carista.service.Session",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.ChangeDecimalRawValueActivity",
+      "target": "com.prizmos.carista.library.operation.Operation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.ChangeDecimalRawValueActivity",
+      "target": "com.prizmos.carista.library.operation.ReadRawValuesOperation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.ChangeDecimalRawValueActivity",
+      "target": "com.prizmos.carista.util.Log",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.ConfirmVehicleActivity",
+      "target": "com.prizmos.carista.ui.DetailedCarInfoCell",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.ConfirmVehicleActivity",
+      "target": "com.prizmos.carista.ui.StickyContainer",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.ConnectActivity",
+      "target": "com.prizmos.carista.screens.operation.emissiontests.OWop.tYNLxqPZpZ",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.ContentControlActivity",
+      "target": "com.prizmos.carista.ui.StickyContainer",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.CreateNewPasswordActivity",
+      "target": "com.prizmos.carista.ui.StickyContainer",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.CustomizationsHistoryActivity",
+      "target": "com.prizmos.carista.ui.DetailedCarInfoCell",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.CustomizationsHistoryActivity",
+      "target": "com.prizmos.carista.ui.input.VehicleInputView",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.DataBinderMapperImpl",
+      "target": "com.prizmos.carista.ui.AdCardsCarouselView",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.Enable2faActivity",
+      "target": "com.prizmos.carista.ui.StickyContainer",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.Enable2faActivity",
+      "target": "com.prizmos.carista.ui.LinkButton",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.FeatureDetailsActivity",
+      "target": "com.prizmos.carista.ui.ConnectButton",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.ForgottenPasswordActivity",
+      "target": "com.prizmos.carista.ui.StickyContainer",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.GarageActivity",
+      "target": "com.prizmos.carista.ui.GarageIntroView",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.GenericToolActivity",
+      "target": "com.prizmos.carista.library.operation.GenericToolOperation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.GenericToolActivity",
+      "target": "com.prizmos.carista.service.Session",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.GenericToolActivity",
+      "target": "com.prizmos.carista.library.model.Setting",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.GenericToolActivity",
+      "target": "com.prizmos.carista.library.model.SettingRef",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.InputDataIdActivity",
+      "target": "com.prizmos.carista.library.operation.GetEcuInfoOperation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.InputDataIdActivity",
+      "target": "com.prizmos.carista.service.Session",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.InputDataIdActivity",
+      "target": "com.prizmos.carista.ChangeBitwiseRawValueActivity",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.InputDataIdActivity",
+      "target": "com.prizmos.carista.library.operation.Operation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.InputDataIdActivity",
+      "target": "com.prizmos.carista.library.operation.ReadRawValuesOperation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.InputDataIdActivity",
+      "target": "com.prizmos.carista.ChangeDecimalRawValueActivity",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.LogInActivity",
+      "target": "com.prizmos.carista.ui.StickyContainer",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.LogInActivity",
+      "target": "com.prizmos.carista.screens.operation.emissiontests.OWop.tYNLxqPZpZ",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.MoreActivity",
+      "target": "com.prizmos.carista.ui.AvatarView",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.MoreActivity",
+      "target": "com.prizmos.carista.ui.MoreScreenMenuItem",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.MoreActivity",
+      "target": "com.prizmos.carista.ui.CarVerticalCardView",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.MoreActivity",
+      "target": "com.prizmos.carista.ui.CarVerticalBottomSheetView",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.MoreActivity",
+      "target": "com.prizmos.carista.ui.EvoAdView",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.NameVehicleActivity",
+      "target": "com.prizmos.carista.ui.StickyContainer",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.NotificationRationaleActivity",
+      "target": "com.prizmos.carista.ui.StickyContainer",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.OtpVerificationActivity",
+      "target": "com.prizmos.carista.ui.StickyContainer",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.RegisterActivity",
+      "target": "com.prizmos.carista.ui.StickyContainer",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.SelectDeviceView",
+      "target": "com.prizmos.carista.util.Log",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.SettingReportActivity",
+      "target": "com.prizmos.carista.App",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.SettingReportActivity",
+      "target": "com.prizmos.carista.ui.input.TextInputView",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.SettingReportActivity",
+      "target": "com.prizmos.carista.ui.CaristaToggleButtonGroup",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.ShowEcuActivity",
+      "target": "com.prizmos.carista.library.model.Ecu",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.ShowEcuActivity",
+      "target": "com.prizmos.carista.library.operation.GetEcuInfoOperation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.ShowEcuActivity",
+      "target": "com.prizmos.carista.ChangeBitwiseRawValueActivity",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.ShowEcuActivity",
+      "target": "com.prizmos.carista.service.Session",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.ShowEcuActivity",
+      "target": "com.prizmos.carista.library.operation.Operation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.ShowEcuActivity",
+      "target": "com.prizmos.carista.library.operation.ReadRawValuesOperation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.ShowEcuActivity",
+      "target": "com.prizmos.carista.util.Log",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.ShowEcuActivity",
+      "target": "com.prizmos.carista.ChangeDecimalRawValueActivity",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.ShowEcuActivity",
+      "target": "com.prizmos.carista.library.connection.State",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.ShowEcuActivity",
+      "target": "com.prizmos.carista.InputDataIdActivity",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.ShowEcuListActivity",
+      "target": "com.prizmos.carista.util.Log",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.ShowEcuListActivity",
+      "target": "com.prizmos.carista.library.operation.Operation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.ShowEcuListActivity",
+      "target": "com.prizmos.carista.library.operation.GetEcuListOperation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.ShowEcuListActivity",
+      "target": "com.prizmos.carista.library.connection.State",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.UnlockSettingActivity",
+      "target": "com.prizmos.carista.ui.CaristaSubtitleView",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.UnlockSettingActivity",
+      "target": "com.prizmos.carista.ui.CaristaTitleView",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.UploadLogActivity",
+      "target": "com.prizmos.carista.App",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.UploadLogActivity",
+      "target": "com.prizmos.carista.ui.StickyContainer",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.UploadLogActivity",
+      "target": "com.prizmos.carista.ui.input.TextInputView",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.Validate2faActivity",
+      "target": "com.prizmos.carista.ui.OTPTextInput",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.Validate2faActivity",
+      "target": "com.prizmos.carista.ui.StickyContainer",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.analytics.AnalyticsBridge",
+      "target": "com.prizmos.carista.library.analytics.LibraryEvent$Parameter$Long",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.analytics.AnalyticsBridge",
+      "target": "com.prizmos.carista.library.analytics.LibraryEvent",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.analytics.AnalyticsBridge",
+      "target": "com.prizmos.carista.library.analytics.LibraryEvent$Parameter$String",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.analytics.AnalyticsBridge",
+      "target": "com.prizmos.carista.library.analytics.LibraryEvent$Parameter",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.analytics.AnalyticsBridge",
+      "target": "com.prizmos.carista.library.analytics.LibraryEvent$Parameter$Double",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.analytics.LibraryEvent$Parameter$Double",
+      "target": "com.prizmos.carista.library.analytics.LibraryEvent$Parameter",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.analytics.LibraryEvent$Parameter$Long",
+      "target": "com.prizmos.carista.library.analytics.LibraryEvent$Parameter",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.analytics.LibraryEvent$Parameter$String",
+      "target": "com.prizmos.carista.library.analytics.LibraryEvent$Parameter",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidBluetooth2Connection",
+      "target": "com.prizmos.carista.util.Log",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidBluetooth2Connection",
+      "target": "com.prizmos.carista.library.connection.TimeoutOutputStream",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidBluetooth2Connection",
+      "target": "com.prizmos.carista.library.connection.TimeoutInputStream",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidBluetooth2Connection",
+      "target": "com.prizmos.carista.library.connection.AndroidConnection",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Connector",
+      "target": "com.prizmos.carista.library.connection.SimulatorConnector",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Connector",
+      "target": "com.prizmos.carista.library.connection.AndroidBluetooth2Connector",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Connector",
+      "target": "com.prizmos.carista.library.connection.AndroidBluetooth4Connector",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Connector",
+      "target": "com.prizmos.carista.library.connection.Connector$Type",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidConnector",
+      "target": "com.prizmos.carista.library.connection.State$OnStateUpdateListener",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidConnector",
+      "target": "com.prizmos.carista.library.connection.Connector",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidConnector",
+      "target": "com.prizmos.carista.library.connection.AndroidConnector$1",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidConnector",
+      "target": "com.prizmos.carista.util.Log",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidBluetoothConnector",
+      "target": "com.prizmos.carista.library.connection.AndroidConnector",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidBluetoothConnector",
+      "target": "com.prizmos.carista.library.connection.DeviceConnectResult",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidBluetoothConnector",
+      "target": "com.prizmos.carista.util.Log",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidBluetoothConnector",
+      "target": "com.prizmos.carista.library.connection.AndroidDevice",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidBluetoothConnector",
+      "target": "com.prizmos.carista.library.connection.State$OnStateUpdateListener",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidBluetoothConnector",
+      "target": "com.prizmos.carista.App",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidBluetoothConnector",
+      "target": "com.prizmos.carista.library.connection.AndroidBluetoothDevice",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidBluetoothConnector",
+      "target": "com.prizmos.carista.library.connection.DeviceStorage",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidBluetooth2Connector",
+      "target": "com.prizmos.carista.library.connection.Bluetooth2Scanner$Callback",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidBluetooth2Connector",
+      "target": "com.prizmos.carista.library.connection.DeviceStorage$Entry",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidBluetooth2Connector",
+      "target": "com.prizmos.carista.library.connection.AndroidConnector",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidBluetooth2Connector",
+      "target": "com.prizmos.carista.library.connection.State$OnStateUpdateListener",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidBluetooth2Connector",
+      "target": "com.prizmos.carista.library.connection.DeviceConnectResult",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidBluetooth2Connector",
+      "target": "com.prizmos.carista.library.connection.AndroidBluetooth2Connection",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidBluetooth2Connector",
+      "target": "com.prizmos.carista.library.connection.Connector$Type",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidBluetooth2Connector",
+      "target": "com.prizmos.carista.library.connection.AndroidConnection",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidBluetooth2Connector",
+      "target": "com.prizmos.carista.util.Log",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidBluetooth2Connector",
+      "target": "com.prizmos.carista.library.connection.AndroidBluetoothConnector",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidBluetooth2Connector",
+      "target": "com.prizmos.carista.library.connection.AndroidDevice",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidBluetooth2Connector",
+      "target": "com.prizmos.carista.library.connection.Bluetooth2Scanner",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidBluetooth2Connector",
+      "target": "com.prizmos.carista.App",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidBluetooth2Connector",
+      "target": "com.prizmos.carista.library.connection.AndroidBluetoothDevice",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidBluetooth2Connector",
+      "target": "com.prizmos.carista.library.connection.DeviceStorage",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidBluetooth4Connection",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Profile",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidBluetooth4Connection",
+      "target": "com.prizmos.carista.util.Log",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidBluetooth4Connection",
+      "target": "com.prizmos.carista.library.connection.AndroidBluetooth4Device",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidBluetooth4Connection",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Gatt",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidBluetooth4Connection",
+      "target": "com.prizmos.carista.library.connection.AndroidConnection",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidBluetooth4Connector",
+      "target": "com.prizmos.carista.library.connection.AndroidBluetooth4Connection",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidBluetooth4Connector",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Profile",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidBluetooth4Connector",
+      "target": "com.prizmos.carista.library.connection.AndroidConnector",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidBluetooth4Connector",
+      "target": "com.prizmos.carista.library.connection.DeviceConnectResult",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidBluetooth4Connector",
+      "target": "com.prizmos.carista.util.Log",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidBluetooth4Connector",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Scanner",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidBluetooth4Connector",
+      "target": "com.prizmos.carista.library.connection.AndroidBluetoothConnector",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidBluetooth4Connector",
+      "target": "com.prizmos.carista.library.connection.AndroidBluetooth4Connector$BluetoothDeviceComparator",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidBluetooth4Connector",
+      "target": "com.prizmos.carista.library.connection.AndroidBluetooth4Device",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidBluetooth4Connector",
+      "target": "com.prizmos.carista.library.connection.Connector$Type",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidBluetooth4Connector",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Gatt",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidBluetooth4Connector",
+      "target": "com.prizmos.carista.library.connection.AndroidConnection",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidDevice",
+      "target": "com.prizmos.carista.App",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidDevice",
+      "target": "com.prizmos.carista.library.connection.Device",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidDevice",
+      "target": "com.prizmos.carista.library.connection.Connector$Type",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidDevice",
+      "target": "com.prizmos.carista.library.connection.DeviceStorage",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidBluetoothDevice",
+      "target": "com.prizmos.carista.App",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidBluetoothDevice",
+      "target": "com.prizmos.carista.library.connection.AndroidDevice",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidBluetoothDevice",
+      "target": "com.prizmos.carista.library.connection.Connector$Type",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidBluetooth4Device",
+      "target": "com.prizmos.carista.library.connection.Connector$Type",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidBluetooth4Device",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Gatt",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidBluetooth4Device",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Profile",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidBluetooth4Device",
+      "target": "com.prizmos.carista.library.connection.AndroidBluetoothDevice",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.AndroidConnector$1",
+      "target": "com.prizmos.carista.library.connection.AndroidConnector",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth2Scanner$Receiver",
+      "target": "com.prizmos.carista.library.connection.Bluetooth2Scanner",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth2Scanner$Receiver",
+      "target": "com.prizmos.carista.library.connection.Bluetooth2Scanner$Callback",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth2Scanner$Receiver",
+      "target": "com.prizmos.carista.util.Log",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth2Scanner$Receiver",
+      "target": "com.prizmos.carista.library.connection.Bluetooth2Scanner$ReceiverState",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth2Scanner",
+      "target": "com.prizmos.carista.library.connection.Bluetooth2Scanner$Callback",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth2Scanner",
+      "target": "com.prizmos.carista.library.connection.Bluetooth2Scanner$Receiver",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth2Scanner",
+      "target": "com.prizmos.carista.library.connection.AndroidBluetoothDevice",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth2Scanner",
+      "target": "com.prizmos.carista.util.Log",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Gatt$1",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Gatt$1",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Gatt",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Callback",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd$Connect",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Callback",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd$CharacteristicCmd",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Callback",
+      "target": "com.prizmos.carista.util.Log",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Callback",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Callback",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd$WriteDescriptor",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Callback",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd$RequestMaxMtu",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Callback",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd$Write",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Callback",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Gatt",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Callback",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd$Discover",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd",
+      "target": "com.prizmos.carista.util.Log",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd$CharacteristicCmd",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd$Connect",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd$Discover",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd$Discover",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Gatt",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd$ReadSubscribed$1",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd$ReadSubscribed",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd$ReadSubscribed$1",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Gatt",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd$ReadSubscribed$1",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd$CharacteristicCmd",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd$ReadSubscribed",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd$ReadSubscribed",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd$CharacteristicCmd",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd$ReadSubscribed",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Gatt",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd$ReadSubscribed",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd$ReadSubscribed$1",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd$Reconnect",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Gatt",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd$Reconnect",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd$Connect",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd$RequestMaxMtu",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd$RequestMaxMtu",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Gatt",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd$WriteDescriptor",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd$CharacteristicCmd",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd$WriteDescriptor",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Gatt",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd$Subscribe",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd$CharacteristicCmd",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd$Subscribe",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Gatt",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd$Subscribe",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd$WriteDescriptor",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd$Write",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd$CharacteristicCmd",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd$Write",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Gatt",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Gatt",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd$Write",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Gatt",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd$Connect",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Gatt",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Callback",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Gatt",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Gatt$1",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Gatt",
+      "target": "com.prizmos.carista.util.Log",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Gatt",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Gatt",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd$WriteDescriptor",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Gatt",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd$Reconnect",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Gatt",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd$RequestMaxMtu",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Gatt",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd$ReadSubscribed",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Gatt",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd$Subscribe",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Gatt",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Gatt$Cmd$Discover",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Profile",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Profile$Generic",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Profile",
+      "target": "com.prizmos.carista.util.Log",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Profile",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Profile$Kiwi3",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Profile",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Gatt",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Profile",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Profile$ObdLinkCx",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Profile$Kiwi3",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Gatt",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Profile$Kiwi3",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Profile",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Profile$Kiwi3",
+      "target": "com.prizmos.carista.library.connection.AndroidDevice",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Profile$Kiwi3",
+      "target": "com.prizmos.carista.util.Log",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Profile$ObdLinkCx",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Profile",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Profile$ObdLinkCx",
+      "target": "com.prizmos.carista.library.connection.AndroidDevice",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Scanner$1",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Scanner",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Scanner$Callback",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Scanner",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Scanner",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Profile",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Scanner",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Scanner$1",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Scanner",
+      "target": "com.prizmos.carista.util.Log",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Scanner",
+      "target": "com.prizmos.carista.library.connection.Bluetooth4Scanner$Callback",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.Bluetooth4Scanner",
+      "target": "com.prizmos.carista.library.connection.AndroidBluetoothDevice",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.DeviceConnectResult",
+      "target": "com.prizmos.carista.library.connection.AndroidDevice",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.DeviceConnectResult",
+      "target": "com.prizmos.carista.library.connection.AndroidConnection",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.DeviceLatestInfo",
+      "target": "com.prizmos.carista.App",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.DeviceStorage$Entry",
+      "target": "com.prizmos.carista.library.connection.Connector$Type",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.DeviceStorage",
+      "target": "com.prizmos.carista.library.connection.Connector$Type",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.DeviceStorage",
+      "target": "com.prizmos.carista.library.connection.DeviceStorage$Entry",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.DeviceStorage",
+      "target": "com.prizmos.carista.library.connection.AndroidDevice",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.DeviceStorage",
+      "target": "com.prizmos.carista.util.Log",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.SimulatorConnector",
+      "target": "com.prizmos.carista.library.connection.Connector",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.SimulatorConnector",
+      "target": "com.prizmos.carista.library.connection.Connector$Type",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.SimulatorDevice",
+      "target": "com.prizmos.carista.library.connection.Connector$Type",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.SimulatorDevice",
+      "target": "com.prizmos.carista.library.connection.Device",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.connection.State",
+      "target": "com.prizmos.carista.util.Log",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.Availability$Creator",
+      "target": "com.prizmos.carista.library.model.Availability",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.Availability",
+      "target": "com.prizmos.carista.library.model.Availability$Creator",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.CheckCodesEcuEntry",
+      "target": "com.prizmos.carista.library.model.Ecu",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.ContentControl$Creator",
+      "target": "com.prizmos.carista.library.model.InfoScreen",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.ContentControl$Creator",
+      "target": "com.prizmos.carista.library.model.InfoEntry",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.ContentControl$Creator",
+      "target": "com.prizmos.carista.library.model.ContentControl",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.ContentControl",
+      "target": "com.prizmos.carista.library.model.ContentControl$Creator",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.ContentControl",
+      "target": "com.prizmos.carista.library.model.InfoScreen",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.ContentControl",
+      "target": "com.prizmos.carista.library.model.InfoEntry",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.DateInterpretation$Creator",
+      "target": "com.prizmos.carista.library.model.DateInterpretation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.DateInterpretation",
+      "target": "com.prizmos.carista.library.model.DateInterpretation$Precision",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.DateInterpretation",
+      "target": "com.prizmos.carista.library.model.DateInterpretation$Creator",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.util.NativeParcelable$Creator",
+      "target": "com.prizmos.carista.library.util.NativeParcelable",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.util.NativeParcelable$Creator",
+      "target": "com.prizmos.carista.util.Log",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.Ecu$1",
+      "target": "com.prizmos.carista.library.model.Ecu",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.Ecu",
+      "target": "com.prizmos.carista.library.util.NativeParcelable",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.Ecu",
+      "target": "com.prizmos.carista.library.model.Ecu$1",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.Ecu",
+      "target": "com.prizmos.carista.library.util.NativeParcelable$Creator",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.FreezeFrameElement$1",
+      "target": "com.prizmos.carista.library.model.FreezeFrameElement",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.FreezeFrameElement",
+      "target": "com.prizmos.carista.library.model.FreezeFrameElement$1",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.FreezeFrameElement",
+      "target": "com.prizmos.carista.library.model.Interpretation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.FreezeFrameModel$1",
+      "target": "com.prizmos.carista.library.model.FreezeFrameModel",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.FreezeFrameModel",
+      "target": "com.prizmos.carista.library.model.FreezeFrameModel$1",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.FreezeFrameModel",
+      "target": "com.prizmos.carista.library.model.FreezeFrameElement",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.InfoEntry$Creator",
+      "target": "com.prizmos.carista.library.model.InfoEntry",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.InfoEntry",
+      "target": "com.prizmos.carista.library.model.InfoEntry$Creator",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.InfoScreen$Creator",
+      "target": "com.prizmos.carista.library.model.InfoScreen",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.InfoScreen",
+      "target": "com.prizmos.carista.library.model.InfoScreen$Creator",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.MultipleChoiceInterpretation$Creator",
+      "target": "com.prizmos.carista.library.model.MultipleChoiceInterpretation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.MultipleChoiceInterpretation$Creator",
+      "target": "com.prizmos.carista.library.model.MultipleChoiceInterpretation$PossibleValue",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.MultipleChoiceInterpretation$PossibleValue$Creator",
+      "target": "com.prizmos.carista.library.model.MultipleChoiceInterpretation$PossibleValue",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.MultipleChoiceInterpretation$PossibleValue",
+      "target": "com.prizmos.carista.library.model.MultipleChoiceInterpretation$PossibleValue$Creator",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.MultipleChoiceInterpretation",
+      "target": "com.prizmos.carista.library.model.MultipleChoiceInterpretation$Creator",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.MultipleChoiceInterpretation",
+      "target": "com.prizmos.carista.library.model.MultipleChoiceInterpretation$PossibleValue",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.NumericalInterpretation$Companion",
+      "target": "com.prizmos.carista.library.model.UnitSystem",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.NumericalInterpretation$Companion",
+      "target": "com.prizmos.carista.library.model.NumericalInterpretation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.NumericalInterpretation$Creator",
+      "target": "com.prizmos.carista.library.model.NumericalInterpretation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.NumericalInterpretation",
+      "target": "com.prizmos.carista.library.model.UnitSystem",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.NumericalInterpretation",
+      "target": "com.prizmos.carista.library.model.NumericalInterpretation$Companion",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.NumericalInterpretation",
+      "target": "com.prizmos.carista.library.model.NumericalInterpretation$Creator",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.SecurityTypeKt$WhenMappings",
+      "target": "com.prizmos.carista.library.model.SecurityType",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.SecurityTypeKt",
+      "target": "com.prizmos.carista.library.model.SecurityTypeKt$WhenMappings",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.ServiceIndicator",
+      "target": "com.prizmos.carista.library.model.Ecu",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.ServiceIndicator",
+      "target": "com.prizmos.carista.library.model.DateInterpretation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.SettingCopy$1",
+      "target": "com.prizmos.carista.library.model.SettingCopy",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.SettingCopy",
+      "target": "com.prizmos.carista.library.model.SettingCopy$1",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.SettingCopy",
+      "target": "com.prizmos.carista.library.model.Setting",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.SettingCopy",
+      "target": "com.prizmos.carista.library.model.Ecu",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.SettingCopy",
+      "target": "com.prizmos.carista.library.model.Interpretation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.SettingDto",
+      "target": "com.prizmos.carista.library.model.SettingCopy",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.SettingDto",
+      "target": "com.prizmos.carista.library.model.SettingCategory",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.SettingRef$1",
+      "target": "com.prizmos.carista.library.model.SettingRef",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.SettingRef",
+      "target": "com.prizmos.carista.library.model.SettingRef$1",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.SettingRef",
+      "target": "com.prizmos.carista.library.model.Setting",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.SettingRef",
+      "target": "com.prizmos.carista.library.util.NativeParcelable",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.SettingRef",
+      "target": "com.prizmos.carista.library.util.NativeParcelable$Creator",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.TextInterpretation$Companion",
+      "target": "com.prizmos.carista.library.model.TextInterpretation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.TextInterpretation$Creator",
+      "target": "com.prizmos.carista.library.model.TextInterpretation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.TextInterpretation",
+      "target": "com.prizmos.carista.library.model.TextInterpretation$Companion",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.TextInterpretation",
+      "target": "com.prizmos.carista.library.model.TextInterpretation$Creator",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.TpmsSensorInfo",
+      "target": "com.prizmos.carista.library.model.TpmsSensorInfo$Pressure",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.TpmsSensorInfo",
+      "target": "com.prizmos.carista.library.model.TpmsSensorInfo$Temperature",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.TpmsSensorInfo",
+      "target": "com.prizmos.carista.library.model.TpmsSensorInfo$Position",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.TroubleCode$1",
+      "target": "com.prizmos.carista.library.model.TroubleCode",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.TroubleCode",
+      "target": "com.prizmos.carista.library.model.FreezeFrameModel",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.TroubleCode",
+      "target": "com.prizmos.carista.library.model.TroubleCode$1",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.UnitSystem$Companion",
+      "target": "com.prizmos.carista.library.model.UnitSystem",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.UnitSystem",
+      "target": "com.prizmos.carista.library.model.UnitSystem$Companion",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.ui.ButtonUiComponent",
+      "target": "com.prizmos.carista.library.model.ui.UiComponent",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.ui.ButtonUiComponent",
+      "target": "com.prizmos.carista.library.model.ui.UiComponent$Type",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.ui.CheckBoxUiComponent",
+      "target": "com.prizmos.carista.library.model.ui.UiComponent",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.ui.CheckBoxUiComponent",
+      "target": "com.prizmos.carista.library.model.ui.UiComponent$Type",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.ui.DiagnoseButtonUiComponent",
+      "target": "com.prizmos.carista.library.model.ui.UiComponent",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.ui.DiagnoseButtonUiComponent",
+      "target": "com.prizmos.carista.library.model.ui.UiComponent$Type",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.ui.DiagnoseButtonUiComponent",
+      "target": "com.prizmos.carista.library.model.Ecu",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.ui.LiveDataUiComponent",
+      "target": "com.prizmos.carista.library.model.ui.UiComponent",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.ui.LiveDataUiComponent",
+      "target": "com.prizmos.carista.library.model.ui.UiComponent$Type",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.ui.LiveDataUiComponent",
+      "target": "com.prizmos.carista.library.model.SettingCopy",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.ui.SettingUiComponent",
+      "target": "com.prizmos.carista.library.model.ui.UiComponent",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.ui.SettingUiComponent",
+      "target": "com.prizmos.carista.library.model.ui.UiComponent$Type",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.ui.SettingUiComponent",
+      "target": "com.prizmos.carista.library.model.SettingCopy",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.ui.TextUiComponent",
+      "target": "com.prizmos.carista.library.model.ui.UiComponent",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.ui.TextUiComponent",
+      "target": "com.prizmos.carista.library.model.ui.UiComponent$Type",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.model.ui.TextUiComponent",
+      "target": "com.prizmos.carista.library.model.ui.TextUiComponent$Style",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.network.AndroidHttpClient$Request",
+      "target": "com.prizmos.carista.library.network.AndroidHttpClient$RequestType",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.network.AndroidHttpClient$ResponseHandler",
+      "target": "com.prizmos.carista.library.network.AndroidHttpClient$Response",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.network.AndroidHttpClient",
+      "target": "com.prizmos.carista.library.network.AndroidHttpClient$ResponseHandler",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.network.AndroidHttpClient",
+      "target": "com.prizmos.carista.library.network.AndroidHttpClient$RequestType",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.network.AndroidHttpClient",
+      "target": "com.prizmos.carista.library.network.AndroidHttpClient$Request",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.network.AndroidHttpClient",
+      "target": "com.prizmos.carista.util.Log",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.network.AndroidHttpClient",
+      "target": "com.prizmos.carista.library.network.AndroidHttpClient$Response",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.Operation",
+      "target": "com.prizmos.carista.library.operation.Operation$OnStateUpdateListener",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.Operation",
+      "target": "com.prizmos.carista.library.operation.Operation$RichState",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.Operation",
+      "target": "com.prizmos.carista.library.operation.Operation$1",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.ReadValuesOperation",
+      "target": "com.prizmos.carista.library.operation.Operation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.CarHealthCheckAvailabilityOperation",
+      "target": "com.prizmos.carista.library.operation.ReadValuesOperation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.CarHealthCheckAvailabilityOperation",
+      "target": "com.prizmos.carista.library.operation.Operation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.CarHealthCheckOperation$LiveDataEntry",
+      "target": "com.prizmos.carista.library.model.Setting",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.CarHealthCheckOperation$RichState$Companion",
+      "target": "com.prizmos.carista.library.operation.CarHealthCheckOperation$RichState",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.Operation$RichState",
+      "target": "com.prizmos.carista.library.operation.Operation$RichState$General",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.CarHealthCheckOperation$RichState",
+      "target": "com.prizmos.carista.library.operation.CarHealthCheckOperation$RichState$Companion",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.CarHealthCheckOperation$RichState",
+      "target": "com.prizmos.carista.library.operation.Operation$RichState",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.CarHealthCheckOperation$RichState",
+      "target": "com.prizmos.carista.library.operation.CarHealthCheckOperation$DiagCell",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.CarHealthCheckOperation",
+      "target": "com.prizmos.carista.library.operation.CarHealthCheckOperation$RichState$Companion",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.CarHealthCheckOperation",
+      "target": "com.prizmos.carista.library.operation.Operation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.CarHealthCheckOperation",
+      "target": "com.prizmos.carista.library.operation.CarHealthCheckOperation$RichState",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.SimpleOperation",
+      "target": "com.prizmos.carista.library.operation.Operation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.ChangeSettingOperation",
+      "target": "com.prizmos.carista.library.operation.ReadValuesOperation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.ChangeSettingOperation",
+      "target": "com.prizmos.carista.library.operation.Operation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.ChangeSettingOperation",
+      "target": "com.prizmos.carista.library.operation.SimpleOperation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.CheckAvailableToolsOperation",
+      "target": "com.prizmos.carista.library.operation.ReadValuesOperation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.CheckAvailableToolsOperation",
+      "target": "com.prizmos.carista.library.operation.Operation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.CheckCodesOperation$RichState",
+      "target": "com.prizmos.carista.library.operation.Operation$RichState",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.CheckCodesOperation$RichState",
+      "target": "com.prizmos.carista.library.model.Availability",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.CheckCodesOperation",
+      "target": "com.prizmos.carista.library.operation.CheckCodesOperation$RichState",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.CheckCodesOperation",
+      "target": "com.prizmos.carista.library.operation.Operation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.CheckLiveDataOperation",
+      "target": "com.prizmos.carista.library.operation.ReadValuesOperation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.CheckLiveDataOperation",
+      "target": "com.prizmos.carista.library.operation.Operation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.CheckSettingsOperation",
+      "target": "com.prizmos.carista.library.operation.ReadValuesOperation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.CheckSettingsOperation",
+      "target": "com.prizmos.carista.library.operation.Operation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.CollectDebugInfoOperation$RichState",
+      "target": "com.prizmos.carista.library.operation.Operation$RichState",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.CollectDebugInfoOperation",
+      "target": "com.prizmos.carista.library.operation.CollectDebugInfoOperation$RichState",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.CollectDebugInfoOperation",
+      "target": "com.prizmos.carista.library.operation.Operation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.EmissionTestsOperation$RichState",
+      "target": "com.prizmos.carista.library.operation.Operation$RichState",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.EmissionTestsOperation$RichState",
+      "target": "com.prizmos.carista.library.operation.Operation$RichState$General",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.EmissionTestsOperation$RichState",
+      "target": "com.prizmos.carista.library.model.GetNumTroubleCodesModel",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.EmissionTestsOperation",
+      "target": "com.prizmos.carista.library.model.SettingRef",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.EmissionTestsOperation",
+      "target": "com.prizmos.carista.library.operation.EmissionTestsOperation$RichState",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.EmissionTestsOperation",
+      "target": "com.prizmos.carista.library.operation.Operation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.EvHybridBatteryHealthOperation$RichState$Companion",
+      "target": "com.prizmos.carista.library.operation.EvHybridBatteryHealthOperation$RichState",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.EvHybridBatteryHealthOperation$RichState",
+      "target": "com.prizmos.carista.library.operation.Operation$RichState",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.EvHybridBatteryHealthOperation$RichState",
+      "target": "com.prizmos.carista.library.operation.EvHybridBatteryHealthOperation$RichState$Companion",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.EvHybridBatteryHealthOperation$RichState",
+      "target": "com.prizmos.carista.library.operation.Operation$RichState$General",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.EvHybridBatteryHealthOperation",
+      "target": "com.prizmos.carista.library.operation.EvHybridBatteryHealthOperation$RichState$Companion",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.EvHybridBatteryHealthOperation",
+      "target": "com.prizmos.carista.library.operation.Operation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.EvHybridBatteryHealthOperation",
+      "target": "com.prizmos.carista.library.operation.EvHybridBatteryHealthOperation$RichState",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.EvoFirmwareUpdateOperation",
+      "target": "com.prizmos.carista.library.operation.Operation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.EvoFirmwareUpdateOperation",
+      "target": "com.prizmos.carista.library.operation.SimpleOperation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.FullScanOperation$Entry",
+      "target": "com.prizmos.carista.library.model.Ecu",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.FullScanOperation$Entry",
+      "target": "com.prizmos.carista.library.model.EcuInfo",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.FullScanOperation$RichState",
+      "target": "com.prizmos.carista.library.operation.Operation$RichState",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.FullScanOperation$RichState",
+      "target": "com.prizmos.carista.library.operation.Operation$RichState$General",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.FullScanOperation",
+      "target": "com.prizmos.carista.library.model.SettingRef",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.FullScanOperation",
+      "target": "com.prizmos.carista.library.operation.FullScanOperation$RichState",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.FullScanOperation",
+      "target": "com.prizmos.carista.library.operation.Operation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.GenericToolOperation$RichState",
+      "target": "com.prizmos.carista.library.operation.Operation$RichState",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.GenericToolOperation",
+      "target": "com.prizmos.carista.library.model.Setting",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.GenericToolOperation",
+      "target": "com.prizmos.carista.library.operation.Operation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.GenericToolOperation",
+      "target": "com.prizmos.carista.library.operation.GenericToolOperation$RichState",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.GetEcuInfoOperation",
+      "target": "com.prizmos.carista.library.operation.Operation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.GetEcuInfoOperation",
+      "target": "com.prizmos.carista.library.operation.SimpleOperation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.GetEcuListOperation",
+      "target": "com.prizmos.carista.library.operation.Operation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.GetEcuListOperation",
+      "target": "com.prizmos.carista.library.operation.SimpleOperation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.Operation$1",
+      "target": "com.prizmos.carista.library.operation.Operation$OnStateUpdateListener",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.Operation$1",
+      "target": "com.prizmos.carista.library.operation.Operation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.Operation$RichState$General",
+      "target": "com.prizmos.carista.library.model.SecurityType",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.Operation$RichState$General",
+      "target": "com.prizmos.carista.library.model.VehicleProtocol",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.PlaygroundOperation$RichState",
+      "target": "com.prizmos.carista.library.operation.Operation$RichState",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.PlaygroundOperation",
+      "target": "com.prizmos.carista.library.operation.Operation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.PlaygroundOperation",
+      "target": "com.prizmos.carista.library.operation.PlaygroundOperation$RichState",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.ReadLiveDataOperation$RichState",
+      "target": "com.prizmos.carista.library.operation.Operation$RichState",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.ReadLiveDataOperation",
+      "target": "com.prizmos.carista.library.operation.Operation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.ReadLiveDataOperation",
+      "target": "com.prizmos.carista.library.operation.ReadLiveDataOperation$RichState",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.ReadRawValuesOperation",
+      "target": "com.prizmos.carista.library.operation.Operation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.ReadRawValuesOperation",
+      "target": "com.prizmos.carista.library.operation.SimpleOperation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.ReadTpmsInfoOperation$RichState",
+      "target": "com.prizmos.carista.library.operation.Operation$RichState",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.ReadTpmsInfoOperation$RichState",
+      "target": "com.prizmos.carista.library.operation.Operation$RichState$General",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.ReadTpmsInfoOperation$RichState",
+      "target": "com.prizmos.carista.library.model.TpmsInfo",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.ReadTpmsInfoOperation",
+      "target": "com.prizmos.carista.library.model.SettingRef",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.ReadTpmsInfoOperation",
+      "target": "com.prizmos.carista.library.operation.Operation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.ReadTpmsInfoOperation",
+      "target": "com.prizmos.carista.library.operation.ReadTpmsInfoOperation$RichState",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.ReadVehIdOperation",
+      "target": "com.prizmos.carista.library.operation.Operation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.ReadVehIdOperation",
+      "target": "com.prizmos.carista.library.operation.SimpleOperation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.ReadVoltageOperation",
+      "target": "com.prizmos.carista.library.operation.Operation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.ReadVoltageOperation",
+      "target": "com.prizmos.carista.library.operation.SimpleOperation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.RelearnTpmsIdsOperation",
+      "target": "com.prizmos.carista.library.model.SettingRef",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.RelearnTpmsIdsOperation",
+      "target": "com.prizmos.carista.library.operation.Operation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.RelearnTpmsIdsOperation",
+      "target": "com.prizmos.carista.library.operation.SimpleOperation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.RestoreOperation",
+      "target": "com.prizmos.carista.library.operation.Operation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.RestoreOperation",
+      "target": "com.prizmos.carista.library.operation.SimpleOperation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.ServiceIndicatorOperation$RichState",
+      "target": "com.prizmos.carista.library.operation.Operation$RichState",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.ServiceIndicatorOperation",
+      "target": "com.prizmos.carista.library.operation.ServiceIndicatorOperation$RichState",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.ServiceIndicatorOperation",
+      "target": "com.prizmos.carista.library.model.SettingRef",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.ServiceIndicatorOperation",
+      "target": "com.prizmos.carista.library.operation.Operation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.WriteRawValuesOperation",
+      "target": "com.prizmos.carista.library.operation.Operation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.WriteRawValuesOperation",
+      "target": "com.prizmos.carista.library.operation.ReadRawValuesOperation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.WriteRawValuesOperation",
+      "target": "com.prizmos.carista.library.operation.SimpleOperation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.WriteTpmsIdsOperation",
+      "target": "com.prizmos.carista.library.model.SettingRef",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.WriteTpmsIdsOperation",
+      "target": "com.prizmos.carista.library.operation.Operation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.operation.WriteTpmsIdsOperation",
+      "target": "com.prizmos.carista.library.operation.SimpleOperation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.simulator.src.Simulators$Companion",
+      "target": "com.prizmos.carista.library.simulator.src.Simulators",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.simulator.src.Simulators",
+      "target": "com.prizmos.carista.library.simulator.src.Simulators$Companion",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.util.LibraryLocaleManagerBridge",
+      "target": "com.prizmos.carista.library.model.UnitSystem",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.util.storage.CheckCodesEvent$Creator",
+      "target": "com.prizmos.carista.library.util.storage.CheckCodesEvent",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.util.storage.CheckCodesEvent",
+      "target": "com.prizmos.carista.library.util.storage.CheckCodesEvent$Creator",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.library.util.storage.Storage",
+      "target": "com.prizmos.carista.util.Log",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.persistence.room.CaristaRoomDatabase_Impl",
+      "target": "com.prizmos.carista.persistence.room.CaristaRoomDatabase",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.screens.caristalink.CaristaLinkActivity",
+      "target": "com.prizmos.carista.AuthorizeActivity",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.screens.intro.IntroScreenActivity",
+      "target": "com.prizmos.carista.screens.operation.emissiontests.OWop.tYNLxqPZpZ",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.screens.operation.collectdebuginfo.CollectDebugInfoActivity",
+      "target": "com.prizmos.carista.AuthorizeActivity",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.screens.operation.collectdebuginfo.CollectDebugInfoActivity",
+      "target": "com.prizmos.carista.ConnectActivity",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.service.Session",
+      "target": "com.prizmos.carista.library.connection.Connector",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.service.Session",
+      "target": "com.prizmos.carista.service.communication.CommunicationService",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.service.Session",
+      "target": "com.prizmos.carista.library.operation.Operation",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.service.Session",
+      "target": "com.prizmos.carista.util.Log",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.service.Session",
+      "target": "com.prizmos.carista.library.connection.Connector$Type",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.service.communication.CommunicationService",
+      "target": "com.prizmos.carista.util.Log",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.ui.AddressTextComponent",
+      "target": "com.prizmos.carista.ui.input.TextInputView",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.ui.AddressTextComponent",
+      "target": "com.prizmos.carista.util.Log",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.ui.DetailedCarInfoCell",
+      "target": "com.prizmos.carista.ui.CaristaGradientView",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.ui.DetailedCarInfoCell",
+      "target": "com.prizmos.carista.ui.input.TextInputView",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.ui.DetailedCarInfoCell",
+      "target": "com.prizmos.carista.ui.input.VehicleInputView",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.ui.DetailedLink",
+      "target": "com.prizmos.carista.ui.LinkButton",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.ui.OTPTextInput",
+      "target": "com.prizmos.carista.ui.OTPEditText",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.ui.PhoneNumberComponent",
+      "target": "com.prizmos.carista.ui.input.SuggestionInputView",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.ui.PhoneNumberComponent",
+      "target": "com.prizmos.carista.ui.input.TextInputView",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.ui.input.TextInputView",
+      "target": "com.prizmos.carista.ui.CheckableImageButton",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.ui.input.SecretInputView",
+      "target": "com.prizmos.carista.ui.input.TextInputView",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.ui.input.SuggestionInputView",
+      "target": "com.prizmos.carista.ui.input.SuggestionTextInputView",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.ui.input.SuggestionInputView",
+      "target": "com.prizmos.carista.ui.input.TextInputView",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.ui.input.SuggestionTextInputView",
+      "target": "com.prizmos.carista.ui.input.TextInputView",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.ui.input.SuggestionTextInputView",
+      "target": "com.prizmos.carista.ui.CheckableImageButton",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.ui.input.VehicleInputView",
+      "target": "com.prizmos.carista.ui.input.TextInputView",
+      "type": "references"
+    },
+    {
+      "source": "com.prizmos.carista.util.CaristaFirebaseMessagingService",
+      "target": "com.prizmos.carista.util.Log",
+      "type": "references"
+    }
+  ]
+}

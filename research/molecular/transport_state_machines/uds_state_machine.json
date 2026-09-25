@@ -1,0 +1,32 @@
+{
+  "protocol": "ISO 14229-1 (UDS over ISO-TP)",
+  "services": {
+    "0x10": "DiagnosticSessionControl (0x01 Default, 0x02 Programming, 0x03 Extended)",
+    "0x11": "ECUReset (0x01 Hard, 0x03 Soft)",
+    "0x14": "ClearDiagnosticInformation (14 FF FF FF)",
+    "0x19": "ReadDTCInformation (19 02 8D)",
+    "0x22": "ReadDataByIdentifier (22 DID_HI DID_LO)",
+    "0x27": "SecurityAccess (27 01 / 27 02)",
+    "0x2E": "WriteDataByIdentifier (2E DID_HI DID_LO Payload...)",
+    "0x31": "RoutineControl (31 01 Start, 31 02 Stop, 31 03 RequestResults)",
+    "0x3E": "TesterPresent (3E 00 / 3E 80 suppressPosRspMsgIndicationBit)"
+  },
+  "nrc_handling": {
+    "0x78": {
+      "name": "requestCorrectlyReceived-ResponsePending",
+      "action": "WAIT and do not resend request; restart timer up to 5000ms."
+    },
+    "0x22": {
+      "name": "conditionsNotCorrect",
+      "action": "Abort write; warn user that engine must be OFF or vehicle stationary."
+    },
+    "0x31": {
+      "name": "requestOutOfRange",
+      "action": "Abort write; parameter value outside valid ECU boundaries."
+    },
+    "0x33": {
+      "name": "securityAccessDenied",
+      "action": "Abort write; Login/SFD token required."
+    }
+  }
+}

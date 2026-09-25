@@ -1,0 +1,60 @@
+{
+  "protocol": "CAN 11-bit and 29-bit Addressing Rules",
+  "can_11bit_vag": {
+    "formula": "if (TX >= 0x795) RX = TX + 8 else RX = TX + 0x6A",
+    "evidence": "libCarista.so.c line 584009-584012 (VagUdsEcu constructor)",
+    "examples": [
+      {
+        "ecu": "ENGINE",
+        "tx": "0x7E0",
+        "rx": "0x7E8"
+      },
+      {
+        "ecu": "TRANSMISSION",
+        "tx": "0x7E1",
+        "rx": "0x7E9"
+      },
+      {
+        "ecu": "CENTRAL_ELEC (0x09)",
+        "tx": "0x70E",
+        "rx": "0x778"
+      },
+      {
+        "ecu": "CAN_GATEWAY (0x19)",
+        "tx": "0x710",
+        "rx": "0x77A"
+      },
+      {
+        "ecu": "ABS (0x03)",
+        "tx": "0x713",
+        "rx": "0x77D"
+      },
+      {
+        "ecu": "CLUSTER (0x17)",
+        "tx": "0x714",
+        "rx": "0x77E"
+      },
+      {
+        "ecu": "EPB (0x53)",
+        "tx": "0x752",
+        "rx": "0x7BC"
+      }
+    ]
+  },
+  "can_29bit_vag": {
+    "formula": "RX = TX + 0x00020000",
+    "evidence": "libCarista.so.c line 583921",
+    "examples": [
+      {
+        "ecu": "ENGINE",
+        "tx": "0x17FC0076",
+        "rx": "0x17FE0076"
+      },
+      {
+        "ecu": "TRANSMISSION",
+        "tx": "0x17FC0077",
+        "rx": "0x17FE0077"
+      }
+    ]
+  }
+}
