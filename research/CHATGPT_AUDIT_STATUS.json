@@ -1,0 +1,19 @@
+{
+  "audit_owner": "ChatGPT",
+  "basis": "Committed ghidracarista evidence only",
+  "catalog_total": 478,
+  "explicit_core_features": 6,
+  "generated_customization_features": 472,
+  "direct_verified_protocol_operations": 29,
+  "generated_customizations_with_exact_internal_name_hit_in_committed_ghidra_exports": 0,
+  "strict_core_status": {
+    "DIAG_AUTOSCAN": "CORE_CONFIRMED",
+    "DIAG_CLEAR_DTC": "CORE_CONFIRMED",
+    "TOOL_EPB_SERVICE": "COMMAND_CONFIRMED_FLOW_PARTIAL",
+    "TOOL_DPF_REGENERATION": "COMMAND_CONFIRMED_FLOW_PARTIAL",
+    "TOOL_BATTERY_REGISTRATION": "CLASS_CONFIRMED_MAPPING_INCOMPLETE",
+    "TOOL_SERVICE_RESET": "CLASS_CONFIRMED_MAPPING_INCOMPLETE"
+  },
+  "important": "The previous 470 READY / 8 BLOCKED split is not accepted as evidence-backed readiness.",
+  "next_requirement": "Each FEAT_* customization needs exact ECU/protocol/read/write/offset-or-DID/value/applicability/session-security provenance before write enablement."
+}
