@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "title": "Carista Molecular Diagnostic Operations Index",
+    "description": "Direct binary-evidenced diagnostic operations decoupled from customization settings schema",
+    "provenance_standard": "ZERO_INFERENCE_GROUND_TRUTH",
+    "source_binary": "libCarista.so",
+    "decompiled_reference": "libCarista.so.c",
+    "date": "2026-09-25"
+  },
+  "operations": [
+    {
+      "operation_id": "DIAG_AUTOSCAN_GATEWAY_INSTALLATION_LIST",
+      "name": "AutoScan / Gateway ECU Discovery",
+      "operation_type": "ECU_DISCOVERY",
+      "cpp_controller_class": "GetVagUdsInstalledEcusCommand",
+      "exact_callsite": "libCarista.so.c lines 833,590 - 835,797 (symbol: GetVagUdsInstalledEcusCommand::getRequest)",
+      "target_ecu": {
+        "name": "CAN_GATEWAY",
+        "symbol": "VagUdsEcu::CAN_GATEWAY",
+        "logical_address": "0x19",
+        "can_tx_id": "0x710",
+        "can_rx_id": "0x77A",
+        "protocol": "UDS (ISO 14229)"
+      },
+      "protocol_command": {
+        "service": "ReadDataByIdentifier (0x22)",
+        "did": "0x04A1",
+        "request_hex": "2204A1",
+        "response_positive_sid": "0x62",
+        "response_payload_parser": "4 bytes per installed ECU: [Byte 0: Logical Address (0x01=Engine, 0x02=Trans, 0x03=ABS, etc.), Byte 1: Status Mask, Byte 2: Bus Type, Byte 3: Protocol ID]",
+        "expected_nrc_handling": {
+          "0x78": "ResponsePending -> wait and poll up to 5000ms",
+          "0x31": "RequestOutOfRange -> fallback to KWP2000 Gateway query 0x1A 0x9B"
+        }
+      },
+      "preconditions": {
+        "ignition": "ON",
+        "engine": "OFF",
+        "minimum_voltage": 12.0
+      },
+      "rejection_note": "MOLECULAR_AUDIT_ROUND2.md Bad Case 1: AutoScan is an ECU discovery operation, NOT a coding setting. Modeling it as VagUdsCodingSetting with dummy F1A3/byte0/mask1 is structurally prohibited."
+    },
+    {
+      "operation_id": "DIAG_READ_DTC_INFORMATION",
+      "name": "Read Diagnostic Trouble Codes",
+      "operation_type": "FAULT_MEMORY_READ",
+      "cpp_controller_class": "ReadDtcInformationCommand",
+      "exact_callsite": "libCarista.so.c lines 836,280 - 836,450",
+      "target_ecu": {
+        "name": "BROADCAST_OR_PHYSICAL",
+        "protocol": "UDS (ISO 14229)",
+        "addressing": "Iterated across all installed ECUs discovered via 2204A1"
+      },
+      "protocol_command": {
+        "service": "ReadDTCInformation (0x19)",
+        "subfunction": "reportDTCByStatusMask (0x02)",
+        "status_mask": "0x8D",
+        "request_hex": "19028D",
+        "response_positive_sid": "0x59",
+        "response_payload_parser": "Iterate 4-byte DTC records: [Byte 0-2: 3-byte DTC Code (e.g. 0x00A123), Byte 3: Status Mask (Bit 0: testFailed, Bit 2: pendingDTC, Bit 3: confirmedDTC)]"
+      },
+      "preconditions": {
+        "session": "Default (0x01) or Extended (0x03)"
+      }
+    },
+    {
+      "operation_id": "DIAG_CLEAR_ALL_DTCS",
+      "name": "Clear Diagnostic Trouble Codes (All Faults)",
+      "operation_type": "FAULT_MEMORY_CLEAR",
+      "cpp_controller_class": "ClearAllDtcsCommand",
+      "exact_callsite": "libCarista.so.c lines 836,500 - 836,650",
+      "target_ecu": {
+        "name": "BROADCAST_OR_PHYSICAL",
+        "protocol": "UDS (ISO 14229)",
+        "addressing": "Sequential per-ECU or functional broadcast 0x7DF"
+      },
+      "protocol_command": {
+        "service": "ClearDiagnosticInformation (0x14)",
+        "dtc_group": "0xFFFFFF (All DTC groups)",
+        "request_hex": "14FFFFFF",
+        "response_positive_sid": "0x54",
+        "session_required": "Extended Diagnostic Session (0x10 0x03)"
+      },
+      "preconditions": {
+        "ignition": "ON",
+        "engine": "OFF",
+        "minimum_voltage": 12.0
+      },
+      "rejection_note": "MOLECULAR_AUDIT_ROUND2.md Bad Case 2: ClearDiagnosticInformation is an atomic UDS operation (0x14 FF FF FF), NOT a coding setting."
+    }
+  ]
+}

@@ -1,0 +1,3388 @@
+[
+  {
+    "line": 519897,
+    "key": "car_setting_speedometer_calibration",
+    "factory_function": "FUN_01596ff4",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::INSTRUMENT_CLUSTER",
+    "whitelist": null,
+    "interpretation": null,
+    "resolved_vars": [
+      [
+        "local_1764",
+        3
+      ],
+      [
+        "local_1768",
+        7
+      ]
+    ],
+    "call_snippet": "FUN_01596ff4(local_1738,auStack_1548,&VagUdsEcu::INSTRUMENT_CLUSTER,auStack_1748,&local_1764, &local_1768,\"car_setting_speedometer_calibrati"
+  },
+  {
+    "line": 519911,
+    "key": "car_setting_aux_heater_unlocked",
+    "factory_function": "FUN_0159c014",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::AUX_HEAT",
+    "whitelist": "VagWhitelists::AUX_HEAT_MK7",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [
+      [
+        "local_17a4",
+        2877
+      ],
+      [
+        "local_17a8",
+        0
+      ],
+      [
+        "local_17ac",
+        1
+      ]
+    ],
+    "call_snippet": "FUN_0159c014(local_17a0,auStack_1548,&VagUdsEcu::AUX_HEAT,VagWhitelists::AUX_HEAT_MK7, &local_17a4,&local_17a8,&local_17ac,\"car_setting_aux_"
+  },
+  {
+    "line": 519946,
+    "key": "car_setting_fuel_tank_capacity_calibration",
+    "factory_function": "FUN_015b9d40",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::INSTRUMENT_CLUSTER",
+    "whitelist": "VagWhitelists::INSTRUMENTS_MQB_ALL",
+    "interpretation": null,
+    "resolved_vars": [
+      [
+        "local_17c4",
+        8841
+      ],
+      [
+        "local_17c8",
+        0
+      ],
+      [
+        "local_17cc",
+        255
+      ]
+    ],
+    "call_snippet": "FUN_015b9d40(local_17c0,auStack_1548,&VagUdsEcu::INSTRUMENT_CLUSTER, &VagWhitelists::INSTRUMENTS_MQB_ALL,&local_17c4,&local_17c8,&local_17cc"
+  },
+  {
+    "line": 519974,
+    "key": "car_setting_channel_195",
+    "factory_function": "FUN_015dbdd8",
+    "concrete_class": "FullByteVagCanShortAdaptationSetting",
+    "ecu": "VagCanEcu::CENTRAL_CONVENIENCE",
+    "whitelist": "VagWhitelists::CENTRAL_CONV_B8",
+    "interpretation": null,
+    "resolved_vars": [
+      [
+        "local_1814",
+        195
+      ]
+    ],
+    "call_snippet": "FUN_015dbdd8(local_1810,auStack_1548,&VagCanEcu::CENTRAL_CONVENIENCE, &VagWhitelists::CENTRAL_CONV_B8,&local_1814,\"car_setting_channel_195\","
+  },
+  {
+    "line": 520000,
+    "key": "car_setting_channel_196",
+    "factory_function": "FUN_015dbdd8",
+    "concrete_class": "FullByteVagCanShortAdaptationSetting",
+    "ecu": "VagCanEcu::CENTRAL_CONVENIENCE",
+    "whitelist": "VagWhitelists::CENTRAL_CONV_B8",
+    "interpretation": null,
+    "resolved_vars": [
+      [
+        "local_1854",
+        196
+      ]
+    ],
+    "call_snippet": "FUN_015dbdd8(local_1850,auStack_1548,&VagCanEcu::CENTRAL_CONVENIENCE, &VagWhitelists::CENTRAL_CONV_B8,&local_1854,\"car_setting_channel_196\","
+  },
+  {
+    "line": 520026,
+    "key": "car_setting_channel_197",
+    "factory_function": "FUN_015dbdd8",
+    "concrete_class": "FullByteVagCanShortAdaptationSetting",
+    "ecu": "VagCanEcu::CENTRAL_CONVENIENCE",
+    "whitelist": "VagWhitelists::CENTRAL_CONV_B8",
+    "interpretation": null,
+    "resolved_vars": [
+      [
+        "local_1894",
+        197
+      ]
+    ],
+    "call_snippet": "FUN_015dbdd8(local_1890,auStack_1548,&VagCanEcu::CENTRAL_CONVENIENCE, &VagWhitelists::CENTRAL_CONV_B8,&local_1894,\"car_setting_channel_197\","
+  },
+  {
+    "line": 520052,
+    "key": "car_setting_channel_198",
+    "factory_function": "FUN_015dbdd8",
+    "concrete_class": "FullByteVagCanShortAdaptationSetting",
+    "ecu": "VagCanEcu::CENTRAL_CONVENIENCE",
+    "whitelist": "VagWhitelists::CENTRAL_CONV_B8",
+    "interpretation": null,
+    "resolved_vars": [
+      [
+        "local_18d4",
+        198
+      ]
+    ],
+    "call_snippet": "FUN_015dbdd8(local_18d0,auStack_1548,&VagCanEcu::CENTRAL_CONVENIENCE, &VagWhitelists::CENTRAL_CONV_B8,&local_18d4,\"car_setting_channel_198\","
+  },
+  {
+    "line": 520072,
+    "key": "car_setting_open_close_power_trunk_remote",
+    "factory_function": "FUN_015dbf8c",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::TRUNK",
+    "whitelist": "VagWhitelists::TRUNK_MK7_NEW",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [
+      [
+        "local_1914",
+        20655
+      ],
+      [
+        "local_1918",
+        0
+      ],
+      [
+        "local_191c",
+        128
+      ]
+    ],
+    "call_snippet": "FUN_015dbf8c(local_1910,auStack_1548,&VagUdsEcu::TRUNK,VagWhitelists::TRUNK_MK7_NEW,local_1914, &local_1918,&local_191c,\"car_setting_open_cl"
+  },
+  {
+    "line": 520091,
+    "key": "car_setting_window_lowering_door_open",
+    "factory_function": "FUN_015dc1fc",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_MK7_6C",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [
+      [
+        "local_1934",
+        3341
+      ],
+      [
+        "local_1938",
+        1
+      ],
+      [
+        "local_193c",
+        128
+      ]
+    ],
+    "call_snippet": "FUN_015dc1fc(local_1930,auStack_1548,&VagUdsEcu::CENTRAL_ELEC, &VagWhitelists::CENTRAL_ELEC_MK7_6C,local_1934,&local_1938,&local_193c, \"car_"
+  },
+  {
+    "line": 520103,
+    "key": "car_setting_comfort_rear_wiping",
+    "factory_function": "FUN_015b1cd0",
+    "concrete_class": "FullByteVagCanShortAdaptationSetting",
+    "ecu": "VagCanEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_C6",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [
+      [
+        "local_1954",
+        16
+      ]
+    ],
+    "call_snippet": "FUN_015b1cd0(&local_1950,auStack_1548,&VagCanEcu::CENTRAL_ELEC,VagWhitelists::CENTRAL_ELEC_C6, &local_1954,\"car_setting_comfort_rear_wiping\""
+  },
+  {
+    "line": 520120,
+    "key": "car_setting_auto_fold_mirror_passenger",
+    "factory_function": "FUN_015924e8",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::DOOR_PASSENGER",
+    "whitelist": "VagWhitelists::DOOR_PASSENGER_MK7",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [
+      [
+        "local_196c",
+        4
+      ],
+      [
+        "local_1970",
+        64
+      ]
+    ],
+    "call_snippet": "FUN_015924e8(local_1968,auStack_1548,&VagUdsEcu::DOOR_PASSENGER, &VagWhitelists::DOOR_PASSENGER_MK7,&local_196c,&local_1970, \"car_setting_au"
+  },
+  {
+    "line": 520133,
+    "key": "car_setting_lower_driver_mirror_in_reverse_step_3",
+    "factory_function": "FUN_015dc46c",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::DOOR_DRIVER",
+    "whitelist": "VagWhitelists::DOOR_DRIVER_MK7",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [
+      [
+        "local_1984",
+        4
+      ],
+      [
+        "local_1988",
+        4
+      ]
+    ],
+    "call_snippet": "FUN_015dc46c(local_1980,auStack_1548,&VagUdsEcu::DOOR_DRIVER,&VagWhitelists::DOOR_DRIVER_MK7, &local_1984,&local_1988,\"car_setting_lower_dri"
+  },
+  {
+    "line": 520150,
+    "key": "car_setting_tpms_indirect_step_2",
+    "factory_function": "FUN_015dc6b0",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::ABS",
+    "whitelist": "VagWhitelists::ABS_MK7",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [
+      [
+        "local_199c",
+        3584
+      ],
+      [
+        "local_19a0",
+        0
+      ],
+      [
+        "local_19a4",
+        2
+      ]
+    ],
+    "call_snippet": "FUN_015dc6b0(local_1998,auStack_1548,&VagUdsEcu::ABS,VagWhitelists::ABS_MK7,local_199c, &local_19a0,&local_19a4,\"car_setting_tpms_indirect_s"
+  },
+  {
+    "line": 520165,
+    "key": "car_setting_tpms_indirect_step_3",
+    "factory_function": "FUN_015dc6b0",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::ABS",
+    "whitelist": "VagWhitelists::ABS_MK7",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [
+      [
+        "local_19bc",
+        3622
+      ],
+      [
+        "local_19c0",
+        0
+      ],
+      [
+        "local_19c4",
+        2
+      ]
+    ],
+    "call_snippet": "FUN_015dc6b0(local_19b8,auStack_1548,&VagUdsEcu::ABS,VagWhitelists::ABS_MK7,local_19bc, &local_19c0,&local_19c4,\"car_setting_tpms_indirect_s"
+  },
+  {
+    "line": 520179,
+    "key": "car_setting_wlan_step_1",
+    "factory_function": "FUN_015944c4",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::INFOTAINMENT",
+    "whitelist": "VagWhitelists::INFOTAINMENT_MK7",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [
+      [
+        "local_19dc",
+        24
+      ],
+      [
+        "local_19e0",
+        8
+      ]
+    ],
+    "call_snippet": "FUN_015944c4(local_19d8,auStack_1548,&VagUdsEcu::INFOTAINMENT,&VagWhitelists::INFOTAINMENT_MK7, &local_19dc,&local_19e0,\"car_setting_wlan_st"
+  },
+  {
+    "line": 520195,
+    "key": "car_setting_wlan_step_2",
+    "factory_function": "FUN_015dc920",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::INFOTAINMENT",
+    "whitelist": "VagWhitelists::INFOTAINMENT_MK7",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [
+      [
+        "local_19f4",
+        8877
+      ],
+      [
+        "local_19f8",
+        0
+      ],
+      [
+        "local_19fc",
+        64
+      ]
+    ],
+    "call_snippet": "FUN_015dc920(local_19f0,auStack_1548,&VagUdsEcu::INFOTAINMENT,&VagWhitelists::INFOTAINMENT_MK7, local_19f4,&local_19f8,&local_19fc,\"car_sett"
+  },
+  {
+    "line": 520212,
+    "key": "car_setting_wlan_step_3",
+    "factory_function": "FUN_015dc920",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::INFOTAINMENT",
+    "whitelist": "VagWhitelists::INFOTAINMENT_MK7",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [
+      [
+        "local_1a14",
+        2883
+      ],
+      [
+        "local_1a18",
+        0
+      ],
+      [
+        "local_1a1c",
+        1
+      ]
+    ],
+    "call_snippet": "FUN_015dc920(local_1a10,auStack_1548,&VagUdsEcu::INFOTAINMENT,&VagWhitelists::INFOTAINMENT_MK7, local_1a14,&local_1a18,&local_1a1c,\"car_sett"
+  },
+  {
+    "line": 520230,
+    "key": "car_setting_dlna",
+    "factory_function": "FUN_015dcb90",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::INFOTAINMENT",
+    "whitelist": "VagWhitelists::INFOTAINMENT_MK7",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [
+      [
+        "local_1a34",
+        8877
+      ],
+      [
+        "local_1a38",
+        2
+      ],
+      [
+        "local_1a3c",
+        1
+      ]
+    ],
+    "call_snippet": "FUN_015dcb90(local_1a30,auStack_1548,&VagUdsEcu::INFOTAINMENT,&VagWhitelists::INFOTAINMENT_MK7, local_1a34,&local_1a38,&local_1a3c,\"car_sett"
+  },
+  {
+    "line": 520258,
+    "key": "car_setting_brake_disc_drying",
+    "factory_function": "FUN_015dce00",
+    "concrete_class": "FullByteVagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::ABS",
+    "whitelist": "VagWhitelists::ABS_MK7",
+    "interpretation": null,
+    "resolved_vars": [
+      [
+        "local_1a54",
+        3596
+      ]
+    ],
+    "call_snippet": "FUN_015dce00(local_1a50,auStack_1548,&VagUdsEcu::ABS,VagWhitelists::ABS_MK7,local_1a54, \"car_setting_brake_disc_drying\",auStack_1a68);"
+  },
+  {
+    "line": 520273,
+    "key": "car_setting_blink_on_lock_unlock_remote",
+    "factory_function": "FUN_0158181c",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_MK7_NEW_MQBA0",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO_INVERTED",
+    "resolved_vars": [
+      [
+        "local_1a94",
+        3342
+      ],
+      [
+        "local_1a98",
+        0
+      ],
+      [
+        "local_1a9c",
+        1
+      ]
+    ],
+    "call_snippet": "FUN_0158181c(local_1a90,auStack_1548,&VagUdsEcu::CENTRAL_ELEC, &VagWhitelists::CENTRAL_ELEC_MK7_NEW_MQBA0,&local_1a94,&local_1a98,&local_1a9"
+  },
+  {
+    "line": 520302,
+    "key": "car_setting_rear_wiper_continuous",
+    "factory_function": "FUN_015dcfb8",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagCanEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_MK6_8X_B7",
+    "interpretation": null,
+    "resolved_vars": [
+      [
+        "local_1ab4",
+        27
+      ],
+      [
+        "local_1ab8",
+        128
+      ]
+    ],
+    "call_snippet": "FUN_015dcfb8(local_1ab0,auStack_1548,&VagCanEcu::CENTRAL_ELEC, VagWhitelists::CENTRAL_ELEC_MK6_8X_B7,&local_1ab4,&local_1ab8, \"car_setting_r"
+  },
+  {
+    "line": 520317,
+    "key": "car_setting_washer_fluid_warning",
+    "factory_function": "FUN_015849c0",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagCanEcu::INSTRUMENT_CLUSTER",
+    "whitelist": "VagWhitelists::INSTRUMENTS_B8_C6FL",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [
+      [
+        "local_1af4",
+        1
+      ],
+      [
+        "local_1af8",
+        16
+      ]
+    ],
+    "call_snippet": "FUN_015849c0(local_1af0,auStack_1548,&VagCanEcu::INSTRUMENT_CLUSTER, &VagWhitelists::INSTRUMENTS_B8_C6FL,&local_1af4,&local_1af8, \"car_setti"
+  },
+  {
+    "line": 520337,
+    "key": "car_setting_ads_ami_menu",
+    "factory_function": "FUN_015dd1d8",
+    "concrete_class": "VagCanShortAdaptationSetting",
+    "ecu": "VagCanEcu::RADIO",
+    "whitelist": "VagWhitelists::RADIO_B8",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [
+      [
+        "local_1b0c",
+        40
+      ],
+      [
+        "local_1b10",
+        1
+      ]
+    ],
+    "call_snippet": "FUN_015dd1d8(local_1b08,auStack_1548,&VagCanEcu::RADIO,&VagWhitelists::RADIO_B8,&local_1b0c, &local_1b10,auStack_1b28,\"car_setting_ads_ami_m"
+  },
+  {
+    "line": 520356,
+    "key": "car_setting_ads_mode_race",
+    "factory_function": "FUN_015dd444",
+    "concrete_class": "VagCanShortAdaptationSetting",
+    "ecu": "VagCanEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_B8",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [
+      [
+        "local_1b3c",
+        66
+      ],
+      [
+        "local_1b40",
+        1
+      ]
+    ],
+    "call_snippet": "FUN_015dd444(local_1b38,auStack_1548,&VagCanEcu::CENTRAL_ELEC,VagWhitelists::CENTRAL_ELEC_B8, &local_1b3c,&local_1b40,auStack_1b58,\"car_sett"
+  },
+  {
+    "line": 520369,
+    "key": "car_setting_shift_suggestion_economy",
+    "factory_function": "FUN_015a0168",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::INSTRUMENT_CLUSTER",
+    "whitelist": "VagWhitelists::INSTRUMENTS_MK6",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [
+      [
+        "local_1b6c",
+        2
+      ],
+      [
+        "local_1b70",
+        32
+      ]
+    ],
+    "call_snippet": "FUN_015a0168(local_1b68,auStack_1548,&VagUdsEcu::INSTRUMENT_CLUSTER, &VagWhitelists::INSTRUMENTS_MK6,&local_1b6c,&local_1b70, \"car_setting_s"
+  },
+  {
+    "line": 520383,
+    "key": "car_setting_mirror_adj_in_dash",
+    "factory_function": "FUN_01587c20",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagCanEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_MK6_8X",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [
+      [
+        "local_1b84",
+        8
+      ],
+      [
+        "local_1b88",
+        64
+      ]
+    ],
+    "call_snippet": "FUN_01587c20(local_1b80,auStack_1548,&VagCanEcu::CENTRAL_ELEC, &VagWhitelists::CENTRAL_ELEC_MK6_8X,&local_1b84,&local_1b88, \"car_setting_mir"
+  },
+  {
+    "line": 520397,
+    "key": "car_setting_horn_with_ign_off",
+    "factory_function": "FUN_01580594",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::STEERING_WHEEL",
+    "whitelist": "VagWhitelists::STEERING_WHEEL_MK6",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO_INVERTED",
+    "resolved_vars": [
+      [
+        "local_1b9c",
+        2
+      ],
+      [
+        "local_1ba0",
+        4
+      ]
+    ],
+    "call_snippet": "FUN_01580594(local_1b98,auStack_1548,&VagUdsEcu::STEERING_WHEEL, VagWhitelists::STEERING_WHEEL_MK6,&local_1b9c,&local_1ba0, \"car_setting_hor"
+  },
+  {
+    "line": 520414,
+    "key": "car_setting_ambient_lighting_color_choice_via_driving_mode",
+    "factory_function": "FUN_015dd6b0",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_MK7_NEW",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [
+      [
+        "local_1bb4",
+        20677
+      ],
+      [
+        "local_1bb8",
+        1
+      ],
+      [
+        "local_1bbc",
+        2
+      ]
+    ],
+    "call_snippet": "FUN_015dd6b0(local_1bb0,auStack_1548,&VagUdsEcu::CENTRAL_ELEC, &VagWhitelists::CENTRAL_ELEC_MK7_NEW,&local_1bb4,&local_1bb8,&local_1bbc, \"ca"
+  },
+  {
+    "line": 520432,
+    "key": "car_setting_ambient_lighting_color_choice_via_menu",
+    "factory_function": "FUN_015dd920",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_MK7_NEW",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [
+      [
+        "local_1bd4",
+        20677
+      ],
+      [
+        "local_1bd8",
+        1
+      ],
+      [
+        "local_1bdc",
+        1
+      ]
+    ],
+    "call_snippet": "FUN_015dd920(local_1bd0,auStack_1548,&VagUdsEcu::CENTRAL_ELEC, &VagWhitelists::CENTRAL_ELEC_MK7_NEW,&local_1bd4,&local_1bd8,&local_1bdc, \"ca"
+  },
+  {
+    "line": 520449,
+    "key": "car_setting_ambient_lighting_menu",
+    "factory_function": "FUN_0159b654",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_MK7_NEW",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [
+      [
+        "local_1bf4",
+        20677
+      ],
+      [
+        "local_1bf8",
+        1
+      ],
+      [
+        "local_1bfc",
+        16
+      ]
+    ],
+    "call_snippet": "FUN_0159b654(local_1bf0,auStack_1548,&VagUdsEcu::CENTRAL_ELEC, &VagWhitelists::CENTRAL_ELEC_MK7_NEW,&local_1bf4,&local_1bf8,&local_1bfc, \"ca"
+  },
+  {
+    "line": 520466,
+    "key": "car_setting_ambient_lighting_menu_add_off_switch",
+    "factory_function": "FUN_01594928",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_MK7_NEW",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [
+      [
+        "local_1c14",
+        20677
+      ],
+      [
+        "local_1c18",
+        1
+      ],
+      [
+        "local_1c1c",
+        8
+      ]
+    ],
+    "call_snippet": "FUN_01594928(local_1c10,auStack_1548,&VagUdsEcu::CENTRAL_ELEC, &VagWhitelists::CENTRAL_ELEC_MK7_NEW,&local_1c14,&local_1c18,&local_1c1c, \"ca"
+  },
+  {
+    "line": 520483,
+    "key": "car_setting_ambient_cockpit_lighting_multicolor",
+    "factory_function": "FUN_015ddb90",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_MK7_NEW",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [
+      [
+        "local_1c34",
+        20676
+      ],
+      [
+        "local_1c38",
+        1
+      ],
+      [
+        "local_1c3c",
+        2
+      ]
+    ],
+    "call_snippet": "FUN_015ddb90(local_1c30,auStack_1548,&VagUdsEcu::CENTRAL_ELEC, &VagWhitelists::CENTRAL_ELEC_MK7_NEW,&local_1c34,&local_1c38,&local_1c3c, \"ca"
+  },
+  {
+    "line": 520499,
+    "key": "car_setting_ambient_roof_lighting_multicolor",
+    "factory_function": "FUN_015b98bc",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_MK7_NEW",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [
+      [
+        "local_1c54",
+        20676
+      ],
+      [
+        "local_1c58",
+        1
+      ],
+      [
+        "local_1c5c",
+        16
+      ]
+    ],
+    "call_snippet": "FUN_015b98bc(local_1c50,auStack_1548,&VagUdsEcu::CENTRAL_ELEC, &VagWhitelists::CENTRAL_ELEC_MK7_NEW,&local_1c54,&local_1c58,&local_1c5c, \"ca"
+  },
+  {
+    "line": 520515,
+    "key": "car_setting_ambient_speakers_lighting_multicolor",
+    "factory_function": "FUN_01594928",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_MK7_NEW",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [
+      [
+        "local_1c74",
+        20676
+      ],
+      [
+        "local_1c78",
+        1
+      ],
+      [
+        "local_1c7c",
+        4
+      ]
+    ],
+    "call_snippet": "FUN_01594928(local_1c70,auStack_1548,&VagUdsEcu::CENTRAL_ELEC, &VagWhitelists::CENTRAL_ELEC_MK7_NEW,&local_1c74,&local_1c78,&local_1c7c, \"ca"
+  },
+  {
+    "line": 520534,
+    "key": "car_setting_ambient_central_console_lighting_multicolor",
+    "factory_function": "FUN_015dde00",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_MK7_NEW",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [
+      [
+        "local_1c94",
+        20676
+      ],
+      [
+        "local_1c98",
+        1
+      ],
+      [
+        "local_1c9c",
+        8
+      ]
+    ],
+    "call_snippet": "FUN_015dde00(local_1c90,auStack_1548,&VagUdsEcu::CENTRAL_ELEC, &VagWhitelists::CENTRAL_ELEC_MK7_NEW,&local_1c94,&local_1c98,&local_1c9c, \"ca"
+  },
+  {
+    "line": 520551,
+    "key": "car_setting_ambient_sunroof_lighting_multicolor",
+    "factory_function": "FUN_015ddb90",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_MK7_NEW",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [
+      [
+        "local_1cb4",
+        20676
+      ],
+      [
+        "local_1cb8",
+        1
+      ],
+      [
+        "local_1cbc",
+        32
+      ]
+    ],
+    "call_snippet": "FUN_015ddb90(local_1cb0,auStack_1548,&VagUdsEcu::CENTRAL_ELEC, &VagWhitelists::CENTRAL_ELEC_MK7_NEW,&local_1cb4,&local_1cb8,&local_1cbc, \"ca"
+  },
+  {
+    "line": 520569,
+    "key": "car_setting_ambient_door_lighting_multicolor",
+    "factory_function": "FUN_015b98bc",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_MK7_NEW",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [
+      [
+        "local_1cd4",
+        20676
+      ],
+      [
+        "local_1cd8",
+        0
+      ],
+      [
+        "local_1cdc",
+        128
+      ]
+    ],
+    "call_snippet": "FUN_015b98bc(local_1cd0,auStack_1548,&VagUdsEcu::CENTRAL_ELEC, &VagWhitelists::CENTRAL_ELEC_MK7_NEW,&local_1cd4,&local_1cd8,&local_1cdc, \"ca"
+  },
+  {
+    "line": 520586,
+    "key": "car_setting_traffic_sign_recognition_step_1",
+    "factory_function": "FUN_015b03c0",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::INFOTAINMENT",
+    "whitelist": "VagWhitelists::INFOTAINMENT_MK7_EXP_B9_ALPI",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [
+      [
+        "local_1cf4",
+        2877
+      ],
+      [
+        "local_1cf8",
+        33
+      ],
+      [
+        "local_1cfc",
+        1
+      ]
+    ],
+    "call_snippet": "FUN_015b03c0(local_1cf0,auStack_1548,&VagUdsEcu::INFOTAINMENT, VagWhitelists::INFOTAINMENT_MK7_EXP_B9_ALPI,&local_1cf4,&local_1cf8,&local_1c"
+  },
+  {
+    "line": 520602,
+    "key": "car_setting_traffic_sign_recognition_step_2",
+    "factory_function": "FUN_015b03c0",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::INFOTAINMENT",
+    "whitelist": "VagWhitelists::INFOTAINMENT_MK7",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [
+      [
+        "local_1d14",
+        2876
+      ],
+      [
+        "local_1d18",
+        30
+      ],
+      [
+        "local_1d1c",
+        16
+      ]
+    ],
+    "call_snippet": "FUN_015b03c0(local_1d10,auStack_1548,&VagUdsEcu::INFOTAINMENT,&VagWhitelists::INFOTAINMENT_MK7, &local_1d14,&local_1d18,&local_1d1c,\"car_set"
+  },
+  {
+    "line": 520617,
+    "key": "car_setting_traffic_sign_recognition_step_3",
+    "factory_function": "FUN_01588ca4",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::INFOTAINMENT",
+    "whitelist": "VagWhitelists::INFOTAINMENT_MK7",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED_INVERTED",
+    "resolved_vars": [
+      [
+        "local_1d34",
+        24
+      ],
+      [
+        "local_1d38",
+        64
+      ]
+    ],
+    "call_snippet": "FUN_01588ca4(local_1d30,auStack_1548,&VagUdsEcu::INFOTAINMENT,&VagWhitelists::INFOTAINMENT_MK7, &local_1d34,&local_1d38,\"car_setting_traffic"
+  },
+  {
+    "line": 520630,
+    "key": "car_setting_traffic_sign_recognition_step_4",
+    "factory_function": "FUN_01588ca4",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::FRONT_SENSOR_DRIVER_ASSIST",
+    "whitelist": "VagWhitelists::FRONT_SENSOR_DRIVER_ASSIST_MK7_3Q",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [
+      [
+        "local_1d4c",
+        16
+      ],
+      [
+        "local_1d50",
+        16
+      ]
+    ],
+    "call_snippet": "FUN_01588ca4(local_1d48,auStack_1548,&VagUdsEcu::FRONT_SENSOR_DRIVER_ASSIST, &VagWhitelists::FRONT_SENSOR_DRIVER_ASSIST_MK7_3Q,&local_1d4c,&"
+  },
+  {
+    "line": 520643,
+    "key": "car_setting_traffic_sign_recognition_step_4",
+    "factory_function": "FUN_01588ca4",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::FRONT_SENSOR_DRIVER_ASSIST",
+    "whitelist": "VagWhitelists::FRONT_SENSOR_DRIVER_ASSIST_MK7_5Q",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [
+      [
+        "local_1d64",
+        1
+      ],
+      [
+        "local_1d68",
+        1
+      ]
+    ],
+    "call_snippet": "FUN_01588ca4(local_1d60,auStack_1548,&VagUdsEcu::FRONT_SENSOR_DRIVER_ASSIST, &VagWhitelists::FRONT_SENSOR_DRIVER_ASSIST_MK7_5Q,&local_1d64,&"
+  },
+  {
+    "line": 520675,
+    "key": "car_setting_traffic_sign_recognition_step_5",
+    "factory_function": "FUN_015986b8",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::INSTRUMENT_CLUSTER",
+    "whitelist": null,
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [
+      [
+        "local_1d8c",
+        5
+      ],
+      [
+        "local_1d90",
+        4
+      ]
+    ],
+    "call_snippet": "FUN_015986b8(local_1d78,auStack_1548,&VagUdsEcu::INSTRUMENT_CLUSTER,aSStack_1d88,&local_1d8c, &local_1d90,\"car_setting_traffic_sign_recognit"
+  },
+  {
+    "line": 520701,
+    "key": "car_setting_traffic_sign_recognition_step_6",
+    "factory_function": "FUN_015baca8",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::FRONT_SENSOR_DRIVER_ASSIST",
+    "whitelist": "VagWhitelists::FRONT_SENSOR_DRIVER_ASSIST_MK7",
+    "interpretation": null,
+    "resolved_vars": [
+      [
+        "local_1da4",
+        15203
+      ],
+      [
+        "local_1da8",
+        0
+      ],
+      [
+        "local_1dac",
+        3
+      ]
+    ],
+    "call_snippet": "FUN_015baca8(local_1da0,auStack_1548,&VagUdsEcu::FRONT_SENSOR_DRIVER_ASSIST, VagWhitelists::FRONT_SENSOR_DRIVER_ASSIST_MK7,&local_1da4,&loca"
+  },
+  {
+    "line": 520717,
+    "key": "car_setting_traffic_sign_recognition_step_2",
+    "factory_function": "FUN_015b03c0",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::INFOTAINMENT",
+    "whitelist": "VagWhitelists::INFOTAINMENT_B9_ALPI",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [
+      [
+        "local_1dec",
+        2876
+      ],
+      [
+        "local_1df0",
+        30
+      ],
+      [
+        "local_1df4",
+        1
+      ]
+    ],
+    "call_snippet": "FUN_015b03c0(local_1de8,auStack_1548,&VagUdsEcu::INFOTAINMENT, &VagWhitelists::INFOTAINMENT_B9_ALPI,&local_1dec,&local_1df0,&local_1df4, \"ca"
+  },
+  {
+    "line": 520731,
+    "key": "car_setting_traffic_sign_recognition_step_3",
+    "factory_function": "FUN_01588ca4",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::FRONT_SENSOR_DRIVER_ASSIST",
+    "whitelist": "VagWhitelists::FRONT_SENSOR_DRIVER_ASSIST_B9",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [
+      [
+        "local_1e0c",
+        16
+      ],
+      [
+        "local_1e10",
+        16
+      ]
+    ],
+    "call_snippet": "FUN_01588ca4(local_1e08,auStack_1548,&VagUdsEcu::FRONT_SENSOR_DRIVER_ASSIST, VagWhitelists::FRONT_SENSOR_DRIVER_ASSIST_B9,&local_1e0c,&local"
+  },
+  {
+    "line": 520749,
+    "key": "car_setting_traffic_sign_recognition_step_4",
+    "factory_function": "FUN_01588ca4",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::INSTRUMENT_CLUSTER",
+    "whitelist": "VagWhitelists::INSTRUMENTS_B9",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [
+      [
+        "local_1e24",
+        5
+      ],
+      [
+        "local_1e28",
+        4
+      ]
+    ],
+    "call_snippet": "FUN_01588ca4(local_1e20,auStack_1548,&VagUdsEcu::INSTRUMENT_CLUSTER, &VagWhitelists::INSTRUMENTS_B9,&local_1e24,&local_1e28, \"car_setting_tr"
+  },
+  {
+    "line": 520766,
+    "key": "car_setting_traffic_sign_recognition_step_5",
+    "factory_function": "FUN_01588ca4",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::INSTRUMENT_CLUSTER",
+    "whitelist": "VagWhitelists::INSTRUMENTS_B9",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [
+      [
+        "local_1e3c",
+        14
+      ],
+      [
+        "local_1e40",
+        64
+      ]
+    ],
+    "call_snippet": "FUN_01588ca4(local_1e38,auStack_1548,&VagUdsEcu::INSTRUMENT_CLUSTER, &VagWhitelists::INSTRUMENTS_B9,&local_1e3c,&local_1e40, \"car_setting_tr"
+  },
+  {
+    "line": 520796,
+    "key": "car_setting_traffic_sign_recognition_step_6",
+    "factory_function": "FUN_015baca8",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::FRONT_SENSOR_DRIVER_ASSIST",
+    "whitelist": "VagWhitelists::FRONT_SENSOR_DRIVER_ASSIST_B9",
+    "interpretation": null,
+    "resolved_vars": [
+      [
+        "local_1e54",
+        15203
+      ],
+      [
+        "local_1e58",
+        0
+      ],
+      [
+        "local_1e5c",
+        3
+      ]
+    ],
+    "call_snippet": "FUN_015baca8(local_1e50,auStack_1548,&VagUdsEcu::FRONT_SENSOR_DRIVER_ASSIST, VagWhitelists::FRONT_SENSOR_DRIVER_ASSIST_B9,&local_1e54,&local"
+  },
+  {
+    "line": 520829,
+    "key": "car_setting_traffic_sign_recognition_threshold",
+    "factory_function": "FUN_01599cbc",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::INFOTAINMENT",
+    "whitelist": "VagWhitelists::INFOTAINMENT_MK7_EXP_B9_ALPI",
+    "interpretation": null,
+    "resolved_vars": [
+      [
+        "local_1e9c",
+        2876
+      ],
+      [
+        "local_1ea0",
+        30
+      ],
+      [
+        "local_1ea4",
+        4
+      ]
+    ],
+    "call_snippet": "FUN_01599cbc(local_1e98,auStack_1548,&VagUdsEcu::INFOTAINMENT, VagWhitelists::INFOTAINMENT_MK7_EXP_B9_ALPI,&local_1e9c,&local_1ea0,&local_1e"
+  },
+  {
+    "line": 520844,
+    "key": "car_setting_remote_when_in_gear",
+    "factory_function": "FUN_0157eaec",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagCanEcu::CENTRAL_CONVENIENCE",
+    "whitelist": "VagWhitelists::CENTRAL_CONV_B8",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [
+      [
+        "local_1ee4",
+        5
+      ],
+      [
+        "local_1ee8",
+        128
+      ]
+    ],
+    "call_snippet": "FUN_0157eaec(local_1ee0,auStack_1548,&VagCanEcu::CENTRAL_CONVENIENCE, &VagWhitelists::CENTRAL_CONV_B8,&local_1ee4,&local_1ee8, \"car_setting_"
+  },
+  {
+    "line": 520876,
+    "key": "car_setting_horn_beeps_count_lock",
+    "factory_function": "FUN_015ad9f0",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::CENTRAL_CONVENIENCE",
+    "whitelist": "VagWhitelists::CENTRAL_CONV_B9",
+    "interpretation": null,
+    "resolved_vars": [
+      [
+        "local_1efc",
+        1468
+      ],
+      [
+        "local_1f00",
+        0
+      ],
+      [
+        "local_1f04",
+        240
+      ]
+    ],
+    "call_snippet": "FUN_015ad9f0(local_1ef8,auStack_1548,&VagUdsEcu::CENTRAL_CONVENIENCE, VagWhitelists::CENTRAL_CONV_B9,&local_1efc,&local_1f00,&local_1f04, \"c"
+  },
+  {
+    "line": 520907,
+    "key": "car_setting_horn_beeps_count_unlock",
+    "factory_function": "FUN_015de070",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::CENTRAL_CONVENIENCE",
+    "whitelist": "VagWhitelists::CENTRAL_CONV_B9",
+    "interpretation": null,
+    "resolved_vars": [
+      [
+        "local_1f4c",
+        1468
+      ],
+      [
+        "local_1f50",
+        0
+      ],
+      [
+        "local_1f54",
+        15
+      ]
+    ],
+    "call_snippet": "FUN_015de070(local_1f48,auStack_1548,&VagUdsEcu::CENTRAL_CONVENIENCE, VagWhitelists::CENTRAL_CONV_B9,&local_1f4c,&local_1f50,&local_1f54, \"c"
+  },
+  {
+    "line": 520923,
+    "key": "car_setting_remote_limit_range_overall",
+    "factory_function": "FUN_015924e8",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::CENTRAL_CONVENIENCE",
+    "whitelist": "VagWhitelists::CENTRAL_CONV_B9",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [
+      [
+        "local_1f9c",
+        28
+      ],
+      [
+        "local_1fa0",
+        32
+      ]
+    ],
+    "call_snippet": "FUN_015924e8(local_1f98,auStack_1548,&VagUdsEcu::CENTRAL_CONVENIENCE, VagWhitelists::CENTRAL_CONV_B9,&local_1f9c,&local_1fa0, \"car_setting_r"
+  },
+  {
+    "line": 520937,
+    "key": "car_setting_remote_limit_range_lock",
+    "factory_function": "FUN_0158b5b0",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::CENTRAL_CONVENIENCE",
+    "whitelist": "VagWhitelists::CENTRAL_CONV_B9",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [
+      [
+        "local_1fb4",
+        28
+      ],
+      [
+        "local_1fb8",
+        2
+      ]
+    ],
+    "call_snippet": "FUN_0158b5b0(local_1fb0,auStack_1548,&VagUdsEcu::CENTRAL_CONVENIENCE, VagWhitelists::CENTRAL_CONV_B9,&local_1fb4,&local_1fb8, \"car_setting_r"
+  },
+  {
+    "line": 520951,
+    "key": "car_setting_remote_limit_range_unlock",
+    "factory_function": "FUN_01594280",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::CENTRAL_CONVENIENCE",
+    "whitelist": "VagWhitelists::CENTRAL_CONV_B9",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [
+      [
+        "local_1fcc",
+        28
+      ],
+      [
+        "local_1fd0",
+        8
+      ]
+    ],
+    "call_snippet": "FUN_01594280(local_1fc8,auStack_1548,&VagUdsEcu::CENTRAL_CONVENIENCE, VagWhitelists::CENTRAL_CONV_B9,&local_1fcc,&local_1fd0, \"car_setting_r"
+  },
+  {
+    "line": 520966,
+    "key": "car_setting_remote_limit_range_rear_lid",
+    "factory_function": "FUN_015b728c",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::CENTRAL_CONVENIENCE",
+    "whitelist": "VagWhitelists::CENTRAL_CONV_B9",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [
+      [
+        "local_1fe4",
+        28
+      ],
+      [
+        "local_1fe8",
+        4
+      ]
+    ],
+    "call_snippet": "FUN_015b728c(local_1fe0,auStack_1548,&VagUdsEcu::CENTRAL_CONVENIENCE, VagWhitelists::CENTRAL_CONV_B9,&local_1fe4,&local_1fe8, \"car_setting_r"
+  },
+  {
+    "line": 520981,
+    "key": "car_setting_remote_limit_range_panic_button",
+    "factory_function": "FUN_01588ca4",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::CENTRAL_CONVENIENCE",
+    "whitelist": "VagWhitelists::CENTRAL_CONV_B9",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [
+      [
+        "local_1ffc",
+        28
+      ],
+      [
+        "local_2000",
+        16
+      ]
+    ],
+    "call_snippet": "FUN_01588ca4(local_1ff8,auStack_1548,&VagUdsEcu::CENTRAL_CONVENIENCE, VagWhitelists::CENTRAL_CONV_B9,&local_1ffc,&local_2000, \"car_setting_r"
+  },
+  {
+    "line": 520996,
+    "key": "car_setting_allow_rain_closing",
+    "factory_function": "FUN_015ccb08",
+    "concrete_class": "VagUdsOverCanSubmoduleCodingSetting",
+    "ecu": "VagCanEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_SUB_RLS_MK6_ALL_B8",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [
+      [
+        "local_2014",
+        0
+      ],
+      [
+        "local_2018",
+        4
+      ]
+    ],
+    "call_snippet": "FUN_015ccb08(local_2010,auStack_1548,&VagCanEcu::CENTRAL_ELEC, VagWhitelists::CENTRAL_ELEC_SUB_RLS_MK6_ALL_B8,&local_2014,&local_2018, \"car_"
+  },
+  {
+    "line": 521012,
+    "key": "car_setting_allow_rain_closing",
+    "factory_function": "FUN_015de2bc",
+    "concrete_class": "VagUdsSubmoduleCodingSetting",
+    "ecu": "VagUdsEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_SUB_RLS_MK7",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [
+      [
+        "local_202c",
+        0
+      ],
+      [
+        "local_2030",
+        4
+      ]
+    ],
+    "call_snippet": "FUN_015de2bc(local_2028,auStack_1548,&VagUdsEcu::CENTRAL_ELEC, VagWhitelists::CENTRAL_ELEC_SUB_RLS_MK7,&local_202c,&local_2030, \"car_setting"
+  },
+  {
+    "line": 521036,
+    "key": "car_setting_surround_and_subwoofer_menu_infotainment",
+    "factory_function": "FUN_015de4fc",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::INFOTAINMENT",
+    "whitelist": "VagWhitelists::INFOTAINMENT_MK7",
+    "interpretation": null,
+    "resolved_vars": [
+      [
+        "local_2044",
+        11
+      ],
+      [
+        "local_2048",
+        7
+      ]
+    ],
+    "call_snippet": "FUN_015de4fc(local_2040,auStack_1548,&VagUdsEcu::INFOTAINMENT,&VagWhitelists::INFOTAINMENT_MK7, &local_2044,&local_2048,\"car_setting_surroun"
+  },
+  {
+    "line": 521049,
+    "key": "car_setting_auto_headlights_above_140_kph",
+    "factory_function": "FUN_015de71c",
+    "concrete_class": "VagUdsSubmoduleCodingSetting",
+    "ecu": "VagUdsEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_SUB_RLS_MK7",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [
+      [
+        "local_2084",
+        0
+      ],
+      [
+        "local_2088",
+        1
+      ]
+    ],
+    "call_snippet": "FUN_015de71c(local_2080,auStack_1548,&VagUdsEcu::CENTRAL_ELEC, VagWhitelists::CENTRAL_ELEC_SUB_RLS_MK7,&local_2084,&local_2088, \"car_setting"
+  },
+  {
+    "line": 521081,
+    "key": "car_setting_dynamic_light_assist",
+    "factory_function": "FUN_015de95c",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::FRONT_SENSOR_DRIVER_ASSIST",
+    "whitelist": null,
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [
+      [
+        "local_20ac",
+        21
+      ],
+      [
+        "local_20b0",
+        64
+      ]
+    ],
+    "call_snippet": "FUN_015de95c(local_2098,auStack_1548,&VagUdsEcu::FRONT_SENSOR_DRIVER_ASSIST,aSStack_20a8, &local_20ac,&local_20b0,\"car_setting_dynamic_light"
+  },
+  {
+    "line": 521095,
+    "key": "car_setting_start_stop",
+    "factory_function": "FUN_0157e184",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagCanEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_MK6_8X_B7",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [
+      [
+        "local_20c4",
+        26
+      ],
+      [
+        "local_20c8",
+        128
+      ]
+    ],
+    "call_snippet": "FUN_0157e184(local_20c0,auStack_1548,&VagCanEcu::CENTRAL_ELEC, VagWhitelists::CENTRAL_ELEC_MK6_8X_B7,&local_20c4,&local_20c8, \"car_setting_s"
+  },
+  {
+    "line": 521109,
+    "key": "car_setting_display_gear_in_instrument_cluster",
+    "factory_function": "FUN_015b9f90",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::TRANSMISSION",
+    "whitelist": "VagWhitelists::TRANSMISSION_MK7_GEAR_IN_DASH",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [
+      [
+        "local_20dc",
+        1
+      ],
+      [
+        "local_20e0",
+        2
+      ]
+    ],
+    "call_snippet": "FUN_015b9f90(local_20d8,auStack_1548,&VagUdsEcu::TRANSMISSION, VagWhitelists::TRANSMISSION_MK7_GEAR_IN_DASH,&local_20dc,&local_20e0, \"car_se"
+  },
+  {
+    "line": 521127,
+    "key": "car_setting_sunroof_rain_closing",
+    "factory_function": "FUN_015ad298",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_MK7_6C",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [
+      [
+        "local_20f4",
+        3341
+      ],
+      [
+        "local_20f8",
+        2
+      ],
+      [
+        "local_20fc",
+        1
+      ]
+    ],
+    "call_snippet": "FUN_015ad298(local_20f0,auStack_1548,&VagUdsEcu::CENTRAL_ELEC, &VagWhitelists::CENTRAL_ELEC_MK7_6C,&local_20f4,&local_20f8,&local_20fc, \"car"
+  },
+  {
+    "line": 521147,
+    "key": "car_setting_sunroof_rain_closing",
+    "factory_function": "FUN_015ad298",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_MK7_NEW_EXP_MQBA0",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [
+      [
+        "local_2114",
+        2665
+      ],
+      [
+        "local_2118",
+        2
+      ],
+      [
+        "local_211c",
+        64
+      ]
+    ],
+    "call_snippet": "FUN_015ad298(local_2110,auStack_1548,&VagUdsEcu::CENTRAL_ELEC, &VagWhitelists::CENTRAL_ELEC_MK7_NEW_EXP_MQBA0,&local_2114,&local_2118,&local"
+  },
+  {
+    "line": 521165,
+    "key": "car_setting_sunroof_rain_closing_in_mmi",
+    "factory_function": "FUN_0158f504",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_MK7_6C",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [
+      [
+        "local_2134",
+        3341
+      ],
+      [
+        "local_2138",
+        3
+      ],
+      [
+        "local_213c",
+        64
+      ]
+    ],
+    "call_snippet": "FUN_0158f504(local_2130,auStack_1548,&VagUdsEcu::CENTRAL_ELEC, &VagWhitelists::CENTRAL_ELEC_MK7_6C,&local_2134,&local_2138,&local_213c, \"car"
+  },
+  {
+    "line": 521184,
+    "key": "car_setting_tpms_in_mmi_step_1",
+    "factory_function": "FUN_01597b10",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::INFOTAINMENT",
+    "whitelist": "VagWhitelists::INFOTAINMENT_8V",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [
+      [
+        "local_2154",
+        2845
+      ],
+      [
+        "local_2158",
+        7
+      ],
+      [
+        "local_215c",
+        1
+      ]
+    ],
+    "call_snippet": "FUN_01597b10(local_2150,auStack_1548,&VagUdsEcu::INFOTAINMENT,&VagWhitelists::INFOTAINMENT_8V, &local_2154,&local_2158,&local_215c,\"car_sett"
+  },
+  {
+    "line": 521199,
+    "key": "car_setting_tpms_in_mmi_step_1",
+    "factory_function": "FUN_01597b10",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::INFOTAINMENT",
+    "whitelist": "VagWhitelists::INFOTAINMENT_MK7_EXCEPT_8V",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [
+      [
+        "local_2174",
+        2877
+      ],
+      [
+        "local_2178",
+        7
+      ],
+      [
+        "local_217c",
+        1
+      ]
+    ],
+    "call_snippet": "FUN_01597b10(local_2170,auStack_1548,&VagUdsEcu::INFOTAINMENT, &VagWhitelists::INFOTAINMENT_MK7_EXCEPT_8V,&local_2174,&local_2178,&local_217"
+  },
+  {
+    "line": 521217,
+    "key": "car_setting_tpms_in_mmi_step_2",
+    "factory_function": "FUN_01597b10",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::INFOTAINMENT",
+    "whitelist": "VagWhitelists::INFOTAINMENT_8V",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [
+      [
+        "local_2194",
+        2843
+      ],
+      [
+        "local_2198",
+        11
+      ],
+      [
+        "local_219c",
+        1
+      ]
+    ],
+    "call_snippet": "FUN_01597b10(local_2190,auStack_1548,&VagUdsEcu::INFOTAINMENT,&VagWhitelists::INFOTAINMENT_8V, &local_2194,&local_2198,&local_219c,\"car_sett"
+  },
+  {
+    "line": 521234,
+    "key": "car_setting_tpms_in_mmi_step_2",
+    "factory_function": "FUN_01597b10",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::INFOTAINMENT",
+    "whitelist": "VagWhitelists::INFOTAINMENT_MK7_EXCEPT_8V",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [
+      [
+        "local_21b4",
+        2876
+      ],
+      [
+        "local_21b8",
+        11
+      ],
+      [
+        "local_21bc",
+        1
+      ]
+    ],
+    "call_snippet": "FUN_01597b10(local_21b0,auStack_1548,&VagUdsEcu::INFOTAINMENT, &VagWhitelists::INFOTAINMENT_MK7_EXCEPT_8V,&local_21b4,&local_21b8,&local_21b"
+  },
+  {
+    "line": 521248,
+    "key": "car_setting_tpms_in_mmi_step_3",
+    "factory_function": "FUN_01580350",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::INSTRUMENT_CLUSTER",
+    "whitelist": "VagWhitelists::INSTRUMENTS_MK7_MQBA0",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [
+      [
+        "local_21d4",
+        4
+      ],
+      [
+        "local_21d8",
+        1
+      ]
+    ],
+    "call_snippet": "FUN_01580350(local_21d0,auStack_1548,&VagUdsEcu::INSTRUMENT_CLUSTER, &VagWhitelists::INSTRUMENTS_MK7_MQBA0,&local_21d4,&local_21d8, \"car_set"
+  },
+  {
+    "line": 521262,
+    "key": "car_setting_tpms_in_mmi_step_4",
+    "factory_function": "FUN_01580350",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::ABS",
+    "whitelist": "VagWhitelists::ABS_MK7_V1",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [
+      [
+        "local_21ec",
+        28
+      ],
+      [
+        "local_21f0",
+        8
+      ]
+    ],
+    "call_snippet": "FUN_01580350(local_21e8,auStack_1548,&VagUdsEcu::ABS,&VagWhitelists::ABS_MK7_V1,&local_21ec, &local_21f0,\"car_setting_tpms_in_mmi_step_4\", &"
+  },
+  {
+    "line": 521277,
+    "key": "car_setting_tpms_in_mmi_step_5",
+    "factory_function": "FUN_01580350",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::ABS",
+    "whitelist": "VagWhitelists::ABS_MK7_V1",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [
+      [
+        "local_2204",
+        27
+      ],
+      [
+        "local_2208",
+        8
+      ]
+    ],
+    "call_snippet": "FUN_01580350(local_2200,auStack_1548,&VagUdsEcu::ABS,&VagWhitelists::ABS_MK7_V1,&local_2204, &local_2208,\"car_setting_tpms_in_mmi_step_5\", &"
+  },
+  {
+    "line": 521294,
+    "key": "car_setting_battery_charge_display_req_instr_support",
+    "factory_function": "FUN_0159f234",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::INSTRUMENT_CLUSTER",
+    "whitelist": "VagWhitelists::INSTRUMENTS_MK7_EXCEPT_8V",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [
+      [
+        "local_222c",
+        8924
+      ],
+      [
+        "local_2230",
+        0
+      ],
+      [
+        "local_2234",
+        1
+      ]
+    ],
+    "call_snippet": "FUN_0159f234(local_2228,auStack_1548,&VagUdsEcu::INSTRUMENT_CLUSTER, &VagWhitelists::INSTRUMENTS_MK7_EXCEPT_8V,&local_222c,&local_2230,&loca"
+  },
+  {
+    "line": 521314,
+    "key": "car_setting_bulb_check_all_lights",
+    "factory_function": "FUN_015bed3c",
+    "concrete_class": "VagCanLongCodingSetting",
+    "ecu": "VagCanEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_MK5",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [
+      [
+        "local_2264",
+        2
+      ],
+      [
+        "local_2268",
+        4
+      ]
+    ],
+    "call_snippet": "FUN_015bed3c(local_2260,auStack_1548,&VagCanEcu::CENTRAL_ELEC,VagWhitelists::CENTRAL_ELEC_MK5, &local_2264,&local_2268,\"car_setting_bulb_che"
+  },
+  {
+    "line": 521361,
+    "key": "car_setting_instr_needle_sweep_lap_timer_upshift_indicator_some_modules_only",
+    "factory_function": "FUN_015debc8",
+    "concrete_class": "FullByteVagCanShortAdaptationSetting",
+    "ecu": "VagCanEcu::INSTRUMENT_CLUSTER",
+    "whitelist": "VagWhitelists::INSTRUMENTS_8P",
+    "interpretation": null,
+    "resolved_vars": [
+      [
+        "local_227c",
+        36
+      ]
+    ],
+    "call_snippet": "FUN_015debc8(local_2278,auStack_1548,&VagCanEcu::INSTRUMENT_CLUSTER, &VagWhitelists::INSTRUMENTS_8P,&local_227c, \"car_setting_instr_needle_s"
+  },
+  {
+    "line": 521375,
+    "key": "car_setting_keyless_entry_in_infotainment",
+    "factory_function": "FUN_0159094c",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::CENTRAL_CONVENIENCE",
+    "whitelist": "VagWhitelists::CENTRAL_CONV_B9",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO_INVERTED",
+    "resolved_vars": [
+      [
+        "local_22bc",
+        17
+      ],
+      [
+        "local_22c0",
+        16
+      ]
+    ],
+    "call_snippet": "FUN_0159094c(local_22b8,auStack_1548,&VagUdsEcu::CENTRAL_CONVENIENCE, VagWhitelists::CENTRAL_CONV_B9,&local_22bc,&local_22c0, \"car_setting_k"
+  },
+  {
+    "line": 521389,
+    "key": "car_setting_lower_driver_mirror_in_reverse",
+    "factory_function": "FUN_015a9420",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagCanEcu::DOOR_DRIVER",
+    "whitelist": "VagWhitelists::DOOR_DRIVER_B8_C6_7N",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [
+      [
+        "local_22d4",
+        4
+      ],
+      [
+        "local_22d8",
+        4
+      ]
+    ],
+    "call_snippet": "FUN_015a9420(local_22d0,auStack_1548,&VagCanEcu::DOOR_DRIVER,VagWhitelists::DOOR_DRIVER_B8_C6_7N ,&local_22d4,&local_22d8,\"car_setting_lower"
+  },
+  {
+    "line": 521403,
+    "key": "car_setting_passive_entry_rear_left_door",
+    "factory_function": "FUN_0159edac",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::ACC_START_AUTH",
+    "whitelist": "VagWhitelists::ACC_START_AUTH_MK7",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO_INVERTED",
+    "resolved_vars": [
+      [
+        "local_22ec",
+        1
+      ],
+      [
+        "local_22f0",
+        4
+      ]
+    ],
+    "call_snippet": "FUN_0159edac(local_22e8,auStack_1548,&VagUdsEcu::ACC_START_AUTH, VagWhitelists::ACC_START_AUTH_MK7,&local_22ec,&local_22f0, \"car_setting_pas"
+  },
+  {
+    "line": 521691,
+    "key": "car_setting_passive_entry_rear_right_door",
+    "factory_function": "FUN_0159094c",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": null,
+    "whitelist": null,
+    "interpretation": null,
+    "resolved_vars": [],
+    "call_snippet": "FUN_0159094c(&stack0x000018e0,&stack0x00002698,param_2,param_3,&stack0x000018dc,&stack0x000018d8, \"car_setting_passive_entry_rear_right_door"
+  },
+  {
+    "line": 521702,
+    "key": "car_setting_passive_exit_rear_left_door",
+    "factory_function": "FUN_015b728c",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::ACC_START_AUTH",
+    "whitelist": "VagWhitelists::ACC_START_AUTH_MK7",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO_INVERTED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_015b728c(&stack0x000018c8,&stack0x00002698,&VagUdsEcu::ACC_START_AUTH, VagWhitelists::ACC_START_AUTH_MK7,&stack0x000018c4,&stack0x000018"
+  },
+  {
+    "line": 521715,
+    "key": "car_setting_passive_exit_rear_right_door",
+    "factory_function": "FUN_0159edac",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::ACC_START_AUTH",
+    "whitelist": "VagWhitelists::ACC_START_AUTH_MK7",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO_INVERTED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_0159edac(&stack0x000018b0,&stack0x00002698,&VagUdsEcu::ACC_START_AUTH, VagWhitelists::ACC_START_AUTH_MK7,&stack0x000018ac,&stack0x000018"
+  },
+  {
+    "line": 521728,
+    "key": "car_setting_traction_control_btn_esc_step_1",
+    "factory_function": "FUN_01589154",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagCanEcu::ABS",
+    "whitelist": "VagWhitelists::ABS_MK60EC1",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [],
+    "call_snippet": "FUN_01589154(&stack0x00001898,&stack0x00002698,&VagCanEcu::ABS,VagWhitelists::ABS_MK60EC1, &stack0x00001894,&stack0x00001890,\"car_setting_tr"
+  },
+  {
+    "line": 521744,
+    "key": "car_setting_traction_control_btn_esc_step_2",
+    "factory_function": "FUN_01589154",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagCanEcu::ABS",
+    "whitelist": "VagWhitelists::ABS_MK60EC1",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [],
+    "call_snippet": "FUN_01589154(&stack0x00001880,&stack0x00002698,&VagCanEcu::ABS,VagWhitelists::ABS_MK60EC1, &stack0x0000187c,&stack0x00001878,\"car_setting_tr"
+  },
+  {
+    "line": 521759,
+    "key": "car_setting_warn_on_hill_descent",
+    "factory_function": "FUN_015ad298",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::ABS",
+    "whitelist": "VagWhitelists::ABS_B9",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_015ad298(&stack0x00001868,&stack0x00002698,&VagUdsEcu::ABS,VagWhitelists::ABS_B9, &stack0x00001864,&stack0x00001860,&stack0x0000185c,\"ca"
+  },
+  {
+    "line": 521771,
+    "key": "car_setting_comfort_turn_signal_in_mmi",
+    "factory_function": "FUN_015924e8",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::CENTRAL_CONVENIENCE",
+    "whitelist": "VagWhitelists::CENTRAL_CONV_B9",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_015924e8(&stack0x00001848,&stack0x00002698,&VagUdsEcu::CENTRAL_CONVENIENCE, VagWhitelists::CENTRAL_CONV_B9,&stack0x00001844,&stack0x0000"
+  },
+  {
+    "line": 521786,
+    "key": "car_setting_display_gear_in_instrument_cluster",
+    "factory_function": "FUN_015b9f90",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::TRANSMISSION",
+    "whitelist": "VagWhitelists::TRANSMISSION_Q7",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO_INVERTED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_015b9f90(&stack0x00001820,&stack0x00002698,&VagUdsEcu::TRANSMISSION, VagWhitelists::TRANSMISSION_Q7,&stack0x0000181c,&stack0x00001818, \""
+  },
+  {
+    "line": 521805,
+    "key": "car_setting_highway_lights",
+    "factory_function": "FUN_015ded7c",
+    "concrete_class": "VagUdsOverCanSubmoduleCodingSetting",
+    "ecu": "VagCanEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_SUB_RLS_MK6_ALL_B8",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [],
+    "call_snippet": "FUN_015ded7c(&stack0x000017e0,&stack0x00002698,&VagCanEcu::CENTRAL_ELEC, VagWhitelists::CENTRAL_ELEC_SUB_RLS_MK6_ALL_B8,&stack0x000017dc,&st"
+  },
+  {
+    "line": 521836,
+    "key": "car_setting_hill_hold",
+    "factory_function": "FUN_015a1f2c",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::ABS",
+    "whitelist": null,
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_015a1f2c(&stack0x000017b0,&stack0x00002698,&VagUdsEcu::ABS,&stack0x000017a0,&stack0x0000179c, &stack0x00001798,\"car_setting_hill_hold\", "
+  },
+  {
+    "line": 521847,
+    "key": "car_setting_memory_for_lowering_driver_mirror_in_reverse_step_1",
+    "factory_function": "FUN_015defbc",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::DOOR_DRIVER",
+    "whitelist": "VagWhitelists::DOOR_DRIVER_MK7",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [],
+    "call_snippet": "FUN_015defbc(&stack0x00001788,&stack0x00002698,&VagUdsEcu::DOOR_DRIVER, &VagWhitelists::DOOR_DRIVER_MK7,&stack0x00001784,&stack0x00001780, \""
+  },
+  {
+    "line": 521859,
+    "key": "car_setting_memory_for_lowering_driver_mirror_in_reverse_step_2",
+    "factory_function": "FUN_015defbc",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::DOOR_DRIVER",
+    "whitelist": "VagWhitelists::DOOR_DRIVER_MK7",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [],
+    "call_snippet": "FUN_015defbc(&stack0x00001770,&stack0x00002698,&VagUdsEcu::DOOR_DRIVER, &VagWhitelists::DOOR_DRIVER_MK7,&stack0x0000176c,&stack0x00001768, \""
+  },
+  {
+    "line": 521872,
+    "key": "car_setting_wireless_carplay_step_1",
+    "factory_function": "FUN_0159b8c4",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::INFOTAINMENT",
+    "whitelist": "VagWhitelists::INFOTAINMENT_B9_ALPI",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_0159b8c4(&stack0x00001758,&stack0x00002698,&VagUdsEcu::INFOTAINMENT, &VagWhitelists::INFOTAINMENT_B9_ALPI,&stack0x00001754,&stack0x00001"
+  },
+  {
+    "line": 521886,
+    "key": "car_setting_wireless_carplay_step_2",
+    "factory_function": "FUN_0159b8c4",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::INFOTAINMENT",
+    "whitelist": "VagWhitelists::INFOTAINMENT_B9_ALPI",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_0159b8c4(&stack0x00001738,&stack0x00002698,&VagUdsEcu::INFOTAINMENT, &VagWhitelists::INFOTAINMENT_B9_ALPI,&stack0x00001734,&stack0x00001"
+  },
+  {
+    "line": 521899,
+    "key": "car_setting_driving_profile_selection",
+    "factory_function": "FUN_015df200",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::STEERING_ASSIST",
+    "whitelist": "VagWhitelists::STEERING_ASSIST_MK7",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_015df200(&stack0x00001718,&stack0x00002698,&VagUdsEcu::STEERING_ASSIST, &VagWhitelists::STEERING_ASSIST_MK7,&stack0x00001714,&stack0x000"
+  },
+  {
+    "line": 521914,
+    "key": "car_setting_auto_hold_without_seat_belt",
+    "factory_function": "FUN_0158f504",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::ABS",
+    "whitelist": "VagWhitelists::ABS_B9",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO_INVERTED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_0158f504(&stack0x00001700,&stack0x00002698,&VagUdsEcu::ABS,VagWhitelists::ABS_B9, &stack0x000016fc,&stack0x000016f8,&stack0x000016f4, \"c"
+  },
+  {
+    "line": 521927,
+    "key": "car_setting_easy_entry_exit_steering_wheel_retract_menu",
+    "factory_function": "FUN_015df46c",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::CENTRAL_CONVENIENCE",
+    "whitelist": "VagWhitelists::CENTRAL_CONV_B9",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [],
+    "call_snippet": "FUN_015df46c(&stack0x000016e0,&stack0x00002698,&VagUdsEcu::CENTRAL_CONVENIENCE, VagWhitelists::CENTRAL_CONV_B9,&stack0x000016dc,&stack0x0000"
+  },
+  {
+    "line": 521940,
+    "key": "car_setting_drl_via_front_markers",
+    "factory_function": "FUN_0157ed30",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagCanEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_B8",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [],
+    "call_snippet": "FUN_0157ed30(&stack0x000016c8,&stack0x00002698,&VagCanEcu::CENTRAL_ELEC, VagWhitelists::CENTRAL_ELEC_B8,&stack0x000016c4,&stack0x000016c0, \""
+  },
+  {
+    "line": 521962,
+    "key": "car_setting_drl_via_lash_left_brightness",
+    "factory_function": "FUN_015afeec",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_MK7_NEW",
+    "interpretation": null,
+    "resolved_vars": [],
+    "call_snippet": "FUN_015afeec(&stack0x000016b0,&stack0x00002698,&VagUdsEcu::CENTRAL_ELEC, &VagWhitelists::CENTRAL_ELEC_MK7_NEW,&stack0x000016ac,&stack0x00001"
+  },
+  {
+    "line": 521988,
+    "key": "car_setting_drl_via_lash_right_brightness",
+    "factory_function": "FUN_015b4718",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_MK7_NEW",
+    "interpretation": null,
+    "resolved_vars": [],
+    "call_snippet": "FUN_015b4718(&stack0x00001660,&stack0x00002698,&VagUdsEcu::CENTRAL_ELEC, &VagWhitelists::CENTRAL_ELEC_MK7_NEW,&stack0x0000165c,&stack0x00001"
+  },
+  {
+    "line": 521999,
+    "key": "car_setting_blink_on_lock_unlock_remote",
+    "factory_function": "FUN_015b7af8",
+    "concrete_class": "FullByteVagCanShortAdaptationSetting",
+    "ecu": "VagCanEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_MK6_ALL",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [],
+    "call_snippet": "FUN_015b7af8(&stack0x00001610,&stack0x00002698,&VagCanEcu::CENTRAL_ELEC, &VagWhitelists::CENTRAL_ELEC_MK6_ALL,&stack0x0000160c, \"car_setting"
+  },
+  {
+    "line": 522012,
+    "key": "car_setting_sound_on_lock_remote",
+    "factory_function": "FUN_015bd150",
+    "concrete_class": "FullByteVagCanShortAdaptationSetting",
+    "ecu": "VagCanEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_MK6_ALL",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [],
+    "call_snippet": "FUN_015bd150(&stack0x000015f8,&stack0x00002698,&VagCanEcu::CENTRAL_ELEC, &VagWhitelists::CENTRAL_ELEC_MK6_ALL,&stack0x000015f4, \"car_setting"
+  },
+  {
+    "line": 522023,
+    "key": "car_setting_sound_on_unlock_remote",
+    "factory_function": "FUN_015956f4",
+    "concrete_class": "FullByteVagCanShortAdaptationSetting",
+    "ecu": "VagCanEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_MK6_ALL",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [],
+    "call_snippet": "FUN_015956f4(&stack0x000015e0,&stack0x00002698,&VagCanEcu::CENTRAL_ELEC, &VagWhitelists::CENTRAL_ELEC_MK6_ALL,&stack0x000015dc, \"car_setting"
+  },
+  {
+    "line": 522036,
+    "key": "car_setting_sound_on_lock_unlock_adapt_enabled",
+    "factory_function": "FUN_015a6d0c",
+    "concrete_class": "VagCanLongCodingSetting",
+    "ecu": "VagCanEcu::CENTRAL_CONVENIENCE",
+    "whitelist": "VagWhitelists::CENTRAL_CONV_MK5_BASE",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO_INVERTED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_015a6d0c(&stack0x000015c8,&stack0x00002698,&VagCanEcu::CENTRAL_CONVENIENCE, VagWhitelists::CENTRAL_CONV_MK5_BASE,&stack0x000015c4,&stack"
+  },
+  {
+    "line": 522051,
+    "key": "car_setting_allow_config_sound_on_lock_unlock_remote",
+    "factory_function": "FUN_015a718c",
+    "concrete_class": "VagCanLongCodingSetting",
+    "ecu": "VagCanEcu::CENTRAL_CONVENIENCE",
+    "whitelist": "VagWhitelists::CENTRAL_CONV_MK5_HIGH",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO_INVERTED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_015a718c(&stack0x000015b0,&stack0x00002698,&VagCanEcu::CENTRAL_CONVENIENCE, VagWhitelists::CENTRAL_CONV_MK5_HIGH,&stack0x000015ac,&stack"
+  },
+  {
+    "line": 522066,
+    "key": "car_setting_blink_on_lock_remote",
+    "factory_function": "FUN_0158c138",
+    "concrete_class": "VagCanShortAdaptationSetting",
+    "ecu": "VagCanEcu::CENTRAL_CONVENIENCE",
+    "whitelist": "VagWhitelists::CENTRAL_CONV_MK5",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [],
+    "call_snippet": "FUN_0158c138(&stack0x00001598,&stack0x00002698,&VagCanEcu::CENTRAL_CONVENIENCE, VagWhitelists::CENTRAL_CONV_MK5,&stack0x00001594,&stack0x000"
+  },
+  {
+    "line": 522079,
+    "key": "car_setting_sound_on_lock_remote",
+    "factory_function": "FUN_0158c138",
+    "concrete_class": "VagCanShortAdaptationSetting",
+    "ecu": "VagCanEcu::CENTRAL_CONVENIENCE",
+    "whitelist": "VagWhitelists::CENTRAL_CONV_MK5",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [],
+    "call_snippet": "FUN_0158c138(&stack0x00001578,&stack0x00002698,&VagCanEcu::CENTRAL_CONVENIENCE, VagWhitelists::CENTRAL_CONV_MK5,&stack0x00001574,&stack0x000"
+  },
+  {
+    "line": 522091,
+    "key": "car_setting_blink_on_unlock_remote",
+    "factory_function": "FUN_01595004",
+    "concrete_class": "VagCanShortAdaptationSetting",
+    "ecu": "VagCanEcu::CENTRAL_CONVENIENCE",
+    "whitelist": "VagWhitelists::CENTRAL_CONV_MK5",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [],
+    "call_snippet": "FUN_01595004(&stack0x00001558,&stack0x00002698,&VagCanEcu::CENTRAL_CONVENIENCE, VagWhitelists::CENTRAL_CONV_MK5,&stack0x00001554,&stack0x000"
+  },
+  {
+    "line": 522105,
+    "key": "car_setting_sound_on_unlock_remote",
+    "factory_function": "FUN_01595004",
+    "concrete_class": "VagCanShortAdaptationSetting",
+    "ecu": "VagCanEcu::CENTRAL_CONVENIENCE",
+    "whitelist": "VagWhitelists::CENTRAL_CONV_MK5",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [],
+    "call_snippet": "FUN_01595004(&stack0x00001538,&stack0x00002698,&VagCanEcu::CENTRAL_CONVENIENCE, VagWhitelists::CENTRAL_CONV_MK5,&stack0x00001534,&stack0x000"
+  },
+  {
+    "line": 522116,
+    "key": "car_setting_blink_on_lock_key",
+    "factory_function": "FUN_015df6b0",
+    "concrete_class": "VagCanShortAdaptationSetting",
+    "ecu": "VagCanEcu::CENTRAL_CONVENIENCE",
+    "whitelist": "VagWhitelists::CENTRAL_CONV_MK5",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [],
+    "call_snippet": "FUN_015df6b0(&stack0x00001518,&stack0x00002698,&VagCanEcu::CENTRAL_CONVENIENCE, VagWhitelists::CENTRAL_CONV_MK5,&stack0x00001514,&stack0x000"
+  },
+  {
+    "line": 522129,
+    "key": "car_setting_sound_on_lock_key",
+    "factory_function": "FUN_015df6b0",
+    "concrete_class": "VagCanShortAdaptationSetting",
+    "ecu": "VagCanEcu::CENTRAL_CONVENIENCE",
+    "whitelist": "VagWhitelists::CENTRAL_CONV_MK5",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [],
+    "call_snippet": "FUN_015df6b0(&stack0x000014f8,&stack0x00002698,&VagCanEcu::CENTRAL_CONVENIENCE, VagWhitelists::CENTRAL_CONV_MK5,&stack0x000014f4,&stack0x000"
+  },
+  {
+    "line": 522142,
+    "key": "car_setting_blink_on_unlock_key",
+    "factory_function": "FUN_015df918",
+    "concrete_class": "VagCanShortAdaptationSetting",
+    "ecu": "VagCanEcu::CENTRAL_CONVENIENCE",
+    "whitelist": "VagWhitelists::CENTRAL_CONV_MK5",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [],
+    "call_snippet": "FUN_015df918(&stack0x000014d8,&stack0x00002698,&VagCanEcu::CENTRAL_CONVENIENCE, VagWhitelists::CENTRAL_CONV_MK5,&stack0x000014d4,&stack0x000"
+  },
+  {
+    "line": 522154,
+    "key": "car_setting_sound_on_unlock_key",
+    "factory_function": "FUN_015df918",
+    "concrete_class": "VagCanShortAdaptationSetting",
+    "ecu": "VagCanEcu::CENTRAL_CONVENIENCE",
+    "whitelist": "VagWhitelists::CENTRAL_CONV_MK5",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [],
+    "call_snippet": "FUN_015df918(&stack0x000014b8,&stack0x00002698,&VagCanEcu::CENTRAL_CONVENIENCE, VagWhitelists::CENTRAL_CONV_MK5,&stack0x000014b4,&stack0x000"
+  },
+  {
+    "line": 522176,
+    "key": "car_setting_single_door_lock_remote",
+    "factory_function": "FUN_015dfb80",
+    "concrete_class": "VagCanLongCodingSetting",
+    "ecu": "VagCanEcu::CENTRAL_CONVENIENCE",
+    "whitelist": "VagWhitelists::CENTRAL_CONV_MK5",
+    "interpretation": null,
+    "resolved_vars": [],
+    "call_snippet": "FUN_015dfb80(&stack0x00001498,&stack0x00002698,&VagCanEcu::CENTRAL_CONVENIENCE, VagWhitelists::CENTRAL_CONV_MK5,&stack0x00001494,&stack0x000"
+  },
+  {
+    "line": 522186,
+    "key": "car_setting_comfort_function_remote",
+    "factory_function": "FUN_015a2c88",
+    "concrete_class": "FullByteVagCanShortAdaptationSetting",
+    "ecu": "VagCanEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_MK6_8X",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [],
+    "call_snippet": "FUN_015a2c88(&stack0x00001458,&stack0x00002698,&VagCanEcu::CENTRAL_ELEC, &VagWhitelists::CENTRAL_ELEC_MK6_8X,&stack0x00001454, \"car_setting_"
+  },
+  {
+    "line": 522196,
+    "key": "car_setting_comfort_function_remote",
+    "factory_function": "FUN_015a2c88",
+    "concrete_class": "FullByteVagCanShortAdaptationSetting",
+    "ecu": "VagCanEcu::CENTRAL_CONVENIENCE",
+    "whitelist": "VagWhitelists::CENTRAL_CONV_MK5",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [],
+    "call_snippet": "FUN_015a2c88(&stack0x00001440,&stack0x00002698,&VagCanEcu::CENTRAL_CONVENIENCE, VagWhitelists::CENTRAL_CONV_MK5,&stack0x0000143c, \"car_setti"
+  },
+  {
+    "line": 522208,
+    "key": "car_setting_comfort_function_blink",
+    "factory_function": "FUN_01598d94",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagCanEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_MK6_ALL",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [],
+    "call_snippet": "FUN_01598d94(&stack0x00001428,&stack0x00002698,&VagCanEcu::CENTRAL_ELEC, &VagWhitelists::CENTRAL_ELEC_MK6_ALL,&stack0x00001424,&stack0x00001"
+  },
+  {
+    "line": 522221,
+    "key": "car_setting_sound_on_unlock_remote",
+    "factory_function": "FUN_015956f4",
+    "concrete_class": "FullByteVagCanShortAdaptationSetting",
+    "ecu": "VagCanEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_6R_5C_7E_7H",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [],
+    "call_snippet": "FUN_015956f4(&stack0x00001410,&stack0x00002698,&VagCanEcu::CENTRAL_ELEC, &VagWhitelists::CENTRAL_ELEC_6R_5C_7E_7H,&stack0x0000140c, \"car_set"
+  },
+  {
+    "line": 522235,
+    "key": "car_setting_comfort_turn_signal",
+    "factory_function": "FUN_0157eaec",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagCanEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_6R_5C_7E_7H",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_0157eaec(&stack0x000013f8,&stack0x00002698,&VagCanEcu::CENTRAL_ELEC, &VagWhitelists::CENTRAL_ELEC_6R_5C_7E_7H,&stack0x000013f4,&stack0x0"
+  },
+  {
+    "line": 522247,
+    "key": "car_setting_emergency_brake_flashing",
+    "factory_function": "FUN_015cb434",
+    "concrete_class": "FullByteVagCanShortAdaptationSetting",
+    "ecu": "VagCanEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_6R_5C_7E_7H",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [],
+    "call_snippet": "FUN_015cb434(&stack0x000013e0,&stack0x00002698,&VagCanEcu::CENTRAL_ELEC, &VagWhitelists::CENTRAL_ELEC_6R_5C_7E_7H,&stack0x000013dc, \"car_set"
+  },
+  {
+    "line": 522257,
+    "key": "car_setting_leaving_home",
+    "factory_function": "FUN_015beb14",
+    "concrete_class": "FullByteVagCanShortAdaptationSetting",
+    "ecu": "VagCanEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_B8",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_015beb14(&stack0x000013c8,&stack0x00002698,&VagCanEcu::CENTRAL_ELEC, VagWhitelists::CENTRAL_ELEC_B8,&stack0x000013c4,\"car_setting_leavin"
+  },
+  {
+    "line": 522269,
+    "key": "car_setting_parking_lights_with_term_15",
+    "factory_function": "FUN_015b7af8",
+    "concrete_class": "FullByteVagCanShortAdaptationSetting",
+    "ecu": "VagCanEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_6R_5C_7E_7H",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [],
+    "call_snippet": "FUN_015b7af8(&stack0x000013b0,&stack0x00002698,&VagCanEcu::CENTRAL_ELEC, &VagWhitelists::CENTRAL_ELEC_6R_5C_7E_7H,&stack0x000013ac, \"car_set"
+  },
+  {
+    "line": 522280,
+    "key": "car_setting_parking_lights",
+    "factory_function": "FUN_015b78b4",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagCanEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_6R_5C_7E_7H",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_015b78b4(&stack0x00001398,&stack0x00002698,&VagCanEcu::CENTRAL_ELEC, &VagWhitelists::CENTRAL_ELEC_6R_5C_7E_7H,&stack0x00001394,&stack0x0"
+  },
+  {
+    "line": 522292,
+    "key": "car_setting_smart_remote_with_ignition",
+    "factory_function": "FUN_015a91dc",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagCanEcu::CENTRAL_CONVENIENCE",
+    "whitelist": "VagWhitelists::CENTRAL_CONV_B8",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [],
+    "call_snippet": "FUN_015a91dc(&stack0x00001380,&stack0x00002698,&VagCanEcu::CENTRAL_CONVENIENCE, &VagWhitelists::CENTRAL_CONV_B8,&stack0x0000137c,&stack0x000"
+  },
+  {
+    "line": 522304,
+    "key": "car_setting_voice_recognition",
+    "factory_function": "FUN_0157e8a8",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagCanEcu::INFOTAINMENT",
+    "whitelist": "VagWhitelists::INFOTAINMENT_MMI_RMC",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED_INVERTED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_0157e8a8(&stack0x00001368,&stack0x00002698,&VagCanEcu::INFOTAINMENT, &VagWhitelists::INFOTAINMENT_MMI_RMC,&stack0x00001364,&stack0x00001"
+  },
+  {
+    "line": 522318,
+    "key": "car_setting_drl_only_in_auto_mode",
+    "factory_function": "FUN_0157ed30",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagCanEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_MK6_8X_B7",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [],
+    "call_snippet": "FUN_0157ed30(&stack0x00001350,&stack0x00002698,&VagCanEcu::CENTRAL_ELEC, VagWhitelists::CENTRAL_ELEC_MK6_8X_B7,&stack0x0000134c,&stack0x0000"
+  },
+  {
+    "line": 522330,
+    "key": "car_setting_diagnostics_drl",
+    "factory_function": "FUN_0157e664",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagCanEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_6R_5C_7E_7H",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED_INVERTED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_0157e664(&stack0x00001338,&stack0x00002698,&VagCanEcu::CENTRAL_ELEC, &VagWhitelists::CENTRAL_ELEC_6R_5C_7E_7H,&stack0x00001334,&stack0x0"
+  },
+  {
+    "line": 522342,
+    "key": "car_setting_diagnostics_low_beams",
+    "factory_function": "FUN_0157ed30",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagCanEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_6R_5C_7E_7H",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED_INVERTED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_0157ed30(&stack0x00001320,&stack0x00002698,&VagCanEcu::CENTRAL_ELEC, &VagWhitelists::CENTRAL_ELEC_6R_5C_7E_7H,&stack0x0000131c,&stack0x0"
+  },
+  {
+    "line": 522357,
+    "key": "car_setting_diagnostics_high_beams",
+    "factory_function": "FUN_01598d94",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagCanEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_6R_5C_7E_7H",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED_INVERTED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_01598d94(&stack0x00001308,&stack0x00002698,&VagCanEcu::CENTRAL_ELEC, &VagWhitelists::CENTRAL_ELEC_6R_5C_7E_7H,&stack0x00001304,&stack0x0"
+  },
+  {
+    "line": 522372,
+    "key": "car_setting_diagnostics_fog_lights",
+    "factory_function": "FUN_01598d94",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagCanEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_6R_5C_7E_7H",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED_INVERTED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_01598d94(&stack0x000012f0,&stack0x00002698,&VagCanEcu::CENTRAL_ELEC, &VagWhitelists::CENTRAL_ELEC_6R_5C_7E_7H,&stack0x000012ec,&stack0x0"
+  },
+  {
+    "line": 522386,
+    "key": "car_setting_diagnostics_fog_lights_rear",
+    "factory_function": "FUN_015a98a8",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagCanEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_6R_5C_7E_7H",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED_INVERTED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_015a98a8(&stack0x000012d8,&stack0x00002698,&VagCanEcu::CENTRAL_ELEC, &VagWhitelists::CENTRAL_ELEC_6R_5C_7E_7H,&stack0x000012d4,&stack0x0"
+  },
+  {
+    "line": 522399,
+    "key": "car_setting_diagnostics_tail_lights",
+    "factory_function": "FUN_0158b7f4",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagCanEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_6R_5C_7E_7H",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED_INVERTED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_0158b7f4(&stack0x000012c0,&stack0x00002698,&VagCanEcu::CENTRAL_ELEC, &VagWhitelists::CENTRAL_ELEC_6R_5C_7E_7H,&stack0x000012bc,&stack0x0"
+  },
+  {
+    "line": 522412,
+    "key": "car_setting_diagnostics_brake_lights",
+    "factory_function": "FUN_01594dc0",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagCanEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_6R_5C_7E_7H",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED_INVERTED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_01594dc0(&stack0x000012a8,&stack0x00002698,&VagCanEcu::CENTRAL_ELEC, &VagWhitelists::CENTRAL_ELEC_6R_5C_7E_7H,&stack0x000012a4,&stack0x0"
+  },
+  {
+    "line": 522425,
+    "key": "car_setting_diagnostics_turn_signals",
+    "factory_function": "FUN_01594dc0",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagCanEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_6R_5C_7E_7H",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED_INVERTED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_01594dc0(&stack0x00001290,&stack0x00002698,&VagCanEcu::CENTRAL_ELEC, &VagWhitelists::CENTRAL_ELEC_6R_5C_7E_7H,&stack0x0000128c,&stack0x0"
+  },
+  {
+    "line": 522439,
+    "key": "car_setting_drl_override",
+    "factory_function": "FUN_015ad054",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagCanEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_MK6_8X",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO_INVERTED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_015ad054(&stack0x00001278,&stack0x00002698,&VagCanEcu::CENTRAL_ELEC, &VagWhitelists::CENTRAL_ELEC_MK6_8X,&stack0x00001274,&stack0x000012"
+  },
+  {
+    "line": 522451,
+    "key": "car_setting_light_sensor_headlights",
+    "factory_function": "FUN_0158b7f4",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagCanEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_6R_5C_7E_7H",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_0158b7f4(&stack0x00001260,&stack0x00002698,&VagCanEcu::CENTRAL_ELEC, &VagWhitelists::CENTRAL_ELEC_6R_5C_7E_7H,&stack0x0000125c,&stack0x0"
+  },
+  {
+    "line": 522465,
+    "key": "car_setting_headlight_washer",
+    "factory_function": "FUN_0159b1a0",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_B8",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_0159b1a0(&stack0x00001248,&stack0x00002698,&VagUdsEcu::CENTRAL_ELEC, VagWhitelists::CENTRAL_ELEC_B8,&stack0x00001244,&stack0x00001240, \""
+  },
+  {
+    "line": 522476,
+    "key": "car_setting_online_traffic_updates",
+    "factory_function": "FUN_01595004",
+    "concrete_class": "VagCanShortAdaptationSetting",
+    "ecu": "VagCanEcu::INFOTAINMENT",
+    "whitelist": "VagWhitelists::INFOTAINMENT_MMI_3G",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_01595004(&stack0x00001230,&stack0x00002698,&VagCanEcu::INFOTAINMENT, &VagWhitelists::INFOTAINMENT_MMI_3G,&stack0x0000122c,&stack0x000012"
+  },
+  {
+    "line": 522496,
+    "key": "car_setting_steering_direction",
+    "factory_function": "FUN_015dfd3c",
+    "concrete_class": "VagCanShortCodingSetting",
+    "ecu": "VagCanEcu::CENTRAL_CONVENIENCE",
+    "whitelist": "VagWhitelists::CENTRAL_CONV_D3",
+    "interpretation": null,
+    "resolved_vars": [],
+    "call_snippet": "FUN_015dfd3c(&stack0x00001210,&stack0x00002698,&VagCanEcu::CENTRAL_CONVENIENCE, &VagWhitelists::CENTRAL_CONV_D3,&stack0x0000120c,&stack0x000"
+  },
+  {
+    "line": 522518,
+    "key": "car_setting_rear_park_assist_vol_conv_open",
+    "factory_function": "FUN_015dfef8",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_MK7_6C",
+    "interpretation": null,
+    "resolved_vars": [],
+    "call_snippet": "FUN_015dfef8(&stack0x000011d0,&stack0x00002698,&VagUdsEcu::CENTRAL_ELEC, &VagWhitelists::CENTRAL_ELEC_MK7_6C,&stack0x000011cc,&stack0x000011"
+  },
+  {
+    "line": 522539,
+    "key": "car_setting_num_front_washer_active_wo_headlight_washer_active",
+    "factory_function": "FUN_015cd790",
+    "concrete_class": "FullByteVagCanShortAdaptationSetting",
+    "ecu": "VagCanEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_8X",
+    "interpretation": null,
+    "resolved_vars": [],
+    "call_snippet": "FUN_015cd790(&stack0x00001180,&stack0x00002698,&VagCanEcu::CENTRAL_ELEC, &VagWhitelists::CENTRAL_ELEC_8X,&stack0x0000117c, \"car_setting_num_"
+  },
+  {
+    "line": 522554,
+    "key": "car_setting_drl_via_separate_lights_experimental",
+    "factory_function": "FUN_015a9f74",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagCanEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_MK6_8X_B7",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [],
+    "call_snippet": "FUN_015a9f74(&stack0x00001138,&stack0x00002698,&VagCanEcu::CENTRAL_ELEC, VagWhitelists::CENTRAL_ELEC_MK6_8X_B7,&stack0x00001134,&stack0x0000"
+  },
+  {
+    "line": 522570,
+    "key": "car_setting_interior_lights_disco_mode",
+    "factory_function": "FUN_0158bec8",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_B9",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_0158bec8(&stack0x00001120,&stack0x00002698,&VagUdsEcu::CENTRAL_ELEC, &VagWhitelists::CENTRAL_ELEC_B9,&stack0x0000111c,&stack0x00001118,&"
+  },
+  {
+    "line": 522593,
+    "key": "car_setting_tpms_sensitivity",
+    "factory_function": "FUN_015e0148",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::ABS",
+    "whitelist": "VagWhitelists::ABS_B9",
+    "interpretation": null,
+    "resolved_vars": [],
+    "call_snippet": "FUN_015e0148(&stack0x00001100,&stack0x00002698,&VagUdsEcu::ABS,VagWhitelists::ABS_B9, &stack0x000010fc,&stack0x000010f8,&stack0x000010f4,\"ca"
+  },
+  {
+    "line": 522614,
+    "key": "car_setting_drl_via_front_left_turn_signal_step_1",
+    "factory_function": "FUN_015a7f5c",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_MK7_ALL",
+    "interpretation": null,
+    "resolved_vars": [],
+    "call_snippet": "FUN_015a7f5c(&stack0x000010b0,&stack0x00002698,&VagUdsEcu::CENTRAL_ELEC, VagWhitelists::CENTRAL_ELEC_MK7_ALL,&stack0x000010ac,&stack0x000010"
+  },
+  {
+    "line": 522633,
+    "key": "car_setting_drl_via_front_left_turn_signal_step_2",
+    "factory_function": "FUN_015a7f5c",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_MK7_ALL",
+    "interpretation": null,
+    "resolved_vars": [],
+    "call_snippet": "FUN_015a7f5c(&stack0x00001068,&stack0x00002698,&VagUdsEcu::CENTRAL_ELEC, VagWhitelists::CENTRAL_ELEC_MK7_ALL,&stack0x00001064,&stack0x000010"
+  },
+  {
+    "line": 522646,
+    "key": "car_setting_drl_via_front_left_turn_signal_step_3",
+    "factory_function": "FUN_015a7f5c",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_MK7_ALL",
+    "interpretation": null,
+    "resolved_vars": [],
+    "call_snippet": "FUN_015a7f5c(&stack0x00001020,&stack0x00002698,&VagUdsEcu::CENTRAL_ELEC, VagWhitelists::CENTRAL_ELEC_MK7_ALL,&stack0x0000101c,&stack0x000010"
+  },
+  {
+    "line": 522657,
+    "key": "car_setting_drl_via_front_left_turn_signal_step_4",
+    "factory_function": "FUN_015a7f5c",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_MK7_ALL",
+    "interpretation": null,
+    "resolved_vars": [],
+    "call_snippet": "FUN_015a7f5c(&stack0x00000fd8,&stack0x00002698,&VagUdsEcu::CENTRAL_ELEC, VagWhitelists::CENTRAL_ELEC_MK7_ALL,&stack0x00000fd4,&stack0x00000f"
+  },
+  {
+    "line": 522665,
+    "key": "car_setting_drl_via_front_right_turn_signal_step_1",
+    "factory_function": "FUN_015a7abc",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_MK7_ALL",
+    "interpretation": null,
+    "resolved_vars": [],
+    "call_snippet": "FUN_015a7abc(&stack0x00000f90,&stack0x00002698,&VagUdsEcu::CENTRAL_ELEC, VagWhitelists::CENTRAL_ELEC_MK7_ALL,&stack0x00000f8c,&stack0x00000f"
+  },
+  {
+    "line": 522681,
+    "key": "car_setting_drl_via_front_right_turn_signal_step_2",
+    "factory_function": "FUN_015a7abc",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_MK7_ALL",
+    "interpretation": null,
+    "resolved_vars": [],
+    "call_snippet": "FUN_015a7abc(&stack0x00000f48,&stack0x00002698,&VagUdsEcu::CENTRAL_ELEC, VagWhitelists::CENTRAL_ELEC_MK7_ALL,&stack0x00000f44,&stack0x00000f"
+  },
+  {
+    "line": 522689,
+    "key": "car_setting_drl_via_front_right_turn_signal_step_3",
+    "factory_function": "FUN_015a7abc",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_MK7_ALL",
+    "interpretation": null,
+    "resolved_vars": [],
+    "call_snippet": "FUN_015a7abc(&stack0x00000f00,&stack0x00002698,&VagUdsEcu::CENTRAL_ELEC, VagWhitelists::CENTRAL_ELEC_MK7_ALL,&stack0x00000efc,&stack0x00000e"
+  },
+  {
+    "line": 522702,
+    "key": "car_setting_drl_via_front_right_turn_signal_step_4",
+    "factory_function": "FUN_015a7abc",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_MK7_ALL",
+    "interpretation": null,
+    "resolved_vars": [],
+    "call_snippet": "FUN_015a7abc(&stack0x00000eb8,&stack0x00002698,&VagUdsEcu::CENTRAL_ELEC, VagWhitelists::CENTRAL_ELEC_MK7_ALL,&stack0x00000eb4,&stack0x00000e"
+  },
+  {
+    "line": 522708,
+    "key": "car_setting_trailer_assist_step_1",
+    "factory_function": "FUN_0158ebe8",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::PARK_STEER_ASSIST",
+    "whitelist": "VagWhitelists::PARK_STEER_ASSIST_MK7_PLA",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_0158ebe8(&stack0x00000e70,&stack0x00002698,&VagUdsEcu::PARK_STEER_ASSIST, &VagWhitelists::PARK_STEER_ASSIST_MK7_PLA,&stack0x00000e6c,&st"
+  },
+  {
+    "line": 522712,
+    "key": "car_setting_trailer_assist_step_2",
+    "factory_function": "FUN_0158ebe8",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::INSTRUMENT_CLUSTER",
+    "whitelist": "VagWhitelists::INSTRUMENTS_MK7_MQBA0",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_0158ebe8(&stack0x00000e58,&stack0x00002698,&VagUdsEcu::INSTRUMENT_CLUSTER, &VagWhitelists::INSTRUMENTS_MK7_MQBA0,&stack0x00000e54,&stack"
+  },
+  {
+    "line": 522720,
+    "key": "car_setting_trailer_assist_step_3",
+    "factory_function": "FUN_0158ebe8",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::BACK_UP_CAMERA",
+    "whitelist": "VagWhitelists::BACK_UP_CAMERA_MQBA0",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_0158ebe8(&stack0x00000e40,&stack0x00002698,&VagUdsEcu::BACK_UP_CAMERA, VagWhitelists::BACK_UP_CAMERA_MQBA0,&stack0x00000e3c,&stack0x0000"
+  },
+  {
+    "line": 522725,
+    "key": "car_setting_trailer_assist_step_4",
+    "factory_function": "FUN_0159b654",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::INFOTAINMENT",
+    "whitelist": "VagWhitelists::INFOTAINMENT_MK7_EXCEPT_8V",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_0159b654(&stack0x00000e28,&stack0x00002698,&VagUdsEcu::INFOTAINMENT, &VagWhitelists::INFOTAINMENT_MK7_EXCEPT_8V,&stack0x00000e24,&stack0"
+  },
+  {
+    "line": 522734,
+    "key": "car_setting_trailer_assist_step_5",
+    "factory_function": "FUN_0159b654",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::INFOTAINMENT",
+    "whitelist": "VagWhitelists::INFOTAINMENT_MK7_EXCEPT_8V",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_0159b654(&stack0x00000e08,&stack0x00002698,&VagUdsEcu::INFOTAINMENT, &VagWhitelists::INFOTAINMENT_MK7_EXCEPT_8V,&stack0x00000e04,&stack0"
+  },
+  {
+    "line": 522740,
+    "key": "car_setting_electronic_diff_lock_step_2",
+    "factory_function": "FUN_0158181c",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::ABS",
+    "whitelist": "VagWhitelists::ABS_6C",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_0158181c(&stack0x00000de8,&stack0x00002698,&VagUdsEcu::ABS,&VagWhitelists::ABS_6C, &stack0x00000de4,&stack0x00000de0,&stack0x00000ddc, \""
+  },
+  {
+    "line": 522747,
+    "key": "car_setting_disable_nar_headlight_restrictions",
+    "factory_function": "FUN_015b9f90",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::XENON",
+    "whitelist": "VagWhitelists::XENON_MK7_8V",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO_INVERTED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_015b9f90(&stack0x00000dc8,&stack0x00002698,&VagUdsEcu::XENON,VagWhitelists::XENON_MK7_8V, &stack0x00000dc4,&stack0x00000dc0,\"car_setting"
+  },
+  {
+    "line": 522754,
+    "key": "car_setting_disable_nar_headlight_restrictions",
+    "factory_function": "FUN_015b9f90",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::XENON",
+    "whitelist": "VagWhitelists::XENON_MK7_5Q",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO_INVERTED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_015b9f90(&stack0x00000db0,&stack0x00002698,&VagUdsEcu::XENON,VagWhitelists::XENON_MK7_5Q, &stack0x00000dac,&stack0x00000da8,\"car_setting"
+  },
+  {
+    "line": 522768,
+    "key": "car_setting_auto_unlock_when_smart_key_near",
+    "factory_function": "FUN_01588ca4",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::CENTRAL_CONVENIENCE",
+    "whitelist": "VagWhitelists::CENTRAL_CONV_B9",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [],
+    "call_snippet": "FUN_01588ca4(&stack0x00000d50,&stack0x00002698,&VagUdsEcu::CENTRAL_CONVENIENCE, VagWhitelists::CENTRAL_CONV_B9,&stack0x00000d4c,&stack0x0000"
+  },
+  {
+    "line": 522774,
+    "key": "car_setting_allow_config_beep_on_lock_unlock_remote",
+    "factory_function": "FUN_015ba418",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::CENTRAL_CONVENIENCE",
+    "whitelist": "VagWhitelists::CENTRAL_CONV_B9",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [],
+    "call_snippet": "FUN_015ba418(&stack0x00000d38,&stack0x00002698,&VagUdsEcu::CENTRAL_CONVENIENCE, VagWhitelists::CENTRAL_CONV_B9,&stack0x00000d34,&stack0x0000"
+  },
+  {
+    "line": 522783,
+    "key": "car_setting_beep_on_unlock_remote",
+    "factory_function": "FUN_0159b654",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::CENTRAL_CONVENIENCE",
+    "whitelist": "VagWhitelists::CENTRAL_CONV_B9",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_0159b654(&stack0x00000d20,&stack0x00002698,&VagUdsEcu::CENTRAL_CONVENIENCE, VagWhitelists::CENTRAL_CONV_B9,&stack0x00000d1c,&stack0x0000"
+  },
+  {
+    "line": 522791,
+    "key": "car_setting_beep_on_lock_unlock_type",
+    "factory_function": "FUN_015e063c",
+    "concrete_class": "VagCanLongCodingSetting",
+    "ecu": "VagCanEcu::CENTRAL_CONVENIENCE",
+    "whitelist": "VagWhitelists::CENTRAL_CONV_8P_HIGH",
+    "interpretation": null,
+    "resolved_vars": [],
+    "call_snippet": "FUN_015e063c(&stack0x00000d00,&stack0x00002698,&VagCanEcu::CENTRAL_CONVENIENCE, VagWhitelists::CENTRAL_CONV_8P_HIGH,&stack0x00000cfc,&stack0"
+  },
+  {
+    "line": 522807,
+    "key": "car_setting_start_stop_disable_method_b",
+    "factory_function": "FUN_0158f788",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::HVAC",
+    "whitelist": null,
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [],
+    "call_snippet": "FUN_0158f788(&stack0x00000cc0,&stack0x00002698,&VagUdsEcu::HVAC,&stack0x00000cb0,&stack0x00000cac, &stack0x00000ca8,&stack0x00000ca4,\"car_se"
+  },
+  {
+    "line": 522815,
+    "key": "car_setting_start_stop_disable_method_b",
+    "factory_function": "FUN_0158f788",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::HVAC",
+    "whitelist": null,
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [],
+    "call_snippet": "FUN_0158f788(&stack0x00000c90,&stack0x00002698,&VagUdsEcu::HVAC,&stack0x00000c80,&stack0x00000c7c, &stack0x00000c78,&stack0x00000c74,\"car_se"
+  },
+  {
+    "line": 522823,
+    "key": "car_setting_start_stop_disable",
+    "factory_function": "FUN_01580350",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::HVAC",
+    "whitelist": "VagWhitelists::HVAC_MQBA0_ALL",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO_INVERTED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_01580350(&stack0x00000c60,&stack0x00002698,&VagUdsEcu::HVAC,VagWhitelists::HVAC_MQBA0_ALL, &stack0x00000c5c,&stack0x00000c58,\"car_settin"
+  },
+  {
+    "line": 522828,
+    "key": "car_setting_start_stop_info",
+    "factory_function": "FUN_0157e664",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagCanEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_MK6_8X",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_0157e664(&stack0x00000c48,&stack0x00002698,&VagCanEcu::CENTRAL_ELEC, &VagWhitelists::CENTRAL_ELEC_MK6_8X,&stack0x00000c44,&stack0x00000c"
+  },
+  {
+    "line": 522834,
+    "key": "car_setting_power_steering_when_engine_not_running",
+    "factory_function": "FUN_015e07f8",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::STEERING_ASSIST",
+    "whitelist": "VagWhitelists::STEERING_ASSIST_PQ25",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_015e07f8(&stack0x00000c30,&stack0x00002698,&VagUdsEcu::STEERING_ASSIST, VagWhitelists::STEERING_ASSIST_PQ25,&stack0x00000c2c,&stack0x000"
+  },
+  {
+    "line": 522841,
+    "key": "car_setting_power_steering_when_engine_not_running",
+    "factory_function": "FUN_015e07f8",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::STEERING_ASSIST",
+    "whitelist": "VagWhitelists::STEERING_ASSIST_MK7",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_015e07f8(&stack0x00000c10,&stack0x00002698,&VagUdsEcu::STEERING_ASSIST, &VagWhitelists::STEERING_ASSIST_MK7,&stack0x00000c0c,&stack0x000"
+  },
+  {
+    "line": 522852,
+    "key": "car_setting_brake_assist_strength",
+    "factory_function": "FUN_015ad7a0",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::ABS",
+    "whitelist": "VagWhitelists::ABS_MK7_V1_EXP_V2_6C",
+    "interpretation": null,
+    "resolved_vars": [],
+    "call_snippet": "FUN_015ad7a0(&stack0x00000bf0,&stack0x00002698,&VagUdsEcu::ABS,VagWhitelists::ABS_MK7_V1_EXP_V2_6C ,&stack0x00000bec,&stack0x00000be8,&stack"
+  },
+  {
+    "line": 522858,
+    "key": "car_setting_seat_belt_warning",
+    "factory_function": "FUN_015e0a7c",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::INSTRUMENT_CLUSTER",
+    "whitelist": "VagWhitelists::INSTRUMENTS_B9",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED_INVERTED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_015e0a7c(&stack0x00000ba0,&stack0x00002698,&VagUdsEcu::INSTRUMENT_CLUSTER, &VagWhitelists::INSTRUMENTS_B9,&stack0x00000b9c,&stack0x00000"
+  },
+  {
+    "line": 522863,
+    "key": "car_setting_seat_belt_warning_experimental",
+    "factory_function": "FUN_01590e00",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::INSTRUMENT_CLUSTER",
+    "whitelist": "VagWhitelists::INSTRUMENTS_B9",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED_INVERTED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_01590e00(&stack0x00000b80,&stack0x00002698,&VagUdsEcu::INSTRUMENT_CLUSTER, &VagWhitelists::INSTRUMENTS_B9,&stack0x00000b7c,&stack0x00000"
+  },
+  {
+    "line": 522874,
+    "key": "car_setting_hill_start_assist_mode",
+    "factory_function": "FUN_015904b0",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::ABS",
+    "whitelist": "VagWhitelists::ABS_6C",
+    "interpretation": null,
+    "resolved_vars": [],
+    "call_snippet": "FUN_015904b0(&stack0x00000b60,&stack0x00002698,&VagUdsEcu::ABS,&VagWhitelists::ABS_6C, &stack0x00000b5c,&stack0x00000b58,&stack0x00000b54, \""
+  },
+  {
+    "line": 522886,
+    "key": "car_setting_theme_infotainment",
+    "factory_function": "FUN_015cdd50",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::INFOTAINMENT",
+    "whitelist": "VagWhitelists::INFOTAINMENT_MK7",
+    "interpretation": null,
+    "resolved_vars": [],
+    "call_snippet": "FUN_015cdd50(&stack0x00000b18,&stack0x00002698,&VagUdsEcu::INFOTAINMENT, &VagWhitelists::INFOTAINMENT_MK7,&stack0x00000b14,&stack0x00000b10,"
+  },
+  {
+    "line": 522895,
+    "key": "car_setting_theme_infotainment",
+    "factory_function": "FUN_015cdd50",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::INFOTAINMENT",
+    "whitelist": "VagWhitelists::INFOTAINMENT_B9",
+    "interpretation": null,
+    "resolved_vars": [],
+    "call_snippet": "FUN_015cdd50(&stack0x00000ad8,&stack0x00002698,&VagUdsEcu::INFOTAINMENT, &VagWhitelists::INFOTAINMENT_B9,&stack0x00000ad4,&stack0x00000ad0, "
+  },
+  {
+    "line": 522915,
+    "key": "car_setting_instrument_cluster_lcd_background",
+    "factory_function": "FUN_015e0d00",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::INSTRUMENT_CLUSTER",
+    "whitelist": null,
+    "interpretation": null,
+    "resolved_vars": [],
+    "call_snippet": "FUN_015e0d00(&stack0x00000a98,&stack0x00002548,&VagUdsEcu::INSTRUMENT_CLUSTER,&stack0x00000a88, &stack0x00000a84,&stack0x00000a80,&stack0x00"
+  },
+  {
+    "line": 522931,
+    "key": "car_setting_virtual_cockpit_color_change",
+    "factory_function": "FUN_015cbd5c",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::CENTRAL_ELEC",
+    "whitelist": null,
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [],
+    "call_snippet": "FUN_015cbd5c(&stack0x00000a40,&stack0x00002548,&VagUdsEcu::CENTRAL_ELEC,&stack0x00000a30, &stack0x00000a2c,&stack0x00000a28,&stack0x00000a24"
+  },
+  {
+    "line": 522947,
+    "key": "car_setting_virtual_cockpit_color_change_menu",
+    "factory_function": "FUN_015e0f4c",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::CENTRAL_ELEC",
+    "whitelist": null,
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [],
+    "call_snippet": "FUN_015e0f4c(&stack0x00000a10,&stack0x00002548,&VagUdsEcu::CENTRAL_ELEC,&stack0x00000a00, &stack0x000009fc,&stack0x000009f8,&stack0x000009f4"
+  },
+  {
+    "line": 522954,
+    "key": "car_setting_virtual_cockpit_color_change",
+    "factory_function": "FUN_015b2e6c",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_MQBA0",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [],
+    "call_snippet": "FUN_015b2e6c(&stack0x000009e0,&stack0x00002548,&VagUdsEcu::CENTRAL_ELEC, &VagWhitelists::CENTRAL_ELEC_MQBA0,&stack0x000009dc,&stack0x000009d"
+  },
+  {
+    "line": 522958,
+    "key": "car_setting_virtual_cockpit_color_change_menu",
+    "factory_function": "FUN_0158524c",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_MQBA0",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [],
+    "call_snippet": "FUN_0158524c(&stack0x000009c0,&stack0x00002548,&VagUdsEcu::CENTRAL_ELEC, &VagWhitelists::CENTRAL_ELEC_MQBA0,&stack0x000009bc,&stack0x000009b"
+  },
+  {
+    "line": 522976,
+    "key": "car_setting_sds_if_equipped",
+    "factory_function": "FUN_0159d194",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::INFOTAINMENT",
+    "whitelist": null,
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_0159d194(&stack0x000009a0,&stack0x00002548,&VagUdsEcu::INFOTAINMENT,&stack0x00000990, &stack0x0000098c,&stack0x00000988,\"car_setting_sds"
+  },
+  {
+    "line": 522996,
+    "key": "car_setting_leaving_sound_req_reboot",
+    "factory_function": "FUN_01599590",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::INFOTAINMENT",
+    "whitelist": null,
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_01599590(&stack0x00000978,&stack0x00002548,&VagUdsEcu::INFOTAINMENT,&stack0x00000968, &stack0x00000964,&stack0x00000960,&stack0x0000095c"
+  },
+  {
+    "line": 523001,
+    "key": "car_setting_sport_display_virtual_instruments",
+    "factory_function": "FUN_0159eff0",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::INSTRUMENT_CLUSTER",
+    "whitelist": "VagWhitelists::INSTRUMENTS_8V",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_0159eff0(&stack0x00000938,&stack0x00002548,&VagUdsEcu::INSTRUMENT_CLUSTER, &VagWhitelists::INSTRUMENTS_8V,&stack0x00000934,&stack0x00000"
+  },
+  {
+    "line": 523012,
+    "key": "car_setting_oil_temp_display",
+    "factory_function": "FUN_0159b3e4",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::INSTRUMENT_CLUSTER",
+    "whitelist": "VagWhitelists::INSTRUMENTS_MK6_8X_EXP_1S",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_0159b3e4(&stack0x00000908,&stack0x00002548,&VagUdsEcu::INSTRUMENT_CLUSTER, &VagWhitelists::INSTRUMENTS_MK6_8X_EXP_1S,&stack0x00000904,&s"
+  },
+  {
+    "line": 523019,
+    "key": "car_setting_oil_temp_display",
+    "factory_function": "FUN_0159b3e4",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::INSTRUMENT_CLUSTER",
+    "whitelist": "VagWhitelists::INSTRUMENTS_C7_D4",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_0159b3e4(&stack0x000008e8,&stack0x00002548,&VagUdsEcu::INSTRUMENT_CLUSTER, &VagWhitelists::INSTRUMENTS_C7_D4,&stack0x000008e4,&stack0x00"
+  },
+  {
+    "line": 523027,
+    "key": "car_setting_display_cylinder_shut_off",
+    "factory_function": "FUN_0159bb34",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::INSTRUMENT_CLUSTER",
+    "whitelist": "VagWhitelists::INSTRUMENTS_MK7_MQBA0_EXP_B9",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [],
+    "call_snippet": "FUN_0159bb34(&stack0x000008c8,&stack0x00002548,&VagUdsEcu::INSTRUMENT_CLUSTER, &VagWhitelists::INSTRUMENTS_MK7_MQBA0_EXP_B9,&stack0x000008c4"
+  },
+  {
+    "line": 523036,
+    "key": "car_setting_driving_school_mib1_step_1",
+    "factory_function": "FUN_0159e8cc",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::INFOTAINMENT",
+    "whitelist": null,
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_0159e8cc(&stack0x00000898,&stack0x00002548,&VagUdsEcu::INFOTAINMENT,&stack0x00000888, &stack0x00000884,&stack0x00000880,&stack0x0000087c"
+  },
+  {
+    "line": 523047,
+    "key": "car_setting_driving_school_mib1_step_2",
+    "factory_function": "FUN_0159e8cc",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::INFOTAINMENT",
+    "whitelist": null,
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_0159e8cc(&stack0x00000850,&stack0x00002548,&VagUdsEcu::INFOTAINMENT,&stack0x00000840, &stack0x0000083c,&stack0x00000838,&stack0x00000834"
+  },
+  {
+    "line": 523057,
+    "key": "car_setting_driving_school_mib1_step_3",
+    "factory_function": "FUN_0159e8cc",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::INFOTAINMENT",
+    "whitelist": null,
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_0159e8cc(&stack0x00000820,&stack0x00002548,&VagUdsEcu::INFOTAINMENT,&stack0x00000810, &stack0x0000080c,&stack0x00000808,&stack0x00000804"
+  },
+  {
+    "line": 523069,
+    "key": "car_setting_driving_school_mib1_step_4",
+    "factory_function": "FUN_0159e8cc",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::INFOTAINMENT",
+    "whitelist": null,
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_0159e8cc(&stack0x000007e0,&stack0x00002548,&VagUdsEcu::INFOTAINMENT,&stack0x000007d0, &stack0x000007cc,&stack0x000007c8,&stack0x000007c4"
+  },
+  {
+    "line": 523080,
+    "key": "car_setting_drl_brightness_when_headlights_are_on_left",
+    "factory_function": "FUN_015e11d0",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_MK7_6C_EXP_MK7_NEW_MQBA0",
+    "interpretation": null,
+    "resolved_vars": [],
+    "call_snippet": "FUN_015e11d0(&stack0x00000798,&stack0x00002548,&VagUdsEcu::CENTRAL_ELEC, VagWhitelists::CENTRAL_ELEC_MK7_6C_EXP_MK7_NEW_MQBA0,&stack0x000007"
+  },
+  {
+    "line": 523090,
+    "key": "car_setting_drl_brightness_when_headlights_are_on_right",
+    "factory_function": "FUN_015e1420",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_MK7_6C_EXP_MK7_NEW_MQBA0",
+    "interpretation": null,
+    "resolved_vars": [],
+    "call_snippet": "FUN_015e1420(&stack0x00000748,&stack0x00002548,&VagUdsEcu::CENTRAL_ELEC, VagWhitelists::CENTRAL_ELEC_MK7_6C_EXP_MK7_NEW_MQBA0,&stack0x000007"
+  },
+  {
+    "line": 523099,
+    "key": "car_setting_drl_indicator",
+    "factory_function": "FUN_015870a0",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagCanEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_MK6_8X_B7",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_015870a0(&stack0x000006f8,&stack0x00002548,&VagCanEcu::CENTRAL_ELEC, VagWhitelists::CENTRAL_ELEC_MK6_8X_B7,&stack0x000006f4,&stack0x0000"
+  },
+  {
+    "line": 523106,
+    "key": "car_setting_auto_lights_sensitivity",
+    "factory_function": "FUN_015b54b0",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_MK7_NEW_MQBA0",
+    "interpretation": null,
+    "resolved_vars": [],
+    "call_snippet": "FUN_015b54b0(&stack0x000006e0,&stack0x00002548,&VagUdsEcu::CENTRAL_ELEC, &VagWhitelists::CENTRAL_ELEC_MK7_NEW_MQBA0,&stack0x000006dc,&stack0"
+  },
+  {
+    "line": 523114,
+    "key": "car_setting_turn_off_fogs_with_high_beam",
+    "factory_function": "FUN_0159edac",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_B9",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [],
+    "call_snippet": "FUN_0159edac(&stack0x00000690,&stack0x00002548,&VagUdsEcu::CENTRAL_ELEC, &VagWhitelists::CENTRAL_ELEC_B9,&stack0x0000068c,&stack0x00000688, "
+  },
+  {
+    "line": 523123,
+    "key": "car_setting_taillights_animation",
+    "factory_function": "FUN_015e1670",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::CENTRAL_CONVENIENCE",
+    "whitelist": "VagWhitelists::CENTRAL_CONV_B9",
+    "interpretation": null,
+    "resolved_vars": [],
+    "call_snippet": "FUN_015e1670(&stack0x00000668,&stack0x00002548,&VagUdsEcu::CENTRAL_CONVENIENCE, VagWhitelists::CENTRAL_CONV_B9,&stack0x00000664,&stack0x0000"
+  },
+  {
+    "line": 523134,
+    "key": "car_setting_puddle_lights_while_driver_mirror_folding",
+    "factory_function": "FUN_015b9184",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagCanEcu::DOOR_DRIVER",
+    "whitelist": "VagWhitelists::DOOR_DRIVER_B8_C6_7N",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED_INVERTED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_015b9184(&stack0x00000610,&stack0x00002548,&VagCanEcu::DOOR_DRIVER, VagWhitelists::DOOR_DRIVER_B8_C6_7N,&stack0x0000060c,&stack0x0000060"
+  },
+  {
+    "line": 523139,
+    "key": "car_setting_puddle_lights_while_pass_mirror_folding",
+    "factory_function": "FUN_01589398",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagCanEcu::DOOR_PASSENGER",
+    "whitelist": "VagWhitelists::DOOR_PASSENGER_B8_C6_7N",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED_INVERTED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_01589398(&stack0x000005f8,&stack0x00002548,&VagCanEcu::DOOR_PASSENGER, VagWhitelists::DOOR_PASSENGER_B8_C6_7N,&stack0x000005f4,&stack0x0"
+  },
+  {
+    "line": 523148,
+    "key": "car_setting_auto_fold_mirrors_driver_step_1",
+    "factory_function": "FUN_01588ee8",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::DOOR_DRIVER",
+    "whitelist": "VagWhitelists::DOOR_DRIVER_MK6_UDS",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_01588ee8(&stack0x000005e0,&stack0x00002548,&VagUdsEcu::DOOR_DRIVER, VagWhitelists::DOOR_DRIVER_MK6_UDS,&stack0x000005dc,&stack0x000005d8"
+  },
+  {
+    "line": 523153,
+    "key": "car_setting_auto_fold_mirrors_driver_step_2",
+    "factory_function": "FUN_01588ee8",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::DOOR_DRIVER",
+    "whitelist": "VagWhitelists::DOOR_DRIVER_MK6_UDS",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_01588ee8(&stack0x000005c8,&stack0x00002548,&VagUdsEcu::DOOR_DRIVER, VagWhitelists::DOOR_DRIVER_MK6_UDS,&stack0x000005c4,&stack0x000005c0"
+  },
+  {
+    "line": 523160,
+    "key": "car_setting_auto_fold_mirrors_passenger_step_1",
+    "factory_function": "FUN_015e1890",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::DOOR_PASSENGER",
+    "whitelist": "VagWhitelists::DOOR_PASSENGER_MK6_UDS",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_015e1890(&stack0x000005b0,&stack0x00002548,&VagUdsEcu::DOOR_PASSENGER, VagWhitelists::DOOR_PASSENGER_MK6_UDS,&stack0x000005ac,&stack0x00"
+  },
+  {
+    "line": 523169,
+    "key": "car_setting_auto_fold_mirrors_passenger_step_2",
+    "factory_function": "FUN_015e1890",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::DOOR_PASSENGER",
+    "whitelist": "VagWhitelists::DOOR_PASSENGER_MK6_UDS",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_015e1890(&stack0x00000598,&stack0x00002548,&VagUdsEcu::DOOR_PASSENGER, VagWhitelists::DOOR_PASSENGER_MK6_UDS,&stack0x00000594,&stack0x00"
+  },
+  {
+    "line": 523178,
+    "key": "car_setting_auto_unfold_mirrors",
+    "factory_function": "FUN_015ab39c",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_MK7_EXP_6C",
+    "interpretation": null,
+    "resolved_vars": [],
+    "call_snippet": "FUN_015ab39c(&stack0x00000580,&stack0x00002548,&VagUdsEcu::CENTRAL_ELEC, VagWhitelists::CENTRAL_ELEC_MK7_EXP_6C,&stack0x0000057c,&stack0x000"
+  },
+  {
+    "line": 523186,
+    "key": "car_setting_memory_for_lowering_mirror_in_reverse",
+    "factory_function": "FUN_015dc46c",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::DOOR_PASSENGER",
+    "whitelist": "VagWhitelists::DOOR_PASSENGER_B9",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [],
+    "call_snippet": "FUN_015dc46c(&stack0x00000538,&stack0x00002548,&VagUdsEcu::DOOR_PASSENGER, &VagWhitelists::DOOR_PASSENGER_B9,&stack0x00000534,&stack0x000005"
+  },
+  {
+    "line": 523192,
+    "key": "car_setting_memory_for_lowering_mirror_in_reverse_step_1",
+    "factory_function": "FUN_015e1afc",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::DOOR_PASSENGER",
+    "whitelist": "VagWhitelists::DOOR_PASSENGER_MK7",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [],
+    "call_snippet": "FUN_015e1afc(&stack0x00000520,&stack0x00002548,&VagUdsEcu::DOOR_PASSENGER, &VagWhitelists::DOOR_PASSENGER_MK7,&stack0x0000051c,&stack0x00000"
+  },
+  {
+    "line": 523199,
+    "key": "car_setting_memory_for_lowering_mirror_in_reverse_step_2",
+    "factory_function": "FUN_015e1afc",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::DOOR_PASSENGER",
+    "whitelist": "VagWhitelists::DOOR_PASSENGER_MK7",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [],
+    "call_snippet": "FUN_015e1afc(&stack0x000004f8,&stack0x00002548,&VagUdsEcu::DOOR_PASSENGER, &VagWhitelists::DOOR_PASSENGER_MK7,&stack0x000004f4,&stack0x00000"
+  },
+  {
+    "line": 523210,
+    "key": "car_setting_memory_for_lowering_driver_mirror_in_reverse",
+    "factory_function": "FUN_01581f50",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagCanEcu::DOOR_DRIVER",
+    "whitelist": "VagWhitelists::DOOR_DRIVER_B8_C6_7N",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [],
+    "call_snippet": "FUN_01581f50(&stack0x000004c8,&stack0x00002548,&VagCanEcu::DOOR_DRIVER, VagWhitelists::DOOR_DRIVER_B8_C6_7N,&stack0x000004c4,&stack0x000004c"
+  },
+  {
+    "line": 523216,
+    "key": "car_setting_mirror_synchronous",
+    "factory_function": "FUN_015bd5e4",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_MK7",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_015bd5e4(&stack0x000004b0,&stack0x00002548,&VagUdsEcu::CENTRAL_ELEC, &VagWhitelists::CENTRAL_ELEC_MK7,&stack0x000004ac,&stack0x000004a8,"
+  },
+  {
+    "line": 523224,
+    "key": "car_setting_mirror_synchronous",
+    "factory_function": "FUN_015bd5e4",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_MK7_NEW",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_015bd5e4(&stack0x00000490,&stack0x00002548,&VagUdsEcu::CENTRAL_ELEC, &VagWhitelists::CENTRAL_ELEC_MK7_NEW,&stack0x0000048c,&stack0x00000"
+  },
+  {
+    "line": 523230,
+    "key": "car_setting_easy_entry_exit_overall",
+    "factory_function": "FUN_0158b5b0",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::CENTRAL_CONVENIENCE",
+    "whitelist": "VagWhitelists::CENTRAL_CONV_B9",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [],
+    "call_snippet": "FUN_0158b5b0(&stack0x00000470,&stack0x00002548,&VagUdsEcu::CENTRAL_CONVENIENCE, VagWhitelists::CENTRAL_CONV_B9,&stack0x0000046c,&stack0x0000"
+  },
+  {
+    "line": 523235,
+    "key": "car_setting_easy_entry_exit_req_memory_seats",
+    "factory_function": "FUN_01593740",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::SEAT_MEM_DRIVER",
+    "whitelist": "VagWhitelists::SEAT_MEM_DRIVER_B9",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_01593740(&stack0x00000448,&stack0x00002548,&VagUdsEcu::SEAT_MEM_DRIVER, VagWhitelists::SEAT_MEM_DRIVER_B9,&stack0x00000444,&stack0x00000"
+  },
+  {
+    "line": 523250,
+    "key": "car_setting_seat_heater_temperature_adjustment_stage_1",
+    "factory_function": "FUN_015c648c",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_B9",
+    "interpretation": null,
+    "resolved_vars": [],
+    "call_snippet": "FUN_015c648c(&stack0x00000418,&stack0x00002548,&VagUdsEcu::CENTRAL_ELEC, &VagWhitelists::CENTRAL_ELEC_B9,&stack0x00000414,&stack0x00000410,&"
+  },
+  {
+    "line": 523260,
+    "key": "car_setting_seat_heater_temperature_adjustment_stage_2",
+    "factory_function": "FUN_015c648c",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_B9",
+    "interpretation": null,
+    "resolved_vars": [],
+    "call_snippet": "FUN_015c648c(&stack0x000003c8,&stack0x00002548,&VagUdsEcu::CENTRAL_ELEC, &VagWhitelists::CENTRAL_ELEC_B9,&stack0x000003c4,&stack0x000003c0,&"
+  },
+  {
+    "line": 523268,
+    "key": "car_setting_seat_heater_temperature_adjustment_stage_3",
+    "factory_function": "FUN_015c648c",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_B9",
+    "interpretation": null,
+    "resolved_vars": [],
+    "call_snippet": "FUN_015c648c(&stack0x00000378,&stack0x00002548,&VagUdsEcu::CENTRAL_ELEC, &VagWhitelists::CENTRAL_ELEC_B9,&stack0x00000374,&stack0x00000370,&"
+  },
+  {
+    "line": 523281,
+    "key": "car_setting_trunk_closing_duration",
+    "factory_function": "FUN_015e1d40",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::TRUNK",
+    "whitelist": "VagWhitelists::TRUNK_8U",
+    "interpretation": null,
+    "resolved_vars": [],
+    "call_snippet": "FUN_015e1d40(&stack0x00000328,&stack0x00002548,&VagUdsEcu::TRUNK,VagWhitelists::TRUNK_8U, &stack0x00000324,&stack0x00000320,&stack0x00000308"
+  },
+  {
+    "line": 523291,
+    "key": "car_setting_comfort_close_windows_remote_single_press",
+    "factory_function": "FUN_0158e088",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_MK7_NEW_MQBA0",
+    "interpretation": null,
+    "resolved_vars": [],
+    "call_snippet": "FUN_0158e088(&stack0x000002c8,&stack0x00002548,&VagUdsEcu::CENTRAL_ELEC, &VagWhitelists::CENTRAL_ELEC_MK7_NEW_MQBA0,&stack0x000002c4,&stack0"
+  },
+  {
+    "line": 523297,
+    "key": "car_setting_comfort_function_sunroof",
+    "factory_function": "FUN_015a0168",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::CENTRAL_CONVENIENCE",
+    "whitelist": "VagWhitelists::CENTRAL_CONV_B9",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [],
+    "call_snippet": "FUN_015a0168(&stack0x00000280,&stack0x00002548,&VagUdsEcu::CENTRAL_CONVENIENCE, VagWhitelists::CENTRAL_CONV_B9,&stack0x0000027c,&stack0x0000"
+  },
+  {
+    "line": 523302,
+    "key": "car_setting_comfort_open_convertible_remote",
+    "factory_function": "FUN_015b013c",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_MK7",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [],
+    "call_snippet": "FUN_015b013c(&stack0x00000268,&stack0x00002548,&VagUdsEcu::CENTRAL_ELEC, &VagWhitelists::CENTRAL_ELEC_MK7,&stack0x00000264,&stack0x00000260,"
+  },
+  {
+    "line": 523310,
+    "key": "car_setting_comfort_open_convertible_remote",
+    "factory_function": "FUN_015b013c",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_MK7_NEW_MQBA0",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [],
+    "call_snippet": "FUN_015b013c(&stack0x00000248,&stack0x00002548,&VagUdsEcu::CENTRAL_ELEC, &VagWhitelists::CENTRAL_ELEC_MK7_NEW_MQBA0,&stack0x00000244,&stack0"
+  },
+  {
+    "line": 523317,
+    "key": "car_setting_comfort_open_convertible_key",
+    "factory_function": "FUN_0159618c",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_MK7_NEW_MQBA0",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [],
+    "call_snippet": "FUN_0159618c(&stack0x00000220,&stack0x00002548,&VagUdsEcu::CENTRAL_ELEC, &VagWhitelists::CENTRAL_ELEC_MK7_NEW_MQBA0,&stack0x0000021c,&stack0"
+  },
+  {
+    "line": 523321,
+    "key": "car_setting_rain_light_sensor",
+    "factory_function": "FUN_015bf8c0",
+    "concrete_class": "VagCanLongCodingSetting",
+    "ecu": "VagCanEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_MK5_MED_HIGH",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_015bf8c0(&stack0x00000200,&stack0x00002548,&VagCanEcu::CENTRAL_ELEC, VagWhitelists::CENTRAL_ELEC_MK5_MED_HIGH,&stack0x000001fc,&stack0x0"
+  },
+  {
+    "line": 523332,
+    "key": "car_setting_headlight_washers_if_equipped",
+    "factory_function": "FUN_015b30f0",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_MK7_NEW_MQBA0",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_015b30f0(&stack0x000001e8,&stack0x00002548,&VagUdsEcu::CENTRAL_ELEC, &VagWhitelists::CENTRAL_ELEC_MK7_NEW_MQBA0,&stack0x000001e4,&stack0"
+  },
+  {
+    "line": 523356,
+    "key": "car_setting_start_stop_disable_method_c",
+    "factory_function": "FUN_015e1f94",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::CAN_GATEWAY",
+    "whitelist": null,
+    "interpretation": null,
+    "resolved_vars": [],
+    "call_snippet": "FUN_015e1f94(&stack0x000001c8,&stack0x00002508,&VagUdsEcu::CAN_GATEWAY,&stack0x000001b8, &stack0x000001b4,&stack0x000001b0,&stack0x000001ac,"
+  },
+  {
+    "line": 523367,
+    "key": "car_setting_torque_limiter_interaction",
+    "factory_function": "FUN_01584528",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::ABS",
+    "whitelist": "VagWhitelists::ABS_MK7_TORQUE_LIMITER_FULL",
+    "interpretation": null,
+    "resolved_vars": [],
+    "call_snippet": "FUN_01584528(&stack0x00000170,&stack0x000000f8,&VagUdsEcu::ABS, VagWhitelists::ABS_MK7_TORQUE_LIMITER_FULL,&stack0x0000016c,&stack0x00000168"
+  },
+  {
+    "line": 523376,
+    "key": "car_setting_automatic_driveaway_after_short_stop_step_2",
+    "factory_function": "FUN_015e21e0",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::AUTO_DIST_REG",
+    "whitelist": "VagWhitelists::AUTO_DIST_REG_MK7_EXCEPT_3Q",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_015e21e0(&stack0x00000118,&stack0x000000f8,&VagUdsEcu::AUTO_DIST_REG, VagWhitelists::AUTO_DIST_REG_MK7_EXCEPT_3Q,&stack0x00000114,&stack"
+  },
+  {
+    "line": 523390,
+    "key": "car_setting_automatic_driveaway_after_short_stop_step_1",
+    "factory_function": "FUN_015e21e0",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::AUTO_DIST_REG",
+    "whitelist": "VagWhitelists::AUTO_DIST_REG_2Q",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_015e21e0(&stack0x000000d8,&stack0x000000b8,&VagUdsEcu::AUTO_DIST_REG, VagWhitelists::AUTO_DIST_REG_2Q,&stack0x000000d4,&stack0x000000d0,"
+  },
+  {
+    "line": 523405,
+    "key": "car_setting_automatic_driveaway_after_short_stop_step_2",
+    "factory_function": "FUN_015e21e0",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::AUTO_DIST_REG",
+    "whitelist": "VagWhitelists::AUTO_DIST_REG_2Q",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_015e21e0(&stack0x00000098,&stack0x00000078,&VagUdsEcu::AUTO_DIST_REG, VagWhitelists::AUTO_DIST_REG_2Q,&stack0x00000094,&stack0x00000090,"
+  },
+  {
+    "line": 523416,
+    "key": "car_setting_emergency_brake_flashing",
+    "factory_function": "FUN_015b8c98",
+    "concrete_class": "VagUdsAdaptationSetting",
+    "ecu": "VagUdsEcu::CENTRAL_ELEC",
+    "whitelist": "VagWhitelists::CENTRAL_ELEC_MK7_6C",
+    "interpretation": "MultipleChoiceInterpretation::YES_NO",
+    "resolved_vars": [],
+    "call_snippet": "FUN_015b8c98(&stack0x00000068,&stack0x00000018,&VagUdsEcu::CENTRAL_ELEC, &VagWhitelists::CENTRAL_ELEC_MK7_6C,&stack0x00000064,&stack0x000000"
+  },
+  {
+    "line": 523427,
+    "key": "car_setting_automatic_driveaway_after_short_stop_step_1",
+    "factory_function": "FUN_015e21e0",
+    "concrete_class": "VagUdsCodingSetting",
+    "ecu": "VagUdsEcu::AUTO_DIST_REG",
+    "whitelist": "VagWhitelists::AUTO_DIST_REG_MK7_EXCEPT_3Q",
+    "interpretation": "MultipleChoiceInterpretation::ENABLED_DISABLED",
+    "resolved_vars": [],
+    "call_snippet": "FUN_015e21e0(&stack0x00000038,&stack0x00000018,&VagUdsEcu::AUTO_DIST_REG, VagWhitelists::AUTO_DIST_REG_MK7_EXCEPT_3Q,&stack0x00000034,&stack"
+  }
+]

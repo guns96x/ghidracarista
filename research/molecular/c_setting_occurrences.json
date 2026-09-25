@@ -1,0 +1,3648 @@
+{
+  "car_setting_yes": [
+    [
+      194479,
+      "local_60[1] = \"car_setting_yes\";"
+    ],
+    [
+      194500,
+      "local_60[1] = \"car_setting_yes\";"
+    ],
+    [
+      234310,
+      "local_238 = \"car_setting_yes\";"
+    ],
+    [
+      234311,
+      "local_228 = \"car_setting_yes\";"
+    ],
+    [
+      234352,
+      "local_2c8 = \"car_setting_yes\";"
+    ],
+    [
+      234353,
+      "local_2b8 = \"car_setting_yes\";"
+    ],
+    [
+      234403,
+      "local_368 = \"car_setting_yes\";"
+    ],
+    [
+      234404,
+      "local_358 = \"car_setting_yes\";"
+    ],
+    [
+      234456,
+      "local_3d8 = \"car_setting_yes\";"
+    ],
+    [
+      234498,
+      "local_448 = \"car_setting_yes\";"
+    ],
+    [
+      281761,
+      "pcStack_f8 = \"car_setting_yes\";"
+    ],
+    [
+      281785,
+      "pcStack_118 = \"car_setting_yes\";"
+    ],
+    [
+      281799,
+      "pcStack_138 = \"car_setting_yes\";"
+    ]
+  ],
+  "car_setting_no": [
+    [
+      194482,
+      "local_60[3] = \"car_setting_no\";"
+    ],
+    [
+      194502,
+      "local_60[3] = \"car_setting_no\";"
+    ],
+    [
+      194530,
+      "local_60[5] = \"car_setting_no\";"
+    ],
+    [
+      234313,
+      "local_218 = \"car_setting_no\";"
+    ],
+    [
+      234314,
+      "local_208 = \"car_setting_no\";"
+    ],
+    [
+      234316,
+      "local_1f8 = \"car_setting_no\";"
+    ],
+    [
+      234355,
+      "local_2a8 = \"car_setting_no\";"
+    ],
+    [
+      234356,
+      "local_298 = \"car_setting_no\";"
+    ],
+    [
+      234358,
+      "local_288 = \"car_setting_no\";"
+    ],
+    [
+      234406,
+      "local_348 = \"car_setting_no\";"
+    ],
+    [
+      234407,
+      "local_338 = \"car_setting_no\";"
+    ],
+    [
+      234409,
+      "local_328 = \"car_setting_no\";"
+    ],
+    [
+      234458,
+      "local_3c8 = \"car_setting_no\";"
+    ],
+    [
+      234500,
+      "local_438 = \"car_setting_no\";"
+    ],
+    [
+      281763,
+      "pcStack_d8 = \"car_setting_no\";"
+    ],
+    [
+      281765,
+      "pcStack_c8 = \"car_setting_no\";"
+    ],
+    [
+      281770,
+      "pcStack_e8 = \"car_setting_no\";"
+    ],
+    [
+      281772,
+      "pcStack_b8 = \"car_setting_no\";"
+    ],
+    [
+      281787,
+      "pcStack_108 = \"car_setting_no\";"
+    ],
+    [
+      281803,
+      "pcStack_128 = \"car_setting_no\";"
+    ]
+  ],
+  "car_setting_yes_immediately": [
+    [
+      194520,
+      "local_60[1] = \"car_setting_yes_immediately\";"
+    ]
+  ],
+  "car_setting_yes_softly": [
+    [
+      194527,
+      "local_60[3] = \"car_setting_yes_softly\";"
+    ]
+  ],
+  "car_setting_enabled": [
+    [
+      194553,
+      "local_60[1] = \"car_setting_enabled\";"
+    ],
+    [
+      194581,
+      "local_60[1] = \"car_setting_enabled\";"
+    ],
+    [
+      194605,
+      "local_60[1] = \"car_setting_enabled\";"
+    ],
+    [
+      261671,
+      "local_1d8 = \"car_setting_enabled\";"
+    ],
+    [
+      261683,
+      "local_1f8 = \"car_setting_enabled\";"
+    ],
+    [
+      261691,
+      "local_218 = \"car_setting_enabled\";"
+    ],
+    [
+      263035,
+      "local_278 = \"car_setting_enabled\";"
+    ],
+    [
+      520690,
+      "local_10c0 = \"car_setting_enabled\";"
+    ],
+    [
+      520784,
+      "local_10e0 = \"car_setting_enabled\";"
+    ],
+    [
+      521027,
+      "local_1120 = \"car_setting_enabled\";"
+    ]
+  ],
+  "car_setting_disabled": [
+    [
+      194557,
+      "local_60[3] = \"car_setting_disabled\";"
+    ],
+    [
+      194583,
+      "local_60[3] = \"car_setting_disabled\";"
+    ],
+    [
+      194603,
+      "local_60[3] = \"car_setting_disabled\";"
+    ],
+    [
+      261597,
+      "local_1b8 = \"car_setting_disabled\";"
+    ],
+    [
+      261673,
+      "local_1c8 = \"car_setting_disabled\";"
+    ],
+    [
+      261685,
+      "local_1e8 = \"car_setting_disabled\";"
+    ],
+    [
+      261697,
+      "local_208 = \"car_setting_disabled\";"
+    ],
+    [
+      261734,
+      "local_258 = \"car_setting_disabled\";"
+    ],
+    [
+      263045,
+      "local_268 = \"car_setting_disabled\";"
+    ],
+    [
+      394926,
+      "pcStack_118 = \"car_setting_disabled\";"
+    ],
+    [
+      520685,
+      "local_10d0 = \"car_setting_disabled\";"
+    ],
+    [
+      520779,
+      "local_10f0 = \"car_setting_disabled\";"
+    ],
+    [
+      521023,
+      "local_1130 = \"car_setting_disabled\";"
+    ],
+    [
+      895519,
+      "*(char **)(local_110 + 8) = \"car_setting_disabled\";"
+    ]
+  ],
+  "car_setting_on": [
+    [
+      194634,
+      "local_60[1] = \"car_setting_on\";"
+    ],
+    [
+      194658,
+      "local_60[1] = \"car_setting_on\";"
+    ]
+  ],
+  "car_setting_off": [
+    [
+      194637,
+      "local_60[3] = \"car_setting_off\";"
+    ],
+    [
+      194660,
+      "local_60[3] = \"car_setting_off\";"
+    ],
+    [
+      520239,
+      "local_1070 = \"car_setting_off\";"
+    ]
+  ],
+  "car_setting_open": [
+    [
+      194683,
+      "local_60[1] = \"car_setting_open\";"
+    ]
+  ],
+  "car_setting_closed": [
+    [
+      194687,
+      "local_60[3] = \"car_setting_closed\";"
+    ]
+  ],
+  "car_setting_seat_belt_warning": [
+    [
+      201261,
+      "builtin_strncpy(apcStack_478[3],\"car_setting_seat_belt_warning\",0x1e);"
+    ],
+    [
+      394936,
+      "\"car_setting_seat_belt_warning\",auStack_1f0);"
+    ],
+    [
+      522860,
+      "\"car_setting_seat_belt_warning\","
+    ],
+    [
+      891197,
+      "FUN_00f00240(auStack_a50,\"car_setting_seat_belt_warning\");"
+    ]
+  ],
+  "car_setting_seat_belt_warning_ding_driver": [
+    [
+      201267,
+      "builtin_strncpy(local_448,\"car_setting_seat_belt_warning_ding_driver\",0x2a);"
+    ],
+    [
+      891201,
+      "FUN_00f00240(auStack_9f0,\"car_setting_seat_belt_warning_ding_driver\");"
+    ]
+  ],
+  "car_setting_seat_belt_warning_ding_front_passenger": [
+    [
+      201273,
+      "builtin_strncpy(local_430,\"car_setting_seat_belt_warning_ding_front_passenger\",0x33);"
+    ],
+    [
+      891203,
+      "FUN_00f00240(auStack_9c0,\"car_setting_seat_belt_warning_ding_front_passenger\");"
+    ]
+  ],
+  "car_setting_seat_belt_warning_ding_rear_passengers": [
+    [
+      201284,
+      "builtin_strncpy(local_418,\"car_setting_seat_belt_warning_ding_rear_passengers\",0x33);"
+    ]
+  ],
+  "car_setting_warn_nav_dest_at_speed": [
+    [
+      201287,
+      "builtin_strncpy(local_400,\"car_setting_warn_nav_dest_at_speed\",0x23);"
+    ]
+  ],
+  "car_setting_warn_voice_dest_at_speed": [
+    [
+      201292,
+      "builtin_strncpy(local_3e8,\"car_setting_warn_voice_dest_at_speed\",0x25);"
+    ]
+  ],
+  "car_setting_disable_us_marker_lights": [
+    [
+      201309,
+      "builtin_strncpy(local_3d0,\"car_setting_disable_us_marker_lights\",0x25);"
+    ]
+  ],
+  "car_setting_us_marker_lights": [
+    [
+      201316,
+      "builtin_strncpy(local_3b8,\"car_setting_us_marker_lights\",0x1d);"
+    ]
+  ],
+  "car_setting_power_steering_weight_preset": [
+    [
+      201325,
+      "builtin_strncpy(local_3a0,\"car_setting_power_steering_weight_preset\",0x29);"
+    ]
+  ],
+  "car_setting_dsr_strength": [
+    [
+      201339,
+      "builtin_strncpy(local_370,\"car_setting_dsr_strength\",0x19);"
+    ]
+  ],
+  "car_setting_hill_hold": [
+    [
+      201349,
+      "builtin_strncpy(local_367,\"car_setting_hill_hold\",0x16);"
+    ],
+    [
+      521837,
+      "&stack0x00001798,\"car_setting_hill_hold\","
+    ],
+    [
+      891318,
+      "FUN_00f00240(auStack_228,\"car_setting_hill_hold\");"
+    ]
+  ],
+  "car_setting_hill_hold_release": [
+    [
+      201353,
+      "builtin_strncpy(local_340,\"car_setting_hill_hold_release\",0x1e);"
+    ]
+  ],
+  "car_setting_hill_start_assist_mode": [
+    [
+      201359,
+      "builtin_strncpy(pcStack_328,\"car_setting_hill_start_assist_mode\",0x23);"
+    ],
+    [
+      522876,
+      "\"car_setting_hill_start_assist_mode\",&stack0x00000b40);"
+    ]
+  ],
+  "car_setting_electronic_diff_lock": [
+    [
+      201362,
+      "builtin_strncpy(local_310,\"car_setting_electronic_diff_lock\",0x21);"
+    ],
+    [
+      201526,
+      "builtin_strncpy(local_70,\"car_setting_electronic_diff_lock\",0x21);"
+    ]
+  ],
+  "car_setting_electronic_diff_lock_strength": [
+    [
+      201368,
+      "builtin_strncpy(local_2f8,\"car_setting_electronic_diff_lock_strength\",0x2a);"
+    ]
+  ],
+  "car_setting_electronic_diff_lock_strength_xds": [
+    [
+      201373,
+      "builtin_strncpy(local_2e0,\"car_setting_electronic_diff_lock_strength_xds\",0x2e);"
+    ]
+  ],
+  "car_setting_brake_assist_strength": [
+    [
+      201379,
+      "builtin_strncpy(local_2c8,\"car_setting_brake_assist_strength\",0x22);"
+    ],
+    [
+      522854,
+      "\"car_setting_brake_assist_strength\",&stack0x00000bd0);"
+    ]
+  ],
+  "car_setting_esc_asr": [
+    [
+      201389,
+      "builtin_strncpy(local_2a7,\"car_setting_esc_asr\",0x14);"
+    ]
+  ],
+  "car_setting_dynamic_start_up_assist": [
+    [
+      201395,
+      "builtin_strncpy(local_280,\"car_setting_dynamic_start_up_assist\",0x24);"
+    ]
+  ],
+  "car_setting_req_brake_pedal_when_releasing_epb": [
+    [
+      201405,
+      "builtin_strncpy(local_268,\"car_setting_req_brake_pedal_when_releasing_epb\",0x2f);"
+    ]
+  ],
+  "car_setting_req_seat_belt_when_releasing_epb": [
+    [
+      201410,
+      "builtin_strncpy(local_250,\"car_setting_req_seat_belt_when_releasing_epb\",0x2d);"
+    ]
+  ],
+  "car_setting_side_marker_pace_car_left": [
+    [
+      201416,
+      "builtin_strncpy(local_238,\"car_setting_side_marker_pace_car_left\",0x26);"
+    ]
+  ],
+  "car_setting_side_marker_pace_car_right": [
+    [
+      201418,
+      "builtin_strncpy(local_220,\"car_setting_side_marker_pace_car_right\",0x27);"
+    ]
+  ],
+  "car_setting_pcs_alarm_last_state": [
+    [
+      201425,
+      "builtin_strncpy(local_208,\"car_setting_pcs_alarm_last_state\",0x21);"
+    ]
+  ],
+  "car_setting_pcs_alarm_off_when_ignition_on": [
+    [
+      201430,
+      "builtin_strncpy(local_1f0,\"car_setting_pcs_alarm_off_when_ignition_on\",0x2b);"
+    ]
+  ],
+  "car_setting_pcs_alarm_on_when_ignition_on": [
+    [
+      201439,
+      "builtin_strncpy(local_1d8,\"car_setting_pcs_alarm_on_when_ignition_on\",0x2a);"
+    ]
+  ],
+  "car_setting_pcs_operation_last_state": [
+    [
+      201445,
+      "builtin_strncpy(local_1c0,\"car_setting_pcs_operation_last_state\",0x25);"
+    ]
+  ],
+  "car_setting_pcs_rear_vehicle_detection": [
+    [
+      201453,
+      "builtin_strncpy(local_1a8,\"car_setting_pcs_rear_vehicle_detection\",0x27);"
+    ]
+  ],
+  "car_setting_pcs_reaction_time": [
+    [
+      201458,
+      "builtin_strncpy(local_190,\"car_setting_pcs_reaction_time\",0x1e);"
+    ]
+  ],
+  "car_setting_pcs_sensitivity": [
+    [
+      201463,
+      "builtin_strncpy(local_178,\"car_setting_pcs_sensitivity\",0x1c);"
+    ]
+  ],
+  "car_setting_pcs_driver_aids_last_state": [
+    [
+      201468,
+      "builtin_strncpy(local_160,\"car_setting_pcs_driver_aids_last_state\",0x27);"
+    ]
+  ],
+  "car_setting_driver_aids": [
+    [
+      201475,
+      "builtin_strncpy(local_148,\"car_setting_driver_aids\",0x18);"
+    ]
+  ],
+  "car_setting_blindspot_volume": [
+    [
+      201479,
+      "builtin_strncpy(local_130,\"car_setting_blindspot_volume\",0x1d);"
+    ]
+  ],
+  "car_setting_haldex_setup": [
+    [
+      201484,
+      "builtin_strncpy(local_118,\"car_setting_haldex_setup\",0x19);"
+    ]
+  ],
+  "car_setting_acc_overtaking_on_right": [
+    [
+      201488,
+      "builtin_strncpy(local_100,\"car_setting_acc_overtaking_on_right\",0x24);"
+    ]
+  ],
+  "car_setting_throttle_response_behavior": [
+    [
+      201492,
+      "builtin_strncpy(local_e8,\"car_setting_throttle_response_behavior\",0x27);"
+    ],
+    [
+      891225,
+      "FUN_00f00240(auStack_810,\"car_setting_throttle_response_behavior\");"
+    ]
+  ],
+  "car_setting_ice_warning_threshold_on_exit": [
+    [
+      201498,
+      "builtin_strncpy(local_d0,\"car_setting_ice_warning_threshold_on_exit\",0x2a);"
+    ]
+  ],
+  "car_setting_static_speed_limit": [
+    [
+      201503,
+      "builtin_strncpy(local_b8,\"car_setting_static_speed_limit\",0x1f);"
+    ]
+  ],
+  "car_setting_individually_adjustable_speed_limit": [
+    [
+      201514,
+      "builtin_strncpy(local_a0,\"car_setting_individually_adjustable_speed_limit\",0x30);"
+    ]
+  ],
+  "car_setting_esc_asr_button_behavior": [
+    [
+      201522,
+      "builtin_strncpy(local_88,\"car_setting_esc_asr_button_behavior\",0x24);"
+    ]
+  ],
+  "car_setting_disable_brake_pad_warning_light": [
+    [
+      201539,
+      "builtin_strncpy(local_58,\"car_setting_disable_brake_pad_warning_light\",0x2c);"
+    ],
+    [
+      891216,
+      "FUN_00f00240(auStack_8e8,\"car_setting_disable_brake_pad_warning_light\");"
+    ]
+  ],
+  "car_setting_category_": [
+    [
+      201603,
+      "std::__ndk1::operator+((__ndk1 *)\"car_setting_category_\",(char *)param_1,in_x2);"
+    ]
+  ],
+  "car_setting_units_gallons_us": [
+    [
+      211708,
+      "builtin_strncpy(pcVar3,\"car_setting_units_gallons_us\",0x1d);"
+    ]
+  ],
+  "car_setting_units_gallons_uk": [
+    [
+      211745,
+      "builtin_strncpy(pcVar3,\"car_setting_units_gallons_uk\",0x1d);"
+    ]
+  ],
+  "car_setting_units_l_hour": [
+    [
+      211812,
+      "builtin_strncpy(pcVar3,\"car_setting_units_l_hour\",0x19);"
+    ]
+  ],
+  "car_setting_units_l_100_km": [
+    [
+      211896,
+      "builtin_strncpy(pcVar3,\"car_setting_units_l_100_km\",0x1b);"
+    ]
+  ],
+  "car_setting_central_locking_button": [
+    [
+      261568,
+      "&local_2c0,&local_2c4,\"car_setting_central_locking_button\","
+    ]
+  ],
+  "car_setting_rear_hatch_auto_up_cover": [
+    [
+      261575,
+      "&local_2dc,&local_2e0,&local_2e4,\"car_setting_rear_hatch_auto_up_cover\","
+    ]
+  ],
+  "car_setting_rain_sensor_wipers": [
+    [
+      261587,
+      "&local_2fc,&local_300,&local_304,\"car_setting_rain_sensor_wipers\","
+    ],
+    [
+      394970,
+      "&uStack_28c,&local_290,&uStack_294,&local_298,\"car_setting_rain_sensor_wipers\","
+    ],
+    [
+      891285,
+      "FUN_00f00240(auStack_480,\"car_setting_rain_sensor_wipers\");"
+    ]
+  ],
+  "car_setting_jets": [
+    [
+      261594,
+      "local_1a8 = \"car_setting_jets\";"
+    ]
+  ],
+  "car_setting_jets_and_mirrors": [
+    [
+      261598,
+      "local_198 = \"car_setting_jets_and_mirrors\";"
+    ]
+  ],
+  "car_setting_heated_windshield_jets_and_mirrors": [
+    [
+      261604,
+      "&local_31c,&local_320,&local_324,\"car_setting_heated_windshield_jets_and_mirrors\","
+    ]
+  ],
+  "car_setting_auto_unlock_doors_after_crash": [
+    [
+      261614,
+      "&local_368,&local_36c,\"car_setting_auto_unlock_doors_after_crash\","
+    ]
+  ],
+  "car_setting_hazard_lights_after_crash": [
+    [
+      261621,
+      "&local_388,&local_38c,\"car_setting_hazard_lights_after_crash\","
+    ],
+    [
+      261628,
+      "&local_3a8,&local_3ac,\"car_setting_hazard_lights_after_crash\","
+    ],
+    [
+      261637,
+      "&local_3c8,&local_3cc,\"car_setting_hazard_lights_after_crash\","
+    ]
+  ],
+  "car_setting_instrument_lights_after_crash": [
+    [
+      261644,
+      "&local_3e8,&local_3ec,\"car_setting_instrument_lights_after_crash\","
+    ],
+    [
+      261651,
+      "&local_408,&local_40c,\"car_setting_instrument_lights_after_crash\","
+    ],
+    [
+      261662,
+      "&local_428,&local_42c,\"car_setting_instrument_lights_after_crash\","
+    ]
+  ],
+  "car_setting_crash_lights_double_impulse": [
+    [
+      261677,
+      "&local_448,&local_44c,\"car_setting_crash_lights_double_impulse\",auStack_460);"
+    ],
+    [
+      261689,
+      "&local_490,&local_494,\"car_setting_crash_lights_double_impulse\",auStack_4a8);"
+    ],
+    [
+      261701,
+      "&local_4d8,&local_4dc,\"car_setting_crash_lights_double_impulse\",auStack_4f0);"
+    ]
+  ],
+  "car_setting_TODO": [
+    [
+      261711,
+      "local_228 = \"car_setting_TODO\";"
+    ],
+    [
+      261715,
+      "&uStack_51c,&local_520,&local_538,\"car_setting_TODO\",auStack_548);"
+    ]
+  ],
+  "car_setting_disable_mp3_legal_disclaimer": [
+    [
+      261721,
+      "&local_57c,\"car_setting_disable_mp3_legal_disclaimer\","
+    ]
+  ],
+  "car_setting_enabled_v1": [
+    [
+      261729,
+      "local_248 = \"car_setting_enabled_v1\";"
+    ]
+  ],
+  "car_setting_enabled_v2": [
+    [
+      261735,
+      "local_238 = \"car_setting_enabled_v2\";"
+    ]
+  ],
+  "car_setting_trunk_lid_remote": [
+    [
+      261739,
+      "&uStack_594,&local_598,&local_59c,\"car_setting_trunk_lid_remote\",auStack_5b0);"
+    ]
+  ],
+  "car_setting_headlight_cleaning": [
+    [
+      261745,
+      "&local_5e0,&local_5e4,\"car_setting_headlight_cleaning\","
+    ]
+  ],
+  "car_setting_gauge_arrow_offset": [
+    [
+      262767,
+      ",&local_4fc,&local_500,&local_504,\"car_setting_gauge_arrow_offset\",auStack_518);"
+    ]
+  ],
+  "car_setting_instruction_gauge_arrow_offset": [
+    [
+      262768,
+      "FUN_00f00240(local_558,\"car_setting_instruction_gauge_arrow_offset\");"
+    ]
+  ],
+  "car_setting_gauge_arrow_sensitivity": [
+    [
+      262785,
+      "\"car_setting_gauge_arrow_sensitivity\",auStack_590);"
+    ]
+  ],
+  "car_setting_restrict_video_speed": [
+    [
+      263080,
+      "&local_a18,&local_a1c,\"car_setting_restrict_video_speed\",auStack_a30);"
+    ],
+    [
+      263096,
+      "&local_a68,&local_a6c,\"car_setting_restrict_video_speed\",auStack_a80);"
+    ]
+  ],
+  "car_setting_battery_70ah_agm": [
+    [
+      263457,
+      "local_378 = \"car_setting_battery_70ah_agm\";"
+    ],
+    [
+      303039,
+      "local_268 = \"car_setting_battery_70ah_agm\";"
+    ],
+    [
+      303074,
+      "local_2f8 = \"car_setting_battery_70ah_agm\";"
+    ],
+    [
+      303118,
+      "local_3c8 = \"car_setting_battery_70ah_agm\";"
+    ]
+  ],
+  "car_setting_battery_80ah": [
+    [
+      263459,
+      "local_368 = \"car_setting_battery_80ah\";"
+    ],
+    [
+      303041,
+      "local_258 = \"car_setting_battery_80ah\";"
+    ],
+    [
+      303077,
+      "local_2d8 = \"car_setting_battery_80ah\";"
+    ],
+    [
+      303120,
+      "local_3b8 = \"car_setting_battery_80ah\";"
+    ]
+  ],
+  "car_setting_battery_80ah_agm": [
+    [
+      263462,
+      "local_358 = \"car_setting_battery_80ah_agm\";"
+    ],
+    [
+      303043,
+      "local_248 = \"car_setting_battery_80ah_agm\";"
+    ],
+    [
+      303084,
+      "local_2c8 = \"car_setting_battery_80ah_agm\";"
+    ],
+    [
+      303122,
+      "local_3a8 = \"car_setting_battery_80ah_agm\";"
+    ]
+  ],
+  "car_setting_battery_46ah": [
+    [
+      263463,
+      "local_3b8 = \"car_setting_battery_46ah\";"
+    ],
+    [
+      303098,
+      "local_338 = \"car_setting_battery_46ah\";"
+    ],
+    [
+      303134,
+      "local_3f8 = \"car_setting_battery_46ah\";"
+    ]
+  ],
+  "car_setting_battery_90ah": [
+    [
+      263465,
+      "local_348 = \"car_setting_battery_90ah\";"
+    ],
+    [
+      303045,
+      "local_238 = \"car_setting_battery_90ah\";"
+    ],
+    [
+      303090,
+      "local_2a8 = \"car_setting_battery_90ah\";"
+    ],
+    [
+      303124,
+      "local_398 = \"car_setting_battery_90ah\";"
+    ]
+  ],
+  "car_setting_battery_55ah": [
+    [
+      263466,
+      "local_3a8 = \"car_setting_battery_55ah\";"
+    ],
+    [
+      303135,
+      "local_3e8 = \"car_setting_battery_55ah\";"
+    ]
+  ],
+  "car_setting_battery_90ah_agm": [
+    [
+      263468,
+      "local_338 = \"car_setting_battery_90ah_agm\";"
+    ],
+    [
+      303051,
+      "local_228 = \"car_setting_battery_90ah_agm\";"
+    ],
+    [
+      303093,
+      "local_298 = \"car_setting_battery_90ah_agm\";"
+    ],
+    [
+      303130,
+      "local_388 = \"car_setting_battery_90ah_agm\";"
+    ]
+  ],
+  "car_setting_battery_60ah_agm": [
+    [
+      263469,
+      "local_398 = \"car_setting_battery_60ah_agm\";"
+    ],
+    [
+      303087,
+      "local_318 = \"car_setting_battery_60ah_agm\";"
+    ]
+  ],
+  "car_setting_battery_105ah_agm": [
+    [
+      263471,
+      "local_328 = \"car_setting_battery_105ah_agm\";"
+    ],
+    [
+      303053,
+      "local_218 = \"car_setting_battery_105ah_agm\";"
+    ],
+    [
+      303100,
+      "local_288 = \"car_setting_battery_105ah_agm\";"
+    ],
+    [
+      303137,
+      "local_378 = \"car_setting_battery_105ah_agm\";"
+    ]
+  ],
+  "car_setting_battery_70ah": [
+    [
+      263476,
+      "local_388 = \"car_setting_battery_70ah\";"
+    ],
+    [
+      303037,
+      "local_278 = \"car_setting_battery_70ah\";"
+    ],
+    [
+      303072,
+      "local_308 = \"car_setting_battery_70ah\";"
+    ],
+    [
+      303114,
+      "local_3d8 = \"car_setting_battery_70ah\";"
+    ]
+  ],
+  "car_setting_battery_110ah": [
+    [
+      263478,
+      "local_318 = \"car_setting_battery_110ah\";"
+    ]
+  ],
+  "car_setting_battery_technology": [
+    [
+      263486,
+      "\"car_setting_battery_technology\",auStack_1070);"
+    ],
+    [
+      303060,
+      "&local_d54,&local_d58,&local_d5c,\"car_setting_battery_technology\",auStack_d70);"
+    ],
+    [
+      303104,
+      "&local_da4,&local_da8,&local_dac,\"car_setting_battery_technology\",auStack_dc0);"
+    ],
+    [
+      303141,
+      "&local_df4,&local_df8,&local_dfc,\"car_setting_battery_technology\",auStack_e10);"
+    ],
+    [
+      340766,
+      "&local_270,\"car_setting_battery_technology\",&local_280);"
+    ],
+    [
+      340831,
+      "&local_2d0,\"car_setting_battery_technology\",&local_2e0);"
+    ],
+    [
+      340953,
+      "&local_330,\"car_setting_battery_technology\",&local_340);"
+    ],
+    [
+      858305,
+      "builtin_strncpy(local_70,\"car_setting_battery_technology\",0x1f);"
+    ],
+    [
+      908047,
+      "builtin_strncpy(local_80,\"car_setting_battery_technology\",0x1f);"
+    ]
+  ],
+  "car_setting_start_screen": [
+    [
+      301792,
+      "&uStack_ec,&local_f0,&local_f4,\"car_setting_start_screen\",auStack_108);"
+    ]
+  ],
+  "car_setting_beep_on_alarm_armed_engine_running": [
+    [
+      301798,
+      ",&uStack_13c,&local_140,&local_144,\"car_setting_beep_on_alarm_armed_engine_running\""
+    ]
+  ],
+  "car_setting_battery_40ah": [
+    [
+      303083,
+      "local_358 = \"car_setting_battery_40ah\";"
+    ]
+  ],
+  "car_setting_battery_55ah_agm": [
+    [
+      303085,
+      "local_328 = \"car_setting_battery_55ah_agm\";"
+    ]
+  ],
+  "car_setting_battery_70ah_efb": [
+    [
+      303089,
+      "local_2e8 = \"car_setting_battery_70ah_efb\";"
+    ]
+  ],
+  "car_setting_battery_80ah_efb": [
+    [
+      303091,
+      "local_2b8 = \"car_setting_battery_80ah_efb\";"
+    ]
+  ],
+  "car_setting_battery_20ah": [
+    [
+      303096,
+      "local_368 = \"car_setting_battery_20ah\";"
+    ],
+    [
+      303105,
+      "local_418 = \"car_setting_battery_20ah\";"
+    ]
+  ],
+  "car_setting_battery_40ah_agm": [
+    [
+      303097,
+      "local_348 = \"car_setting_battery_40ah_agm\";"
+    ],
+    [
+      303133,
+      "local_408 = \"car_setting_battery_40ah_agm\";"
+    ]
+  ],
+  "car_setting_battery_technology_wet": [
+    [
+      340751,
+      "local_298[1] = \"car_setting_battery_technology_wet\";"
+    ],
+    [
+      340818,
+      "local_2f8[1] = \"car_setting_battery_technology_wet\";"
+    ]
+  ],
+  "car_setting_battery_technology_agm": [
+    [
+      340753,
+      "local_298[3] = \"car_setting_battery_technology_agm\";"
+    ],
+    [
+      340820,
+      "local_2f8[3] = \"car_setting_battery_technology_agm\";"
+    ]
+  ],
+  "car_setting_agm_80_ah_700_cca_t7": [
+    [
+      340876,
+      "local_358[1] = \"car_setting_agm_80_ah_700_cca_t7\";"
+    ]
+  ],
+  "car_setting_agm_70_ah_600_cca_h6": [
+    [
+      340878,
+      "local_358[3] = \"car_setting_agm_70_ah_600_cca_h6\";"
+    ]
+  ],
+  "car_setting_agm_80_ah_700_cca_h7": [
+    [
+      340881,
+      "local_358[5] = \"car_setting_agm_80_ah_700_cca_h7\";"
+    ]
+  ],
+  "car_setting_varta_43_ah_390_cca_t4": [
+    [
+      340883,
+      "local_358[7] = \"car_setting_varta_43_ah_390_cca_t4\";"
+    ]
+  ],
+  "car_setting_varta_52_ah_500_cca_t5": [
+    [
+      340888,
+      "local_358[9] = \"car_setting_varta_52_ah_500_cca_t5\";"
+    ]
+  ],
+  "car_setting_varta_60_ah_590_cca_t6": [
+    [
+      340890,
+      "local_358[0xb] = \"car_setting_varta_60_ah_590_cca_t6\";"
+    ]
+  ],
+  "car_setting_varta_80_ah_70_cca_t7": [
+    [
+      340892,
+      "local_358[0xd] = \"car_setting_varta_80_ah_70_cca_t7\";"
+    ]
+  ],
+  "car_setting_varta_90_ah_800_cca_t8": [
+    [
+      340894,
+      "local_358[0xf] = \"car_setting_varta_90_ah_800_cca_t8\";"
+    ]
+  ],
+  "car_setting_varta_60_ah_520_cca_h5": [
+    [
+      340896,
+      "local_358[0x11] = \"car_setting_varta_60_ah_520_cca_h5\";"
+    ]
+  ],
+  "car_setting_varta_70_ah_600_cca_h6": [
+    [
+      340898,
+      "local_358[0x13] = \"car_setting_varta_70_ah_600_cca_h6\";"
+    ]
+  ],
+  "car_setting_varta_80_ah_700_cca_h7": [
+    [
+      340900,
+      "local_358[0x15] = \"car_setting_varta_80_ah_700_cca_h7\";"
+    ]
+  ],
+  "car_setting_varta_90_ah_800_cca_h8": [
+    [
+      340902,
+      "local_358[0x17] = \"car_setting_varta_90_ah_800_cca_h8\";"
+    ]
+  ],
+  "car_setting_varta_90_ah_950_cca_h8": [
+    [
+      340905,
+      "local_358[0x19] = \"car_setting_varta_90_ah_950_cca_h8\";"
+    ]
+  ],
+  "car_setting_exide_43_ah_390_cca_t4": [
+    [
+      340908,
+      "local_358[0x1b] = \"car_setting_exide_43_ah_390_cca_t4\";"
+    ]
+  ],
+  "car_setting_exide_52_ah_500_cca_t5": [
+    [
+      340910,
+      "local_358[0x1d] = \"car_setting_exide_52_ah_500_cca_t5\";"
+    ]
+  ],
+  "car_setting_exide_60_ah_590_cca_t6": [
+    [
+      340912,
+      "local_358[0x1f] = \"car_setting_exide_60_ah_590_cca_t6\";"
+    ]
+  ],
+  "car_setting_exide_80_ah_70_cca_t7": [
+    [
+      340914,
+      "local_358[0x21] = \"car_setting_exide_80_ah_70_cca_t7\";"
+    ]
+  ],
+  "car_setting_exide_90_ah_800_cca_t8": [
+    [
+      340916,
+      "local_358[0x23] = \"car_setting_exide_90_ah_800_cca_t8\";"
+    ]
+  ],
+  "car_setting_exide_60_ah_520_cca_h5": [
+    [
+      340918,
+      "local_358[0x25] = \"car_setting_exide_60_ah_520_cca_h5\";"
+    ]
+  ],
+  "car_setting_exide_70_ah_600_cca_h6": [
+    [
+      340920,
+      "local_358[0x27] = \"car_setting_exide_70_ah_600_cca_h6\";"
+    ]
+  ],
+  "car_setting_exide_80_ah_700_cca_h7": [
+    [
+      340922,
+      "local_358[0x29] = \"car_setting_exide_80_ah_700_cca_h7\";"
+    ]
+  ],
+  "car_setting_exide_90_ah_800_cca_h8": [
+    [
+      340924,
+      "local_358[0x2b] = \"car_setting_exide_90_ah_800_cca_h8\";"
+    ]
+  ],
+  "car_setting_exide_90_ah_950_cca_h8": [
+    [
+      340926,
+      "local_358[0x2d] = \"car_setting_exide_90_ah_950_cca_h8\";"
+    ]
+  ],
+  "car_setting_not_defined": [
+    [
+      340928,
+      "local_358[0x2f] = \"car_setting_not_defined\";"
+    ],
+    [
+      340930,
+      "local_358[0x31] = \"car_setting_not_defined\";"
+    ],
+    [
+      340932,
+      "local_358[0x33] = \"car_setting_not_defined\";"
+    ],
+    [
+      340934,
+      "local_358[0x35] = \"car_setting_not_defined\";"
+    ],
+    [
+      340936,
+      "local_358[0x37] = \"car_setting_not_defined\";"
+    ],
+    [
+      340938,
+      "local_358[0x39] = \"car_setting_not_defined\";"
+    ]
+  ],
+  "car_setting_tpms_system": [
+    [
+      352852,
+      "builtin_strncpy(pcVar3,\"car_setting_tpms_system\",0x18);"
+    ]
+  ],
+  "car_setting_power_sliding_doors": [
+    [
+      364286,
+      "builtin_strncpy(pcVar3,\"car_setting_power_sliding_doors\",0x20);"
+    ]
+  ],
+  "car_setting_front_wipers_tear_wiping": [
+    [
+      394909,
+      "&local_17c,&local_180,&local_184,&local_188,\"car_setting_front_wipers_tear_wiping\","
+    ],
+    [
+      891304,
+      "FUN_00f00240(auStack_2e8,\"car_setting_front_wipers_tear_wiping\");"
+    ]
+  ],
+  "car_setting_reverse_beep": [
+    [
+      394916,
+      "&local_1ac,\"car_setting_reverse_beep\","
+    ]
+  ],
+  "car_setting_instruction_may_not_work": [
+    [
+      394918,
+      "FUN_00f00240(local_1c8,\"car_setting_instruction_may_not_work\");"
+    ],
+    [
+      394972,
+      "FUN_00f00240(local_2b0,\"car_setting_instruction_may_not_work\");"
+    ]
+  ],
+  "car_setting_type1": [
+    [
+      394929,
+      "pcStack_108 = \"car_setting_type1\";"
+    ]
+  ],
+  "car_setting_type2": [
+    [
+      394931,
+      "pcStack_f8 = \"car_setting_type2\";"
+    ]
+  ],
+  "car_setting_anti_key_lock_function": [
+    [
+      394943,
+      "&uStack_21c,&local_220,&uStack_224,&local_228,\"car_setting_anti_key_lock_function\","
+    ]
+  ],
+  "car_setting_auto_lock_when_moving": [
+    [
+      394951,
+      "&uStack_23c,&local_240,&uStack_244,&local_248,\"car_setting_auto_lock_when_moving\","
+    ],
+    [
+      891210,
+      "FUN_00f00240(auStack_960,\"car_setting_auto_lock_when_moving\");"
+    ]
+  ],
+  "car_setting_headlight_washers_if_equipped": [
+    [
+      394960,
+      "\"car_setting_headlight_washers_if_equipped\",&MultipleChoiceInterpretation::ON_OFF);"
+    ],
+    [
+      523334,
+      "&stack0x000001dc,\"car_setting_headlight_washers_if_equipped\","
+    ],
+    [
+      891295,
+      "FUN_00f00240(auStack_3c0,\"car_setting_headlight_washers_if_equipped\");"
+    ]
+  ],
+  "car_setting_high_beam_assist_auto": [
+    [
+      394981,
+      "\"car_setting_high_beam_assist_auto\",&MultipleChoiceInterpretation::YES_NO);"
+    ]
+  ],
+  "car_setting_1": [
+    [
+      413410,
+      "pcStack_88 = \"car_setting_1\";"
+    ]
+  ],
+  "car_setting_2": [
+    [
+      413412,
+      "pcStack_78 = \"car_setting_2\";"
+    ]
+  ],
+  "car_setting_category_other": [
+    [
+      413416,
+      "&uStack_f4,&local_f8,\"car_setting_category_other\",auStack_108);"
+    ]
+  ],
+  "car_setting_comfort_open_sunroof_key": [
+    [
+      445756,
+      "\"car_setting_comfort_open_sunroof_key\",&MultipleChoiceInterpretation::YES_NO);"
+    ]
+  ],
+  "car_setting_comfort_close_sunroof_key": [
+    [
+      445764,
+      "\"car_setting_comfort_close_sunroof_key\",&MultipleChoiceInterpretation::YES_NO);"
+    ]
+  ],
+  "car_setting_comfort_open_sunroof_remote": [
+    [
+      445771,
+      "\"car_setting_comfort_open_sunroof_remote\",&MultipleChoiceInterpretation::YES_NO);"
+    ],
+    [
+      891325,
+      "FUN_00f00240(auStack_180,\"car_setting_comfort_open_sunroof_remote\");"
+    ]
+  ],
+  "car_setting_slide": [
+    [
+      445777,
+      "local_168 = \"car_setting_slide\";"
+    ],
+    [
+      445793,
+      "local_188 = \"car_setting_slide\";"
+    ]
+  ],
+  "car_setting_tilt": [
+    [
+      445779,
+      "local_158 = \"car_setting_tilt\";"
+    ],
+    [
+      445795,
+      "local_178 = \"car_setting_tilt\";"
+    ]
+  ],
+  "car_setting_sunroof_action_via_key": [
+    [
+      445785,
+      "\"car_setting_sunroof_action_via_key\",auStack_308);"
+    ]
+  ],
+  "car_setting_sunroof_action_via_remote": [
+    [
+      445799,
+      "\"car_setting_sunroof_action_via_remote\",auStack_350);"
+    ]
+  ],
+  "car_setting_ac_refrigerant_shortage_check": [
+    [
+      445808,
+      "\"car_setting_ac_refrigerant_shortage_check\","
+    ],
+    [
+      445815,
+      "\"car_setting_ac_refrigerant_shortage_check\",&MultipleChoiceInterpretation::ON_OFF);"
+    ]
+  ],
+  "car_setting_pcs": [
+    [
+      445823,
+      "local_3c8,\"car_setting_pcs\",&MultipleChoiceInterpretation::ENABLED_DISABLED);"
+    ]
+  ],
+  "car_setting_pcs_beep": [
+    [
+      445833,
+      "local_3e8,\"car_setting_pcs_beep\",&MultipleChoiceInterpretation::ON_OFF);"
+    ]
+  ],
+  "car_setting_noise_vibration_reduction": [
+    [
+      445841,
+      "\"car_setting_noise_vibration_reduction\",&MultipleChoiceInterpretation::ON_OFF);"
+    ]
+  ],
+  "car_setting_value_0": [
+    [
+      519856,
+      "local_fb0 = \"car_setting_value_0\";"
+    ]
+  ],
+  "car_setting_value_3": [
+    [
+      519866,
+      "local_f80 = \"car_setting_value_3\";"
+    ]
+  ],
+  "car_setting_value_4": [
+    [
+      519869,
+      "local_f70 = \"car_setting_value_4\";"
+    ]
+  ],
+  "car_setting_value_1": [
+    [
+      519872,
+      "local_fa0 = \"car_setting_value_1\";"
+    ]
+  ],
+  "car_setting_value_5": [
+    [
+      519874,
+      "local_f60 = \"car_setting_value_5\";"
+    ]
+  ],
+  "car_setting_value_2": [
+    [
+      519880,
+      "local_f90 = \"car_setting_value_2\";"
+    ]
+  ],
+  "car_setting_value_6": [
+    [
+      519882,
+      "local_f50 = \"car_setting_value_6\";"
+    ]
+  ],
+  "car_setting_value_7": [
+    [
+      519885,
+      "local_f40 = \"car_setting_value_7\";"
+    ]
+  ],
+  "car_setting_speedometer_calibration": [
+    [
+      519898,
+      "&local_1768,\"car_setting_speedometer_calibration\",auStack_1778);"
+    ]
+  ],
+  "car_setting_aux_heater_unlocked": [
+    [
+      519912,
+      "&local_17a4,&local_17a8,&local_17ac,\"car_setting_aux_heater_unlocked\","
+    ]
+  ],
+  "car_setting_fuel_tank_capacity_calibration": [
+    [
+      519948,
+      "\"car_setting_fuel_tank_capacity_calibration\",auStack_17e0,"
+    ]
+  ],
+  "car_setting_taillight_pattern_us": [
+    [
+      519959,
+      "local_fd0 = \"car_setting_taillight_pattern_us\";"
+    ],
+    [
+      519981,
+      "local_ff0 = \"car_setting_taillight_pattern_us\";"
+    ],
+    [
+      520006,
+      "local_1010 = \"car_setting_taillight_pattern_us\";"
+    ],
+    [
+      520033,
+      "local_1030 = \"car_setting_taillight_pattern_us\";"
+    ]
+  ],
+  "car_setting_taillight_pattern_eu": [
+    [
+      519961,
+      "local_fc0 = \"car_setting_taillight_pattern_eu\";"
+    ],
+    [
+      519989,
+      "local_fe0 = \"car_setting_taillight_pattern_eu\";"
+    ],
+    [
+      520014,
+      "local_1000 = \"car_setting_taillight_pattern_eu\";"
+    ],
+    [
+      520040,
+      "local_1020 = \"car_setting_taillight_pattern_eu\";"
+    ]
+  ],
+  "car_setting_channel_195": [
+    [
+      519975,
+      "&VagWhitelists::CENTRAL_CONV_B8,&local_1814,\"car_setting_channel_195\",auStack_1828)"
+    ]
+  ],
+  "car_setting_channel_196": [
+    [
+      520001,
+      "&VagWhitelists::CENTRAL_CONV_B8,&local_1854,\"car_setting_channel_196\",auStack_1868)"
+    ]
+  ],
+  "car_setting_channel_197": [
+    [
+      520027,
+      "&VagWhitelists::CENTRAL_CONV_B8,&local_1894,\"car_setting_channel_197\",auStack_18a8)"
+    ]
+  ],
+  "car_setting_channel_198": [
+    [
+      520053,
+      "&VagWhitelists::CENTRAL_CONV_B8,&local_18d4,\"car_setting_channel_198\",auStack_18e8)"
+    ]
+  ],
+  "car_setting_open_close_power_trunk_remote": [
+    [
+      520073,
+      "&local_1918,&local_191c,\"car_setting_open_close_power_trunk_remote\","
+    ]
+  ],
+  "car_setting_window_lowering_door_open": [
+    [
+      520093,
+      "\"car_setting_window_lowering_door_open\",&MultipleChoiceInterpretation::YES_NO);"
+    ]
+  ],
+  "car_setting_comfort_rear_wiping": [
+    [
+      520104,
+      "&local_1954,\"car_setting_comfort_rear_wiping\",&MultipleChoiceInterpretation::YES_NO"
+    ],
+    [
+      891288,
+      "FUN_00f00240(auStack_438,\"car_setting_comfort_rear_wiping\");"
+    ]
+  ],
+  "car_setting_auto_fold_mirror_passenger": [
+    [
+      520122,
+      "\"car_setting_auto_fold_mirror_passenger\",&MultipleChoiceInterpretation::YES_NO);"
+    ]
+  ],
+  "car_setting_lower_driver_mirror_in_reverse_step_3": [
+    [
+      520134,
+      "&local_1984,&local_1988,\"car_setting_lower_driver_mirror_in_reverse_step_3\","
+    ]
+  ],
+  "car_setting_tpms_indirect_step_2": [
+    [
+      520151,
+      "&local_19a0,&local_19a4,\"car_setting_tpms_indirect_step_2\","
+    ]
+  ],
+  "car_setting_tpms_indirect_step_3": [
+    [
+      520166,
+      "&local_19c0,&local_19c4,\"car_setting_tpms_indirect_step_3\","
+    ]
+  ],
+  "car_setting_wlan_step_1": [
+    [
+      520180,
+      "&local_19dc,&local_19e0,\"car_setting_wlan_step_1\","
+    ]
+  ],
+  "car_setting_wlan_step_2": [
+    [
+      520196,
+      "local_19f4,&local_19f8,&local_19fc,\"car_setting_wlan_step_2\","
+    ]
+  ],
+  "car_setting_wlan_step_3": [
+    [
+      520213,
+      "local_1a14,&local_1a18,&local_1a1c,\"car_setting_wlan_step_3\","
+    ]
+  ],
+  "car_setting_dlna": [
+    [
+      520231,
+      "local_1a34,&local_1a38,&local_1a3c,\"car_setting_dlna\","
+    ]
+  ],
+  "car_setting_weak": [
+    [
+      520244,
+      "local_1060 = \"car_setting_weak\";"
+    ]
+  ],
+  "car_setting_medium": [
+    [
+      520246,
+      "local_1050 = \"car_setting_medium\";"
+    ]
+  ],
+  "car_setting_strong": [
+    [
+      520249,
+      "local_1040 = \"car_setting_strong\";"
+    ]
+  ],
+  "car_setting_brake_disc_drying": [
+    [
+      520259,
+      "\"car_setting_brake_disc_drying\",auStack_1a68);"
+    ]
+  ],
+  "car_setting_blink_on_lock_unlock_remote": [
+    [
+      520275,
+      "\"car_setting_blink_on_lock_unlock_remote\","
+    ],
+    [
+      522001,
+      "\"car_setting_blink_on_lock_unlock_remote\",&MultipleChoiceInterpretation::YES_NO);"
+    ],
+    [
+      891260,
+      "FUN_00f00240(auStack_648,\"car_setting_blink_on_lock_unlock_remote\");"
+    ]
+  ],
+  "car_setting_continuous": [
+    [
+      520288,
+      "local_1090 = \"car_setting_continuous\";"
+    ]
+  ],
+  "car_setting_interval": [
+    [
+      520290,
+      "local_1080 = \"car_setting_interval\";"
+    ]
+  ],
+  "car_setting_rear_wiper_continuous": [
+    [
+      520304,
+      "\"car_setting_rear_wiper_continuous\",auStack_1ac8);"
+    ]
+  ],
+  "car_setting_washer_fluid_warning": [
+    [
+      520319,
+      "\"car_setting_washer_fluid_warning\",&MultipleChoiceInterpretation::YES_NO);"
+    ],
+    [
+      891213,
+      "FUN_00f00240(auStack_930,\"car_setting_washer_fluid_warning\");"
+    ]
+  ],
+  "car_setting_ads_ami_menu": [
+    [
+      520338,
+      "&local_1b10,auStack_1b28,\"car_setting_ads_ami_menu\","
+    ]
+  ],
+  "car_setting_ads_mode_race": [
+    [
+      520357,
+      "&local_1b3c,&local_1b40,auStack_1b58,\"car_setting_ads_mode_race\","
+    ]
+  ],
+  "car_setting_shift_suggestion_economy": [
+    [
+      520371,
+      "\"car_setting_shift_suggestion_economy\","
+    ]
+  ],
+  "car_setting_mirror_adj_in_dash": [
+    [
+      520385,
+      "\"car_setting_mirror_adj_in_dash\",&MultipleChoiceInterpretation::ENABLED_DISABLED);"
+    ]
+  ],
+  "car_setting_horn_with_ign_off": [
+    [
+      520399,
+      "\"car_setting_horn_with_ign_off\",&MultipleChoiceInterpretation::YES_NO_INVERTED);"
+    ]
+  ],
+  "car_setting_ambient_lighting_color_choice_via_driving_mode": [
+    [
+      520416,
+      "\"car_setting_ambient_lighting_color_choice_via_driving_mode\","
+    ]
+  ],
+  "car_setting_ambient_lighting_color_choice_via_menu": [
+    [
+      520434,
+      "\"car_setting_ambient_lighting_color_choice_via_menu\","
+    ]
+  ],
+  "car_setting_ambient_lighting_menu": [
+    [
+      520451,
+      "\"car_setting_ambient_lighting_menu\",&MultipleChoiceInterpretation::ENABLED_DISABLED"
+    ]
+  ],
+  "car_setting_ambient_lighting_menu_add_off_switch": [
+    [
+      520468,
+      "\"car_setting_ambient_lighting_menu_add_off_switch\","
+    ]
+  ],
+  "car_setting_ambient_cockpit_lighting_multicolor": [
+    [
+      520485,
+      "\"car_setting_ambient_cockpit_lighting_multicolor\","
+    ]
+  ],
+  "car_setting_ambient_roof_lighting_multicolor": [
+    [
+      520501,
+      "\"car_setting_ambient_roof_lighting_multicolor\","
+    ]
+  ],
+  "car_setting_ambient_speakers_lighting_multicolor": [
+    [
+      520517,
+      "\"car_setting_ambient_speakers_lighting_multicolor\","
+    ]
+  ],
+  "car_setting_ambient_central_console_lighting_multicolor": [
+    [
+      520536,
+      "\"car_setting_ambient_central_console_lighting_multicolor\","
+    ]
+  ],
+  "car_setting_ambient_sunroof_lighting_multicolor": [
+    [
+      520553,
+      "\"car_setting_ambient_sunroof_lighting_multicolor\","
+    ]
+  ],
+  "car_setting_ambient_door_lighting_multicolor": [
+    [
+      520571,
+      "\"car_setting_ambient_door_lighting_multicolor\","
+    ]
+  ],
+  "car_setting_traffic_sign_recognition_step_1": [
+    [
+      520588,
+      "\"car_setting_traffic_sign_recognition_step_1\","
+    ]
+  ],
+  "car_setting_traffic_sign_recognition_step_2": [
+    [
+      520603,
+      "&local_1d14,&local_1d18,&local_1d1c,\"car_setting_traffic_sign_recognition_step_2\","
+    ],
+    [
+      520719,
+      "\"car_setting_traffic_sign_recognition_step_2\","
+    ]
+  ],
+  "car_setting_traffic_sign_recognition_step_3": [
+    [
+      520618,
+      "&local_1d34,&local_1d38,\"car_setting_traffic_sign_recognition_step_3\","
+    ],
+    [
+      520733,
+      "\"car_setting_traffic_sign_recognition_step_3\","
+    ]
+  ],
+  "car_setting_traffic_sign_recognition_step_4": [
+    [
+      520632,
+      "\"car_setting_traffic_sign_recognition_step_4\","
+    ],
+    [
+      520645,
+      "\"car_setting_traffic_sign_recognition_step_4\","
+    ],
+    [
+      520751,
+      "\"car_setting_traffic_sign_recognition_step_4\","
+    ]
+  ],
+  "car_setting_traffic_sign_recognition_step_5": [
+    [
+      520676,
+      "&local_1d90,\"car_setting_traffic_sign_recognition_step_5\","
+    ],
+    [
+      520768,
+      "\"car_setting_traffic_sign_recognition_step_5\","
+    ]
+  ],
+  "car_setting_traffic_sign_recognition_step_6": [
+    [
+      520703,
+      "\"car_setting_traffic_sign_recognition_step_6\",auStack_1dc0);"
+    ],
+    [
+      520798,
+      "\"car_setting_traffic_sign_recognition_step_6\",auStack_1e70);"
+    ]
+  ],
+  "car_setting_low": [
+    [
+      520809,
+      "local_1110 = \"car_setting_low\";"
+    ]
+  ],
+  "car_setting_high": [
+    [
+      520814,
+      "local_1100 = \"car_setting_high\";"
+    ]
+  ],
+  "car_setting_traffic_sign_recognition_threshold": [
+    [
+      520831,
+      "\"car_setting_traffic_sign_recognition_threshold\",auStack_1eb8);"
+    ]
+  ],
+  "car_setting_remote_when_in_gear": [
+    [
+      520846,
+      "\"car_setting_remote_when_in_gear\",&MultipleChoiceInterpretation::YES_NO);"
+    ]
+  ],
+  "car_setting_horn_beeps_count_lock": [
+    [
+      520878,
+      "\"car_setting_horn_beeps_count_lock\",auStack_1f18);"
+    ]
+  ],
+  "car_setting_horn_beeps_count_unlock": [
+    [
+      520909,
+      "\"car_setting_horn_beeps_count_unlock\",auStack_1f68);"
+    ]
+  ],
+  "car_setting_remote_limit_range_overall": [
+    [
+      520925,
+      "\"car_setting_remote_limit_range_overall\",&MultipleChoiceInterpretation::YES_NO);"
+    ]
+  ],
+  "car_setting_remote_limit_range_lock": [
+    [
+      520939,
+      "\"car_setting_remote_limit_range_lock\",&MultipleChoiceInterpretation::YES_NO);"
+    ]
+  ],
+  "car_setting_remote_limit_range_unlock": [
+    [
+      520953,
+      "\"car_setting_remote_limit_range_unlock\",&MultipleChoiceInterpretation::YES_NO);"
+    ]
+  ],
+  "car_setting_remote_limit_range_rear_lid": [
+    [
+      520968,
+      "\"car_setting_remote_limit_range_rear_lid\",&MultipleChoiceInterpretation::YES_NO);"
+    ]
+  ],
+  "car_setting_remote_limit_range_panic_button": [
+    [
+      520983,
+      "\"car_setting_remote_limit_range_panic_button\",&MultipleChoiceInterpretation::YES_NO"
+    ]
+  ],
+  "car_setting_allow_rain_closing": [
+    [
+      520998,
+      "\"car_setting_allow_rain_closing\",&MultipleChoiceInterpretation::YES_NO);"
+    ],
+    [
+      521014,
+      "\"car_setting_allow_rain_closing\",&MultipleChoiceInterpretation::YES_NO);"
+    ]
+  ],
+  "car_setting_surround_and_subwoofer_menu_infotainment": [
+    [
+      521037,
+      "&local_2044,&local_2048,\"car_setting_surround_and_subwoofer_menu_infotainment\","
+    ]
+  ],
+  "car_setting_auto_headlights_above_140_kph": [
+    [
+      521051,
+      "\"car_setting_auto_headlights_above_140_kph\",&MultipleChoiceInterpretation::YES_NO);"
+    ]
+  ],
+  "car_setting_dynamic_light_assist": [
+    [
+      521082,
+      "&local_20ac,&local_20b0,\"car_setting_dynamic_light_assist\","
+    ]
+  ],
+  "car_setting_start_stop": [
+    [
+      521097,
+      "\"car_setting_start_stop\",&MultipleChoiceInterpretation::ENABLED_DISABLED);"
+    ]
+  ],
+  "car_setting_display_gear_in_instrument_cluster": [
+    [
+      521111,
+      "\"car_setting_display_gear_in_instrument_cluster\","
+    ],
+    [
+      521788,
+      "\"car_setting_display_gear_in_instrument_cluster\","
+    ]
+  ],
+  "car_setting_sunroof_rain_closing": [
+    [
+      521129,
+      "\"car_setting_sunroof_rain_closing\",&MultipleChoiceInterpretation::YES_NO,"
+    ],
+    [
+      521149,
+      "\"car_setting_sunroof_rain_closing\",&MultipleChoiceInterpretation::YES_NO,"
+    ]
+  ],
+  "car_setting_sunroof_rain_closing_in_mmi": [
+    [
+      521167,
+      "\"car_setting_sunroof_rain_closing_in_mmi\","
+    ]
+  ],
+  "car_setting_tpms_in_mmi_step_1": [
+    [
+      521185,
+      "&local_2154,&local_2158,&local_215c,\"car_setting_tpms_in_mmi_step_1\","
+    ],
+    [
+      521201,
+      "\"car_setting_tpms_in_mmi_step_1\",&MultipleChoiceInterpretation::ENABLED_DISABLED);"
+    ]
+  ],
+  "car_setting_tpms_in_mmi_step_2": [
+    [
+      521218,
+      "&local_2194,&local_2198,&local_219c,\"car_setting_tpms_in_mmi_step_2\","
+    ],
+    [
+      521236,
+      "\"car_setting_tpms_in_mmi_step_2\",&MultipleChoiceInterpretation::ENABLED_DISABLED);"
+    ]
+  ],
+  "car_setting_tpms_in_mmi_step_3": [
+    [
+      521250,
+      "\"car_setting_tpms_in_mmi_step_3\",&MultipleChoiceInterpretation::ENABLED_DISABLED);"
+    ]
+  ],
+  "car_setting_tpms_in_mmi_step_4": [
+    [
+      521263,
+      "&local_21f0,\"car_setting_tpms_in_mmi_step_4\","
+    ]
+  ],
+  "car_setting_tpms_in_mmi_step_5": [
+    [
+      521278,
+      "&local_2208,\"car_setting_tpms_in_mmi_step_5\","
+    ]
+  ],
+  "car_setting_battery_charge_display_req_instr_support": [
+    [
+      521296,
+      "\"car_setting_battery_charge_display_req_instr_support\","
+    ]
+  ],
+  "car_setting_instruction_battery_charge_display_mk7": [
+    [
+      521299,
+      "FUN_00f00240(auStack_2250,\"car_setting_instruction_battery_charge_display_mk7\");"
+    ]
+  ],
+  "car_setting_bulb_check_all_lights": [
+    [
+      521315,
+      "&local_2264,&local_2268,\"car_setting_bulb_check_all_lights\","
+    ]
+  ],
+  "car_setting_instr_needle_sweep": [
+    [
+      521328,
+      "local_11c0 = \"car_setting_instr_needle_sweep\";"
+    ],
+    [
+      891195,
+      "FUN_00f00240(auStack_a68,\"car_setting_instr_needle_sweep\");"
+    ]
+  ],
+  "car_setting_lap_counter": [
+    [
+      521331,
+      "local_11b0 = \"car_setting_lap_counter\";"
+    ]
+  ],
+  "car_setting_upshift_indicator": [
+    [
+      521334,
+      "local_11a0 = \"car_setting_upshift_indicator\";"
+    ]
+  ],
+  "car_setting_lap_counter_needle_sweep": [
+    [
+      521337,
+      "local_1190 = \"car_setting_lap_counter_needle_sweep\";"
+    ]
+  ],
+  "car_setting_upshift_indicator_needle_sweep": [
+    [
+      521341,
+      "local_1180 = \"car_setting_upshift_indicator_needle_sweep\";"
+    ]
+  ],
+  "car_setting_upshift_indicator_lap_counter": [
+    [
+      521344,
+      "local_1170 = \"car_setting_upshift_indicator_lap_counter\";"
+    ]
+  ],
+  "car_setting_none": [
+    [
+      521348,
+      "local_11d0 = \"car_setting_none\";"
+    ]
+  ],
+  "car_setting_instr_needle_sweep_lap_counter_upshift_indicator": [
+    [
+      521350,
+      "local_1160 = \"car_setting_instr_needle_sweep_lap_counter_upshift_indicator\";"
+    ]
+  ],
+  "car_setting_instr_needle_sweep_lap_timer_upshift_indicator_some_modules_only": [
+    [
+      521363,
+      "\"car_setting_instr_needle_sweep_lap_timer_upshift_indicator_some_modules_only\","
+    ]
+  ],
+  "car_setting_keyless_entry_in_infotainment": [
+    [
+      521377,
+      "\"car_setting_keyless_entry_in_infotainment\","
+    ]
+  ],
+  "car_setting_lower_driver_mirror_in_reverse": [
+    [
+      521390,
+      ",&local_22d4,&local_22d8,\"car_setting_lower_driver_mirror_in_reverse\","
+    ]
+  ],
+  "car_setting_passive_entry_rear_left_door": [
+    [
+      521405,
+      "\"car_setting_passive_entry_rear_left_door\","
+    ]
+  ],
+  "car_setting_passive_entry_rear_right_door": [
+    [
+      521692,
+      "\"car_setting_passive_entry_rear_right_door\");"
+    ]
+  ],
+  "car_setting_passive_exit_rear_left_door": [
+    [
+      521704,
+      "\"car_setting_passive_exit_rear_left_door\","
+    ]
+  ],
+  "car_setting_passive_exit_rear_right_door": [
+    [
+      521717,
+      "\"car_setting_passive_exit_rear_right_door\","
+    ]
+  ],
+  "car_setting_traction_control_btn_esc_step_1": [
+    [
+      521729,
+      "&stack0x00001894,&stack0x00001890,\"car_setting_traction_control_btn_esc_step_1\","
+    ]
+  ],
+  "car_setting_traction_control_btn_esc_step_2": [
+    [
+      521745,
+      "&stack0x0000187c,&stack0x00001878,\"car_setting_traction_control_btn_esc_step_2\","
+    ]
+  ],
+  "car_setting_warn_on_hill_descent": [
+    [
+      521760,
+      "&stack0x00001864,&stack0x00001860,&stack0x0000185c,\"car_setting_warn_on_hill_descent\""
+    ]
+  ],
+  "car_setting_comfort_turn_signal_in_mmi": [
+    [
+      521773,
+      "\"car_setting_comfort_turn_signal_in_mmi\","
+    ]
+  ],
+  "car_setting_instruction_may_not_work_try_a_few_times": [
+    [
+      521793,
+      "FUN_00f00240(&stack0x00001800,\"car_setting_instruction_may_not_work_try_a_few_times\");"
+    ]
+  ],
+  "car_setting_highway_lights": [
+    [
+      521807,
+      "\"car_setting_highway_lights\",&MultipleChoiceInterpretation::YES_NO);"
+    ]
+  ],
+  "car_setting_instruction_highway_lights": [
+    [
+      521809,
+      "FUN_00f00240(&stack0x000017c0,\"car_setting_instruction_highway_lights\");"
+    ]
+  ],
+  "car_setting_memory_for_lowering_driver_mirror_in_reverse_step_1": [
+    [
+      521849,
+      "\"car_setting_memory_for_lowering_driver_mirror_in_reverse_step_1\","
+    ]
+  ],
+  "car_setting_memory_for_lowering_driver_mirror_in_reverse_step_2": [
+    [
+      521861,
+      "\"car_setting_memory_for_lowering_driver_mirror_in_reverse_step_2\","
+    ]
+  ],
+  "car_setting_wireless_carplay_step_1": [
+    [
+      521874,
+      "&stack0x0000174c,\"car_setting_wireless_carplay_step_1\","
+    ]
+  ],
+  "car_setting_wireless_carplay_step_2": [
+    [
+      521888,
+      "&stack0x0000172c,\"car_setting_wireless_carplay_step_2\","
+    ]
+  ],
+  "car_setting_driving_profile_selection": [
+    [
+      521901,
+      "\"car_setting_driving_profile_selection\","
+    ]
+  ],
+  "car_setting_auto_hold_without_seat_belt": [
+    [
+      521916,
+      "\"car_setting_auto_hold_without_seat_belt\","
+    ]
+  ],
+  "car_setting_easy_entry_exit_steering_wheel_retract_menu": [
+    [
+      521929,
+      "\"car_setting_easy_entry_exit_steering_wheel_retract_menu\","
+    ]
+  ],
+  "car_setting_drl_via_front_markers": [
+    [
+      521942,
+      "\"car_setting_drl_via_front_markers\",&MultipleChoiceInterpretation::YES_NO);"
+    ]
+  ],
+  "car_setting_drl_via_lash_left_brightness": [
+    [
+      521964,
+      "&stack0x000016a4,\"car_setting_drl_via_lash_left_brightness\",&stack0x00001690);"
+    ]
+  ],
+  "car_setting_drl_via_lash_right_brightness": [
+    [
+      521990,
+      "&stack0x00001654,\"car_setting_drl_via_lash_right_brightness\",&stack0x00001640);"
+    ]
+  ],
+  "car_setting_sound_on_lock_remote": [
+    [
+      522014,
+      "\"car_setting_sound_on_lock_remote\",&MultipleChoiceInterpretation::YES_NO);"
+    ],
+    [
+      522081,
+      "\"car_setting_sound_on_lock_remote\",&MultipleChoiceInterpretation::YES_NO);"
+    ]
+  ],
+  "car_setting_sound_on_unlock_remote": [
+    [
+      522025,
+      "\"car_setting_sound_on_unlock_remote\",&MultipleChoiceInterpretation::YES_NO);"
+    ],
+    [
+      522107,
+      "\"car_setting_sound_on_unlock_remote\",&MultipleChoiceInterpretation::YES_NO);"
+    ],
+    [
+      522223,
+      "\"car_setting_sound_on_unlock_remote\",&MultipleChoiceInterpretation::YES_NO);"
+    ]
+  ],
+  "car_setting_sound_on_lock_unlock_adapt_enabled": [
+    [
+      522038,
+      "\"car_setting_sound_on_lock_unlock_adapt_enabled\","
+    ]
+  ],
+  "car_setting_allow_config_sound_on_lock_unlock_remote": [
+    [
+      522053,
+      "\"car_setting_allow_config_sound_on_lock_unlock_remote\","
+    ]
+  ],
+  "car_setting_blink_on_lock_remote": [
+    [
+      522068,
+      "\"car_setting_blink_on_lock_remote\",&MultipleChoiceInterpretation::YES_NO);"
+    ]
+  ],
+  "car_setting_blink_on_unlock_remote": [
+    [
+      522093,
+      "\"car_setting_blink_on_unlock_remote\",&MultipleChoiceInterpretation::YES_NO);"
+    ]
+  ],
+  "car_setting_blink_on_lock_key": [
+    [
+      522118,
+      "\"car_setting_blink_on_lock_key\",&MultipleChoiceInterpretation::YES_NO);"
+    ]
+  ],
+  "car_setting_sound_on_lock_key": [
+    [
+      522131,
+      "\"car_setting_sound_on_lock_key\",&MultipleChoiceInterpretation::YES_NO);"
+    ]
+  ],
+  "car_setting_blink_on_unlock_key": [
+    [
+      522144,
+      "\"car_setting_blink_on_unlock_key\",&MultipleChoiceInterpretation::YES_NO);"
+    ]
+  ],
+  "car_setting_sound_on_unlock_key": [
+    [
+      522156,
+      "\"car_setting_sound_on_unlock_key\",&MultipleChoiceInterpretation::YES_NO);"
+    ]
+  ],
+  "car_setting_single_door_lock_remote": [
+    [
+      522178,
+      "\"car_setting_single_door_lock_remote\",&stack0x00001480);"
+    ],
+    [
+      891214,
+      "FUN_00f00240(auStack_918,\"car_setting_single_door_lock_remote\");"
+    ]
+  ],
+  "car_setting_comfort_function_remote": [
+    [
+      522188,
+      "\"car_setting_comfort_function_remote\",&MultipleChoiceInterpretation::YES_NO);"
+    ],
+    [
+      522198,
+      "\"car_setting_comfort_function_remote\",&MultipleChoiceInterpretation::YES_NO);"
+    ]
+  ],
+  "car_setting_comfort_function_blink": [
+    [
+      522210,
+      "\"car_setting_comfort_function_blink\",&MultipleChoiceInterpretation::YES_NO);"
+    ],
+    [
+      891319,
+      "FUN_00f00240(auStack_210,\"car_setting_comfort_function_blink\");"
+    ]
+  ],
+  "car_setting_comfort_turn_signal": [
+    [
+      522237,
+      "\"car_setting_comfort_turn_signal\",&MultipleChoiceInterpretation::ENABLED_DISABLED);"
+    ]
+  ],
+  "car_setting_emergency_brake_flashing": [
+    [
+      522249,
+      "\"car_setting_emergency_brake_flashing\",&MultipleChoiceInterpretation::YES_NO);"
+    ],
+    [
+      523418,
+      "&stack0x0000005c,\"car_setting_emergency_brake_flashing\","
+    ],
+    [
+      891226,
+      "FUN_00f00240(auStack_7f8,\"car_setting_emergency_brake_flashing\");"
+    ]
+  ],
+  "car_setting_leaving_home": [
+    [
+      522258,
+      "VagWhitelists::CENTRAL_ELEC_B8,&stack0x000013c4,\"car_setting_leaving_home\","
+    ]
+  ],
+  "car_setting_parking_lights_with_term_15": [
+    [
+      522271,
+      "\"car_setting_parking_lights_with_term_15\",&MultipleChoiceInterpretation::YES_NO);"
+    ]
+  ],
+  "car_setting_parking_lights": [
+    [
+      522282,
+      "\"car_setting_parking_lights\",&MultipleChoiceInterpretation::ENABLED_DISABLED);"
+    ]
+  ],
+  "car_setting_smart_remote_with_ignition": [
+    [
+      522294,
+      "\"car_setting_smart_remote_with_ignition\",&MultipleChoiceInterpretation::YES_NO);"
+    ]
+  ],
+  "car_setting_voice_recognition": [
+    [
+      522306,
+      "\"car_setting_voice_recognition\","
+    ]
+  ],
+  "car_setting_drl_only_in_auto_mode": [
+    [
+      522320,
+      "\"car_setting_drl_only_in_auto_mode\",&MultipleChoiceInterpretation::YES_NO);"
+    ]
+  ],
+  "car_setting_diagnostics_drl": [
+    [
+      522332,
+      "\"car_setting_diagnostics_drl\","
+    ]
+  ],
+  "car_setting_diagnostics_low_beams": [
+    [
+      522344,
+      "\"car_setting_diagnostics_low_beams\","
+    ]
+  ],
+  "car_setting_diagnostics_high_beams": [
+    [
+      522359,
+      "\"car_setting_diagnostics_high_beams\","
+    ]
+  ],
+  "car_setting_diagnostics_fog_lights": [
+    [
+      522374,
+      "\"car_setting_diagnostics_fog_lights\","
+    ]
+  ],
+  "car_setting_diagnostics_fog_lights_rear": [
+    [
+      522388,
+      "\"car_setting_diagnostics_fog_lights_rear\","
+    ]
+  ],
+  "car_setting_diagnostics_tail_lights": [
+    [
+      522401,
+      "\"car_setting_diagnostics_tail_lights\","
+    ]
+  ],
+  "car_setting_diagnostics_brake_lights": [
+    [
+      522414,
+      "\"car_setting_diagnostics_brake_lights\","
+    ]
+  ],
+  "car_setting_diagnostics_turn_signals": [
+    [
+      522427,
+      "\"car_setting_diagnostics_turn_signals\","
+    ]
+  ],
+  "car_setting_drl_override": [
+    [
+      522441,
+      "\"car_setting_drl_override\",&MultipleChoiceInterpretation::YES_NO_INVERTED);"
+    ]
+  ],
+  "car_setting_light_sensor_headlights": [
+    [
+      522453,
+      "\"car_setting_light_sensor_headlights\",&MultipleChoiceInterpretation::ENABLED_DISABLED"
+    ]
+  ],
+  "car_setting_headlight_washer": [
+    [
+      522467,
+      "\"car_setting_headlight_washer\",&MultipleChoiceInterpretation::ENABLED_DISABLED);"
+    ]
+  ],
+  "car_setting_online_traffic_updates": [
+    [
+      522478,
+      "&stack0x00001224,\"car_setting_online_traffic_updates\","
+    ]
+  ],
+  "car_setting_steering_direction": [
+    [
+      522498,
+      "\"car_setting_steering_direction\",&stack0x000011f8);"
+    ]
+  ],
+  "car_setting_rear_park_assist_vol_conv_open": [
+    [
+      522520,
+      "&stack0x000011c4,\"car_setting_rear_park_assist_vol_conv_open\",&stack0x000011b0);"
+    ]
+  ],
+  "car_setting_num_front_washer_active_wo_headlight_washer_active": [
+    [
+      522541,
+      "\"car_setting_num_front_washer_active_wo_headlight_washer_active\",&stack0x00001168);"
+    ],
+    [
+      891294,
+      "FUN_00f00240(auStack_3d8,\"car_setting_num_front_washer_active_wo_headlight_washer_active\");"
+    ]
+  ],
+  "car_setting_drl_via_separate_lights_experimental": [
+    [
+      522556,
+      "\"car_setting_drl_via_separate_lights_experimental\","
+    ]
+  ],
+  "car_setting_interior_lights_disco_mode": [
+    [
+      522572,
+      "\"car_setting_interior_lights_disco_mode\","
+    ]
+  ],
+  "car_setting_tpms_sensitivity": [
+    [
+      522594,
+      "&stack0x000010fc,&stack0x000010f8,&stack0x000010f4,\"car_setting_tpms_sensitivity\","
+    ]
+  ],
+  "car_setting_drl_via_front_left_turn_signal_step_1": [
+    [
+      522616,
+      "&stack0x000010a4,\"car_setting_drl_via_front_left_turn_signal_step_1\",&stack0x00001090"
+    ]
+  ],
+  "car_setting_drl_via_front_left_turn_signal_step_2": [
+    [
+      522635,
+      "&stack0x0000105c,\"car_setting_drl_via_front_left_turn_signal_step_2\",&stack0x00001048"
+    ]
+  ],
+  "car_setting_drl_via_front_left_turn_signal_step_3": [
+    [
+      522648,
+      "&stack0x00001014,\"car_setting_drl_via_front_left_turn_signal_step_3\",&stack0x00001000"
+    ]
+  ],
+  "car_setting_drl_via_front_left_turn_signal_step_4": [
+    [
+      522659,
+      "&stack0x00000fcc,\"car_setting_drl_via_front_left_turn_signal_step_4\",&stack0x00000fb8"
+    ]
+  ],
+  "car_setting_drl_via_front_right_turn_signal_step_1": [
+    [
+      522667,
+      "&stack0x00000f84,\"car_setting_drl_via_front_right_turn_signal_step_1\","
+    ]
+  ],
+  "car_setting_drl_via_front_right_turn_signal_step_2": [
+    [
+      522683,
+      "&stack0x00000f3c,\"car_setting_drl_via_front_right_turn_signal_step_2\","
+    ]
+  ],
+  "car_setting_drl_via_front_right_turn_signal_step_3": [
+    [
+      522691,
+      "&stack0x00000ef4,\"car_setting_drl_via_front_right_turn_signal_step_3\","
+    ]
+  ],
+  "car_setting_drl_via_front_right_turn_signal_step_4": [
+    [
+      522704,
+      "&stack0x00000eac,\"car_setting_drl_via_front_right_turn_signal_step_4\","
+    ]
+  ],
+  "car_setting_trailer_assist_step_1": [
+    [
+      522710,
+      "\"car_setting_trailer_assist_step_1\",&MultipleChoiceInterpretation::ENABLED_DISABLED);"
+    ]
+  ],
+  "car_setting_trailer_assist_step_2": [
+    [
+      522714,
+      "\"car_setting_trailer_assist_step_2\",&MultipleChoiceInterpretation::ENABLED_DISABLED);"
+    ]
+  ],
+  "car_setting_trailer_assist_step_3": [
+    [
+      522722,
+      "\"car_setting_trailer_assist_step_3\",&MultipleChoiceInterpretation::ENABLED_DISABLED);"
+    ]
+  ],
+  "car_setting_trailer_assist_step_4": [
+    [
+      522727,
+      "&stack0x00000e1c,\"car_setting_trailer_assist_step_4\","
+    ]
+  ],
+  "car_setting_trailer_assist_step_5": [
+    [
+      522736,
+      "&stack0x00000dfc,\"car_setting_trailer_assist_step_5\","
+    ]
+  ],
+  "car_setting_electronic_diff_lock_step_2": [
+    [
+      522742,
+      "\"car_setting_electronic_diff_lock_step_2\","
+    ]
+  ],
+  "car_setting_disable_nar_headlight_restrictions": [
+    [
+      522748,
+      "&stack0x00000dc4,&stack0x00000dc0,\"car_setting_disable_nar_headlight_restrictions\","
+    ],
+    [
+      522755,
+      "&stack0x00000dac,&stack0x00000da8,\"car_setting_disable_nar_headlight_restrictions\","
+    ]
+  ],
+  "car_setting_auto_unlock_when_smart_key_near": [
+    [
+      522770,
+      "\"car_setting_auto_unlock_when_smart_key_near\",&MultipleChoiceInterpretation::YES_NO);"
+    ]
+  ],
+  "car_setting_allow_config_beep_on_lock_unlock_remote": [
+    [
+      522776,
+      "\"car_setting_allow_config_beep_on_lock_unlock_remote\","
+    ]
+  ],
+  "car_setting_beep_on_unlock_remote": [
+    [
+      522785,
+      "\"car_setting_beep_on_unlock_remote\",&MultipleChoiceInterpretation::ENABLED_DISABLED);"
+    ],
+    [
+      891200,
+      "FUN_00f00240(auStack_a08,\"car_setting_beep_on_unlock_remote\");"
+    ]
+  ],
+  "car_setting_beep_on_lock_unlock_type": [
+    [
+      522793,
+      "\"car_setting_beep_on_lock_unlock_type\",&stack0x00000ce8);"
+    ],
+    [
+      891299,
+      "FUN_00f00240(auStack_360,\"car_setting_beep_on_lock_unlock_type\");"
+    ]
+  ],
+  "car_setting_start_stop_disable_method_b": [
+    [
+      522808,
+      "&stack0x00000ca8,&stack0x00000ca4,\"car_setting_start_stop_disable_method_b\","
+    ],
+    [
+      522816,
+      "&stack0x00000c78,&stack0x00000c74,\"car_setting_start_stop_disable_method_b\","
+    ]
+  ],
+  "car_setting_start_stop_disable": [
+    [
+      522824,
+      "&stack0x00000c5c,&stack0x00000c58,\"car_setting_start_stop_disable\","
+    ],
+    [
+      891258,
+      "FUN_00f00240(auStack_678,\"car_setting_start_stop_disable\");"
+    ]
+  ],
+  "car_setting_start_stop_info": [
+    [
+      522830,
+      "\"car_setting_start_stop_info\",&MultipleChoiceInterpretation::ENABLED_DISABLED);"
+    ]
+  ],
+  "car_setting_power_steering_when_engine_not_running": [
+    [
+      522836,
+      "&stack0x00000c24,\"car_setting_power_steering_when_engine_not_running\","
+    ],
+    [
+      522843,
+      "&stack0x00000c04,\"car_setting_power_steering_when_engine_not_running\","
+    ]
+  ],
+  "car_setting_seat_belt_warning_experimental": [
+    [
+      522865,
+      "\"car_setting_seat_belt_warning_experimental\","
+    ]
+  ],
+  "car_setting_theme_infotainment": [
+    [
+      522888,
+      "\"car_setting_theme_infotainment\",&stack0x00000b00);"
+    ],
+    [
+      522897,
+      "\"car_setting_theme_infotainment\",&stack0x00000ac0);"
+    ]
+  ],
+  "car_setting_instrument_cluster_lcd_background": [
+    [
+      522917,
+      "\"car_setting_instrument_cluster_lcd_background\",&stack0x00000a68);"
+    ],
+    [
+      891242,
+      "FUN_00f00240(auStack_720,\"car_setting_instrument_cluster_lcd_background\");"
+    ]
+  ],
+  "car_setting_virtual_cockpit_color_change": [
+    [
+      522933,
+      "\"car_setting_virtual_cockpit_color_change\",&MultipleChoiceInterpretation::YES_NO);"
+    ],
+    [
+      522956,
+      ",\"car_setting_virtual_cockpit_color_change\",&MultipleChoiceInterpretation::YES_NO);"
+    ]
+  ],
+  "car_setting_virtual_cockpit_color_change_menu": [
+    [
+      522949,
+      "\"car_setting_virtual_cockpit_color_change_menu\",&MultipleChoiceInterpretation::YES_NO"
+    ],
+    [
+      522960,
+      ",\"car_setting_virtual_cockpit_color_change_menu\","
+    ]
+  ],
+  "car_setting_sds_if_equipped": [
+    [
+      522977,
+      "&stack0x0000098c,&stack0x00000988,\"car_setting_sds_if_equipped\","
+    ]
+  ],
+  "car_setting_leaving_sound_req_reboot": [
+    [
+      522998,
+      "\"car_setting_leaving_sound_req_reboot\","
+    ]
+  ],
+  "car_setting_sport_display_virtual_instruments": [
+    [
+      523003,
+      "\"car_setting_sport_display_virtual_instruments\","
+    ]
+  ],
+  "car_setting_instruction_requires_sensors": [
+    [
+      523005,
+      "FUN_00f00240(&stack0x00000918,\"car_setting_instruction_requires_sensors\");"
+    ]
+  ],
+  "car_setting_oil_temp_display": [
+    [
+      523014,
+      "&stack0x000008fc,\"car_setting_oil_temp_display\","
+    ],
+    [
+      523021,
+      "\"car_setting_oil_temp_display\",&MultipleChoiceInterpretation::ENABLED_DISABLED);"
+    ]
+  ],
+  "car_setting_display_cylinder_shut_off": [
+    [
+      523029,
+      "&stack0x000008bc,\"car_setting_display_cylinder_shut_off\","
+    ]
+  ],
+  "car_setting_driving_school_mib1_step_1": [
+    [
+      523038,
+      "\"car_setting_driving_school_mib1_step_1\","
+    ]
+  ],
+  "car_setting_instruction_driving_school_mib1": [
+    [
+      523040,
+      "FUN_00f00240(&stack0x00000860,\"car_setting_instruction_driving_school_mib1\");"
+    ]
+  ],
+  "car_setting_driving_school_mib1_step_2": [
+    [
+      523049,
+      "\"car_setting_driving_school_mib1_step_2\","
+    ]
+  ],
+  "car_setting_driving_school_mib1_step_3": [
+    [
+      523059,
+      "\"car_setting_driving_school_mib1_step_3\","
+    ]
+  ],
+  "car_setting_driving_school_mib1_step_4": [
+    [
+      523071,
+      "\"car_setting_driving_school_mib1_step_4\","
+    ]
+  ],
+  "car_setting_instruction_req_infotainment_reboot": [
+    [
+      523073,
+      "FUN_00f00240(&stack0x000007a8,\"car_setting_instruction_req_infotainment_reboot\");"
+    ]
+  ],
+  "car_setting_drl_brightness_when_headlights_are_on_left": [
+    [
+      523083,
+      "\"car_setting_drl_brightness_when_headlights_are_on_left\",&stack0x00000778);"
+    ]
+  ],
+  "car_setting_drl_brightness_when_headlights_are_on_right": [
+    [
+      523093,
+      "\"car_setting_drl_brightness_when_headlights_are_on_right\",&stack0x00000728);"
+    ]
+  ],
+  "car_setting_drl_indicator": [
+    [
+      523101,
+      "\"car_setting_drl_indicator\",&MultipleChoiceInterpretation::ENABLED_DISABLED);"
+    ]
+  ],
+  "car_setting_auto_lights_sensitivity": [
+    [
+      523108,
+      "&stack0x000006d4,\"car_setting_auto_lights_sensitivity\",&stack0x000006c0);"
+    ],
+    [
+      891265,
+      "FUN_00f00240(auStack_5e8,\"car_setting_auto_lights_sensitivity\");"
+    ]
+  ],
+  "car_setting_turn_off_fogs_with_high_beam": [
+    [
+      523116,
+      "\"car_setting_turn_off_fogs_with_high_beam\",&MultipleChoiceInterpretation::YES_NO);"
+    ],
+    [
+      891305,
+      "FUN_00f00240(auStack_2d0,\"car_setting_turn_off_fogs_with_high_beam\");"
+    ]
+  ],
+  "car_setting_taillights_animation": [
+    [
+      523125,
+      "\"car_setting_taillights_animation\",&stack0x00000650);"
+    ]
+  ],
+  "car_setting_instruction_requires_highline_tail_lights": [
+    [
+      523126,
+      "FUN_00f00240(&stack0x00000620,\"car_setting_instruction_requires_highline_tail_lights\");"
+    ]
+  ],
+  "car_setting_puddle_lights_while_driver_mirror_folding": [
+    [
+      523136,
+      "\"car_setting_puddle_lights_while_driver_mirror_folding\","
+    ]
+  ],
+  "car_setting_puddle_lights_while_pass_mirror_folding": [
+    [
+      523141,
+      "\"car_setting_puddle_lights_while_pass_mirror_folding\","
+    ]
+  ],
+  "car_setting_auto_fold_mirrors_driver_step_1": [
+    [
+      523150,
+      "\"car_setting_auto_fold_mirrors_driver_step_1\","
+    ]
+  ],
+  "car_setting_auto_fold_mirrors_driver_step_2": [
+    [
+      523155,
+      "\"car_setting_auto_fold_mirrors_driver_step_2\","
+    ]
+  ],
+  "car_setting_auto_fold_mirrors_passenger_step_1": [
+    [
+      523162,
+      "\"car_setting_auto_fold_mirrors_passenger_step_1\","
+    ]
+  ],
+  "car_setting_auto_fold_mirrors_passenger_step_2": [
+    [
+      523171,
+      "\"car_setting_auto_fold_mirrors_passenger_step_2\","
+    ]
+  ],
+  "car_setting_auto_unfold_mirrors": [
+    [
+      523180,
+      "&stack0x00000574,\"car_setting_auto_unfold_mirrors\",&stack0x00000560);"
+    ]
+  ],
+  "car_setting_memory_for_lowering_mirror_in_reverse": [
+    [
+      523188,
+      "\"car_setting_memory_for_lowering_mirror_in_reverse\","
+    ]
+  ],
+  "car_setting_memory_for_lowering_mirror_in_reverse_step_1": [
+    [
+      523194,
+      "\"car_setting_memory_for_lowering_mirror_in_reverse_step_1\","
+    ]
+  ],
+  "car_setting_memory_for_lowering_mirror_in_reverse_step_2": [
+    [
+      523201,
+      "\"car_setting_memory_for_lowering_mirror_in_reverse_step_2\","
+    ]
+  ],
+  "car_setting_instruction_lower_mirror_with_switch_pass": [
+    [
+      523203,
+      "FUN_00f00240(&stack0x000004d8,\"car_setting_instruction_lower_mirror_with_switch_pass\");"
+    ]
+  ],
+  "car_setting_memory_for_lowering_driver_mirror_in_reverse": [
+    [
+      523212,
+      "\"car_setting_memory_for_lowering_driver_mirror_in_reverse\","
+    ]
+  ],
+  "car_setting_mirror_synchronous": [
+    [
+      523218,
+      "\"car_setting_mirror_synchronous\",&MultipleChoiceInterpretation::ENABLED_DISABLED);"
+    ],
+    [
+      523226,
+      "&stack0x00000484,\"car_setting_mirror_synchronous\","
+    ]
+  ],
+  "car_setting_easy_entry_exit_overall": [
+    [
+      523232,
+      "\"car_setting_easy_entry_exit_overall\",&MultipleChoiceInterpretation::YES_NO);"
+    ]
+  ],
+  "car_setting_easy_entry_exit_req_memory_seats": [
+    [
+      523237,
+      "\"car_setting_easy_entry_exit_req_memory_seats\","
+    ]
+  ],
+  "car_setting_instruction_easy_entry_exit_b9": [
+    [
+      523240,
+      "FUN_00f00240(&stack0x00000428,\"car_setting_instruction_easy_entry_exit_b9\");"
+    ]
+  ],
+  "car_setting_seat_heater_temperature_adjustment_stage_1": [
+    [
+      523252,
+      "\"car_setting_seat_heater_temperature_adjustment_stage_1\",&stack0x000003f8);"
+    ]
+  ],
+  "car_setting_seat_heater_temperature_adjustment_stage_2": [
+    [
+      523262,
+      "\"car_setting_seat_heater_temperature_adjustment_stage_2\",&stack0x000003a8);"
+    ]
+  ],
+  "car_setting_seat_heater_temperature_adjustment_stage_3": [
+    [
+      523270,
+      "\"car_setting_seat_heater_temperature_adjustment_stage_3\",&stack0x00000358);"
+    ]
+  ],
+  "car_setting_trunk_closing_duration": [
+    [
+      523283,
+      "\"car_setting_trunk_closing_duration\",&stack0x000002f8);"
+    ]
+  ],
+  "car_setting_comfort_close_windows_remote_single_press": [
+    [
+      523293,
+      "&stack0x000002bc,\"car_setting_comfort_close_windows_remote_single_press\","
+    ]
+  ],
+  "car_setting_comfort_function_sunroof": [
+    [
+      523299,
+      "\"car_setting_comfort_function_sunroof\",&MultipleChoiceInterpretation::YES_NO);"
+    ]
+  ],
+  "car_setting_comfort_open_convertible_remote": [
+    [
+      523304,
+      "\"car_setting_comfort_open_convertible_remote\",&MultipleChoiceInterpretation::YES_NO);"
+    ],
+    [
+      523312,
+      "&stack0x0000023c,\"car_setting_comfort_open_convertible_remote\","
+    ]
+  ],
+  "car_setting_comfort_open_convertible_key": [
+    [
+      523319,
+      "&stack0x00000214,\"car_setting_comfort_open_convertible_key\","
+    ]
+  ],
+  "car_setting_rain_light_sensor": [
+    [
+      523323,
+      "\"car_setting_rain_light_sensor\",&MultipleChoiceInterpretation::ENABLED_DISABLED);"
+    ],
+    [
+      891322,
+      "FUN_00f00240(auStack_1c8,\"car_setting_rain_light_sensor\");"
+    ]
+  ],
+  "car_setting_start_stop_disable_method_c": [
+    [
+      523358,
+      "\"car_setting_start_stop_disable_method_c\",&stack0x00000198);"
+    ]
+  ],
+  "car_setting_torque_limiter_interaction": [
+    [
+      523369,
+      "&stack0x00000164,\"car_setting_torque_limiter_interaction\",&stack0x00000150);"
+    ]
+  ],
+  "car_setting_automatic_driveaway_after_short_stop_step_2": [
+    [
+      523378,
+      "\"car_setting_automatic_driveaway_after_short_stop_step_2\","
+    ],
+    [
+      523407,
+      "\"car_setting_automatic_driveaway_after_short_stop_step_2\","
+    ]
+  ],
+  "car_setting_instruction_automatic_driveaway_after_short_stop": [
+    [
+      523383,
+      "FUN_00f00240(&stack0x000000f8,\"car_setting_instruction_automatic_driveaway_after_short_stop\");"
+    ],
+    [
+      523410,
+      "FUN_00f00240(&stack0x00000078,\"car_setting_instruction_automatic_driveaway_after_short_stop\");"
+    ]
+  ],
+  "car_setting_automatic_driveaway_after_short_stop_step_1": [
+    [
+      523392,
+      "\"car_setting_automatic_driveaway_after_short_stop_step_1\","
+    ],
+    [
+      523429,
+      "\"car_setting_automatic_driveaway_after_short_stop_step_1\","
+    ]
+  ],
+  "car_setting_instruction_settings_with_steps": [
+    [
+      523395,
+      "FUN_00f00240(&stack0x000000b8,\"car_setting_instruction_settings_with_steps\");"
+    ],
+    [
+      523433,
+      "FUN_00f00240(&stack0x00000018,\"car_setting_instruction_settings_with_steps\");"
+    ]
+  ],
+  "car_setting_instruction_transmission_fluild_temp": [
+    [
+      542961,
+      "FUN_00f00240(local_c8,\"car_setting_instruction_transmission_fluild_temp\");"
+    ],
+    [
+      542980,
+      "FUN_00f00240(local_128,\"car_setting_instruction_transmission_fluild_temp\");"
+    ]
+  ],
+  "car_setting_fuel_consumption_position_0": [
+    [
+      867198,
+      "&local_188,&local_18c,\"car_setting_fuel_consumption_position_0\",&local_1a0);"
+    ]
+  ],
+  "car_setting_fuel_consumption_position_1": [
+    [
+      867227,
+      "&local_1d8,&local_1dc,\"car_setting_fuel_consumption_position_1\",&local_1f0);"
+    ]
+  ],
+  "car_setting_fuel_consumption_position_2": [
+    [
+      867255,
+      "&local_228,&local_22c,\"car_setting_fuel_consumption_position_2\",&local_240);"
+    ]
+  ],
+  "car_setting_fuel_consumption_position_3": [
+    [
+      867284,
+      "&local_278,&local_27c,\"car_setting_fuel_consumption_position_3\",&local_290);"
+    ]
+  ],
+  "car_setting_fuel_consumption_position_4": [
+    [
+      867312,
+      "&local_2c8,&local_2cc,\"car_setting_fuel_consumption_position_4\",&local_2e0);"
+    ]
+  ],
+  "car_setting_oil_temp_position_0": [
+    [
+      867505,
+      "&local_188,&local_18c,\"car_setting_oil_temp_position_0\",&local_1a0);"
+    ]
+  ],
+  "car_setting_oil_temp_position_1": [
+    [
+      867531,
+      "&local_1d8,&local_1dc,\"car_setting_oil_temp_position_1\",&local_1f0);"
+    ]
+  ],
+  "car_setting_oil_temp_position_2": [
+    [
+      867563,
+      "&local_228,&local_22c,\"car_setting_oil_temp_position_2\",&local_240);"
+    ]
+  ],
+  "car_setting_oil_temp_position_3": [
+    [
+      867593,
+      "&local_278,&local_27c,\"car_setting_oil_temp_position_3\",&local_290);"
+    ]
+  ],
+  "car_setting_oil_temp_position_4": [
+    [
+      867621,
+      "&local_2c8,&local_2cc,\"car_setting_oil_temp_position_4\",&local_2e0);"
+    ]
+  ],
+  "car_setting_comfort_turn_signal_count": [
+    [
+      891198,
+      "FUN_00f00240(auStack_a38,\"car_setting_comfort_turn_signal_count\");"
+    ]
+  ],
+  "car_setting_beep_on_lock_remote": [
+    [
+      891199,
+      "FUN_00f00240(auStack_a20,\"car_setting_beep_on_lock_remote\");"
+    ]
+  ],
+  "car_setting_refuel_quantity_mfd": [
+    [
+      891202,
+      "FUN_00f00240(auStack_9d8,\"car_setting_refuel_quantity_mfd\");"
+    ]
+  ],
+  "car_setting_drl": [
+    [
+      891204,
+      "FUN_00f00240(auStack_9a8,\"car_setting_drl\");"
+    ]
+  ],
+  "car_setting_start_screen_infotainment": [
+    [
+      891206,
+      "FUN_00f00240(auStack_990,\"car_setting_start_screen_infotainment\");"
+    ]
+  ],
+  "car_setting_coming_home_duration": [
+    [
+      891208,
+      "FUN_00f00240(auStack_978,\"car_setting_coming_home_duration\");"
+    ]
+  ],
+  "car_setting_start_screen_instrument_cluster": [
+    [
+      891211,
+      "FUN_00f00240(auStack_948,\"car_setting_start_screen_instrument_cluster\");"
+    ]
+  ],
+  "car_setting_emergency_brake_flashing_via_turn_signals": [
+    [
+      891215,
+      "FUN_00f00240(auStack_900,\"car_setting_emergency_brake_flashing_via_turn_signals\");"
+    ]
+  ],
+  "car_setting_lower_mirror_in_reverse": [
+    [
+      891217,
+      "FUN_00f00240(auStack_8d0,\"car_setting_lower_mirror_in_reverse\");"
+    ]
+  ],
+  "car_setting_seatbelt_warning_ding_rear_right": [
+    [
+      891218,
+      "FUN_00f00240(auStack_8b8,\"car_setting_seatbelt_warning_ding_rear_right\");"
+    ]
+  ],
+  "car_setting_seatbelt_warning_ding_rear_left": [
+    [
+      891219,
+      "FUN_00f00240(auStack_8a0,\"car_setting_seatbelt_warning_ding_rear_left\");"
+    ]
+  ],
+  "car_setting_seatbelt_warning_ding_rear_center": [
+    [
+      891220,
+      "FUN_00f00240(auStack_888,\"car_setting_seatbelt_warning_ding_rear_center\");"
+    ]
+  ],
+  "car_setting_country": [
+    [
+      891221,
+      "FUN_00f00240(auStack_870,\"car_setting_country\");"
+    ]
+  ],
+  "car_setting_cornering_lights_via_fogs": [
+    [
+      891222,
+      "FUN_00f00240(auStack_858,\"car_setting_cornering_lights_via_fogs\");"
+    ]
+  ],
+  "car_setting_virtual_cockpit_color_1": [
+    [
+      891223,
+      "FUN_00f00240(auStack_840,\"car_setting_virtual_cockpit_color_1\");"
+    ]
+  ],
+  "car_setting_coming_home_mode": [
+    [
+      891224,
+      "FUN_00f00240(auStack_828,\"car_setting_coming_home_mode\");"
+    ]
+  ],
+  "car_setting_beep_on_alarm_armed": [
+    [
+      891227,
+      "FUN_00f00240(auStack_7e0,\"car_setting_beep_on_alarm_armed\");"
+    ]
+  ],
+  "car_setting_leaving_home_duration": [
+    [
+      891231,
+      "FUN_00f00240(auStack_7c8,\"car_setting_leaving_home_duration\");"
+    ]
+  ],
+  "car_setting_comfort_open_windows_remote": [
+    [
+      891232,
+      "FUN_00f00240(auStack_7b0,\"car_setting_comfort_open_windows_remote\");"
+    ]
+  ],
+  "car_setting_lower_mirror_in_reverse_req_memory_seats": [
+    [
+      891234,
+      "FUN_00f00240(auStack_798,\"car_setting_lower_mirror_in_reverse_req_memory_seats\");"
+    ]
+  ],
+  "car_setting_auto_fold_mirrors": [
+    [
+      891236,
+      "FUN_00f00240(auStack_780,\"car_setting_auto_fold_mirrors\");"
+    ]
+  ],
+  "car_setting_auto_unlock": [
+    [
+      891238,
+      "FUN_00f00240(auStack_768,\"car_setting_auto_unlock\");"
+    ]
+  ],
+  "car_setting_coming_home_req_rls": [
+    [
+      891239,
+      "FUN_00f00240(auStack_750,\"car_setting_coming_home_req_rls\");"
+    ]
+  ],
+  "car_setting_drl_brightness": [
+    [
+      891241,
+      "FUN_00f00240(auStack_738,\"car_setting_drl_brightness\");"
+    ]
+  ],
+  "car_setting_speed_digital_display": [
+    [
+      891244,
+      "FUN_00f00240(auStack_708,\"car_setting_speed_digital_display\");"
+    ]
+  ],
+  "car_setting_comfort_open_remote": [
+    [
+      891245,
+      "FUN_00f00240(auStack_6f0,\"car_setting_comfort_open_remote\");"
+    ]
+  ],
+  "car_setting_seat_belt_warn_type": [
+    [
+      891248,
+      "FUN_00f00240(auStack_6d8,\"car_setting_seat_belt_warn_type\");"
+    ]
+  ],
+  "car_setting_turn_signal_click_volume": [
+    [
+      891250,
+      "FUN_00f00240(auStack_6c0,\"car_setting_turn_signal_click_volume\");"
+    ]
+  ],
+  "car_setting_microphone_sensitivity": [
+    [
+      891252,
+      "FUN_00f00240(auStack_6a8,\"car_setting_microphone_sensitivity\");"
+    ]
+  ],
+  "car_setting_ese": [
+    [
+      891253,
+      "FUN_00f00240(auStack_690,\"car_setting_ese\");"
+    ]
+  ],
+  "car_setting_drl_via_fogs": [
+    [
+      891259,
+      "FUN_00f00240(auStack_660,\"car_setting_drl_via_fogs\");"
+    ]
+  ],
+  "car_setting_comfort_close_key": [
+    [
+      891262,
+      "FUN_00f00240(auStack_630,\"car_setting_comfort_close_key\");"
+    ]
+  ],
+  "car_setting_comfort_close_windows_remote": [
+    [
+      891263,
+      "FUN_00f00240(auStack_618,\"car_setting_comfort_close_windows_remote\");"
+    ]
+  ],
+  "car_setting_warn_on_key_in_ignition": [
+    [
+      891264,
+      "FUN_00f00240(auStack_600,\"car_setting_warn_on_key_in_ignition\");"
+    ]
+  ],
+  "car_setting_turn_off_drl_with_parking_brake": [
+    [
+      891266,
+      "FUN_00f00240(auStack_5d0,\"car_setting_turn_off_drl_with_parking_brake\");"
+    ]
+  ],
+  "car_setting_show_blower_speed_in_auto": [
+    [
+      891267,
+      "FUN_00f00240(auStack_5b8,\"car_setting_show_blower_speed_in_auto\");"
+    ]
+  ],
+  "car_setting_fading_interior_lights": [
+    [
+      891269,
+      "FUN_00f00240(auStack_5a0,\"car_setting_fading_interior_lights\");"
+    ]
+  ],
+  "car_setting_pop_trunk_remote": [
+    [
+      891270,
+      "FUN_00f00240(auStack_588,\"car_setting_pop_trunk_remote\");"
+    ]
+  ],
+  "car_setting_leaving_home_req_rls": [
+    [
+      891272,
+      "FUN_00f00240(auStack_570,\"car_setting_leaving_home_req_rls\");"
+    ]
+  ],
+  "car_setting_coming_home": [
+    [
+      891274,
+      "FUN_00f00240(auStack_558,\"car_setting_coming_home\");"
+    ]
+  ],
+  "car_setting_navigation_compass_display": [
+    [
+      891276,
+      "FUN_00f00240(auStack_540,\"car_setting_navigation_compass_display\");"
+    ]
+  ],
+  "car_setting_language": [
+    [
+      891277,
+      "FUN_00f00240(auStack_528,\"car_setting_language\");"
+    ]
+  ],
+  "car_setting_turn_off_drl_with_turn_signal": [
+    [
+      891278,
+      "FUN_00f00240(auStack_510,\"car_setting_turn_off_drl_with_turn_signal\");"
+    ]
+  ],
+  "car_setting_power_steering_default_mode": [
+    [
+      891280,
+      "FUN_00f00240(auStack_4f8,\"car_setting_power_steering_default_mode\");"
+    ]
+  ],
+  "car_setting_developer_menu": [
+    [
+      891281,
+      "FUN_00f00240(auStack_4e0,\"car_setting_developer_menu\");"
+    ]
+  ],
+  "car_setting_side_marker_brightness": [
+    [
+      891282,
+      "FUN_00f00240(auStack_4c8,\"car_setting_side_marker_brightness\");"
+    ]
+  ],
+  "car_setting_comfort_open_key": [
+    [
+      891283,
+      "FUN_00f00240(auStack_4b0,\"car_setting_comfort_open_key\");"
+    ]
+  ],
+  "car_setting_auto_fold_mirrors_overall": [
+    [
+      891284,
+      "FUN_00f00240(auStack_498,\"car_setting_auto_fold_mirrors_overall\");"
+    ]
+  ],
+  "car_setting_scandinavian_drl": [
+    [
+      891286,
+      "FUN_00f00240(auStack_468,\"car_setting_scandinavian_drl\");"
+    ]
+  ],
+  "car_setting_remote_with_ignition": [
+    [
+      891287,
+      "FUN_00f00240(auStack_450,\"car_setting_remote_with_ignition\");"
+    ]
+  ],
+  "car_setting_start_stop_last_state": [
+    [
+      891289,
+      "FUN_00f00240(auStack_420,\"car_setting_start_stop_last_state\");"
+    ]
+  ],
+  "car_setting_virtual_instrument_cluster_theme": [
+    [
+      891290,
+      "FUN_00f00240(auStack_408,\"car_setting_virtual_instrument_cluster_theme\");"
+    ]
+  ],
+  "car_setting_blind_spot_indicators_brightness": [
+    [
+      891293,
+      "FUN_00f00240(auStack_3f0,\"car_setting_blind_spot_indicators_brightness\");"
+    ]
+  ],
+  "car_setting_hidden_menu_car_setup": [
+    [
+      891296,
+      "FUN_00f00240(auStack_3a8,\"car_setting_hidden_menu_car_setup\");"
+    ]
+  ],
+  "car_setting_rear_park_assist_vol": [
+    [
+      891297,
+      "FUN_00f00240(auStack_390,\"car_setting_rear_park_assist_vol\");"
+    ]
+  ],
+  "car_setting_auto_relock_time": [
+    [
+      891298,
+      "FUN_00f00240(auStack_378,\"car_setting_auto_relock_time\");"
+    ]
+  ],
+  "car_setting_ambient_temperature_display": [
+    [
+      891300,
+      "FUN_00f00240(auStack_348,\"car_setting_ambient_temperature_display\");"
+    ]
+  ],
+  "car_setting_rear_park_assist_freq": [
+    [
+      891301,
+      "FUN_00f00240(auStack_330,\"car_setting_rear_park_assist_freq\");"
+    ]
+  ],
+  "car_setting_units_pressure": [
+    [
+      891302,
+      "FUN_00f00240(auStack_318,\"car_setting_units_pressure\");"
+    ]
+  ],
+  "car_setting_rear_view_camera": [
+    [
+      891303,
+      "FUN_00f00240(auStack_300,\"car_setting_rear_view_camera\");"
+    ]
+  ],
+  "car_setting_drl_via": [
+    [
+      891306,
+      "FUN_00f00240(auStack_2b8,\"car_setting_drl_via\");"
+    ]
+  ],
+  "car_setting_beep_on_lock_unlock_remote_duration_horn_only": [
+    [
+      891307,
+      "FUN_00f00240(auStack_2a0,\"car_setting_beep_on_lock_unlock_remote_duration_horn_only\");"
+    ]
+  ],
+  "car_setting_alarm": [
+    [
+      891308,
+      "FUN_00f00240(auStack_288,\"car_setting_alarm\");"
+    ]
+  ],
+  "car_setting_coming_leaving_home_output": [
+    [
+      891309,
+      "FUN_00f00240(auStack_270,\"car_setting_coming_leaving_home_output\");"
+    ]
+  ],
+  "car_setting_ads_engine_menu": [
+    [
+      891312,
+      "FUN_00f00240(auStack_258,\"car_setting_ads_engine_menu\");"
+    ]
+  ],
+  "car_setting_lower_mirror_in_reverse_global": [
+    [
+      891315,
+      "FUN_00f00240(auStack_240,\"car_setting_lower_mirror_in_reverse_global\");"
+    ]
+  ],
+  "car_setting_puddle_lights_driver_side": [
+    [
+      891320,
+      "FUN_00f00240(auStack_1f8,\"car_setting_puddle_lights_driver_side\");"
+    ]
+  ],
+  "car_setting_footwell_lights_with_instrument_lights": [
+    [
+      891321,
+      "FUN_00f00240(auStack_1e0,\"car_setting_footwell_lights_with_instrument_lights\");"
+    ]
+  ],
+  "car_setting_speaker_volume": [
+    [
+      891323,
+      "FUN_00f00240(auStack_1b0,\"car_setting_speaker_volume\");"
+    ]
+  ],
+  "car_setting_auto_fold_mirrors_remote_mode": [
+    [
+      891324,
+      "FUN_00f00240(auStack_198,\"car_setting_auto_fold_mirrors_remote_mode\");"
+    ]
+  ],
+  "car_setting_drl_brightness_when_headlights_are_on": [
+    [
+      891326,
+      "FUN_00f00240(auStack_168,\"car_setting_drl_brightness_when_headlights_are_on\");"
+    ]
+  ],
+  "car_setting_remember_recirculating_air_state": [
+    [
+      891327,
+      "FUN_00f00240(auStack_150,\"car_setting_remember_recirculating_air_state\");"
+    ]
+  ],
+  "car_setting_lap_timer_oil_temp": [
+    [
+      891328,
+      "FUN_00f00240(auStack_138,\"car_setting_lap_timer_oil_temp\");"
+    ]
+  ],
+  "car_setting_auto_fold_mirrors_in_infotainment": [
+    [
+      891329,
+      "FUN_00f00240(auStack_120,\"car_setting_auto_fold_mirrors_in_infotainment\");"
+    ]
+  ],
+  "car_setting_ads_steering_menu": [
+    [
+      891330,
+      "FUN_00f00240(auStack_108,\"car_setting_ads_steering_menu\");"
+    ]
+  ],
+  "car_setting_bulb_check_license_plate_lights": [
+    [
+      891334,
+      "FUN_00f00240(auStack_f0,\"car_setting_bulb_check_license_plate_lights\");"
+    ]
+  ],
+  "car_setting_cornering_lights_via_fogs_left": [
+    [
+      891335,
+      "FUN_00f00240(auStack_d8,\"car_setting_cornering_lights_via_fogs_left\");"
+    ]
+  ],
+  "car_setting_rear_wiper_tear_wiping": [
+    [
+      891336,
+      "FUN_00f00240(auStack_c0,\"car_setting_rear_wiper_tear_wiping\");"
+    ]
+  ],
+  "car_setting_footwell_lights_brightness_no_ext_light_pack": [
+    [
+      891337,
+      "FUN_00f00240(auStack_a8,\"car_setting_footwell_lights_brightness_no_ext_light_pack\");"
+    ]
+  ],
+  "car_setting_beep_on_lock_key": [
+    [
+      891338,
+      "FUN_00f00240(auStack_90,\"car_setting_beep_on_lock_key\");"
+    ]
+  ],
+  "car_setting_mirror_heating_with_rear_window_heater": [
+    [
+      891339,
+      "FUN_00f00240(auStack_78,\"car_setting_mirror_heating_with_rear_window_heater\");"
+    ]
+  ],
+  "car_setting_auto_unlock_parked": [
+    [
+      891340,
+      "FUN_00f00240(local_60,\"car_setting_auto_unlock_parked\");"
+    ]
+  ],
+  "car_setting_led_daytime_running_lights": [
+    [
+      895521,
+      "*(char **)(local_110 + 0x18) = \"car_setting_led_daytime_running_lights\";"
+    ]
+  ],
+  "car_setting_12w_general_light_bulb": [
+    [
+      895524,
+      "*(char **)(local_110 + 0x28) = \"car_setting_12w_general_light_bulb\";"
+    ]
+  ],
+  "car_setting_led_low_power": [
+    [
+      895526,
+      "*(char **)(local_110 + 0x38) = \"car_setting_led_low_power\";"
+    ]
+  ],
+  "car_setting_general_led_up_to_6W": [
+    [
+      895528,
+      "*(char **)(local_110 + 0x48) = \"car_setting_general_led_up_to_6W\";"
+    ]
+  ],
+  "car_setting_6w_general_incandescent_lamp": [
+    [
+      895530,
+      "*(char **)(local_110 + 0x58) = \"car_setting_6w_general_incandescent_lamp\";"
+    ]
+  ],
+  "car_setting_bulb_check_daytime_running_lights_left_lights": [
+    [
+      895543,
+      ",\"car_setting_bulb_check_daytime_running_lights_left_lights\",&local_f8,"
+    ]
+  ],
+  "car_setting_low_power_mode": [
+    [
+      895661,
+      "&local_140,&local_150,&local_110,\"car_setting_low_power_mode\",&local_130);"
+    ]
+  ],
+  "car_setting_start_dpf": [
+    [
+      968077,
+      "\"car_setting_start_dpf\",&local_60);"
+    ],
+    [
+      968930,
+      "\"car_setting_start_dpf\",&local_80,&local_6c);"
+    ]
+  ],
+  "car_setting_battery_reg": [
+    [
+      968506,
+      "\"car_setting_battery_reg\",&local_a8);"
+    ],
+    [
+      968566,
+      "\"car_setting_battery_reg\",&local_d0);"
+    ],
+    [
+      976878,
+      "\"car_setting_battery_reg\",&uStack_b8,lVar4 + 0x68);"
+    ]
+  ],
+  "car_setting_intro_cluster_gauge_config": [
+    [
+      989837,
+      "\"car_setting_intro_cluster_gauge_config\");"
+    ]
+  ],
+  "car_setting_partially": [
+    [
+      989839,
+      "LibStr::LibStr((LibStr *)&LibStr::car_setting_partially,\"car_setting_partially\");"
+    ]
+  ]
+}

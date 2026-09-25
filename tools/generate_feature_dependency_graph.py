@@ -128,19 +128,18 @@ def main():
         byte_offset = cmd_info.get("byte_offset", 0)
         bit_mask = cmd_info.get("bit_mask", 1)
 
-        # ECU CAN IDs
-        tx_id = "0x70E"
-        rx_id = "0x778"
-        if "19" in ecu_addr:
-            tx_id = "0x710"; rx_id = "0x77A"
-        elif "17" in ecu_addr:
-            tx_id = "0x714"; rx_id = "0x77E"
-        elif "53" in ecu_addr:
-            tx_id = "0x752"; rx_id = "0x7BC"
-        elif "01" in ecu_addr:
-            tx_id = "0x7E0"; rx_id = "0x7E8"
-        elif "03" in ecu_addr:
-            tx_id = "0x713"; rx_id = "0x77D"
+        # ECU CAN IDs directly from verified command map or vag_ecu_addressing (Zero Fallback!)
+        tx_id = cmd_info.get("ecu_tx_id")
+        rx_id = cmd_info.get("ecu_rx_id")
+        if not tx_id or not rx_id:
+            from vag_ecu_addressing import resolve_ecu_transport
+            trans = resolve_ecu_transport(ecu_name)
+            if trans:
+                tx_id = trans["uds_tx_id"]
+                rx_id = trans["uds_rx_id"]
+            else:
+                tx_id = None
+                rx_id = None
 
         entry = {
             "feature_id": fid,
