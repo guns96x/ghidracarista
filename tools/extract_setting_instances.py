@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+import sys as _sys
+_sys.exit("DEPRECATED (Round 4): this generator wrote SETTING_*/READY/BLOCKED artifacts with "
+          "collapsed variants and unpinned inputs. Use tools/build_variants_and_settings_index.py.")
 """
 tools/extract_setting_instances.py
 Rigorous molecular extraction of Carista setting instances and object model:
