@@ -1,0 +1,44 @@
+{
+ "binary": {
+  "path": "extracted/arm64/lib/arm64-v8a/libCarista.so",
+  "sha256": "fe6708565270f20c8622f2e4d0b520f8f4a0c65b2d14c104b1f0550635c13437"
+ },
+ "extractor_version": "round4-cfg-2",
+ "generated_sha256": {
+  "handoff/BLOCKED_FEATURES.json": "80d5ccedc10a45e8d32f478c6f031a9df5e4456108af4b8c0bf1d010ede5d0c1",
+  "handoff/READY_FEATURES.json": "8857d55f64e88700d46d25280c086b7cd4655118114cf4166e0faf584ada19f1",
+  "research/molecular/FEATURE_DEPENDENCY_GRAPH.json": "74470b87521d7c28a1fc2d492f4b6fba262f5cd168b5ee1d1aaae1de861a3254",
+  "research/molecular/FEATURE_DEPENDENCY_GRAPH.md": "26b85371a0eb35ae5754c59d33c67871da5bd10c942ad38e6d194fe9fdceef4a",
+  "research/molecular/SETTING_INSTANCE_INDEX.json": "cfbae138b0119afc062318178465ad8f142706b319fc82f613ea28ac4dd700a0",
+  "research/molecular/SETTING_TO_COMMAND_MAP.json": "39a3aa591096f8a481a8495e4652311d0b003e7b1424537b62c516415e0833a7",
+  "research/molecular/SETTING_VARIANTS_INDEX.json": "d38275fd1dd132c0ead75b5e3adbf3bdd5225d8d3f383f3e1fe9f4405fb73081",
+  "research/molecular/all_binary_variants_ground_truth.json": "85233fc2af95bb8df4de1a91aad4657dcd462d1c24fa44f796f8ada82a4b6b1d",
+  "research/molecular/resolved_factories_map.json": "c9f74ead167eb511c021cda30597bb9be593a95528b5843e6a9fa583824c7604",
+  "research/molecular/vag_setting_callsites.json": "92dd12a1ba42744e228cdcd1b6d2f6d582d94c043b50dc9e3f08b29e4187cfbf"
+ },
+ "generation_commands": [
+  "python tools/vag_setting_dataflow.py",
+  "python tools/extract_all_variants_ground_truth.py",
+  "python tools/build_variants_and_settings_index.py",
+  "python tools/generate_feature_dependency_graph.py",
+  "python tests/molecular_reproducibility.py --write-report",
+  "python tests/molecular_validation.py",
+  "python tests/test_molecular_model.py"
+ ],
+ "inputs_sha256": {
+  "research/db/diagnostic_evidence.json": "7ab297c1edbd86a30cc0fcca825efbb3ef090794c9f3971dc02b0fc4d7892ae0",
+  "research/features/FEATURE_CATALOG.json": "94508e838a951af5b8efc4637e772e27cb55bd14d8382ce19b23356b5909d6cb",
+  "research/protocols/adaptation.md": "370857cf1abb0db9108972f3de4355c24086a217e356882fd5c61079e92175e9",
+  "research/protocols/coding.md": "fa325d488b79836521e166e791b19d63b7b220fae3f8f38c4a7d910e6fc5ea25",
+  "research/protocols/uds.md": "66b4be7a6ded7aa8016328c1526558bbec6dddb2fa40c0cfb88e63073eab7e12",
+  "tools/build_variants_and_settings_index.py": "baea8fc95e1cdbaad1b142ec49d9b4ab437ec57f652780e0a96fb3822177b584",
+  "tools/extract_all_variants_ground_truth.py": "c0448cb3876682671d3475b122189351d42ec0a8fc5b4491d3e040bc16c08916",
+  "tools/generate_feature_dependency_graph.py": "c94137812da849804de8aa342601daf958d731b390c2021d12a6965d5756d639",
+  "tools/molecular_model.py": "0abe242d45b015452637243519f99fa055148e491d3e73e52dab7e4d82aee46e",
+  "tools/vag_class_semantics.py": "c6d2616137450cb7b2f62520b35ffd8d8f9d2e103fa00c2167debb7f3e27df1c",
+  "tools/vag_ecu_addressing.py": "1653d13560f95c8dc41279fa89f618ebcced21a1553dc78401519cc287796a59",
+  "tools/vag_setting_dataflow.py": "f34d4ec9c45141f37340a7849f41940b7cac4dcbeabc5c08465023956c0d5103"
+ },
+ "note": "Hashes are over LF-normalised text. rerun_identical_to_committed records the outcome of the last run that had the binary available (null when it was not).",
+ "rerun_identical_to_committed": true
+}
