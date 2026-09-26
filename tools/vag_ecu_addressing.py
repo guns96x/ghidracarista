@@ -147,17 +147,15 @@ def resolve_ecu_transport(ecu_name):
     
     if clean_name in VAG_CAN_ECU_ADDRESSES:
         info = VAG_CAN_ECU_ADDRESSES[clean_name]
-        # Match corresponding UDS addressing if supported or CAN/TP2.0 channel
-        uds_key = clean_name.replace("VagCanEcu::", "VagUdsEcu::")
-        uds_tx = VAG_UDS_ECU_ADDRESSES.get(uds_key, {}).get("tx")
-        uds_rx = VAG_UDS_ECU_ADDRESSES.get(uds_key, {}).get("rx")
+        # A VagCanEcu is a KWP2000/TP2.0 endpoint. A same-named VagUdsEcu having CAN IDs is not
+        # evidence for this ECU, so no UDS TX/RX IDs are attached (Round 4, protocol consistency).
         return {
             "name": clean_name.replace("VagCanEcu::", ""),
             "full_name": clean_name,
             "protocol": "KWP2000 / TP2.0 / CAN",
             "logical_address": info["logical"],
-            "uds_tx_id": uds_tx,
-            "uds_rx_id": uds_rx,
+            "uds_tx_id": None,
+            "uds_rx_id": None,
             "tp20_channel": f"0x200 + {info['logical']}"
         }
 
